@@ -1,0 +1,41 @@
+name: Process JSON files
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  process-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Process JSON files
+        run: |
+          for file in *.json; do
+            echo "Processing $file"
+            npx @apideck/portman -l "$file"
+          done
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "${{ github.event.pusher.email }}"
+          git config --local user.name "${{ github.event.pusher.name }}"
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Generated files by portman"
+        
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: ${{ github.ref }}
