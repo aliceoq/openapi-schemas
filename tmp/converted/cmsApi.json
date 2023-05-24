@@ -1,0 +1,455 @@
+{
+  "_": {
+    "postman_id": "883bca20-cce3-4f5f-a205-7ae10f13f8c6"
+  },
+  "item": [
+    {
+      "id": "0473d347-9b80-4bd4-9a71-f63bee61b8a3",
+      "name": "Change URI Schema",
+      "description": {
+        "content": "Changes CMS URI",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "5013da44-db20-40d1-9928-494fa11577dd",
+          "name": "Update all account's websites internet communication protocol",
+          "request": {
+            "name": "Update all account's websites internet communication protocol",
+            "description": {
+              "content": "Updates all account's websites protocols to `HTTP` or `HTTPS`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "catalog_system",
+                "pvt",
+                "virtualfolder",
+                "changeurischema",
+                ":protocol"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Internet communication protocol, it can be `HTTP` or `HTTPS`.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "https",
+                  "key": "protocol"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "40a44b77-52ba-4ebd-babf-559da0009e66",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "catalog_system",
+                    "pvt",
+                    "virtualfolder",
+                    "changeurischema",
+                    ":protocol"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Internet communication protocol, it can be `HTTP` or `HTTPS`.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "https",
+                      "key": "protocol"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "\"OK\"",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "6bd59cbe-e65b-43d0-ba2b-fd3f704cdab6",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/changeurischema/:protocol - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/changeurischema/:protocol - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/changeurischema/:protocol - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"title\":\"Request Status\",\"description\":\"Message indicating that the request was successful.\",\"type\":\"string\",\"example\":\"OK\"}\n\n// Validate if response matches JSON schema \npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/changeurischema/:protocol - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "3dc36b75-54fb-4cf5-bb24-961c5304f9ba",
+          "name": "Update specific website comunication protocol",
+          "request": {
+            "name": "Update specific website comunication protocol",
+            "description": {
+              "content": "Updates a specific website protocol to `HTTP` or `HTTPS`",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "catalog_system",
+                "pvt",
+                "virtualfolder",
+                "site",
+                ":websiteId",
+                "changeurischema",
+                ":protocol"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Specific website ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "292c47c7-0b81-48f9-a5a0-dcf240100884",
+                  "key": "websiteId"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Internet communication protocol, it can be `HTTP` or `HTTPS`.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "https",
+                  "key": "protocol"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "416720cd-58f2-4e11-b93f-8f776c0fb408",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "catalog_system",
+                    "pvt",
+                    "virtualfolder",
+                    "site",
+                    ":websiteId",
+                    "changeurischema",
+                    ":protocol"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Specific website ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "292c47c7-0b81-48f9-a5a0-dcf240100884",
+                      "key": "websiteId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Internet communication protocol, it can be `HTTP` or `HTTPS`.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "https",
+                      "key": "protocol"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "\"OK\"",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "76de728a-6e4c-49f6-930b-1ecc806d9c64",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/site/:websiteId/changeurischema/:protocol - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/site/:websiteId/changeurischema/:protocol - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/site/:websiteId/changeurischema/:protocol - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"title\":\"Request Status\",\"description\":\"Message indicating that the request was successful.\",\"type\":\"string\",\"example\":\"OK\"}\n\n// Validate if response matches JSON schema \npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/site/:websiteId/changeurischema/:protocol - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "type": "any",
+        "value": "X-VTEX-API-AppKey",
+        "key": "key"
+      },
+      {
+        "type": "any",
+        "value": "{{apiKey}}",
+        "key": "value"
+      },
+      {
+        "type": "any",
+        "value": "header",
+        "key": "in"
+      }
+    ]
+  },
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "Name of the VTEX account. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{accountName}",
+      "key": "accountName"
+    },
+    {
+      "description": {
+        "content": "Environment to use. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{environment}",
+      "key": "environment"
+    },
+    {
+      "type": "string",
+      "value": "https://{{accountName}}.{{environment}}.com.br",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "883bca20-cce3-4f5f-a205-7ae10f13f8c6",
+    "name": "CMS API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

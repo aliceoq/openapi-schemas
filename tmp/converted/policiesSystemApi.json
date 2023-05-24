@@ -1,0 +1,1052 @@
+{
+  "_": {
+    "postman_id": "69efef68-8103-4d72-a491-8e666d6e4ea4"
+  },
+  "item": [
+    {
+      "id": "e14bc172-8637-47af-a0ce-a9c19b2323f0",
+      "name": "Policy",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "1b6855da-6119-4b0c-849c-882f5e29a03c",
+          "name": "Get Policy List",
+          "request": {
+            "name": "Get Policy List",
+            "description": {
+              "content": "Retrieves a list of all policies in the account and general information of each policy.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "policy-engine",
+                "policies"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "5e9fce03-ed44-4fb7-bd62-cb62e1674dbe",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "policy-engine",
+                    "policies"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand ",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"id\": \"Lorem fugiat ea id\",\n    \"name\": \"nisi nulla ullamco incididunt\",\n    \"description\": \"laborum nulla ipsum sunt enim\",\n    \"statements\": [\n      {\n        \"effect\": \"Allow\",\n        \"actions\": {\n          \"id\": \"eiusmod\",\n          \"metadata\": {\n            \"occaecat__\": 73595724.66463712,\n            \"mollit_942\": \"aliqua ut\"\n          }\n        },\n        \"resource\": \"anim laboris minim pariatur\",\n        \"condition\": {\n          \"conditions\": [\n            {\n              \"conditions\": [\n                \"velit officia nostrud magna\",\n                \"anim consectetur\"\n              ],\n              \"operation\": \"qui consectetur sint ipsum commodo\",\n              \"key\": \"dolore voluptate\",\n              \"values\": [\n                \"cons\",\n                \"elit dolor officia\"\n              ]\n            },\n            {\n              \"conditions\": [\n                \"qui sed est ullamco irure\",\n                \"voluptate\"\n              ],\n              \"operation\": \"sunt dolore labore in\",\n              \"key\": \"aliquip magna ad Ut\",\n              \"values\": [\n                \"cillum voluptate\",\n                \"tempor non ipsum est nisi\"\n              ]\n            }\n          ]\n        },\n        \"operation\": \"et qui voluptate dolor pariatur\"\n      },\n      {\n        \"effect\": \"Allow\",\n        \"actions\": {\n          \"id\": \"aute est dolore in\",\n          \"metadata\": {\n            \"et6\": \"aliquip in\",\n            \"eu19_\": false,\n            \"utbc\": 57032185,\n            \"enim_6f3\": -88549370\n          }\n        },\n        \"resource\": \"labore aliquip\",\n        \"condition\": {\n          \"conditions\": [\n            {\n              \"conditions\": [\n                \"cupidatat minim commodo culpa ut\",\n                \"dolor ullamco quis\"\n              ],\n              \"operation\": \"minim aliquip anim pariatur fugiat\",\n              \"key\": \"esse eiusmod incididunt elit\",\n              \"values\": [\n                \"sed\",\n                \"ipsum amet\"\n              ]\n            },\n            {\n              \"conditions\": [\n                \"ut occaecat eiusmod nulla\",\n                \"incididunt adipisicing in minim\"\n              ],\n              \"operation\": \"velit\",\n              \"key\": \"voluptate\",\n              \"values\": [\n                \"ut Duis\",\n                \"Duis tempor\"\n              ]\n            }\n          ]\n        },\n        \"operation\": \"laboris dolore cupidatat quis\"\n      }\n    ]\n  },\n  {\n    \"id\": \"cillum\",\n    \"name\": \"eu laborum\",\n    \"description\": \"aute culpa pariatur incid\",\n    \"statements\": [\n      {\n        \"effect\": \"Allow\",\n        \"actions\": {\n          \"id\": \"labore laborum Excepteur elit\",\n          \"metadata\": {\n            \"Lorem6\": \"i\",\n            \"non_b69\": true\n          }\n        },\n        \"resource\": \"occaecat aute\",\n        \"condition\": {\n          \"conditions\": [\n            {\n              \"conditions\": [\n                \"consectetur\",\n                \"voluptate amet nostrud\"\n              ],\n              \"operation\": \"consectetur veniam minim\",\n              \"key\": \"anim est\",\n              \"values\": [\n                \"labore quis anim\",\n                \"veniam\"\n              ]\n            },\n            {\n              \"conditions\": [\n                \"ex in\",\n                \"ut sunt\"\n              ],\n              \"operation\": \"enim labore commodo irure\",\n              \"key\": \"anim eu laborum\",\n              \"values\": [\n                \"in irure amet Excep\",\n                \"nulla\"\n              ]\n            }\n          ]\n        },\n        \"operation\": \"do\"\n      },\n      {\n        \"effect\": \"Allow\",\n        \"actions\": {\n          \"id\": \"cupidatat dolor\",\n          \"metadata\": {\n            \"eu_0\": 31909806\n          }\n        },\n        \"resource\": \"nostrud minim anim ex\",\n        \"condition\": {\n          \"conditions\": [\n            {\n              \"conditions\": [\n                \"eiusmod reprehenderit\",\n                \"anim fugi\"\n              ],\n              \"operation\": \"Lorem enim proident in\",\n              \"key\": \"nostrud pariatur deserunt\",\n              \"values\": [\n                \"in\",\n                \"ea qui pariatur\"\n              ]\n            },\n            {\n              \"conditions\": [\n                \"culpa ut incididunt labore consectetur\",\n                \"mollit eu commodo adipisicing\"\n              ],\n              \"operation\": \"sit et reprehenderit\",\n              \"key\": \"dolore esse non\",\n              \"values\": [\n                \"culpa aliqua\",\n                \"dolore consectetur mollit fugiat\"\n              ]\n            }\n          ]\n        },\n        \"operation\": \"sunt velit minim u\"\n      }\n    ]\n  }\n]",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "cfb94676-569e-46a1-8a3e-80e889b0a0a5",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/api/policy-engine/policies - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/api/policy-engine/policies - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/api/policy-engine/policies - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"items\":{\"title\":\"PolicyGetResponse\",\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"string\",\"title\":\"id\",\"description\":\"Policy ID\"},\"name\":{\"type\":\"string\",\"description\":\"Policy Name\",\"title\":\"name\"},\"description\":{\"type\":\"string\",\"description\":\"Policy description. This description is only for internal use of identification\",\"title\":\"description\"},\"statements\":{\"type\":\"array\",\"title\":\"statements\",\"items\":{\"type\":\"object\",\"required\":[\"effect\"],\"properties\":{\"effect\":{\"type\":\"string\",\"title\":\"effect\",\"description\":\"This field is not functional at the moment. To create a correct request, fill the field with `Allow`\",\"default\":\"Allow\"},\"actions\":{\"type\":\"object\",\"title\":\"actions\",\"properties\":{\"id\":{\"type\":\"string\",\"title\":\"id\",\"description\":\"Action ID. The possible values can be `SendSlackMessage`, `SendEmail`, and `DeactivatePromotions`\"},\"metadata\":{\"type\":\"object\",\"title\":\"metadata\",\"description\":\"Data inside of the actions\",\"additionalProperties\":true}},\"description\":\"Actions that the Policy will execute\"},\"resource\":{\"type\":\"string\",\"description\":\"Scope on which this policy must be evaluated\",\"title\":\"resource\"},\"condition\":{\"type\":\"object\",\"properties\":{\"conditions\":{\"type\":\"array\",\"description\":\"List of conditions that will activate the policy\",\"items\":{\"properties\":{\"conditions\":{\"title\":\"conditions\",\"type\":\"array\",\"description\":\"These are the conditions the actions can have. The possible values are `[]`, `stringEquals`, and `numericGreaterThan`\",\"items\":{\"type\":\"string\"}},\"operation\":{\"type\":\"string\",\"title\":\"operation\",\"description\":\"The action of the condition. This operation possible values are `None`, `stringEquals`, `stringEqualsIgnoreCase`, `numericEquals`, `numericLessThan`, `numericLessThanEquals`,   `numericGreaterThan`, `numericGreaterThanEquals`, `bool`, `not`, `or`, `and`, `dateTimeUtcGreaterThan`, `dateTimeUtcLessThan`, and `between`\"},\"key\":{\"type\":\"string\",\"title\":\"key\",\"description\":\"The element that will define what the policy will influence. This field has the possible values `skuId`, `brandId`, `discountPercentage`\"},\"values\":{\"type\":\"array\",\"title\":\"values\",\"items\":{\"type\":\"string\"},\"description\":\"Value of the key\"}},\"type\":\"object\"}}},\"description\":\"Condition to activate this policy. This object can have a maximum of ten recursive conditions\",\"title\":\"condition\"},\"operation\":{\"type\":\"string\",\"title\":\"operation\",\"description\":\"This operation will determine if all the conditions need to be valid or at least one of them, if the conditions array is not empty.  The possible values to these fields are `None`, `stringEquals`, `stringEqualsIgnoreCase`, `numericEquals`, `numericLessThan`, `numericLessThanEquals`,   `numericGreaterThan`, `numericGreaterThanEquals`, `bool`, `not`, `or`, `and`, `dateTimeUtcGreaterThan`, `dateTimeUtcLessThan`, and `between`\"}}},\"description\":\"Requirements to the Policy be applied\"}}},\"example\":[{\"id\":\"pa_test_001\",\"name\":\"TestAlarmBerenice\",\"description\":\"TesteMarcosPromotionsAlert\",\"statements\":[{\"effect\":\"Allow\",\"actions\":[{\"id\":\"SendSlackMessage\",\"metadata\":{\"channel\":\"C01NJFF35R6\",\"relatedUsers\":[\"URUNDC2NB\"],\"alertDescription\":\"Avoid selling products from Berenice with a discount greater than 70%.\"}}],\"resource\":\"vrn:vtex.promotions-alert:aws-us-east-1:kamila:master:/_v/promotions_alert\",\"condition\":{\"conditions\":[{\"conditions\":[],\"operation\":\"stringEquals\",\"key\":\"brandId\",\"values\":[\"2000001\"]},{\"conditions\":[],\"operation\":\"numericGreaterThan\",\"key\":\"discountPercentage\",\"values\":[\"70.00\"]}],\"operation\":\"and\"}}]}]}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/api/policy-engine/policies - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1f07ba7c-db8b-416a-a736-4ff4d21a36d4",
+          "name": "Evaluate Policies",
+          "request": {
+            "name": "Evaluate Policies",
+            "description": {
+              "content": "This endpoint consults all policies and checks the ones that satisfy the request body’s conditions.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "policy-engine",
+                "evaluate"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"resource\": \"vrn:vtex.promotions-alert:aws-us-east-1:kamila:master:/_v/promotions_alert\",\n  \"context\": {\n    \"brandId\": \"2000001\",\n    \"discountPercentage\": \"91.00\"\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "1448abaa-a737-4845-b1ec-7ad1f3919266",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "policy-engine",
+                    "evaluate"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand ",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"resource\": \"vrn:vtex.promotions-alert:aws-us-east-1:kamila:master:/_v/promotions_alert\",\n  \"context\": {\n    \"brandId\": \"2000001\",\n    \"discountPercentage\": \"91.00\"\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"metadata\": {\n      \"channel\": \"C01NJFF35R6\",\n      \"relatedUsers\": [\n        \"URUNDC2NB\"\n      ],\n      \"alertDescription\": \"Avoid selling products from Berenice with a discount greater than 70%.\"\n    }\n  }\n]",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "2028bcf7-652a-497a-9e0e-2143978aecfe",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/api/policy-engine/evaluate - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/api/policy-engine/evaluate - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[POST]::/api/policy-engine/evaluate - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"items\":{\"title\":\"PolicyActionGetResponse\",\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"string\",\"description\":\"Action ID\",\"title\":\"id\"},\"metadata\":{\"type\":\"object\",\"description\":\"Metadata object from the current action\",\"title\":\"metadata\",\"additionalProperties\":true}}},\"example\":[{\"id\":\"SendSlackMessage\",\"metadata\":{\"channel\":\"C01NJFF35R6\",\"relatedUsers\":[\"URUNDC2NB\"],\"alertDescription\":\"Avoid selling products from Berenice with a discount greater than 70%.\"}}]}\n\n// Validate if response matches JSON schema \npm.test(\"[POST]::/api/policy-engine/evaluate - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "9520aec7-77ff-45d8-877d-792d057431aa",
+          "name": "Get Policy by ID",
+          "request": {
+            "name": "Get Policy by ID",
+            "description": {
+              "content": "Retrieves general information of a policy by its ID.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "policy-engine",
+                "policies",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Policy ID",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "pa_test_001",
+                  "key": "id"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "7ff3cb78-c1cf-48c7-a706-74ba41acaaeb",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "policy-engine",
+                    "policies",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Policy ID",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "pa_test_001",
+                      "key": "id"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand ",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"id\": \"Excepteur aute\",\n    \"name\": \"in\",\n    \"description\": \"nostrud ut sit\",\n    \"statements\": [\n      {\n        \"effect\": \"Allow\",\n        \"actions\": {\n          \"id\": \"ipsum non\",\n          \"metadata\": {\n            \"aliquip_4b\": 60023908,\n            \"magnaaa\": -89426015,\n            \"ut151\": \"consequat do cu\",\n            \"sed_d\": 62633121.219709456\n          }\n        },\n        \"resource\": \"exercitation aliqua\",\n        \"condition\": {\n          \"conditions\": [\n            {\n              \"conditions\": [\n                \"in id\",\n                \"enim non aliquip ullamco\"\n              ],\n              \"operation\": \"reprehenderit elit cupidatat\",\n              \"key\": \"ea dolor sunt\",\n              \"values\": [\n                \"labore\",\n                \"in\"\n              ]\n            },\n            {\n              \"conditions\": [\n                \"commodo magna pariatur n\",\n                \"nostrud cupidatat labore Lorem\"\n              ],\n              \"operation\": \"dolore aute sed\",\n              \"key\": \"aliquip laborum est\",\n              \"values\": [\n                \"culpa non sint\",\n                \"nulla veniam ut qui pariatur\"\n              ]\n            }\n          ]\n        },\n        \"operation\": \"eu\"\n      },\n      {\n        \"effect\": \"Allow\",\n        \"actions\": {\n          \"id\": \"proident amet est\",\n          \"metadata\": {\n            \"consequat_ae\": 61045737.536274195\n          }\n        },\n        \"resource\": \"officia culpa\",\n        \"condition\": {\n          \"conditions\": [\n            {\n              \"conditions\": [\n                \"nisi minim aliquip\",\n                \"consequat consectetu\"\n              ],\n              \"operation\": \"ut Ut\",\n              \"key\": \"ulla\",\n              \"values\": [\n                \"mollit ad\",\n                \"et id\"\n              ]\n            },\n            {\n              \"conditions\": [\n                \"v\",\n                \"ut cillum sed tempor\"\n              ],\n              \"operation\": \"dolor ad et tempor\",\n              \"key\": \"in fugiat\",\n              \"values\": [\n                \"Excepteur\",\n                \"occaecat commodo\"\n              ]\n            }\n          ]\n        },\n        \"operation\": \"c\"\n      }\n    ]\n  },\n  {\n    \"id\": \"consectetur non occaecat exercitation\",\n    \"name\": \"cillum adipisicing sunt laboris\",\n    \"description\": \"ea amet ut\",\n    \"statements\": [\n      {\n        \"effect\": \"Allow\",\n        \"actions\": {\n          \"id\": \"consectetur commodo cupidatat ea\",\n          \"metadata\": {\n            \"laboris_e1\": 58821249.222408146,\n            \"elit_77e\": true\n          }\n        },\n        \"resource\": \"ex proident in Lorem\",\n        \"condition\": {\n          \"conditions\": [\n            {\n              \"conditions\": [\n                \"sed dolor\",\n                \"non ad do\"\n              ],\n              \"operation\": \"ut proident ex sint\",\n              \"key\": \"laborum in\",\n              \"values\": [\n                \"do incididunt culpa aliqua\",\n                \"mollit\"\n              ]\n            },\n            {\n              \"conditions\": [\n                \"Duis ut esse labore\",\n                \"nisi sit dolore sed\"\n              ],\n              \"operation\": \"aute ut cupidatat ex\",\n              \"key\": \"aliqua ipsum fugiat culpa\",\n              \"values\": [\n                \"esse ut\",\n                \"Excepteur id consectetur sint\"\n              ]\n            }\n          ]\n        },\n        \"operation\": \"pariatur sed\"\n      },\n      {\n        \"effect\": \"Allow\",\n        \"actions\": {\n          \"id\": \"enim exercitation magna eiusmod\",\n          \"metadata\": {\n            \"anim8b4\": 35376326,\n            \"enime\": \"in quis aliquip et\"\n          }\n        },\n        \"resource\": \"deserunt voluptate adipisicing ut\",\n        \"condition\": {\n          \"conditions\": [\n            {\n              \"conditions\": [\n                \"Lorem elit est ut\",\n                \"enim ullamco pariatur in\"\n              ],\n              \"operation\": \"dolore commodo ex Ut\",\n              \"key\": \"Lorem Excepteur fugiat\",\n              \"values\": [\n                \"irure sunt nulla\",\n                \"ipsum officia\"\n              ]\n            },\n            {\n              \"conditions\": [\n                \"dolore dolore aliquip voluptate\",\n                \"minim velit cillum magna\"\n              ],\n              \"operation\": \"labore Duis\",\n              \"key\": \"eiusmod magna dolor dolore\",\n              \"values\": [\n                \"dolor est labore \",\n                \"ut in aliquip\"\n              ]\n            }\n          ]\n        },\n        \"operation\": \"sint\"\n      }\n    ]\n  }\n]",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "db6fb6d7-b586-467c-a59b-9a6f1389eca5",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/api/policy-engine/policies/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/api/policy-engine/policies/:id - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/api/policy-engine/policies/:id - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"items\":{\"title\":\"PolicyGetResponse\",\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"string\",\"title\":\"id\",\"description\":\"Policy ID\"},\"name\":{\"type\":\"string\",\"description\":\"Policy Name\",\"title\":\"name\"},\"description\":{\"type\":\"string\",\"description\":\"Policy description. This description is only for internal use of identification\",\"title\":\"description\"},\"statements\":{\"type\":\"array\",\"title\":\"statements\",\"items\":{\"type\":\"object\",\"required\":[\"effect\"],\"properties\":{\"effect\":{\"type\":\"string\",\"title\":\"effect\",\"description\":\"This field is not functional at the moment. To create a correct request, fill the field with `Allow`\",\"default\":\"Allow\"},\"actions\":{\"type\":\"object\",\"title\":\"actions\",\"properties\":{\"id\":{\"type\":\"string\",\"title\":\"id\",\"description\":\"Action ID. The possible values can be `SendSlackMessage`, `SendEmail`, and `DeactivatePromotions`\"},\"metadata\":{\"type\":\"object\",\"title\":\"metadata\",\"description\":\"Data inside of the actions\",\"additionalProperties\":true}},\"description\":\"Actions that the Policy will execute\"},\"resource\":{\"type\":\"string\",\"description\":\"Scope on which this policy must be evaluated\",\"title\":\"resource\"},\"condition\":{\"type\":\"object\",\"properties\":{\"conditions\":{\"type\":\"array\",\"description\":\"List of conditions that will activate the policy\",\"items\":{\"properties\":{\"conditions\":{\"title\":\"conditions\",\"type\":\"array\",\"description\":\"These are the conditions the actions can have. The possible values are `[]`, `stringEquals`, and `numericGreaterThan`\",\"items\":{\"type\":\"string\"}},\"operation\":{\"type\":\"string\",\"title\":\"operation\",\"description\":\"The action of the condition. This operation possible values are `None`, `stringEquals`, `stringEqualsIgnoreCase`, `numericEquals`, `numericLessThan`, `numericLessThanEquals`,   `numericGreaterThan`, `numericGreaterThanEquals`, `bool`, `not`, `or`, `and`, `dateTimeUtcGreaterThan`, `dateTimeUtcLessThan`, and `between`\"},\"key\":{\"type\":\"string\",\"title\":\"key\",\"description\":\"The element that will define what the policy will influence. This field has the possible values `skuId`, `brandId`, `discountPercentage`\"},\"values\":{\"type\":\"array\",\"title\":\"values\",\"items\":{\"type\":\"string\"},\"description\":\"Value of the key\"}},\"type\":\"object\"}}},\"description\":\"Condition to activate this policy. This object can have a maximum of ten recursive conditions\",\"title\":\"condition\"},\"operation\":{\"type\":\"string\",\"title\":\"operation\",\"description\":\"This operation will determine if all the conditions need to be valid or at least one of them, if the conditions array is not empty.  The possible values to these fields are `None`, `stringEquals`, `stringEqualsIgnoreCase`, `numericEquals`, `numericLessThan`, `numericLessThanEquals`,   `numericGreaterThan`, `numericGreaterThanEquals`, `bool`, `not`, `or`, `and`, `dateTimeUtcGreaterThan`, `dateTimeUtcLessThan`, and `between`\"}}},\"description\":\"Requirements to the Policy be applied\"}}},\"example\":[{\"id\":\"pa_test_001\",\"name\":\"TestAlarmBerenice\",\"description\":\"TesteMarcosPromotionsAlert\",\"statements\":[{\"effect\":\"Allow\",\"actions\":[{\"id\":\"SendSlackMessage\",\"metadata\":{\"channel\":\"C01NJFF35R6\",\"relatedUsers\":[\"URUNDC2NB\"],\"alertDescription\":\"Avoid selling products from Berenice with a discount greater than 70%.\"}}],\"resource\":\"vrn:vtex.promotions-alert:aws-us-east-1:kamila:master:/_v/promotions_alert\",\"condition\":{\"conditions\":[{\"conditions\":[],\"operation\":\"stringEquals\",\"key\":\"brandId\",\"values\":[\"2000001\"]},{\"conditions\":[],\"operation\":\"numericGreaterThan\",\"key\":\"discountPercentage\",\"values\":[\"70.00\"]}],\"operation\":\"and\"}}]}]}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/api/policy-engine/policies/:id - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "5c0fc0ab-e301-4c1a-931f-86ceabaa5feb",
+          "name": "Create Policy",
+          "request": {
+            "name": "Create Policy",
+            "description": {
+              "content": "Creates a new policy from scratch.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "policy-engine",
+                "policies",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Policy ID",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "pa_test_001",
+                  "key": "id"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/octet-stream"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"TestAlarmBerenice\",\n  \"description\": \"TesteMarcosPromotionsAlert\",\n  \"statements\": [\n    {\n      \"effect\": \"Allow\",\n      \"actions\": [\n        {\n          \"id\": \"SendSlackMessage\",\n          \"metadata\": {\n            \"channel\": \"C01NJFF35R6\",\n            \"relatedUsers\": [\n              \"URUNDC2NB\"\n            ],\n            \"alertDescription\": \"Avoid selling products from Berenice with a discount greater than 40%.\"\n          }\n        }\n      ],\n      \"resource\": \"vrn:vtex.promotions-alert:aws-us-east-1:kamila:master:/_v/promotions_alert\",\n      \"condition\": {\n        \"conditions\": [\n          {\n            \"conditions\": [],\n            \"operation\": \"stringEquals\",\n            \"key\": \"brandId\",\n            \"values\": [\n              \"2000001\"\n            ]\n          },\n          {\n            \"conditions\": [],\n            \"operation\": \"numericGreaterThan\",\n            \"key\": \"discountPercentage\",\n            \"values\": [\n              \"40.00\"\n            ]\n          }\n        ],\n        \"operation\": \"and\"\n      }\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "19975f91-0d13-4814-8962-46943f770309",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "policy-engine",
+                    "policies",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Policy ID",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "pa_test_001",
+                      "key": "id"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand ",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/octet-stream"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"TestAlarmBerenice\",\n  \"description\": \"TesteMarcosPromotionsAlert\",\n  \"statements\": [\n    {\n      \"effect\": \"Allow\",\n      \"actions\": [\n        {\n          \"id\": \"SendSlackMessage\",\n          \"metadata\": {\n            \"channel\": \"C01NJFF35R6\",\n            \"relatedUsers\": [\n              \"URUNDC2NB\"\n            ],\n            \"alertDescription\": \"Avoid selling products from Berenice with a discount greater than 40%.\"\n          }\n        }\n      ],\n      \"resource\": \"vrn:vtex.promotions-alert:aws-us-east-1:kamila:master:/_v/promotions_alert\",\n      \"condition\": {\n        \"conditions\": [\n          {\n            \"conditions\": [],\n            \"operation\": \"stringEquals\",\n            \"key\": \"brandId\",\n            \"values\": [\n              \"2000001\"\n            ]\n          },\n          {\n            \"conditions\": [],\n            \"operation\": \"numericGreaterThan\",\n            \"key\": \"discountPercentage\",\n            \"values\": [\n              \"40.00\"\n            ]\n          }\n        ],\n        \"operation\": \"and\"\n      }\n    }\n  ]\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/octet-stream"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "64a21d6c-7ad8-445f-8cec-525039bb05ac",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/api/policy-engine/policies/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/api/policy-engine/policies/:id - Content-Type is application/octet-stream\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/octet-stream\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "4b72839e-962d-4ffe-8d49-9b379d274b77",
+          "name": "Update Policy",
+          "request": {
+            "name": "Update Policy",
+            "description": {
+              "content": "Updates an existing policy at your account.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "policy-engine",
+                "policies",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Policy ID",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "pa_test_001",
+                  "key": "id"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/octet-stream"
+              }
+            ],
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"exercitation Ut dolor\",\n  \"description\": \"consectetur consequat sed\",\n  \"statements\": [\n    {\n      \"effect\": \"Allow\",\n      \"actions\": {\n        \"id\": \"aliqua\",\n        \"metadata\": {\n          \"Ut_9\": 6440186,\n          \"occaecat02\": 88289686,\n          \"auteab_\": false\n        }\n      },\n      \"resource\": \"cupidatat in do labore nisi\",\n      \"condition\": {\n        \"conditions\": [\n          {\n            \"conditions\": [\n              \"irure in\",\n              \"qui enim\"\n            ],\n            \"operation\": \"quis\",\n            \"key\": \"consequat anim ad quis\",\n            \"values\": [\n              \"in\",\n              \"Excepteur velit sit\"\n            ]\n          },\n          {\n            \"conditions\": [\n              \"eiusmod eu cupidatat exercit\",\n              \"do\"\n            ],\n            \"operation\": \"sint qui dolore proident velit\",\n            \"key\": \"sed\",\n            \"values\": [\n              \"cupidatat exercitation minim\",\n              \"quis dolor proident ipsum reprehenderit\"\n            ]\n          }\n        ]\n      },\n      \"operation\": \"commodo ut quis magna\"\n    },\n    {\n      \"effect\": \"Allow\",\n      \"actions\": {\n        \"id\": \"eiusmod officia voluptate\",\n        \"metadata\": {\n          \"sint_5cb\": true\n        }\n      },\n      \"resource\": \"reprehenderit eu incididunt\",\n      \"condition\": {\n        \"conditions\": [\n          {\n            \"conditions\": [\n              \"in veniam occaecat\",\n              \"sint voluptate officia\"\n            ],\n            \"operation\": \"enim anim fugiat\",\n            \"key\": \"aute exercitation qui nisi non\",\n            \"values\": [\n              \"elit irure est sint dolor\",\n              \"ipsum amet in commodo exercitation\"\n            ]\n          },\n          {\n            \"conditions\": [\n              \"consectetur pariatur\",\n              \"Excepteur elit exercitation\"\n            ],\n            \"operation\": \"eiusmod deserunt proident sint exercitation\",\n            \"key\": \"nulla Ut ut\",\n            \"values\": [\n              \"fugiat elit amet anim\",\n              \"nostrud ullamco ea Ut\"\n            ]\n          }\n        ]\n      },\n      \"operation\": \"voluptate mollit deserunt amet eu\"\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "3cff39b6-1d3f-4b1d-93ab-d03fcb09f171",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "policy-engine",
+                    "policies",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Policy ID",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "pa_test_001",
+                      "key": "id"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand ",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/octet-stream"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"dolore sed\",\n  \"description\": \"amet dolore id\",\n  \"statements\": [\n    {\n      \"effect\": \"Allow\",\n      \"actions\": {\n        \"id\": \"officia ex culpa dolor\",\n        \"metadata\": {\n          \"velit3f\": \"aliqua\"\n        }\n      },\n      \"resource\": \"ut Ut\",\n      \"condition\": {\n        \"conditions\": [\n          {\n            \"conditions\": [\n              \"pariatur consectetur tempor elit\",\n              \"quis labor\"\n            ],\n            \"operation\": \"irure\",\n            \"key\": \"exercitation culpa elit\",\n            \"values\": [\n              \"reprehenderit esse Lorem quis\",\n              \"laborum\"\n            ]\n          },\n          {\n            \"conditions\": [\n              \"minim sed\",\n              \"ipsum\"\n            ],\n            \"operation\": \"amet magna ullamco nostrud\",\n            \"key\": \"consectetur cillum labore\",\n            \"values\": [\n              \"laborum in\",\n              \"est elit consectetur\"\n            ]\n          }\n        ]\n      },\n      \"operation\": \"exercitation mollit adipisicing in\"\n    },\n    {\n      \"effect\": \"Allow\",\n      \"actions\": {\n        \"id\": \"id nulla ut\",\n        \"metadata\": {\n          \"exercitation_44\": false\n        }\n      },\n      \"resource\": \"ut eiusmod\",\n      \"condition\": {\n        \"conditions\": [\n          {\n            \"conditions\": [\n              \"deserunt fug\",\n              \"pariatur aute sint exercitation\"\n            ],\n            \"operation\": \"incididunt t\",\n            \"key\": \"non amet nulla\",\n            \"values\": [\n              \"dolore elit magna\",\n              \"laborum Excepteur\"\n            ]\n          },\n          {\n            \"conditions\": [\n              \"tempor sed\",\n              \"sunt Excepteur aliqua nulla do\"\n            ],\n            \"operation\": \"laboris sint pariatur\",\n            \"key\": \"proident Excepteur in pariatur\",\n            \"values\": [\n              \"ipsum eiusmod anim reprehenderit\",\n              \"laborum\"\n            ]\n          }\n        ]\n      },\n      \"operation\": \"cillu\"\n    }\n  ]\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/octet-stream"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "f0a09cbc-878b-425d-bd4c-9b5d7800855c",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/api/policy-engine/policies/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[PUT]::/api/policy-engine/policies/:id - Content-Type is application/octet-stream\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/octet-stream\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1c972139-2208-4d3b-ba07-05d3e1e0f8f1",
+          "name": "Delete Policy by ID",
+          "request": {
+            "name": "Delete Policy by ID",
+            "description": {
+              "content": "Deletes a specific policy of the account by its ID.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "policy-engine",
+                "policies",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Policy ID",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "pa_test_001",
+                  "key": "id"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "DELETE"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "68a1b094-30c1-4db1-ba77-a10868ffe891",
+              "name": "200 OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "policy-engine",
+                    "policies",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Policy ID",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "pa_test_001",
+                      "key": "id"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand ",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "DELETE",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "7bdf7d48-692e-4853-bfb1-2e786f3c2c92",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[DELETE]::/api/policy-engine/policies/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "Name of the VTEX account. Used as part of the URL",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{accountName}",
+      "key": "accountName"
+    },
+    {
+      "description": {
+        "content": "Environment to use. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{environment}",
+      "key": "environment"
+    },
+    {
+      "type": "string",
+      "value": "https://{{accountName}}.{{environment}}.com.br",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "69efef68-8103-4d72-a491-8e666d6e4ea4",
+    "name": "Policies System API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "\r\n This API will create promotion alarms when selling products with undesired prices and promotions. It will create conditions that will check if the prices and the promotions are correct. If not, the system will alarm the store with information about the product sold at unexpected prices.\r\n\r\n ## Index\r\n\r\n- `GET` [Get Policy List](https://developers.vtex.com/docs/api-reference/policies-system-api#get-/api/policy-engine/policies)\r\n- `POST` [Evaluate Policies](https://developers.vtex.com/docs/api-reference/policies-system-api#post-/api/policy-engine/evaluate)\r\n- `GET` [Get Policy by ID](https://developers.vtex.com/docs/api-reference/policies-system-api#get-/api/policy-engine/policies/-id-)\r\n- `POST` [Create Policy](https://developers.vtex.com/docs/api-reference/policies-system-api#post-/api/policy-engine/policies/-id-)\r\n- `PUT` [Update Policy](https://developers.vtex.com/docs/api-reference/policies-system-api#put-/api/policy-engine/policies/-id-)\r\n- `DELETE` [Delete Policy by ID](https://developers.vtex.com/docs/api-reference/policies-system-api#delete-/api/policy-engine/policies/-id-)",
+      "type": "text/plain"
+    }
+  }
+}

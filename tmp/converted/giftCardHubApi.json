@@ -1,0 +1,3842 @@
+{
+  "_": {
+    "postman_id": "132a027a-68b7-43d9-bdab-e8b50830f844"
+  },
+  "item": [
+    {
+      "id": "2492e5a6-a71b-4256-bb62-1488c9d65291",
+      "name": "Provider",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "1cbd971f-dad2-48c3-a5b8-27cc99aa6749",
+          "name": "List All GiftCard Providers",
+          "request": {
+            "name": "List All GiftCard Providers",
+            "description": {
+              "content": "Returns a collection of giftcard providers from a store.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "Pagination control. This query variable must follow the format _resources={from}-{to}_.",
+                  "type": "text/plain"
+                },
+                "key": "REST-Range",
+                "value": "resources=0-49"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "0106462c-2f3b-4258-a609-cd13915ab76d",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "Pagination control. This query variable must follow the format _resources={from}-{to}_.",
+                      "type": "text/plain"
+                    },
+                    "key": "REST-Range",
+                    "value": "resources=0-49"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "59309f9b-efdf-421a-9e70-b3014ce94390",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/giftcardproviders - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "10732fc2-25be-412a-9b6e-860c7d5aeb26",
+          "name": "Get GiftCard Provider by ID",
+          "request": {
+            "name": "Get GiftCard Provider by ID",
+            "description": {
+              "content": "Returns a giftcard provider from a store.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "87a0c884-8434-462b-829e-2a3799e108e9",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "1449584f-3cda-40ae-8a56-215b964f9bf2",
+              "name": "O provider não existe.\n",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "ac53acdf-8ee7-4e37-8c4f-d62c278ce222",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/giftcardproviders/:giftCardProviderId - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "2ac3c510-6e24-4156-8c10-bff14d3e8697",
+          "name": "Create/Update GiftCard Provider by ID",
+          "request": {
+            "name": "Create/Update GiftCard Provider by ID",
+            "description": {
+              "content": "Create or update a giftcard provider from a store.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/vnd.vtex.giftcardproviders.v1+json"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"serviceUrl\": \"https://api.vtex.com.br/basedevmkp\",\n  \"oauthProvider\": \"vtex\",\n  \"preAuthEnabled\": true,\n  \"cancelEnabled\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "2bf0cb06-9690-41da-8d2c-4de90c52d009",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"serviceUrl\": \"https://api.vtex.com.br/basedevmkp\",\n  \"oauthProvider\": \"vtex\",\n  \"preAuthEnabled\": true,\n  \"cancelEnabled\": true\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "55a3cdb5-8b28-47c0-8ac3-c84f22a57725",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/giftcardproviders/:giftCardProviderID - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[PUT]::/giftcardproviders/:giftCardProviderID - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "7eaa8b2e-e47a-47e8-b274-f1a586e75e6c",
+          "name": "Delete GiftCard Provider by ID",
+          "request": {
+            "name": "Delete GiftCard Provider by ID",
+            "description": {
+              "content": "Delete a giftcard provider from a store.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "DELETE"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "63f5d0e3-14df-4380-8e8e-6b687ee7565c",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "DELETE",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "731454cf-2054-46b8-afc0-0ea4fdfc764f",
+              "name": "O provider não existe.\n",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  }
+                ],
+                "method": "DELETE",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "36c03eff-4ad6-4a2d-9953-fa0b888ac108",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[DELETE]::/giftcardproviders/:giftCardProviderID - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[DELETE]::/giftcardproviders/:giftCardProviderID - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "b4f17aba-9de7-4ac3-bd84-45569b46a775",
+      "name": "Transaction",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "e7da5369-93bf-43a1-9eaa-cbf3430b6468",
+          "name": "Create GiftCard in GiftCard Provider",
+          "request": {
+            "name": "Create GiftCard in GiftCard Provider",
+            "description": {
+              "content": "Creates a giftcard in a giftcard provider.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/vnd.vtex.giftcardproviders.v1+json"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"relationName\": \"loyalty-program\",\n  \"emissionDate\": \"2011-02-04T17:02:19.17\",\n  \"expiringDate\": \"2020-02-04T17:02:19.17\",\n  \"caption\": \"Loyalty Program\",\n  \"restrictedToOwner\": true,\n  \"multipleRedemptions\": true,\n  \"multipleCredits\": true,\n  \"profileId\": \"92de2449-0e02-4ca9-a4aa-a09cc9d8f7ff\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "bfd3efea-35c9-467d-9089-64c9aeef522a",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"relationName\": \"loyalty-program\",\n  \"emissionDate\": \"2011-02-04T17:02:19.17\",\n  \"expiringDate\": \"2020-02-04T17:02:19.17\",\n  \"caption\": \"Loyalty Program\",\n  \"restrictedToOwner\": true,\n  \"multipleRedemptions\": true,\n  \"multipleCredits\": true,\n  \"profileId\": \"92de2449-0e02-4ca9-a4aa-a09cc9d8f7ff\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "6e027839-1b67-4a7e-a3aa-1ae902f961a3",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1c349613-00af-4a29-a2db-a9299a73d05d",
+          "name": "Get GiftCard from GiftCard Provider",
+          "request": {
+            "name": "Get GiftCard from GiftCard Provider",
+            "description": {
+              "content": "Returns all giftcards from a giftcard provider according to the filters.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                "_search"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert example here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) Range of documents to show.",
+                  "type": "text/plain"
+                },
+                "key": "REST-Range",
+                "value": "resources=0-49"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/vnd.vtex.giftcardproviders.v1+json"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"client\": {\n    \"id\": \"3b1abc17-988e-4a14-8b7f-31fc6a5b955c\",\n    \"email\": \"email@domain.com\",\n    \"document\": \"42151783120\"\n  },\n  \"cart\": {\n    \"grandTotal\": 182,\n    \"relationName\": null,\n    \"redemptionCode\": null,\n    \"discounts\": -20,\n    \"shipping\": 2,\n    \"taxes\": 0,\n    \"items\": [\n      {\n        \"productId\": \"2000000\",\n        \"id\": \"2000002\",\n        \"refId\": \"MEV41\",\n        \"name\": null,\n        \"price\": 200,\n        \"quantity\": 1\n      }\n    ],\n    \"itemsTotal\": 200\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "47a5699d-c6ab-49dc-88da-1b8175a7aad1",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    "_search"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert example here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Range of documents to show.",
+                      "type": "text/plain"
+                    },
+                    "key": "REST-Range",
+                    "value": "resources=0-49"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"client\": {\n    \"id\": \"3b1abc17-988e-4a14-8b7f-31fc6a5b955c\",\n    \"email\": \"email@domain.com\",\n    \"document\": \"42151783120\"\n  },\n  \"cart\": {\n    \"grandTotal\": 182,\n    \"relationName\": null,\n    \"redemptionCode\": null,\n    \"discounts\": -20,\n    \"shipping\": 2,\n    \"taxes\": 0,\n    \"items\": [\n      {\n        \"productId\": \"2000000\",\n        \"id\": \"2000002\",\n        \"refId\": \"MEV41\",\n        \"name\": null,\n        \"price\": 200,\n        \"quantity\": 1\n      }\n    ],\n    \"itemsTotal\": 200\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "14766fec-b929-4bf7-98b8-0f97a3ab780e",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/_search - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/_search - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "7c3e27c3-bcc9-4af0-951e-c9f7bce3b1f4",
+          "name": "Get GiftCard from GiftCard Provider by ID",
+          "request": {
+            "name": "Get GiftCard from GiftCard Provider by ID",
+            "description": {
+              "content": "Returns a specific giftcard from a giftcard provider.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "b3b6753c-ae75-48d0-9396-ba9321c7a904",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "6a8437a2-6957-4320-a339-0579102c7b91",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "9eafad08-4e89-47d9-b54f-acea6f52628d",
+          "name": "List All GiftCard Transactions",
+          "request": {
+            "name": "List All GiftCard Transactions",
+            "description": {
+              "content": "Return all transaction from a giftcard.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID",
+                "transactions"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "34a46ae5-5aed-47e5-a624-2b8cbd5e2ab9",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID",
+                    "transactions"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "f2644687-7355-4dc6-9f64-8c8404053965",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "dcfd9b8f-ab31-4e6c-a870-6e15e10a840e",
+          "name": "Create GiftCard Transaction",
+          "request": {
+            "name": "Create GiftCard Transaction",
+            "description": {
+              "content": "Creates a transaction to a giftcard.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID",
+                "transactions"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/vnd.vtex.giftcardproviders.v1+json"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"operation\": \"Credit\",\n  \"value\": 28.4,\n  \"description\": \"Order v2915869org-01\",\n  \"redemptionToken\": null,\n  \"redemptionCode\": null,\n  \"requestId\": \"v2915869org-01\",\n  \"orderInfo\": {\n    \"orderId\": \"v2915869org-01\",\n    \"sequence\": 2915869,\n    \"cart\": {\n      \"items\": [\n        {\n          \"id\": \"2000330\",\n          \"productId\": \"2000196\",\n          \"refId\": null,\n          \"name\": \"T-Shirt M\",\n          \"value\": 15,\n          \"price\": 15,\n          \"quantity\": 1,\n          \"shippingDiscount\": 0,\n          \"discount\": 0,\n          \"priceTags\": []\n        }\n      ],\n      \"grandTotal\": 0,\n      \"discounts\": 0,\n      \"shipping\": 0,\n      \"taxes\": 0,\n      \"itemsTotal\": 15\n    },\n    \"clientProfile\": {\n      \"email\": \"email@domain.com\",\n      \"firstName\": \"John\",\n      \"lastName\": \"Smith\",\n      \"document\": \"10617764093\",\n      \"documentType\": \"cpf\",\n      \"phone\": \"+5521993759875\",\n      \"birthDate\": \"0001-01-01T00:00:00\",\n      \"isCorporate\": false\n    },\n    \"shipping\": {\n      \"receiverName\": \"John Smith\",\n      \"postalCode\": \"24417-246\",\n      \"city\": \"Leblon\",\n      \"state\": \"RJ\",\n      \"country\": \"BRA\",\n      \"street\": \"Rua Aidea Barreto do Couto\",\n      \"number\": \"9678\",\n      \"neighborhood\": \"address\",\n      \"complement\": \"address\",\n      \"reference\": \"address\"\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "db280984-6177-4e69-ad18-643006976b3e",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID",
+                    "transactions"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"operation\": \"Credit\",\n  \"value\": 28.4,\n  \"description\": \"Order v2915869org-01\",\n  \"redemptionToken\": null,\n  \"redemptionCode\": null,\n  \"requestId\": \"v2915869org-01\",\n  \"orderInfo\": {\n    \"orderId\": \"v2915869org-01\",\n    \"sequence\": 2915869,\n    \"cart\": {\n      \"items\": [\n        {\n          \"id\": \"2000330\",\n          \"productId\": \"2000196\",\n          \"refId\": null,\n          \"name\": \"T-Shirt M\",\n          \"value\": 15,\n          \"price\": 15,\n          \"quantity\": 1,\n          \"shippingDiscount\": 0,\n          \"discount\": 0,\n          \"priceTags\": []\n        }\n      ],\n      \"grandTotal\": 0,\n      \"discounts\": 0,\n      \"shipping\": 0,\n      \"taxes\": 0,\n      \"itemsTotal\": 15\n    },\n    \"clientProfile\": {\n      \"email\": \"email@domain.com\",\n      \"firstName\": \"John\",\n      \"lastName\": \"Smith\",\n      \"document\": \"10617764093\",\n      \"documentType\": \"cpf\",\n      \"phone\": \"+5521993759875\",\n      \"birthDate\": \"0001-01-01T00:00:00\",\n      \"isCorporate\": false\n    },\n    \"shipping\": {\n      \"receiverName\": \"John Smith\",\n      \"postalCode\": \"24417-246\",\n      \"city\": \"Leblon\",\n      \"state\": \"RJ\",\n      \"country\": \"BRA\",\n      \"street\": \"Rua Aidea Barreto do Couto\",\n      \"number\": \"9678\",\n      \"neighborhood\": \"address\",\n      \"complement\": \"address\",\n      \"reference\": \"address\"\n    }\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "ed45988f-c5a5-463e-8e9a-495cfc97ee57",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "d00df036-0870-4172-973d-440d3154b742",
+          "name": "Get GiftCard Transaction by ID",
+          "request": {
+            "name": "Get GiftCard Transaction by ID",
+            "description": {
+              "content": "Returns a specific transaction from a giftcard.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID",
+                "transactions",
+                ":transactionID"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card transaction ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "b47690",
+                  "key": "transactionID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "4966f367-0dfb-428e-b160-d98184bcc798",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID",
+                    "transactions",
+                    ":transactionID"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card transaction ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "b47690",
+                      "key": "transactionID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "8b0b5486-54af-4b22-bd57-1f46cea5c322",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:transactionID - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:transactionID - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "58137989-e078-46ec-ac05-898d6ecccf5c",
+          "name": "Get GiftCard Authorization Transaction",
+          "request": {
+            "name": "Get GiftCard Authorization Transaction",
+            "description": {
+              "content": "Returns the transaction authorization info.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID",
+                "transactions",
+                ":transactionID",
+                "authorization"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card transaction ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "b47690",
+                  "key": "transactionID"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "76364c71-a99f-49c2-a7b4-1b39434d8721",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID",
+                    "transactions",
+                    ":transactionID",
+                    "authorization"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card transaction ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "b47690",
+                      "key": "transactionID"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "519d1e94-9765-44e8-a588-926adf229acf",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:transactionID/authorization - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:transactionID/authorization - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "0f5b5851-b4dd-425c-82db-5efb4d8292d2",
+          "name": "List All GiftCard Settlement Transactions",
+          "request": {
+            "name": "List All GiftCard Settlement Transactions",
+            "description": {
+              "content": "Returns a collection of settlement transactions from a giftcard.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID",
+                "transactions",
+                ":tId",
+                "settlements"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Transaction ID generated by the provider. It is different from the `transactionID` generated by VTEX.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "b47690",
+                  "key": "tId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "5ce4e424-61e1-4313-8d85-2e1aa341f2c3",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID",
+                    "transactions",
+                    ":tId",
+                    "settlements"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Transaction ID generated by the provider. It is different from the `transactionID` generated by VTEX.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "b47690",
+                      "key": "tId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "e20ecf59-c987-4434-a4ff-99cd7d8eb942",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/settlements - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/settlements - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "ba180eb9-a9c5-4635-859c-996185220499",
+          "name": "Create GiftCard Settlement Transaction",
+          "request": {
+            "name": "Create GiftCard Settlement Transaction",
+            "description": {
+              "content": "Creates a settlement transaction to a giftcard.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID",
+                "transactions",
+                ":tId",
+                "settlements"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Transaction ID generated by the provider. It is different from the `transactionID` generated by VTEX.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "b47690",
+                  "key": "tId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json;charset=utf-8"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"client\": {\n    \"id\": \"3b1abc17-988e-4a14-8b7f-31fc6a5b955c\",\n    \"email\": \"convidadovtex@gmail.com\",\n    \"document\": \"42151783120\"\n  },\n  \"cart\": {\n    \"grandTotal\": 182,\n    \"relationName\": \"loyalty-program\",\n    \"redemptionCode\": \"FASD-ASDS-ASDA-ASDA\",\n    \"discounts\": -20,\n    \"shipping\": 2,\n    \"taxes\": 0,\n    \"items\": [\n      {\n        \"productId\": \"2000000\",\n        \"id\": \"2000002\",\n        \"refId\": \"MEV41\",\n        \"name\": null,\n        \"price\": 200,\n        \"quantity\": 1\n      }\n    ],\n    \"itemsTotal\": 200\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "ebdf8f01-1880-40a2-8b89-d817ab34e146",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID",
+                    "transactions",
+                    ":tId",
+                    "settlements"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Transaction ID generated by the provider. It is different from the `transactionID` generated by VTEX.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "b47690",
+                      "key": "tId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"client\": {\n    \"id\": \"3b1abc17-988e-4a14-8b7f-31fc6a5b955c\",\n    \"email\": \"convidadovtex@gmail.com\",\n    \"document\": \"42151783120\"\n  },\n  \"cart\": {\n    \"grandTotal\": 182,\n    \"relationName\": \"loyalty-program\",\n    \"redemptionCode\": \"FASD-ASDS-ASDA-ASDA\",\n    \"discounts\": -20,\n    \"shipping\": 2,\n    \"taxes\": 0,\n    \"items\": [\n      {\n        \"productId\": \"2000000\",\n        \"id\": \"2000002\",\n        \"refId\": \"MEV41\",\n        \"name\": null,\n        \"price\": 200,\n        \"quantity\": 1\n      }\n    ],\n    \"itemsTotal\": 200\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "40d99e88-29cc-48fa-bb26-247ce9f95a57",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/settlements - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/settlements - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "a57921db-1e1c-42fa-b551-99e0d35b548e",
+          "name": "List All GiftCard Cancellation Transactions",
+          "request": {
+            "name": "List All GiftCard Cancellation Transactions",
+            "description": {
+              "content": "Returns a collection of cancellation transactions from a giftcard.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID",
+                "transactions",
+                ":tId",
+                "cancellations"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Transaction ID generated by the provider. It is different from the `transactionID` generated by VTEX.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "b47690",
+                  "key": "tId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "9a2bb970-1d5d-491d-951b-04bef2c837fd",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID",
+                    "transactions",
+                    ":tId",
+                    "cancellations"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Transaction ID generated by the provider. It is different from the `transactionID` generated by VTEX.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "b47690",
+                      "key": "tId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "5670c8f4-03bc-42bd-9e86-ef880c90d7ec",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/cancellations - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/cancellations - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "f36ac560-e1d8-4abf-a046-29f468241d0c",
+          "name": "Create GiftCard Cancellation Transaction",
+          "request": {
+            "name": "Create GiftCard Cancellation Transaction",
+            "description": {
+              "content": "Creates a cancellation transaction to a giftcard.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "giftcardproviders",
+                ":giftCardProviderID",
+                "giftcards",
+                ":giftCardID",
+                "transactions",
+                ":tId",
+                "cancellations"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card provider's ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "insert identifier here",
+                  "key": "giftCardProviderID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Gift Card ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "6",
+                  "key": "giftCardID"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Transaction ID generated by the provider. It is different from the `transactionID` generated by VTEX.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "b47690",
+                  "key": "tId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppKey",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppKey",
+                "value": "{{X-VTEX-API-AppKey}}"
+              },
+              {
+                "disabled": false,
+                "description": {
+                  "content": "(Required) VTEX API AppToken",
+                  "type": "text/plain"
+                },
+                "key": "X-VTEX-API-AppToken",
+                "value": "{{X-VTEX-API-AppToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/vnd.vtex.giftcardproviders.v1+json"
+              },
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"value\": 12.1,\n  \"requestId\": \"12093812masoidj120398\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "2f31f98c-60f9-4e76-931a-f374670c7253",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "giftcardproviders",
+                    ":giftCardProviderID",
+                    "giftcards",
+                    ":giftCardID",
+                    "transactions",
+                    ":tId",
+                    "cancellations"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card provider's ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "insert identifier here",
+                      "key": "giftCardProviderID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Gift Card ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "6",
+                      "key": "giftCardID"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Transaction ID generated by the provider. It is different from the `transactionID` generated by VTEX.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "b47690",
+                      "key": "tId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Media type(s) that is/are acceptable for the response. Default value for payment provider protocol is application/json.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) The Media type of the body of the request. Default value for payment provider protocol is application/json",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppKey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "{{X-VTEX-API-AppKey}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) VTEX API AppToken",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppToken",
+                    "value": "{{X-VTEX-API-AppToken}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"value\": 12.1,\n  \"requestId\": \"12093812masoidj120398\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "b9001196-51e3-44c9-bdae-57436c94c0f8",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/cancellations - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/cancellations - Content-Type is text/plain\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/plain\");\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "type": "any",
+        "value": "X-VTEX-API-AppKey",
+        "key": "key"
+      },
+      {
+        "type": "any",
+        "value": "{{apiKey}}",
+        "key": "value"
+      },
+      {
+        "type": "any",
+        "value": "header",
+        "key": "in"
+      }
+    ]
+  },
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "Name of the VTEX account. Used as part of the URL",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{accountName}",
+      "key": "accountName"
+    },
+    {
+      "description": {
+        "content": "Environment to use. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{environment}",
+      "key": "environment"
+    },
+    {
+      "type": "string",
+      "value": "https://{{accountName}}.{{environment}}.com.br/api",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "132a027a-68b7-43d9-bdab-e8b50830f844",
+    "name": "GiftCard Hub API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": ">ℹ️ Check the new [Payments onboarding guide](https://developers.vtex.com/vtex-rest-api/docs/payments-overview). We created this guide to improve the onboarding experience for developers at VTEX. It assembles all documentation on our Developer Portal about Payments and is organized by focusing on the developer's journey.\r\n\r\nThe Gift Card Hub API allows interactions with all Gift Card providers registered to a store from a single point.\r\n\r\nGift Card providers are systems capable of providing cards to be used in the buying process.\r\n\r\nThe following is the sequence diagram that represents calls in the purchase closing process.\r\n![](https://cdn.jsdelivr.net/gh/vtexdocs/dev-portal-content@main/images/giftcard-hub-api-overview-0.png)\r\n\r\n**Checkout + Gateway**: Systems responsible for the sale and for processing orders and payments.\r\n\r\n**Gift Card Hub**: System responsible for managing multiple registered Gift Card providers for a store.\r\n\r\n**Gift Card Provider**: System responsible for providing the Gift Cards available to the user not closing a purchase. This system can be implemented by third parties.",
+      "type": "text/plain"
+    }
+  }
+}
