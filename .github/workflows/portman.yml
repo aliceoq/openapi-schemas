@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  process-files:
+  convert-to-postman:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +22,7 @@ jobs:
         run: |
           for file in *.json; do
             echo "Processing $file"
-            npx @apideck/portman -l "$file"
+            npx @apideck/portman -l "$file" -o "./portman/$file.json"
           done
 
       - name: Configure Git
@@ -33,7 +33,7 @@ jobs:
       - name: Commit changes
         run: |
           git add .
-          git commit -m "Generated files by portman"
+          git commit -m "Update generated files by portman"
         
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
