@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "da3c7569-0a5d-44fc-924d-93c9dba1d47c"
+    "postman_id": "0c2fd90f-1c66-4130-b61d-8b41705fadc1"
   },
   "item": [
     {
-      "id": "74b74902-5bc7-4a41-9150-f317560229e8",
+      "id": "ccd86853-90ef-4ffc-acdc-b7bb68fd7b42",
       "name": "Notification",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "e761fb25-0a77-4e1f-a1ac-0d353b90f97b",
+          "id": "1ee25088-5e68-453a-9586-534e589457af",
           "name": "Notify Carrier with App",
           "request": {
             "name": "Notify Carrier with App",
@@ -87,7 +87,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "52262520-9222-40dc-b414-c010929fe334",
+              "id": "50f54a81-7fed-49a6-aa0d-62b507dfd311",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -172,7 +172,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c3c01725-74a8-47e8-8cb7-26fd7f12dada",
+                "id": "f57f71df-4f28-4071-9c4a-fbf8abb68c2e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/:app_name/v{{app_version}}/:account/:workspace/notify - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -188,7 +188,7 @@
       "event": []
     },
     {
-      "id": "e3c39791-4e87-4764-8782-56b1e301e1cd",
+      "id": "822efa4e-f03e-4a02-8b6d-cdbd95f2fe4d",
       "name": "Tracking",
       "description": {
         "content": "",
@@ -196,7 +196,7 @@
       },
       "item": [
         {
-          "id": "fcf4e8e3-b2e4-4bf1-845f-d0dafca9f46e",
+          "id": "361b1fa4-3f5f-444b-a6a0-366ebe61b535",
           "name": "Tracking Events with App",
           "request": {
             "name": "Tracking Events with App",
@@ -271,7 +271,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c6be728f-1ca9-40d1-8fe4-e0bb235edd5c",
+              "id": "cadcc0e0-6f6d-4430-8de4-add99e35d31a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -356,7 +356,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f918ebdd-14b5-41a3-b7fd-c679a6cc5aeb",
+                "id": "b0144a09-c773-48a3-87cb-70cc38fa1695",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/:app_name/v{{app_version}}/:account/:workspace/tracking - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -411,7 +411,7 @@
     }
   ],
   "info": {
-    "_postman_id": "da3c7569-0a5d-44fc-924d-93c9dba1d47c",
+    "_postman_id": "0c2fd90f-1c66-4130-b61d-8b41705fadc1",
     "name": "VTEX Shipping Network API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

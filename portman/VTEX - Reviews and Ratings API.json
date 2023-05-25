@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "49a8918d-0a60-406f-a46b-c4b8e5873d7f"
+    "postman_id": "9806a1b0-cd2a-42ae-a1c8-d0c2e0ce0859"
   },
   "item": [
     {
-      "id": "f9c87dbb-b3fb-4415-ae88-5eb3e2a87c7a",
+      "id": "2c105fc8-3f11-4ed7-824b-d1edcb31aead",
       "name": "Rating",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "c52ca7d2-21b6-4e61-8f44-66d523085077",
+          "id": "e8f422c0-46d2-46a1-98dd-f3dad4672fed",
           "name": "Get Product Rating",
           "request": {
             "name": "Get Product Rating",
@@ -64,7 +64,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "0c214761-063e-41bf-82e6-1ca3c0c7882b",
+              "id": "9b4518b2-06b2-440f-abf2-369b8e337973",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -149,7 +149,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0de40787-e252-4987-b0ac-07fce9ca6448",
+                "id": "4e0410aa-aa92-4767-b5d8-4b470a8d62b5",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/rating/:productId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -168,7 +168,7 @@
       "event": []
     },
     {
-      "id": "5fa59881-d762-40a1-928c-28c7e64fe073",
+      "id": "7214d4c1-c691-46a8-bab4-7a5c5c9dc18a",
       "name": "Review",
       "description": {
         "content": "",
@@ -176,7 +176,7 @@
       },
       "item": [
         {
-          "id": "beae5f70-7c5c-4229-8075-d20be22e5f85",
+          "id": "9931c14c-3dba-4e21-9495-300ef91ffe30",
           "name": "Get Review by Review ID",
           "request": {
             "name": "Get Review by Review ID",
@@ -228,7 +228,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "d3103249-77c8-44d8-90f4-b4a67c32226e",
+              "id": "f23508e5-8044-43c7-acbb-2d7f196b4231",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -313,7 +313,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "16cb6e88-b3b3-4da3-8108-a6b924654a14",
+                "id": "0bf3e205-6ef1-4983-ba40-f606170cd8fe",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/review/:reviewId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -329,7 +329,7 @@
           }
         },
         {
-          "id": "3caaccdb-1b7a-4345-8756-1242b15cded6",
+          "id": "2f81f229-c22f-4a35-bcf1-82555c67b831",
           "name": "Delete Review",
           "request": {
             "name": "Delete Review",
@@ -381,7 +381,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9bc28265-6094-41d8-a33a-ad799a3a6606",
+              "id": "d9407842-93e5-477c-9698-dbee017488b6",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -466,7 +466,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3197a036-f423-4b79-a711-cabb2d2407b5",
+                "id": "48f7301b-18d2-4789-918d-6473ae193b7b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/review/:reviewId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -482,7 +482,7 @@
           }
         },
         {
-          "id": "f91fb58b-3042-47f2-a120-c31f9ae796c1",
+          "id": "b4afb4df-0003-432a-bcd7-89c4e7c64e08",
           "name": "Update a Review",
           "request": {
             "name": "Update a Review",
@@ -547,7 +547,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "d58cd531-d38d-49ec-b549-122ebbd7e910",
+              "id": "89cb7341-4aa3-412c-973b-7d1201643424",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -640,7 +640,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2de2e6bd-21c6-4c89-a8a9-02d42a3a1d45",
+                "id": "19b4472f-f112-4902-bc51-f98c5ffb64db",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/review/:reviewId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -656,7 +656,7 @@
           }
         },
         {
-          "id": "1585b200-113c-4339-964b-57cb1297ff68",
+          "id": "2ebc9d33-7357-42be-9375-25c8503f6182",
           "name": "Get a list of Reviews",
           "request": {
             "name": "Get a list of Reviews",
@@ -752,7 +752,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "6ecbc071-df32-4d1b-974f-56168dd0fc94",
+              "id": "a55cdc2f-d771-423d-8365-0bea5a7b9e9e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -843,7 +843,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"data\": [\n    {\n      \"id\": \"sunt in amet\",\n      \"productId\": \"ex dolore\",\n      \"rating\": 97772244.52532348,\n      \"title\": \"Duis Ut laboris\",\n      \"text\": \"voluptate commodo consequat\",\n      \"reviewerName\": \"est pariatur ad magna consectetur\",\n      \"shopperId\": \"elit exercitation\",\n      \"reviewDateTime\": \"ut dolore ullamco tempor\",\n      \"searchDate\": \"aliqua deserunt culpa eiusmod laboris\",\n      \"verifiedPurchaser\": true,\n      \"sku\": \"magna incididunt laborum ea proident\",\n      \"approved\": true,\n      \"location\": \"enim ea\",\n      \"locale\": \"tempor amet\",\n      \"pastReviews\": \"est dolor nostrud\"\n    },\n    {\n      \"id\": \"deserunt qui\",\n      \"productId\": \"ad id\",\n      \"rating\": 48117885.53022182,\n      \"title\": \"dolore velit ut Duis\",\n      \"text\": \"sed ea\",\n      \"reviewerName\": \"anim laboris ad ut\",\n      \"shopperId\": \"et pariatur ad ullamco officia\",\n      \"reviewDateTime\": \"officia\",\n      \"searchDate\": \"conse\",\n      \"verifiedPurchaser\": false,\n      \"sku\": \"exercitation\",\n      \"approved\": true,\n      \"location\": \"do magna\",\n      \"locale\": \"cupidatat in Ut fugiat\",\n      \"pastReviews\": \"mollit in quis\"\n    }\n  ],\n  \"range\": {\n    \"total\": 42209567.35240802,\n    \"from\": -21605091.804503247,\n    \"to\": 67623645.20413908\n  }\n}",
+              "body": "{\n  \"data\": [\n    {\n      \"id\": \"labore adipisicing\",\n      \"productId\": \"esse ut\",\n      \"rating\": -77329616.97785611,\n      \"title\": \"magna\",\n      \"text\": \"ex fugiat\",\n      \"reviewerName\": \"aliquip sint in\",\n      \"shopperId\": \"ut\",\n      \"reviewDateTime\": \"quis in\",\n      \"searchDate\": \"dolore\",\n      \"verifiedPurchaser\": true,\n      \"sku\": \"ad do anim culpa\",\n      \"approved\": false,\n      \"location\": \"elit aliqua\",\n      \"locale\": \"mollit sed incididunt eiusmod\",\n      \"pastReviews\": \"id enim et\"\n    },\n    {\n      \"id\": \"elit proident cillum esse\",\n      \"productId\": \"ut labore\",\n      \"rating\": -62914004.1233462,\n      \"title\": \"Ut occ\",\n      \"text\": \"eu laboris irure labore\",\n      \"reviewerName\": \"eiusmod dolore\",\n      \"shopperId\": \"incididunt dolor\",\n      \"reviewDateTime\": \"esse exercitation velit\",\n      \"searchDate\": \"aute amet ut\",\n      \"verifiedPurchaser\": false,\n      \"sku\": \"eiusmod consequat do\",\n      \"approved\": false,\n      \"location\": \"voluptate adipisicing id veniam\",\n      \"locale\": \"eu sed\",\n      \"pastReviews\": \"sed laboris et\"\n    }\n  ],\n  \"range\": {\n    \"total\": 72364594.72599205,\n    \"from\": -78072162.52562967,\n    \"to\": -18739639.5114702\n  }\n}",
               "cookie": []
             }
           ],
@@ -851,7 +851,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e83954b7-604b-4598-8512-fedea6c1d7bb",
+                "id": "49b94aa6-92e8-4ffd-a534-b820d42d3635",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/reviews - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -867,7 +867,7 @@
           }
         },
         {
-          "id": "c87edce6-ba89-46a3-aaba-b7b26fc4a315",
+          "id": "2337a649-4f0e-4418-bb76-b60170ccc8af",
           "name": "Create Multiple Reviews",
           "request": {
             "name": "Create Multiple Reviews",
@@ -921,7 +921,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "5e2ab1cc-9e28-4790-b0fd-95d418a95f4c",
+              "id": "b995130f-76fb-4081-89ac-46c8c99ceb26",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1003,7 +1003,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b5f324d6-69e8-4cc9-884d-e4931f63eb59",
+                "id": "561e6b86-d2bf-4582-bc5f-8aa05b330b22",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/reviews - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1019,7 +1019,7 @@
           }
         },
         {
-          "id": "774b74a7-f7a9-438e-b1b9-2d4e846aba3d",
+          "id": "be21093b-ea79-4f52-b8ba-c12b3f7ad8bc",
           "name": "Delete Multiple Reviews",
           "request": {
             "name": "Delete Multiple Reviews",
@@ -1073,7 +1073,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7633f051-3fc3-4aa9-9b4e-768449256513",
+              "id": "86d45f8c-d493-45dd-9423-9c9506e65088",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1155,7 +1155,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d9887b9b-1167-490e-8160-36845ec1b9de",
+                "id": "e8473fe8-f782-4bbf-b86e-ce9549c4ad4c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/reviews - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1171,7 +1171,7 @@
           }
         },
         {
-          "id": "fdb6b643-ec85-45be-9609-fbd715e23a79",
+          "id": "38e3c70d-ab6c-4d8e-b8b4-0262a6706a77",
           "name": "Create a Review",
           "request": {
             "name": "Create a Review",
@@ -1225,7 +1225,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ae8d6c9d-25d5-42f9-b619-1af6801c94a3",
+              "id": "ddbb39fd-6fe5-4da4-add3-875fd9c31284",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1307,7 +1307,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f1d61cb6-ba6c-4714-a33a-2f282418286e",
+                "id": "1570713a-a014-42f2-89bd-c07207979fa8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/review - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1364,7 +1364,7 @@
     }
   ],
   "info": {
-    "_postman_id": "49a8918d-0a60-406f-a46b-c4b8e5873d7f",
+    "_postman_id": "9806a1b0-cd2a-42ae-a1c8-d0c2e0ce0859",
     "name": "Reviews and Ratings API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

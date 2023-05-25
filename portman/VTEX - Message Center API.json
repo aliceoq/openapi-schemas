@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "a0edb878-28a8-4f9c-9175-855fef8133eb"
+    "postman_id": "d6a92dc5-246d-452b-bdcb-1156c7fec1e9"
   },
   "item": [
     {
-      "id": "535453a8-7098-4f6a-bf3a-f131cf2d877b",
+      "id": "7b311ea9-f1e7-400e-9118-5e712c89920b",
       "name": "DKIM Configuration",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "7592667a-60fd-4da2-b1d8-fd0300a7f287",
+          "id": "10364fc8-a492-4a3a-94fe-86194371466e",
           "name": "Generate DKIM keys",
           "request": {
             "name": "Generate DKIM keys",
@@ -77,7 +77,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "41a2a84c-8a39-4c36-989f-52770e647702",
+              "id": "8b56e595-9406-4e73-aaf5-aed58b3c0b1b",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -156,7 +156,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a2ba0aa5-e751-48bd-9acb-4b224fb9df50",
+              "id": "e85c194e-3771-451d-80b3-9607d775a822",
               "name": "Unauthorized",
               "originalRequest": {
                 "url": {
@@ -236,7 +236,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b75d85e9-44be-4f87-bf40-8dfc972d0a3b",
+                "id": "eb7eaf86-a617-4404-b75c-847e8ba51a06",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/mail-service/pvt/providers/:EmailProvider/dkim - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -302,7 +302,7 @@
     }
   ],
   "info": {
-    "_postman_id": "a0edb878-28a8-4f9c-9175-855fef8133eb",
+    "_postman_id": "d6a92dc5-246d-452b-bdcb-1156c7fec1e9",
     "name": "Message Center API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

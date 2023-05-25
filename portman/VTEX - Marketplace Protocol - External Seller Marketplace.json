@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "05fd9eea-4a24-4f25-a5b4-0227c066652c"
+    "postman_id": "01cd5fbd-535b-411c-82b0-b4c37bdd9ed6"
   },
   "item": [
     {
-      "id": "04a6d13b-dcd0-448d-bf17-6a32ba3c36ff",
+      "id": "babf512b-9fb7-4216-a18b-831b220e70ec",
       "name": "External Seller",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "f076f6ee-c4bf-430f-b8db-e60100a0c22a",
+          "id": "2e4a88e7-ab27-433e-a261-fb63bc0b8915",
           "name": "Send invoice",
           "request": {
             "name": "Send invoice",
@@ -80,7 +80,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ae0c4581-e0c1-4a05-9708-9cbc579b02fd",
+              "id": "0263b825-34a2-4c23-a60a-95127ac32929",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -176,7 +176,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "da59b6a1-1da4-4b04-9d67-65a41f4cf2e0",
+                "id": "669e93a1-d593-4add-bb03-af93d3f04b33",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pvt/orders/:marketplaceOrderId/invoice - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -191,7 +191,7 @@
           }
         },
         {
-          "id": "150e0750-c46a-40ca-a34a-67d7d7d3f34c",
+          "id": "925cf6b1-b530-4ce6-8ee3-c00dab1c93a5",
           "name": "Send tracking information",
           "request": {
             "name": "Send tracking information",
@@ -270,7 +270,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "fb7f7fd9-4425-4600-97cb-fcc7ecac644c",
+              "id": "d6399beb-7db7-4230-b4ce-68c51da27de1",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -377,7 +377,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0eaa8a82-00b8-4a93-ada2-f7915ad763bc",
+                "id": "80d1eb1b-cd7f-4739-8766-83e2ca536af7",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pvt/orders/:marketplaceOrderId/invoice/:invoiceNumber - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -392,7 +392,7 @@
           }
         },
         {
-          "id": "93c1f295-b6d6-4d77-a2ed-0c88fab27e79",
+          "id": "6a12e8b3-e078-4ee3-94a5-cadb8edcbbd6",
           "name": "Update tracking status",
           "request": {
             "name": "Update tracking status",
@@ -472,7 +472,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "b7db667d-2955-48c1-b07a-551ae97bc7f5",
+              "id": "cfc0ba6e-d2a3-49c1-a694-14998da95708",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -580,7 +580,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "95fad333-9b00-444d-83c3-cd0c675d9602",
+                "id": "662ecba7-a152-4724-b66d-37ca037ea2eb",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pvt/orders/:marketplaceOrderId/invoice/:invoiceNumber/tracking - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -595,7 +595,7 @@
           }
         },
         {
-          "id": "cdcb2af1-97da-4832-8415-3870dbc8cc49",
+          "id": "4a8c5402-6df3-4042-bb71-8e59f608391c",
           "name": "Cancel order in marketplace",
           "request": {
             "name": "Cancel order in marketplace",
@@ -663,7 +663,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9af1dc4a-47b5-4b25-b1ca-575ac933b27d",
+              "id": "ed8f82ce-8354-4f19-9480-e0b72ffa333b",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -759,7 +759,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e37c04eb-40d7-4caf-ba64-99c17070eb22",
+                "id": "d1d58cae-e521-46a7-8f5a-e568787a8840",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pvt/orders/:marketplaceOrderId/cancel - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -815,7 +815,7 @@
     }
   ],
   "info": {
-    "_postman_id": "05fd9eea-4a24-4f25-a5b4-0227c066652c",
+    "_postman_id": "01cd5fbd-535b-411c-82b0-b4c37bdd9ed6",
     "name": "Marketplace Protocol",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

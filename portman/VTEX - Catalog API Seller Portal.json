@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "8c9ac55d-63c6-4516-a396-f3dd103b2b90"
+    "postman_id": "26ae862b-c142-486d-977f-5f20ec40b321"
   },
   "item": [
     {
-      "id": "493ac4a4-4476-4288-bdd4-624a83a60a86",
+      "id": "efe8b855-dc8f-4e66-bb02-9af516a57faa",
       "name": "Product",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "f854137a-582a-43cc-84d8-f269ef64cca4",
+          "id": "0a0c9daf-4975-4851-b207-2d4c95d16a78",
           "name": "Get Product by ID",
           "request": {
             "name": "Get Product by ID",
@@ -75,7 +75,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "eb2adb19-e8f4-404d-a134-f130c5e6fa43",
+              "id": "8304d115-f932-454d-b3ca-61a36db640c1",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -171,7 +171,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e19a153a-1fe8-48cd-b484-3bffad71035c",
+                "id": "c0fb3c63-5cac-4d95-bfd5-53f33f94574d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/products/:productId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -187,7 +187,7 @@
           }
         },
         {
-          "id": "8c3b305f-8a3f-499f-b9b1-a78c2303bea9",
+          "id": "c7534b6b-af0c-4131-aa36-1017f66138fe",
           "name": "Update Product",
           "request": {
             "name": "Update Product",
@@ -259,7 +259,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "47a5e3b1-9366-4b71-822c-5137241744f4",
+              "id": "1678923f-a129-43cc-96d2-f764bdcd19e5",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -359,7 +359,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "1d6f185e-f28c-449c-85b6-301fe50e6a3b",
+                "id": "fa7e6cd4-69a9-495f-8b83-e9d118e7ac1f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/catalog-seller-portal/products/:productId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -373,7 +373,7 @@
           }
         },
         {
-          "id": "4f21c697-67e3-4990-9bbd-fd5189c199e4",
+          "id": "9c412f6f-cd8b-422f-928f-22bcb6432810",
           "name": "Get Product Description by Product ID",
           "request": {
             "name": "Get Product Description by Product ID",
@@ -437,7 +437,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "d9753edc-ed86-4511-ac36-1b47bd93152e",
+              "id": "64927fd0-a962-4623-ae38-70fbbde97f28",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -534,7 +534,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "05c4e805-a332-434e-af5d-912bf2cf33a1",
+                "id": "391925cb-40c4-40cb-a969-96aef95c8045",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/products/:productId/description - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -550,7 +550,7 @@
           }
         },
         {
-          "id": "2a7bf9f3-46de-4db1-85b5-d2fc609965dd",
+          "id": "de21c8d3-73fe-4bd1-8c57-eb0d899e91d7",
           "name": "Update Product Description by Product ID",
           "request": {
             "name": "Update Product Description by Product ID",
@@ -623,7 +623,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "567dde3e-a534-4eb8-a5dc-dff4be7b70f7",
+              "id": "54c08013-9d06-482b-80d3-336848fe8fd1",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -724,7 +724,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a7ca7061-2659-4302-8afe-01a99b65e57d",
+                "id": "6891c230-22b3-441e-8b2d-a32014dd0977",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/catalog-seller-portal/products/:productId/description - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -738,7 +738,7 @@
           }
         },
         {
-          "id": "01a7a949-5a83-433e-b8b0-a17ce57f06a2",
+          "id": "2c1ad2c5-5cfe-4901-9284-54bc00c34c69",
           "name": "Get Product by external ID,  SKU ID, SKU external ID or slug",
           "request": {
             "name": "Get Product by external ID,  SKU ID, SKU external ID or slug",
@@ -801,7 +801,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a7ea1bcd-b1c0-4253-8d04-89a1bd6f1869",
+              "id": "75ea608f-c655-4d93-8a4d-42ab1d50913f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -897,7 +897,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "76d508d7-470a-4691-a950-1264119df7fb",
+                "id": "6ebe365e-bee4-45ad-be80-5a15049c5bc3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/products/:param - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -913,7 +913,7 @@
           }
         },
         {
-          "id": "9a4ab03f-25af-46af-b731-baeeae9b7f7a",
+          "id": "b5b8e5b5-6485-441a-b08b-95df9340f77a",
           "name": "Create Product",
           "request": {
             "name": "Create Product",
@@ -978,7 +978,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9b82afb7-6246-45c1-b71b-2c20bb3b7a8c",
+              "id": "d70f6cef-5af6-4179-8255-75af0d223b8e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1070,7 +1070,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "1da49cca-0c73-42e5-8d31-3d90b29b0e7b",
+              "id": "373e8653-5b92-40c8-bff2-6a33b71a9b73",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -1159,7 +1159,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "acc23dc1-52db-4473-a181-9dcb58a05f91",
+                "id": "9c50fcd0-058b-4a12-9e0e-e4c8c348efc8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/catalog-seller-portal/products - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1178,7 +1178,7 @@
       "event": []
     },
     {
-      "id": "ff885265-8844-40f3-9ca3-7f4d810dfcff",
+      "id": "d5144c19-25d3-4404-9ed1-dca6a102067f",
       "name": "SKU",
       "description": {
         "content": "",
@@ -1186,7 +1186,7 @@
       },
       "item": [
         {
-          "id": "855dce3e-6d1a-445f-a253-1235a839f2b5",
+          "id": "2b4b5c88-dd76-4c54-ba68-a7807850d031",
           "name": "Search for SKU",
           "request": {
             "name": "Search for SKU",
@@ -1276,7 +1276,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "46daf16a-079f-479e-a593-c6630bf98f4b",
+              "id": "f3f92a3c-927d-44bb-96be-30e743a53063",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1379,7 +1379,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8837c01b-0438-4623-9a51-b579aa7f1ccb",
+                "id": "3e4d3804-2393-411f-916a-c8bf2ba3bf6d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/skus/_search - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1395,7 +1395,7 @@
           }
         },
         {
-          "id": "02bf62c4-3437-4d18-9afe-222e42fb7e1d",
+          "id": "9e64bf5b-9851-4ab4-b1ac-3e5980071bc9",
           "name": "Get List of SKUs",
           "request": {
             "name": "Get List of SKUs",
@@ -1467,7 +1467,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "bd43e00d-f438-4529-bb1e-d49e786be997",
+              "id": "571732a1-1415-4470-aa4e-a1b7aa992775",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1562,7 +1562,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "33a0ed31-09f1-4ec3-a6ea-d9a44e091f7e",
+                "id": "edf9df88-ab69-4a51-9911-f15b98208313",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/skus/ids - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1581,7 +1581,7 @@
       "event": []
     },
     {
-      "id": "3ba96de5-870f-4ae9-8e8c-9d2f6e33f472",
+      "id": "6830d5a2-23cd-45c6-a049-e9d52376fe90",
       "name": "Brand",
       "description": {
         "content": "",
@@ -1589,7 +1589,7 @@
       },
       "item": [
         {
-          "id": "43895fc9-2801-4ceb-9b0a-153efd42274f",
+          "id": "9f5cd915-1e9b-4809-a208-0baca148573d",
           "name": "Get List of Brands",
           "request": {
             "name": "Get List of Brands",
@@ -1687,7 +1687,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "81a89283-df32-44ec-b3f7-445c1269fcdd",
+              "id": "1805f122-c297-4c9a-a31b-2a722cb7bff3",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1793,7 +1793,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ad0089bf-5d5d-4388-9557-c6ddf9410ef5",
+                "id": "43214857-98a5-44bb-aecb-542620db9748",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/brands - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1809,7 +1809,7 @@
           }
         },
         {
-          "id": "f2800ade-e3e5-4b71-8685-817158b75f78",
+          "id": "665deb7b-32c0-4c09-b7a1-dc399b04b83b",
           "name": "Create Brand",
           "request": {
             "name": "Create Brand",
@@ -1874,7 +1874,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "f206043a-7a2f-4531-a854-0614afdf5547",
+              "id": "d5875314-c743-4420-a66d-aa58b709027e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1967,7 +1967,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "65387e9e-0417-4378-9463-f29eb85228bc",
+                "id": "0e87bd81-5128-4790-9021-d76cb1aef0af",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/catalog-seller-portal/brands - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1983,7 +1983,7 @@
           }
         },
         {
-          "id": "89fe43ea-5d52-444e-ab57-870d107b53eb",
+          "id": "0f4bf1f6-ef43-45ab-968c-e5991620e4bd",
           "name": "Get Brand by ID",
           "request": {
             "name": "Get Brand by ID",
@@ -2046,7 +2046,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "cd093f5d-2757-4643-b895-c47eb9c85a1b",
+              "id": "5debb9c1-d49e-4763-a36a-8da356838f8a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2142,7 +2142,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e9296b5e-db3c-4410-b68a-e1ad4e2855f7",
+                "id": "be5b6364-aa46-4042-8817-02d100d2b68d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/brands/:brandId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2158,7 +2158,7 @@
           }
         },
         {
-          "id": "4d9506f9-2880-47e5-a8d1-1048820b9870",
+          "id": "52713601-13cc-468a-96b4-4b857010e028",
           "name": "Update Brand",
           "request": {
             "name": "Update Brand",
@@ -2230,7 +2230,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "a1f3050c-83dc-4bdb-a7d5-93bf086be222",
+              "id": "6e7faf31-5559-485f-91fe-af0d0f1ccc2e",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -2330,7 +2330,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6c2724e5-5a80-4a4d-9a10-39041710bfef",
+                "id": "58513c36-81a2-4639-b7be-3050b3474710",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/catalog-seller-portal/brands/:brandId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2347,7 +2347,7 @@
       "event": []
     },
     {
-      "id": "0b6cd008-be0a-4bc6-91ee-083988ce10a5",
+      "id": "c2574699-ea60-447e-a3b8-5c3c377ee865",
       "name": "Category",
       "description": {
         "content": "",
@@ -2355,7 +2355,7 @@
       },
       "item": [
         {
-          "id": "fab74903-1e6c-4608-a127-f422ed3f8fdd",
+          "id": "cc52a88c-979f-44a5-b38a-094e51bb060a",
           "name": "Get Category Tree",
           "request": {
             "name": "Get Category Tree",
@@ -2417,7 +2417,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a31f42eb-65ee-4b34-9367-82c6ab45db83",
+              "id": "8dada2d3-c687-48b7-8639-96d28dfffe0c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2507,7 +2507,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5a65a3ce-ad08-4a5e-8ec0-64f97d7cdc89",
+                "id": "10c22ac3-6950-42a8-8a24-0601cdb450da",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/category-tree - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2523,7 +2523,7 @@
           }
         },
         {
-          "id": "0e1e0392-8d31-4d90-bd2d-88c7b53c59a4",
+          "id": "d73d90a3-d8fa-4f60-85e4-4a9ba7991cb4",
           "name": "Update Category Tree",
           "request": {
             "name": "Update Category Tree",
@@ -2584,7 +2584,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "dfeeb05c-c7e3-4c3c-b373-92bc2fb40e62",
+              "id": "8f3a5000-371a-49b9-955f-b511d532d798",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -2673,7 +2673,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "423f4766-91a2-4b45-9729-304d148ea823",
+                "id": "1ee28b14-3851-4054-b943-431abb7ff864",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/catalog-seller-portal/category-tree - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2687,7 +2687,7 @@
           }
         },
         {
-          "id": "dcbf9ed9-93b2-4b10-b699-f66c8b2a6ad4",
+          "id": "731fe29c-a194-4eed-8665-3ca698f89950",
           "name": "Get Category by ID",
           "request": {
             "name": "Get Category by ID",
@@ -2751,7 +2751,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "161e987c-eedd-45d5-879d-1febc741f19a",
+              "id": "ff1e1659-bfc8-410a-a394-13401ca358a6",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2848,7 +2848,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6aaf6e40-d74b-4022-b25a-bd14345789e3",
+                "id": "9c5ef507-2fc4-4398-89d0-1f8d119b12d0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog-seller-portal/category-tree/categories/:categoryId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2864,7 +2864,7 @@
           }
         },
         {
-          "id": "67585df7-c55a-4922-ba76-9cb3ebec1782",
+          "id": "7d4c61d3-fa0e-4e43-96f1-69aa8806b658",
           "name": "Create Category",
           "request": {
             "name": "Create Category",
@@ -2930,7 +2930,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "79bee45b-cc8c-48db-8baa-5cd1bf8eba45",
+              "id": "8b4507e4-eccb-404b-a10d-5df30233313b",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3024,7 +3024,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c47c4af4-9706-4f70-ac98-415b80c49186",
+                "id": "2460f383-5cf9-4339-bf51-4f86a820aadc",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/catalog-seller-portal/category-tree/categories - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3090,7 +3090,7 @@
     }
   ],
   "info": {
-    "_postman_id": "8c9ac55d-63c6-4516-a396-f3dd103b2b90",
+    "_postman_id": "26ae862b-c142-486d-977f-5f20ec40b321",
     "name": "Catalog API - Seller Portal",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

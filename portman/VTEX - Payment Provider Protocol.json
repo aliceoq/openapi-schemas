@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "1a438b9c-127f-4988-9e2b-4edd881a0f41"
+    "postman_id": "e3c5332c-bb4f-48c9-914b-3bdc237818d5"
   },
   "item": [
     {
-      "id": "09e79063-9627-4d46-8728-1ac1c637b801",
+      "id": "81fae2f9-4685-436e-acf0-a1a0e6be3d54",
       "name": "Payment Flow",
       "description": {
         "content": "Here we describe each operation you need to implement for the payment flow.",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "02e5dc2f-40db-4ab5-99df-190bad3f6593",
+          "id": "a1ba2526-4e88-4bdf-8654-a1acdbfc6c60",
           "name": "List Payment Provider Manifest",
           "request": {
             "name": "List Payment Provider Manifest",
@@ -43,7 +43,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e6a03d12-43b8-487b-82a5-2da7629119f2",
+              "id": "60231611-ea4a-426a-93bc-7fedb6fe84c5",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -106,7 +106,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0506f7ca-0f00-4e6a-b533-edb1694018f6",
+                "id": "f8e81bf3-2f05-44ad-b658-d3d4e79d28d2",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/manifest - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -122,7 +122,7 @@
           }
         },
         {
-          "id": "68de6e12-0853-4f9e-9c60-0902945b0310",
+          "id": "bc0af23e-c75a-4935-b696-d98a2866574d",
           "name": "Create Payment",
           "request": {
             "name": "Create Payment",
@@ -171,7 +171,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"reference\": \"618272\",\n  \"orderId\": \"1072430428324\",\n  \"shopperInteraction\": \"ecommerce\",\n  \"transactionId\": \"2F023FD5A72A49D48A8633252B7CCBD6\",\n  \"paymentId\": \"01693EB95BE443AC85874E395CD91565\",\n  \"paymentMethod\": \"Diners\",\n  \"paymentMethodCustomCode\": \"\",\n  \"merchantName\": \"mystore\",\n  \"value\": 31.9,\n  \"currency\": \"BRL\",\n  \"installments\": 1,\n  \"deviceFingerprint\": \"75076388\",\n  \"card\": {\n    \"holder\": \"John Doe\",\n    \"number\": \"364901****2661\",\n    \"csc\": \"***\",\n    \"expiration\": {\n      \"month\": \"12\",\n      \"year\": \"2020\"\n    },\n    \"holderToken\": \"#vtex#token#d799bae#csc#\",\n    \"bin\": \"364901\",\n    \"numberToken\": \"#vtex#token#d799bae#number#\",\n    \"numberLength\": 16,\n    \"cscToken\": \"#vtex#token#d799bae#csc#\",\n    \"cscLength\": 3,\n    \"document\": \"39295416023\"\n  },\n  \"miniCart\": {\n    \"shippingValue\": 1,\n    \"taxValue\": 0,\n    \"buyer\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"document\": \"01234567890\",\n      \"documentType\": \"cpf\",\n      \"email\": \"john.doe@example.com\",\n      \"phone\": \"+5521999999999\",\n      \"isCorporate\": false,\n      \"id\": \"c1245228-1c68-11e6-94ac-0afa86a846a5\",\n      \"corporateName\": \"VTEX\",\n      \"tradeName\": \"VTEX\",\n      \"corporateDocument\": \"123456789\",\n      \"createdDate\": \"2020-02-18T18:17:45\"\n    },\n    \"shippingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo St.\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"postalCode\": \"22250040\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"RJ\",\n      \"complement\": \"3rd Floor\"\n    },\n    \"billingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Brigadeiro Faria Lima Avenue\",\n      \"number\": \"4440\",\n      \"neighborhood\": \"Itaim Bibi\",\n      \"postalCode\": \"04538132\",\n      \"city\": \"São Paulo\",\n      \"state\": \"SP\",\n      \"complement\": \"10th Floor\"\n    },\n    \"items\": [\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      },\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      }\n    ]\n  },\n  \"url\": \"https://admin.mystore.example.com/orders?q=1072430428324\",\n  \"callbackUrl\": \"https://coinshop.vtexpayments.com.br/payment-provider/transactions/900BA26FEAC84332A53AE1007E740DE3/payments/E713830E32764BF99028A0A275841BFC/notification\",\n  \"returnUrl\": \"https://mystore.example.com/checkout/order/1072430428324\",\n  \"verificationOnly\": false,\n  \"installmentsInterestRate\": 0,\n  \"installmentsValue\": 31.9,\n  \"ipAddress\": \"187.105.111.65\",\n  \"recipients\": {\n    \"id\": \"Excepteur consectetur\",\n    \"name\": \"nostrud deserunt\",\n    \"documentType\": \"dolore magna quis\",\n    \"document\": \"officia occaecat anim aliqua cillum\",\n    \"role\": \"reprehenderit Duis\",\n    \"amount\": -88469190.18014593,\n    \"chargeProcessingFee\": true,\n    \"chargebackLiable\": true\n  },\n  \"merchantSettings\": [\n    {\n      \"name\": \"sed cupidatat nulla \",\n      \"value\": \"ex aute\"\n    },\n    {\n      \"name\": \"nulla deserunt Ut et\",\n      \"value\": \"proident Excepteur do qui\"\n    }\n  ],\n  \"inboundRequestUrl\": \"https://api.mystore.example.com/checkout/order/1072430428324/inbound-request/:action\",\n  \"secureProxyUrl\": \"dolore\",\n  \"sandBoxMode\": false,\n  \"totalCartValue\": 31.9\n}",
+              "raw": "{\n  \"reference\": \"618272\",\n  \"orderId\": \"1072430428324\",\n  \"shopperInteraction\": \"ecommerce\",\n  \"transactionId\": \"2F023FD5A72A49D48A8633252B7CCBD6\",\n  \"paymentId\": \"01693EB95BE443AC85874E395CD91565\",\n  \"paymentMethod\": \"Diners\",\n  \"paymentMethodCustomCode\": \"\",\n  \"merchantName\": \"mystore\",\n  \"value\": 31.9,\n  \"currency\": \"BRL\",\n  \"installments\": 1,\n  \"deviceFingerprint\": \"75076388\",\n  \"card\": {\n    \"holder\": \"John Doe\",\n    \"number\": \"364901****2661\",\n    \"csc\": \"***\",\n    \"expiration\": {\n      \"month\": \"12\",\n      \"year\": \"2020\"\n    },\n    \"holderToken\": \"#vtex#token#d799bae#csc#\",\n    \"bin\": \"364901\",\n    \"numberToken\": \"#vtex#token#d799bae#number#\",\n    \"numberLength\": 16,\n    \"cscToken\": \"#vtex#token#d799bae#csc#\",\n    \"cscLength\": 3,\n    \"document\": \"39295416023\"\n  },\n  \"miniCart\": {\n    \"shippingValue\": 1,\n    \"taxValue\": 0,\n    \"buyer\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"document\": \"01234567890\",\n      \"documentType\": \"cpf\",\n      \"email\": \"john.doe@example.com\",\n      \"phone\": \"+5521999999999\",\n      \"isCorporate\": false,\n      \"id\": \"c1245228-1c68-11e6-94ac-0afa86a846a5\",\n      \"corporateName\": \"VTEX\",\n      \"tradeName\": \"VTEX\",\n      \"corporateDocument\": \"123456789\",\n      \"createdDate\": \"2020-02-18T18:17:45\"\n    },\n    \"shippingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo St.\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"postalCode\": \"22250040\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"RJ\",\n      \"complement\": \"3rd Floor\"\n    },\n    \"billingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Brigadeiro Faria Lima Avenue\",\n      \"number\": \"4440\",\n      \"neighborhood\": \"Itaim Bibi\",\n      \"postalCode\": \"04538132\",\n      \"city\": \"São Paulo\",\n      \"state\": \"SP\",\n      \"complement\": \"10th Floor\"\n    },\n    \"items\": [\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      },\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      }\n    ]\n  },\n  \"url\": \"https://admin.mystore.example.com/orders?q=1072430428324\",\n  \"callbackUrl\": \"https://coinshop.vtexpayments.com.br/payment-provider/transactions/900BA26FEAC84332A53AE1007E740DE3/payments/E713830E32764BF99028A0A275841BFC/notification\",\n  \"returnUrl\": \"https://mystore.example.com/checkout/order/1072430428324\",\n  \"verificationOnly\": false,\n  \"installmentsInterestRate\": 0,\n  \"installmentsValue\": 31.9,\n  \"ipAddress\": \"187.105.111.65\",\n  \"recipients\": {\n    \"id\": \"fugiat elit esse aute\",\n    \"name\": \"officia\",\n    \"documentType\": \"velit ullamco veniam\",\n    \"document\": \"culpa enim\",\n    \"role\": \"voluptate pariatur consequat nulla consectetur\",\n    \"amount\": 89288746.69995514,\n    \"chargeProcessingFee\": true,\n    \"chargebackLiable\": true\n  },\n  \"merchantSettings\": [\n    {\n      \"name\": \"Duis do\",\n      \"value\": \"irure labore\"\n    },\n    {\n      \"name\": \"non sit tempor\",\n      \"value\": \"nostrud aliqua magna non\"\n    }\n  ],\n  \"inboundRequestUrl\": \"https://api.mystore.example.com/checkout/order/1072430428324/inbound-request/:action\",\n  \"secureProxyUrl\": \"amet sint Lorem reprehenderit\",\n  \"sandBoxMode\": false,\n  \"totalCartValue\": 31.9\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -184,7 +184,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "11d7ceb0-7b80-4f61-bc1e-0710f06698e7",
+              "id": "692bd0f9-d4ff-45d7-9e90-c9ff871245d2",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -249,7 +249,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"reference\": \"618272\",\n  \"orderId\": \"1072430428324\",\n  \"shopperInteraction\": \"ecommerce\",\n  \"transactionId\": \"2F023FD5A72A49D48A8633252B7CCBD6\",\n  \"paymentId\": \"01693EB95BE443AC85874E395CD91565\",\n  \"paymentMethod\": \"Diners\",\n  \"paymentMethodCustomCode\": \"\",\n  \"merchantName\": \"mystore\",\n  \"value\": 31.9,\n  \"currency\": \"BRL\",\n  \"installments\": 1,\n  \"deviceFingerprint\": \"75076388\",\n  \"card\": {\n    \"holder\": \"John Doe\",\n    \"number\": \"364901****2661\",\n    \"csc\": \"***\",\n    \"expiration\": {\n      \"month\": \"12\",\n      \"year\": \"2020\"\n    },\n    \"holderToken\": \"#vtex#token#d799bae#csc#\",\n    \"bin\": \"364901\",\n    \"numberToken\": \"#vtex#token#d799bae#number#\",\n    \"numberLength\": 16,\n    \"cscToken\": \"#vtex#token#d799bae#csc#\",\n    \"cscLength\": 3,\n    \"document\": \"39295416023\"\n  },\n  \"miniCart\": {\n    \"shippingValue\": 1,\n    \"taxValue\": 0,\n    \"buyer\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"document\": \"01234567890\",\n      \"documentType\": \"cpf\",\n      \"email\": \"john.doe@example.com\",\n      \"phone\": \"+5521999999999\",\n      \"isCorporate\": false,\n      \"id\": \"c1245228-1c68-11e6-94ac-0afa86a846a5\",\n      \"corporateName\": \"VTEX\",\n      \"tradeName\": \"VTEX\",\n      \"corporateDocument\": \"123456789\",\n      \"createdDate\": \"2020-02-18T18:17:45\"\n    },\n    \"shippingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo St.\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"postalCode\": \"22250040\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"RJ\",\n      \"complement\": \"3rd Floor\"\n    },\n    \"billingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Brigadeiro Faria Lima Avenue\",\n      \"number\": \"4440\",\n      \"neighborhood\": \"Itaim Bibi\",\n      \"postalCode\": \"04538132\",\n      \"city\": \"São Paulo\",\n      \"state\": \"SP\",\n      \"complement\": \"10th Floor\"\n    },\n    \"items\": [\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      },\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      }\n    ]\n  },\n  \"url\": \"https://admin.mystore.example.com/orders?q=1072430428324\",\n  \"callbackUrl\": \"https://coinshop.vtexpayments.com.br/payment-provider/transactions/900BA26FEAC84332A53AE1007E740DE3/payments/E713830E32764BF99028A0A275841BFC/notification\",\n  \"returnUrl\": \"https://mystore.example.com/checkout/order/1072430428324\",\n  \"verificationOnly\": false,\n  \"installmentsInterestRate\": 0,\n  \"installmentsValue\": 31.9,\n  \"ipAddress\": \"187.105.111.65\",\n  \"recipients\": {\n    \"id\": \"cupidatat aliquip velit\",\n    \"name\": \"irure adipisicing sed qui magna\",\n    \"documentType\": \"Lorem\",\n    \"document\": \"culpa Duis magna\",\n    \"role\": \"qui dolore nu\",\n    \"amount\": 98150644.93451256,\n    \"chargeProcessingFee\": false,\n    \"chargebackLiable\": true\n  },\n  \"merchantSettings\": [\n    {\n      \"name\": \"ut do adipisicing\",\n      \"value\": \"eiusmod voluptate\"\n    },\n    {\n      \"name\": \"velit pariatur Ut dolor veniam\",\n      \"value\": \"dolor ut cupidatat non\"\n    }\n  ],\n  \"inboundRequestUrl\": \"https://api.mystore.example.com/checkout/order/1072430428324/inbound-request/:action\",\n  \"secureProxyUrl\": \"fugiat ex\",\n  \"sandBoxMode\": false,\n  \"totalCartValue\": 31.9\n}",
+                  "raw": "{\n  \"reference\": \"618272\",\n  \"orderId\": \"1072430428324\",\n  \"shopperInteraction\": \"ecommerce\",\n  \"transactionId\": \"2F023FD5A72A49D48A8633252B7CCBD6\",\n  \"paymentId\": \"01693EB95BE443AC85874E395CD91565\",\n  \"paymentMethod\": \"Diners\",\n  \"paymentMethodCustomCode\": \"\",\n  \"merchantName\": \"mystore\",\n  \"value\": 31.9,\n  \"currency\": \"BRL\",\n  \"installments\": 1,\n  \"deviceFingerprint\": \"75076388\",\n  \"card\": {\n    \"holder\": \"John Doe\",\n    \"number\": \"364901****2661\",\n    \"csc\": \"***\",\n    \"expiration\": {\n      \"month\": \"12\",\n      \"year\": \"2020\"\n    },\n    \"holderToken\": \"#vtex#token#d799bae#csc#\",\n    \"bin\": \"364901\",\n    \"numberToken\": \"#vtex#token#d799bae#number#\",\n    \"numberLength\": 16,\n    \"cscToken\": \"#vtex#token#d799bae#csc#\",\n    \"cscLength\": 3,\n    \"document\": \"39295416023\"\n  },\n  \"miniCart\": {\n    \"shippingValue\": 1,\n    \"taxValue\": 0,\n    \"buyer\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"document\": \"01234567890\",\n      \"documentType\": \"cpf\",\n      \"email\": \"john.doe@example.com\",\n      \"phone\": \"+5521999999999\",\n      \"isCorporate\": false,\n      \"id\": \"c1245228-1c68-11e6-94ac-0afa86a846a5\",\n      \"corporateName\": \"VTEX\",\n      \"tradeName\": \"VTEX\",\n      \"corporateDocument\": \"123456789\",\n      \"createdDate\": \"2020-02-18T18:17:45\"\n    },\n    \"shippingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo St.\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"postalCode\": \"22250040\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"RJ\",\n      \"complement\": \"3rd Floor\"\n    },\n    \"billingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Brigadeiro Faria Lima Avenue\",\n      \"number\": \"4440\",\n      \"neighborhood\": \"Itaim Bibi\",\n      \"postalCode\": \"04538132\",\n      \"city\": \"São Paulo\",\n      \"state\": \"SP\",\n      \"complement\": \"10th Floor\"\n    },\n    \"items\": [\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      },\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      }\n    ]\n  },\n  \"url\": \"https://admin.mystore.example.com/orders?q=1072430428324\",\n  \"callbackUrl\": \"https://coinshop.vtexpayments.com.br/payment-provider/transactions/900BA26FEAC84332A53AE1007E740DE3/payments/E713830E32764BF99028A0A275841BFC/notification\",\n  \"returnUrl\": \"https://mystore.example.com/checkout/order/1072430428324\",\n  \"verificationOnly\": false,\n  \"installmentsInterestRate\": 0,\n  \"installmentsValue\": 31.9,\n  \"ipAddress\": \"187.105.111.65\",\n  \"recipients\": {\n    \"id\": \"tempor\",\n    \"name\": \"in ut\",\n    \"documentType\": \"dolore\",\n    \"document\": \"proident non ea\",\n    \"role\": \"tempor veniam est\",\n    \"amount\": 92484581.43783882,\n    \"chargeProcessingFee\": false,\n    \"chargebackLiable\": false\n  },\n  \"merchantSettings\": [\n    {\n      \"name\": \"sunt ut\",\n      \"value\": \"Excepteur eu\"\n    },\n    {\n      \"name\": \"magna ex\",\n      \"value\": \"mollit Lorem\"\n    }\n  ],\n  \"inboundRequestUrl\": \"https://api.mystore.example.com/checkout/order/1072430428324/inbound-request/:action\",\n  \"secureProxyUrl\": \"sunt eu pariatur est tempor\",\n  \"sandBoxMode\": false,\n  \"totalCartValue\": 31.9\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -362,7 +362,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "cc255349-869b-49e3-abde-4975d2008525",
+              "id": "4bfb565d-6a82-4ef6-a857-9e4f4ff9f977",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -428,7 +428,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"reference\": \"618272\",\n  \"orderId\": \"1072430428324\",\n  \"shopperInteraction\": \"ecommerce\",\n  \"transactionId\": \"2F023FD5A72A49D48A8633252B7CCBD6\",\n  \"paymentId\": \"01693EB95BE443AC85874E395CD91565\",\n  \"paymentMethod\": \"Diners\",\n  \"paymentMethodCustomCode\": \"\",\n  \"merchantName\": \"mystore\",\n  \"value\": 31.9,\n  \"currency\": \"BRL\",\n  \"installments\": 1,\n  \"deviceFingerprint\": \"75076388\",\n  \"card\": {\n    \"holder\": \"John Doe\",\n    \"number\": \"364901****2661\",\n    \"csc\": \"***\",\n    \"expiration\": {\n      \"month\": \"12\",\n      \"year\": \"2020\"\n    },\n    \"holderToken\": \"#vtex#token#d799bae#csc#\",\n    \"bin\": \"364901\",\n    \"numberToken\": \"#vtex#token#d799bae#number#\",\n    \"numberLength\": 16,\n    \"cscToken\": \"#vtex#token#d799bae#csc#\",\n    \"cscLength\": 3,\n    \"document\": \"39295416023\"\n  },\n  \"miniCart\": {\n    \"shippingValue\": 1,\n    \"taxValue\": 0,\n    \"buyer\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"document\": \"01234567890\",\n      \"documentType\": \"cpf\",\n      \"email\": \"john.doe@example.com\",\n      \"phone\": \"+5521999999999\",\n      \"isCorporate\": false,\n      \"id\": \"c1245228-1c68-11e6-94ac-0afa86a846a5\",\n      \"corporateName\": \"VTEX\",\n      \"tradeName\": \"VTEX\",\n      \"corporateDocument\": \"123456789\",\n      \"createdDate\": \"2020-02-18T18:17:45\"\n    },\n    \"shippingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo St.\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"postalCode\": \"22250040\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"RJ\",\n      \"complement\": \"3rd Floor\"\n    },\n    \"billingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Brigadeiro Faria Lima Avenue\",\n      \"number\": \"4440\",\n      \"neighborhood\": \"Itaim Bibi\",\n      \"postalCode\": \"04538132\",\n      \"city\": \"São Paulo\",\n      \"state\": \"SP\",\n      \"complement\": \"10th Floor\"\n    },\n    \"items\": [\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      },\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      }\n    ]\n  },\n  \"url\": \"https://admin.mystore.example.com/orders?q=1072430428324\",\n  \"callbackUrl\": \"https://coinshop.vtexpayments.com.br/payment-provider/transactions/900BA26FEAC84332A53AE1007E740DE3/payments/E713830E32764BF99028A0A275841BFC/notification\",\n  \"returnUrl\": \"https://mystore.example.com/checkout/order/1072430428324\",\n  \"verificationOnly\": false,\n  \"installmentsInterestRate\": 0,\n  \"installmentsValue\": 31.9,\n  \"ipAddress\": \"187.105.111.65\",\n  \"recipients\": {\n    \"id\": \"cupidatat aliquip velit\",\n    \"name\": \"irure adipisicing sed qui magna\",\n    \"documentType\": \"Lorem\",\n    \"document\": \"culpa Duis magna\",\n    \"role\": \"qui dolore nu\",\n    \"amount\": 98150644.93451256,\n    \"chargeProcessingFee\": false,\n    \"chargebackLiable\": true\n  },\n  \"merchantSettings\": [\n    {\n      \"name\": \"ut do adipisicing\",\n      \"value\": \"eiusmod voluptate\"\n    },\n    {\n      \"name\": \"velit pariatur Ut dolor veniam\",\n      \"value\": \"dolor ut cupidatat non\"\n    }\n  ],\n  \"inboundRequestUrl\": \"https://api.mystore.example.com/checkout/order/1072430428324/inbound-request/:action\",\n  \"secureProxyUrl\": \"fugiat ex\",\n  \"sandBoxMode\": false,\n  \"totalCartValue\": 31.9\n}",
+                  "raw": "{\n  \"reference\": \"618272\",\n  \"orderId\": \"1072430428324\",\n  \"shopperInteraction\": \"ecommerce\",\n  \"transactionId\": \"2F023FD5A72A49D48A8633252B7CCBD6\",\n  \"paymentId\": \"01693EB95BE443AC85874E395CD91565\",\n  \"paymentMethod\": \"Diners\",\n  \"paymentMethodCustomCode\": \"\",\n  \"merchantName\": \"mystore\",\n  \"value\": 31.9,\n  \"currency\": \"BRL\",\n  \"installments\": 1,\n  \"deviceFingerprint\": \"75076388\",\n  \"card\": {\n    \"holder\": \"John Doe\",\n    \"number\": \"364901****2661\",\n    \"csc\": \"***\",\n    \"expiration\": {\n      \"month\": \"12\",\n      \"year\": \"2020\"\n    },\n    \"holderToken\": \"#vtex#token#d799bae#csc#\",\n    \"bin\": \"364901\",\n    \"numberToken\": \"#vtex#token#d799bae#number#\",\n    \"numberLength\": 16,\n    \"cscToken\": \"#vtex#token#d799bae#csc#\",\n    \"cscLength\": 3,\n    \"document\": \"39295416023\"\n  },\n  \"miniCart\": {\n    \"shippingValue\": 1,\n    \"taxValue\": 0,\n    \"buyer\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"document\": \"01234567890\",\n      \"documentType\": \"cpf\",\n      \"email\": \"john.doe@example.com\",\n      \"phone\": \"+5521999999999\",\n      \"isCorporate\": false,\n      \"id\": \"c1245228-1c68-11e6-94ac-0afa86a846a5\",\n      \"corporateName\": \"VTEX\",\n      \"tradeName\": \"VTEX\",\n      \"corporateDocument\": \"123456789\",\n      \"createdDate\": \"2020-02-18T18:17:45\"\n    },\n    \"shippingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo St.\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"postalCode\": \"22250040\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"RJ\",\n      \"complement\": \"3rd Floor\"\n    },\n    \"billingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Brigadeiro Faria Lima Avenue\",\n      \"number\": \"4440\",\n      \"neighborhood\": \"Itaim Bibi\",\n      \"postalCode\": \"04538132\",\n      \"city\": \"São Paulo\",\n      \"state\": \"SP\",\n      \"complement\": \"10th Floor\"\n    },\n    \"items\": [\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      },\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      }\n    ]\n  },\n  \"url\": \"https://admin.mystore.example.com/orders?q=1072430428324\",\n  \"callbackUrl\": \"https://coinshop.vtexpayments.com.br/payment-provider/transactions/900BA26FEAC84332A53AE1007E740DE3/payments/E713830E32764BF99028A0A275841BFC/notification\",\n  \"returnUrl\": \"https://mystore.example.com/checkout/order/1072430428324\",\n  \"verificationOnly\": false,\n  \"installmentsInterestRate\": 0,\n  \"installmentsValue\": 31.9,\n  \"ipAddress\": \"187.105.111.65\",\n  \"recipients\": {\n    \"id\": \"tempor\",\n    \"name\": \"in ut\",\n    \"documentType\": \"dolore\",\n    \"document\": \"proident non ea\",\n    \"role\": \"tempor veniam est\",\n    \"amount\": 92484581.43783882,\n    \"chargeProcessingFee\": false,\n    \"chargebackLiable\": false\n  },\n  \"merchantSettings\": [\n    {\n      \"name\": \"sunt ut\",\n      \"value\": \"Excepteur eu\"\n    },\n    {\n      \"name\": \"magna ex\",\n      \"value\": \"mollit Lorem\"\n    }\n  ],\n  \"inboundRequestUrl\": \"https://api.mystore.example.com/checkout/order/1072430428324/inbound-request/:action\",\n  \"secureProxyUrl\": \"sunt eu pariatur est tempor\",\n  \"sandBoxMode\": false,\n  \"totalCartValue\": 31.9\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -451,7 +451,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a8e1d4db-00cd-4eac-a47c-7c3e3a52eecf",
+              "id": "ffe01573-9f7c-4e01-867b-fbea409bdf3d",
               "name": "Internal Server Error",
               "originalRequest": {
                 "url": {
@@ -517,7 +517,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"reference\": \"618272\",\n  \"orderId\": \"1072430428324\",\n  \"shopperInteraction\": \"ecommerce\",\n  \"transactionId\": \"2F023FD5A72A49D48A8633252B7CCBD6\",\n  \"paymentId\": \"01693EB95BE443AC85874E395CD91565\",\n  \"paymentMethod\": \"Diners\",\n  \"paymentMethodCustomCode\": \"\",\n  \"merchantName\": \"mystore\",\n  \"value\": 31.9,\n  \"currency\": \"BRL\",\n  \"installments\": 1,\n  \"deviceFingerprint\": \"75076388\",\n  \"card\": {\n    \"holder\": \"John Doe\",\n    \"number\": \"364901****2661\",\n    \"csc\": \"***\",\n    \"expiration\": {\n      \"month\": \"12\",\n      \"year\": \"2020\"\n    },\n    \"holderToken\": \"#vtex#token#d799bae#csc#\",\n    \"bin\": \"364901\",\n    \"numberToken\": \"#vtex#token#d799bae#number#\",\n    \"numberLength\": 16,\n    \"cscToken\": \"#vtex#token#d799bae#csc#\",\n    \"cscLength\": 3,\n    \"document\": \"39295416023\"\n  },\n  \"miniCart\": {\n    \"shippingValue\": 1,\n    \"taxValue\": 0,\n    \"buyer\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"document\": \"01234567890\",\n      \"documentType\": \"cpf\",\n      \"email\": \"john.doe@example.com\",\n      \"phone\": \"+5521999999999\",\n      \"isCorporate\": false,\n      \"id\": \"c1245228-1c68-11e6-94ac-0afa86a846a5\",\n      \"corporateName\": \"VTEX\",\n      \"tradeName\": \"VTEX\",\n      \"corporateDocument\": \"123456789\",\n      \"createdDate\": \"2020-02-18T18:17:45\"\n    },\n    \"shippingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo St.\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"postalCode\": \"22250040\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"RJ\",\n      \"complement\": \"3rd Floor\"\n    },\n    \"billingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Brigadeiro Faria Lima Avenue\",\n      \"number\": \"4440\",\n      \"neighborhood\": \"Itaim Bibi\",\n      \"postalCode\": \"04538132\",\n      \"city\": \"São Paulo\",\n      \"state\": \"SP\",\n      \"complement\": \"10th Floor\"\n    },\n    \"items\": [\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      },\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      }\n    ]\n  },\n  \"url\": \"https://admin.mystore.example.com/orders?q=1072430428324\",\n  \"callbackUrl\": \"https://coinshop.vtexpayments.com.br/payment-provider/transactions/900BA26FEAC84332A53AE1007E740DE3/payments/E713830E32764BF99028A0A275841BFC/notification\",\n  \"returnUrl\": \"https://mystore.example.com/checkout/order/1072430428324\",\n  \"verificationOnly\": false,\n  \"installmentsInterestRate\": 0,\n  \"installmentsValue\": 31.9,\n  \"ipAddress\": \"187.105.111.65\",\n  \"recipients\": {\n    \"id\": \"cupidatat aliquip velit\",\n    \"name\": \"irure adipisicing sed qui magna\",\n    \"documentType\": \"Lorem\",\n    \"document\": \"culpa Duis magna\",\n    \"role\": \"qui dolore nu\",\n    \"amount\": 98150644.93451256,\n    \"chargeProcessingFee\": false,\n    \"chargebackLiable\": true\n  },\n  \"merchantSettings\": [\n    {\n      \"name\": \"ut do adipisicing\",\n      \"value\": \"eiusmod voluptate\"\n    },\n    {\n      \"name\": \"velit pariatur Ut dolor veniam\",\n      \"value\": \"dolor ut cupidatat non\"\n    }\n  ],\n  \"inboundRequestUrl\": \"https://api.mystore.example.com/checkout/order/1072430428324/inbound-request/:action\",\n  \"secureProxyUrl\": \"fugiat ex\",\n  \"sandBoxMode\": false,\n  \"totalCartValue\": 31.9\n}",
+                  "raw": "{\n  \"reference\": \"618272\",\n  \"orderId\": \"1072430428324\",\n  \"shopperInteraction\": \"ecommerce\",\n  \"transactionId\": \"2F023FD5A72A49D48A8633252B7CCBD6\",\n  \"paymentId\": \"01693EB95BE443AC85874E395CD91565\",\n  \"paymentMethod\": \"Diners\",\n  \"paymentMethodCustomCode\": \"\",\n  \"merchantName\": \"mystore\",\n  \"value\": 31.9,\n  \"currency\": \"BRL\",\n  \"installments\": 1,\n  \"deviceFingerprint\": \"75076388\",\n  \"card\": {\n    \"holder\": \"John Doe\",\n    \"number\": \"364901****2661\",\n    \"csc\": \"***\",\n    \"expiration\": {\n      \"month\": \"12\",\n      \"year\": \"2020\"\n    },\n    \"holderToken\": \"#vtex#token#d799bae#csc#\",\n    \"bin\": \"364901\",\n    \"numberToken\": \"#vtex#token#d799bae#number#\",\n    \"numberLength\": 16,\n    \"cscToken\": \"#vtex#token#d799bae#csc#\",\n    \"cscLength\": 3,\n    \"document\": \"39295416023\"\n  },\n  \"miniCart\": {\n    \"shippingValue\": 1,\n    \"taxValue\": 0,\n    \"buyer\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"document\": \"01234567890\",\n      \"documentType\": \"cpf\",\n      \"email\": \"john.doe@example.com\",\n      \"phone\": \"+5521999999999\",\n      \"isCorporate\": false,\n      \"id\": \"c1245228-1c68-11e6-94ac-0afa86a846a5\",\n      \"corporateName\": \"VTEX\",\n      \"tradeName\": \"VTEX\",\n      \"corporateDocument\": \"123456789\",\n      \"createdDate\": \"2020-02-18T18:17:45\"\n    },\n    \"shippingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo St.\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"postalCode\": \"22250040\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"RJ\",\n      \"complement\": \"3rd Floor\"\n    },\n    \"billingAddress\": {\n      \"country\": \"BRA\",\n      \"street\": \"Brigadeiro Faria Lima Avenue\",\n      \"number\": \"4440\",\n      \"neighborhood\": \"Itaim Bibi\",\n      \"postalCode\": \"04538132\",\n      \"city\": \"São Paulo\",\n      \"state\": \"SP\",\n      \"complement\": \"10th Floor\"\n    },\n    \"items\": [\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      },\n      {\n        \"id\": \"8\",\n        \"name\": \"Tenis Preto I\",\n        \"price\": 30.9,\n        \"quantity\": 1,\n        \"discount\": 0,\n        \"deliveryType\": \"Normal\",\n        \"categoryId\": \"5\",\n        \"sellerId\": \"1\",\n        \"taxRate\": 0.05,\n        \"taxValue\": 1.54\n      }\n    ]\n  },\n  \"url\": \"https://admin.mystore.example.com/orders?q=1072430428324\",\n  \"callbackUrl\": \"https://coinshop.vtexpayments.com.br/payment-provider/transactions/900BA26FEAC84332A53AE1007E740DE3/payments/E713830E32764BF99028A0A275841BFC/notification\",\n  \"returnUrl\": \"https://mystore.example.com/checkout/order/1072430428324\",\n  \"verificationOnly\": false,\n  \"installmentsInterestRate\": 0,\n  \"installmentsValue\": 31.9,\n  \"ipAddress\": \"187.105.111.65\",\n  \"recipients\": {\n    \"id\": \"tempor\",\n    \"name\": \"in ut\",\n    \"documentType\": \"dolore\",\n    \"document\": \"proident non ea\",\n    \"role\": \"tempor veniam est\",\n    \"amount\": 92484581.43783882,\n    \"chargeProcessingFee\": false,\n    \"chargebackLiable\": false\n  },\n  \"merchantSettings\": [\n    {\n      \"name\": \"sunt ut\",\n      \"value\": \"Excepteur eu\"\n    },\n    {\n      \"name\": \"magna ex\",\n      \"value\": \"mollit Lorem\"\n    }\n  ],\n  \"inboundRequestUrl\": \"https://api.mystore.example.com/checkout/order/1072430428324/inbound-request/:action\",\n  \"secureProxyUrl\": \"sunt eu pariatur est tempor\",\n  \"sandBoxMode\": false,\n  \"totalCartValue\": 31.9\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -541,7 +541,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0c38840d-ad10-489d-b85d-d291f6de68b7",
+                "id": "a93fbe4c-d8fe-4188-94a9-76d77cd5c666",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/payments - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -567,7 +567,7 @@
           }
         },
         {
-          "id": "e288230a-a22e-4507-bc8d-357437dc00a0",
+          "id": "94787d28-404e-4761-9948-3fb46a49d1e0",
           "name": "Cancel Payment",
           "request": {
             "name": "Cancel Payment",
@@ -593,7 +593,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor mollit",
+                  "value": "do quis culpa Ut ea",
                   "key": "paymentId"
                 }
               ]
@@ -642,7 +642,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "db77aab1-e8e1-406f-809c-34ff88c74d96",
+              "id": "399c25e5-e3ad-4c0e-a1a7-75cec9dfbac3",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -662,7 +662,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -833,7 +833,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "cb223b87-15e4-4463-b10b-99d08aa43e88",
+              "id": "2a629761-98a3-42cf-afcb-5f2f4dbf0ed1",
               "name": "Internal Server Error",
               "originalRequest": {
                 "url": {
@@ -854,7 +854,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -935,7 +935,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "70f2da19-e6bb-49de-9bbf-509f3649117b",
+              "id": "a2338782-9fcf-4dc9-8e1e-c8a74d02bc49",
               "name": "Not Implemented",
               "originalRequest": {
                 "url": {
@@ -956,7 +956,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -1038,7 +1038,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3d93748c-0423-46e0-aeee-e3cf256d5cb7",
+                "id": "9b888efe-7fc8-4d48-9e0e-85645016352a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/payments/:paymentId/cancellations - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1064,7 +1064,7 @@
           }
         },
         {
-          "id": "a93a3d44-9b2e-4efd-b055-75095c40da28",
+          "id": "55296d62-c3e1-48a2-ac4b-a17fd38dafcd",
           "name": "Settle Payment",
           "request": {
             "name": "Settle Payment",
@@ -1090,7 +1090,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor mollit",
+                  "value": "do quis culpa Ut ea",
                   "key": "paymentId"
                 }
               ]
@@ -1126,7 +1126,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"transactionId\": \"sed in eiusmod nulla\",\n  \"requestId\": \"exercitation ullamco\",\n  \"paymentId\": \"tempor anim commodo aliquip\",\n  \"value\": -30795644.299370915,\n  \"authorizationId\": \"dolore Lorem in reprehenderit\",\n  \"tid\": \"amet dolore\",\n  \"recipients\": [\n    {\n      \"id\": \"aute tempor\",\n      \"name\": \"fugiat in ea\",\n      \"documentType\": \"dolor culpa et\",\n      \"document\": \"pariatur laboris\",\n      \"role\": \"in ut non\",\n      \"amount\": 89786268.56029713,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false,\n      \"commissionAmount\": -40556685.89878718\n    },\n    {\n      \"id\": \"qui cillum Lorem sunt\",\n      \"name\": \"aliquip voluptate\",\n      \"documentType\": \"do amet labore Lorem\",\n      \"document\": \"laborum sunt consequat officia\",\n      \"role\": \"quis consectetur\",\n      \"amount\": 34095077.228622735,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false,\n      \"commissionAmount\": 16251425.469210863\n    }\n  ],\n  \"sandboxMode\": true,\n  \"merchantSettings\": [\n    {\n      \"name\": \"occaecat pariatur\",\n      \"value\": \"do Excepteur\"\n    },\n    {\n      \"name\": \"sit tempor esse ullamco\",\n      \"value\": \"consequat\"\n    }\n  ]\n}",
+              "raw": "{\n  \"transactionId\": \"eu culpa commodo\",\n  \"requestId\": \"reprehend\",\n  \"paymentId\": \"aliquip mollit occaecat\",\n  \"value\": -75660701.24662279,\n  \"authorizationId\": \"labore nostrud culpa\",\n  \"tid\": \"minim ea voluptate non adipisici\",\n  \"recipients\": [\n    {\n      \"id\": \"nisi occaecat minim\",\n      \"name\": \"Ut nostrud\",\n      \"documentType\": \"in Ut magna qui\",\n      \"document\": \"dolore dolore anim irure\",\n      \"role\": \"eu ea enim est adipisicing\",\n      \"amount\": 41754686.81267923,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": false,\n      \"commissionAmount\": -31184324.179240525\n    },\n    {\n      \"id\": \"ut amet aliquip\",\n      \"name\": \"voluptate veniam\",\n      \"documentType\": \"cupidatat pariatur ipsum\",\n      \"document\": \"aliqua eiusmod\",\n      \"role\": \"id aliqua\",\n      \"amount\": 10935444.782147959,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": true,\n      \"commissionAmount\": 24841750.18758519\n    }\n  ],\n  \"sandboxMode\": true,\n  \"merchantSettings\": [\n    {\n      \"name\": \"quis elit nisi null\",\n      \"value\": \"aliqua adipisicing ex\"\n    },\n    {\n      \"name\": \"al\",\n      \"value\": \"ut inc\"\n    }\n  ]\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1139,7 +1139,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "2a5b2211-b070-4be0-a040-5f1f61cddac7",
+              "id": "8e11ca6f-3322-47e1-b32c-136cfab079a2",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1159,7 +1159,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -1217,7 +1217,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"transactionId\": \"nisi ad id\",\n  \"requestId\": \"ad do\",\n  \"paymentId\": \"enim irure minim nulla\",\n  \"value\": 42768599.692196935,\n  \"authorizationId\": \"nulla ut ex non in\",\n  \"tid\": \"anim nostrud commodo eiusmod\",\n  \"recipients\": [\n    {\n      \"id\": \"incididunt aliquip culpa\",\n      \"name\": \"ipsum\",\n      \"documentType\": \"Ut \",\n      \"document\": \"laborum\",\n      \"role\": \"sunt deserunt dolore\",\n      \"amount\": -649474.4692463726,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": true,\n      \"commissionAmount\": 82046290.19063115\n    },\n    {\n      \"id\": \"commodo\",\n      \"name\": \"dolore commodo irure\",\n      \"documentType\": \"est et in ea\",\n      \"document\": \"in esse irure cillum occaecat\",\n      \"role\": \"id Lorem cupidatat\",\n      \"amount\": -40347206.508764446,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false,\n      \"commissionAmount\": 12061632.829857454\n    }\n  ],\n  \"sandboxMode\": false,\n  \"merchantSettings\": [\n    {\n      \"name\": \"ex\",\n      \"value\": \"cupidatat proide\"\n    },\n    {\n      \"name\": \"adipisicing et ullamco\",\n      \"value\": \"ea\"\n    }\n  ]\n}",
+                  "raw": "{\n  \"transactionId\": \"ullamco id in\",\n  \"requestId\": \"non ipsum co\",\n  \"paymentId\": \"sunt aute Excepteur sint\",\n  \"value\": 55265232.70494938,\n  \"authorizationId\": \"sit sed quis non\",\n  \"tid\": \"sed reprehe\",\n  \"recipients\": [\n    {\n      \"id\": \"veniam\",\n      \"name\": \"adipisicing velit in qui\",\n      \"documentType\": \"ullamco cillum nu\",\n      \"document\": \"in exercitation sit aliquip eu\",\n      \"role\": \"tempor adipisicing incididunt qui est\",\n      \"amount\": 88328915.5350888,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false,\n      \"commissionAmount\": 91934681.41829172\n    },\n    {\n      \"id\": \"Excepteur cupidatat\",\n      \"name\": \"nulla\",\n      \"documentType\": \"nulla elit\",\n      \"document\": \"ad nostrud esse ea\",\n      \"role\": \"deserunt eu nulla\",\n      \"amount\": 7820853.489166662,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": true,\n      \"commissionAmount\": 80296434.31509516\n    }\n  ],\n  \"sandboxMode\": false,\n  \"merchantSettings\": [\n    {\n      \"name\": \"culpa ea commodo tempor\",\n      \"value\": \"sit non\"\n    },\n    {\n      \"name\": \"qui Duis\",\n      \"value\": \"aliqua\"\n    }\n  ]\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1330,7 +1330,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "d86fe34f-d177-4c3a-b9ca-f6d5dd2f954c",
+              "id": "a08f584a-8d1f-4d21-a992-5546c8126b6c",
               "name": "Internal Server Error",
               "originalRequest": {
                 "url": {
@@ -1351,7 +1351,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -1409,7 +1409,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"transactionId\": \"nisi ad id\",\n  \"requestId\": \"ad do\",\n  \"paymentId\": \"enim irure minim nulla\",\n  \"value\": 42768599.692196935,\n  \"authorizationId\": \"nulla ut ex non in\",\n  \"tid\": \"anim nostrud commodo eiusmod\",\n  \"recipients\": [\n    {\n      \"id\": \"incididunt aliquip culpa\",\n      \"name\": \"ipsum\",\n      \"documentType\": \"Ut \",\n      \"document\": \"laborum\",\n      \"role\": \"sunt deserunt dolore\",\n      \"amount\": -649474.4692463726,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": true,\n      \"commissionAmount\": 82046290.19063115\n    },\n    {\n      \"id\": \"commodo\",\n      \"name\": \"dolore commodo irure\",\n      \"documentType\": \"est et in ea\",\n      \"document\": \"in esse irure cillum occaecat\",\n      \"role\": \"id Lorem cupidatat\",\n      \"amount\": -40347206.508764446,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false,\n      \"commissionAmount\": 12061632.829857454\n    }\n  ],\n  \"sandboxMode\": false,\n  \"merchantSettings\": [\n    {\n      \"name\": \"ex\",\n      \"value\": \"cupidatat proide\"\n    },\n    {\n      \"name\": \"adipisicing et ullamco\",\n      \"value\": \"ea\"\n    }\n  ]\n}",
+                  "raw": "{\n  \"transactionId\": \"ullamco id in\",\n  \"requestId\": \"non ipsum co\",\n  \"paymentId\": \"sunt aute Excepteur sint\",\n  \"value\": 55265232.70494938,\n  \"authorizationId\": \"sit sed quis non\",\n  \"tid\": \"sed reprehe\",\n  \"recipients\": [\n    {\n      \"id\": \"veniam\",\n      \"name\": \"adipisicing velit in qui\",\n      \"documentType\": \"ullamco cillum nu\",\n      \"document\": \"in exercitation sit aliquip eu\",\n      \"role\": \"tempor adipisicing incididunt qui est\",\n      \"amount\": 88328915.5350888,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false,\n      \"commissionAmount\": 91934681.41829172\n    },\n    {\n      \"id\": \"Excepteur cupidatat\",\n      \"name\": \"nulla\",\n      \"documentType\": \"nulla elit\",\n      \"document\": \"ad nostrud esse ea\",\n      \"role\": \"deserunt eu nulla\",\n      \"amount\": 7820853.489166662,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": true,\n      \"commissionAmount\": 80296434.31509516\n    }\n  ],\n  \"sandboxMode\": false,\n  \"merchantSettings\": [\n    {\n      \"name\": \"culpa ea commodo tempor\",\n      \"value\": \"sit non\"\n    },\n    {\n      \"name\": \"qui Duis\",\n      \"value\": \"aliqua\"\n    }\n  ]\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1433,7 +1433,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "532870be-453f-4abf-aef2-da53ba8102a0",
+                "id": "e361b8ac-8ecb-4b1f-90d6-8bb6fffbc5e3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/payments/:paymentId/settlements - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1459,7 +1459,7 @@
           }
         },
         {
-          "id": "2bef8d32-63e3-4e0c-ad56-16977f64258a",
+          "id": "25830488-b403-4dbe-b6a5-d3efbd3a377c",
           "name": "Refund Payment",
           "request": {
             "name": "Refund Payment",
@@ -1485,7 +1485,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor mollit",
+                  "value": "do quis culpa Ut ea",
                   "key": "paymentId"
                 }
               ]
@@ -1521,7 +1521,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"requestId\": \"consectetur minim dolore\",\n  \"settleId\": \"ut irure\",\n  \"paymentId\": \"nulla irure consequat\",\n  \"tid\": \"ut Ut\",\n  \"value\": 61874129.41578364,\n  \"transactionId\": \"Duis\",\n  \"recipients\": [\n    {\n      \"id\": \"ut magna id\",\n      \"name\": \"ut enim est Excepteur\",\n      \"documentType\": \"deserunt labore minim sint ut\",\n      \"document\": \"\",\n      \"role\": \"nisi occaecat\",\n      \"amount\": 50460722.413915426,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": true\n    },\n    {\n      \"id\": \"anim veniam quis reprehenderit aliqua\",\n      \"name\": \"eiusmod et reprehenderit dolor velit\",\n      \"documentType\": \"Duis minim non\",\n      \"document\": \"sed in cupidatat nulla velit\",\n      \"role\": \"adipisicing consectetur exercitation\",\n      \"amount\": 2877356.2779394835,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": true\n    }\n  ],\n  \"sandboxMode\": false,\n  \"merchantSettings\": [\n    {\n      \"name\": \"elit anim dolor occaecat\",\n      \"value\": \"enim in\"\n    },\n    {\n      \"name\": \"tempor\",\n      \"value\": \"Ut eu anim mollit\"\n    }\n  ]\n}",
+              "raw": "{\n  \"requestId\": \"dolor incididunt amet\",\n  \"settleId\": \"amet elit est Lorem\",\n  \"paymentId\": \"ipsum velit id consectetur\",\n  \"tid\": \"amet commodo est\",\n  \"value\": -80171240.95815596,\n  \"transactionId\": \"ipsum laboris sed\",\n  \"recipients\": [\n    {\n      \"id\": \"consectetur sint nisi\",\n      \"name\": \"officia cupidatat\",\n      \"documentType\": \"ea do Excepteur dolor\",\n      \"document\": \"irure eiu\",\n      \"role\": \"qui minim aute eu velit\",\n      \"amount\": 97944073.59712997,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": true\n    },\n    {\n      \"id\": \"enim\",\n      \"name\": \"labore dolore ad ex\",\n      \"documentType\": \"tempor adipisicing in\",\n      \"document\": \"aute sint Excepteur consectetur\",\n      \"role\": \"adipisicing Lorem irure\",\n      \"amount\": 8014695.134354621,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": true\n    }\n  ],\n  \"sandboxMode\": true,\n  \"merchantSettings\": [\n    {\n      \"name\": \"elit dolor ea ullamco\",\n      \"value\": \"amet in adipis\"\n    },\n    {\n      \"name\": \"in aute non elit\",\n      \"value\": \"aute nostrud elit\"\n    }\n  ]\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1534,7 +1534,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "b650ae98-86c8-4946-bb6f-7e27f2cd9fa7",
+              "id": "63aa2f71-8a51-4cae-bd48-6686225efbe3",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1554,7 +1554,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -1612,7 +1612,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"requestId\": \"Excepteur in quis\",\n  \"settleId\": \"laborum pariatur\",\n  \"paymentId\": \"est\",\n  \"tid\": \"exercitation laborum cupidatat\",\n  \"value\": -55929568.11947918,\n  \"transactionId\": \"dolore\",\n  \"recipients\": [\n    {\n      \"id\": \"ad voluptate aliquip\",\n      \"name\": \"ullamco Duis sunt eu nisi\",\n      \"documentType\": \"irure\",\n      \"document\": \"sit sed\",\n      \"role\": \"mollit\",\n      \"amount\": -39493813.226899646,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false\n    },\n    {\n      \"id\": \"fugiat sunt\",\n      \"name\": \"nisi laborum\",\n      \"documentType\": \"magna aute officia dolore\",\n      \"document\": \"veniam tempor reprehenderit\",\n      \"role\": \"ut deserunt sunt\",\n      \"amount\": 29661997.59704855,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false\n    }\n  ],\n  \"sandboxMode\": false,\n  \"merchantSettings\": [\n    {\n      \"name\": \"est cupidatat\",\n      \"value\": \"eiusmod\"\n    },\n    {\n      \"name\": \"et minim\",\n      \"value\": \"id fugiat consectetur enim\"\n    }\n  ]\n}",
+                  "raw": "{\n  \"requestId\": \"veniam irure ea magna\",\n  \"settleId\": \"ullamco ad id\",\n  \"paymentId\": \"ullamco deserunt pariatur esse\",\n  \"tid\": \"est magna culpa\",\n  \"value\": 31265160.10114968,\n  \"transactionId\": \"in voluptate\",\n  \"recipients\": [\n    {\n      \"id\": \"laboris sed sit deserunt\",\n      \"name\": \"fugiat Duis commodo labore tempor\",\n      \"documentType\": \"culpa f\",\n      \"document\": \"elit Duis\",\n      \"role\": \"nulla dolor ut amet\",\n      \"amount\": -63373193.70700123,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": true\n    },\n    {\n      \"id\": \"laborum exercitation sit\",\n      \"name\": \"aute sit quis nisi dolore\",\n      \"documentType\": \"anim sit dolor\",\n      \"document\": \"ex pariatur dolore\",\n      \"role\": \"fugiat proident irure\",\n      \"amount\": -88843093.73508827,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": true\n    }\n  ],\n  \"sandboxMode\": true,\n  \"merchantSettings\": [\n    {\n      \"name\": \"exercitation Excepteur\",\n      \"value\": \"laboris fugiat sunt\"\n    },\n    {\n      \"name\": \"ad do velit dolor commodo\",\n      \"value\": \"elit id culp\"\n    }\n  ]\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1725,7 +1725,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "36e6a484-2ed7-4991-a948-b8980b74f78d",
+              "id": "507de57e-5431-40c5-935e-d29ef5705848",
               "name": "Internal Server Error",
               "originalRequest": {
                 "url": {
@@ -1746,7 +1746,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -1804,7 +1804,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"requestId\": \"Excepteur in quis\",\n  \"settleId\": \"laborum pariatur\",\n  \"paymentId\": \"est\",\n  \"tid\": \"exercitation laborum cupidatat\",\n  \"value\": -55929568.11947918,\n  \"transactionId\": \"dolore\",\n  \"recipients\": [\n    {\n      \"id\": \"ad voluptate aliquip\",\n      \"name\": \"ullamco Duis sunt eu nisi\",\n      \"documentType\": \"irure\",\n      \"document\": \"sit sed\",\n      \"role\": \"mollit\",\n      \"amount\": -39493813.226899646,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false\n    },\n    {\n      \"id\": \"fugiat sunt\",\n      \"name\": \"nisi laborum\",\n      \"documentType\": \"magna aute officia dolore\",\n      \"document\": \"veniam tempor reprehenderit\",\n      \"role\": \"ut deserunt sunt\",\n      \"amount\": 29661997.59704855,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false\n    }\n  ],\n  \"sandboxMode\": false,\n  \"merchantSettings\": [\n    {\n      \"name\": \"est cupidatat\",\n      \"value\": \"eiusmod\"\n    },\n    {\n      \"name\": \"et minim\",\n      \"value\": \"id fugiat consectetur enim\"\n    }\n  ]\n}",
+                  "raw": "{\n  \"requestId\": \"veniam irure ea magna\",\n  \"settleId\": \"ullamco ad id\",\n  \"paymentId\": \"ullamco deserunt pariatur esse\",\n  \"tid\": \"est magna culpa\",\n  \"value\": 31265160.10114968,\n  \"transactionId\": \"in voluptate\",\n  \"recipients\": [\n    {\n      \"id\": \"laboris sed sit deserunt\",\n      \"name\": \"fugiat Duis commodo labore tempor\",\n      \"documentType\": \"culpa f\",\n      \"document\": \"elit Duis\",\n      \"role\": \"nulla dolor ut amet\",\n      \"amount\": -63373193.70700123,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": true\n    },\n    {\n      \"id\": \"laborum exercitation sit\",\n      \"name\": \"aute sit quis nisi dolore\",\n      \"documentType\": \"anim sit dolor\",\n      \"document\": \"ex pariatur dolore\",\n      \"role\": \"fugiat proident irure\",\n      \"amount\": -88843093.73508827,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": true\n    }\n  ],\n  \"sandboxMode\": true,\n  \"merchantSettings\": [\n    {\n      \"name\": \"exercitation Excepteur\",\n      \"value\": \"laboris fugiat sunt\"\n    },\n    {\n      \"name\": \"ad do velit dolor commodo\",\n      \"value\": \"elit id culp\"\n    }\n  ]\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1827,7 +1827,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e9f2503b-7314-463d-a803-dbd9e85e046b",
+              "id": "aa6c7f2c-a54c-4af0-997e-ca874939774a",
               "name": "Not Implemented",
               "originalRequest": {
                 "url": {
@@ -1848,7 +1848,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -1906,7 +1906,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"requestId\": \"Excepteur in quis\",\n  \"settleId\": \"laborum pariatur\",\n  \"paymentId\": \"est\",\n  \"tid\": \"exercitation laborum cupidatat\",\n  \"value\": -55929568.11947918,\n  \"transactionId\": \"dolore\",\n  \"recipients\": [\n    {\n      \"id\": \"ad voluptate aliquip\",\n      \"name\": \"ullamco Duis sunt eu nisi\",\n      \"documentType\": \"irure\",\n      \"document\": \"sit sed\",\n      \"role\": \"mollit\",\n      \"amount\": -39493813.226899646,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false\n    },\n    {\n      \"id\": \"fugiat sunt\",\n      \"name\": \"nisi laborum\",\n      \"documentType\": \"magna aute officia dolore\",\n      \"document\": \"veniam tempor reprehenderit\",\n      \"role\": \"ut deserunt sunt\",\n      \"amount\": 29661997.59704855,\n      \"chargeProcessingFee\": true,\n      \"chargebackLiable\": false\n    }\n  ],\n  \"sandboxMode\": false,\n  \"merchantSettings\": [\n    {\n      \"name\": \"est cupidatat\",\n      \"value\": \"eiusmod\"\n    },\n    {\n      \"name\": \"et minim\",\n      \"value\": \"id fugiat consectetur enim\"\n    }\n  ]\n}",
+                  "raw": "{\n  \"requestId\": \"veniam irure ea magna\",\n  \"settleId\": \"ullamco ad id\",\n  \"paymentId\": \"ullamco deserunt pariatur esse\",\n  \"tid\": \"est magna culpa\",\n  \"value\": 31265160.10114968,\n  \"transactionId\": \"in voluptate\",\n  \"recipients\": [\n    {\n      \"id\": \"laboris sed sit deserunt\",\n      \"name\": \"fugiat Duis commodo labore tempor\",\n      \"documentType\": \"culpa f\",\n      \"document\": \"elit Duis\",\n      \"role\": \"nulla dolor ut amet\",\n      \"amount\": -63373193.70700123,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": true\n    },\n    {\n      \"id\": \"laborum exercitation sit\",\n      \"name\": \"aute sit quis nisi dolore\",\n      \"documentType\": \"anim sit dolor\",\n      \"document\": \"ex pariatur dolore\",\n      \"role\": \"fugiat proident irure\",\n      \"amount\": -88843093.73508827,\n      \"chargeProcessingFee\": false,\n      \"chargebackLiable\": true\n    }\n  ],\n  \"sandboxMode\": true,\n  \"merchantSettings\": [\n    {\n      \"name\": \"exercitation Excepteur\",\n      \"value\": \"laboris fugiat sunt\"\n    },\n    {\n      \"name\": \"ad do velit dolor commodo\",\n      \"value\": \"elit id culp\"\n    }\n  ]\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1930,7 +1930,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "41c7ec47-c45f-435f-9075-c43716a27fb2",
+                "id": "bd76c2f7-a9a7-4995-bbb8-079404b26517",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/payments/:paymentId/refunds - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1956,7 +1956,7 @@
           }
         },
         {
-          "id": "47f03f7a-35bd-444a-aa04-0e410d71f3e8",
+          "id": "ba9b7297-ff9a-4ea1-bde1-08f37148b7b2",
           "name": "Inbound Request (BETA)",
           "request": {
             "name": "Inbound Request (BETA)",
@@ -1993,7 +1993,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor mollit",
+                  "value": "do quis culpa Ut ea",
                   "key": "paymentId"
                 }
               ]
@@ -2042,7 +2042,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "80d1343f-8741-43e0-9af0-36e12e282874",
+              "id": "08dd18c2-1d30-46cb-9c4d-76527a6ef8d4",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2073,7 +2073,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor mollit",
+                      "value": "do quis culpa Ut ea",
                       "key": "paymentId"
                     }
                   ]
@@ -2155,7 +2155,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "61c8a310-38f4-4afc-bcc5-abb937f39c29",
+                "id": "f0a992c0-681f-4e8e-9600-5b97f35f232a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/payments/:paymentId/inbound-request/:action - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2174,7 +2174,7 @@
       "event": []
     },
     {
-      "id": "8ed2b1e3-4c05-4cb3-9f0d-f7dff00e4bb0",
+      "id": "0cf8df70-1596-4564-af22-49a3de18206d",
       "name": "Configuration Flow",
       "description": {
         "content": "Here we describe each operation you need to implement to enable the optional configuration flow.\n\nThis is an easier way to allow VTEX merchants to enable your connector, and be ready to use it without having to copy/paste any credentials (`AppKey`/`AppToken`).",
@@ -2182,7 +2182,7 @@
       },
       "item": [
         {
-          "id": "bc97bb0b-8a9e-4f6c-be43-732b8d39f3af",
+          "id": "c57e0b7e-020f-4df5-9d45-38b57dc59b47",
           "name": "Create Authorization Token",
           "request": {
             "name": "Create Authorization Token",
@@ -2227,7 +2227,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a33d9029-49de-4430-b64c-8033e41de790",
+              "id": "b29b4258-5cd3-4d9f-98f8-2c9bab13552b",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2389,7 +2389,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "da4b30a3-54cb-4295-badc-ff9a16de406f",
+                "id": "2bf64b09-eaed-45b2-bd10-aed603082af7",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/authorization/token - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2415,7 +2415,7 @@
           }
         },
         {
-          "id": "6d153943-7f50-4142-8874-b7d4d4970c4f",
+          "id": "dbea336a-91b7-47ed-9ca5-4f82c9b18268",
           "name": "Provider Authentication",
           "request": {
             "name": "Provider Authentication",
@@ -2460,7 +2460,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "71cbec96-9893-46bd-a40b-526e061be425",
+              "id": "fe1c5dfd-3850-4cc2-a037-fad2de3a73ed",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2529,7 +2529,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "69ee2b91-109b-4617-9061-a2d7be14c3b8",
+                "id": "d42d2fb6-2833-4481-aed8-b0717f9644f6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/authorization/redirect - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2542,7 +2542,7 @@
           }
         },
         {
-          "id": "23af6000-f558-48d2-acd6-6d91530350d6",
+          "id": "b082ec30-b080-43c7-8dac-7d0df1672e08",
           "name": "Get Credentials",
           "request": {
             "name": "Get Credentials",
@@ -2593,7 +2593,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "b2fe9c8d-7a9e-4279-8f57-7e87e2bea587",
+              "id": "492b3e99-4a5f-4200-b93e-74ea7e77d12a",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2756,7 +2756,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "55d7e393-84f2-43a3-952a-c07eaddb08f4",
+                "id": "724c6968-af80-4deb-9f94-52d9d8bec4ba",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/authorization/credentials - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2814,7 +2814,7 @@
     }
   ],
   "info": {
-    "_postman_id": "1a438b9c-127f-4988-9e2b-4edd881a0f41",
+    "_postman_id": "e3c5332c-bb4f-48c9-914b-3bdc237818d5",
     "name": "Payment Provider Protocol",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

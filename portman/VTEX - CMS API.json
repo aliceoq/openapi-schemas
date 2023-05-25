@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "0de5d73c-3c06-4e80-96ac-af27fd550ac8"
+    "postman_id": "f954919a-865a-49f8-bba4-287c160ea2ad"
   },
   "item": [
     {
-      "id": "ef7c69d2-b69b-4ebb-a906-ba6d187dd3c7",
+      "id": "8d40c6ba-d6eb-45f1-bac3-1ff0f9df12f6",
       "name": "Change URI Schema",
       "description": {
         "content": "Changes CMS URI",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "c120b48d-94bb-460a-9604-8e5d6c7cbb52",
+          "id": "e9b0c6b9-8c9c-482d-8d73-314236f02a15",
           "name": "Update all account's websites internet communication protocol",
           "request": {
             "name": "Update all account's websites internet communication protocol",
@@ -77,7 +77,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "537d3354-cf23-4015-ad18-3f62a3de127f",
+              "id": "98e61d4e-4d65-4931-aad4-0fe3341907e7",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -175,7 +175,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7540dd6d-8a61-4d59-9469-14a5a31fff7d",
+                "id": "b1bb1061-0d70-4663-b1b8-444c8a862a1d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/changeurischema/:protocol - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -191,7 +191,7 @@
           }
         },
         {
-          "id": "c54e939e-04eb-4e17-99cc-9d9bbbae5a67",
+          "id": "0a133bf6-2190-4456-86a9-68fc094b5c77",
           "name": "Update specific website comunication protocol",
           "request": {
             "name": "Update specific website comunication protocol",
@@ -268,7 +268,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e7455b89-a372-4551-b798-6565c8676847",
+              "id": "fab4cb77-347f-4c90-965b-bf393a94251b",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -378,7 +378,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "24246ac3-8705-47b1-bd51-32fcfe131657",
+                "id": "7a489256-bde0-42cb-ad55-f24be657c1cf",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/catalog_system/pvt/virtualfolder/site/:websiteId/changeurischema/:protocol - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -444,7 +444,7 @@
     }
   ],
   "info": {
-    "_postman_id": "0de5d73c-3c06-4e80-96ac-af27fd550ac8",
+    "_postman_id": "f954919a-865a-49f8-bba4-287c160ea2ad",
     "name": "CMS API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

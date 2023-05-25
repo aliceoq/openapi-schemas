@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "40dbb710-ef15-42d9-b586-5bc0a020cc47"
+    "postman_id": "ab123e6c-0925-44ed-87ec-31ab432c7d06"
   },
   "item": [
     {
-      "id": "07e37ba0-503c-435d-b5a6-2c1f84936ad2",
+      "id": "b0eab908-f806-4211-b971-9e7e8770f518",
       "name": "Note",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "88c64b7b-8f98-43c1-8bfc-0d796c13baf9",
+          "id": "699ab755-c6e9-42dc-893d-3221b89d60ef",
           "name": "Create Note",
           "request": {
             "name": "Create Note",
@@ -75,7 +75,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "77e9335d-98f6-4c16-9d47-acc17584d7d6",
+              "id": "cce9c5dc-7788-4c63-b7e6-a8a8a2f8064f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -166,7 +166,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7d38a9a7-c696-430a-9eca-b3cdc2498e6d",
+                "id": "304c9e54-e99c-4b11-a9ff-c415077c579f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/notes - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -182,7 +182,7 @@
           }
         },
         {
-          "id": "316cd826-c1dc-4882-a2c3-6682f2211eb6",
+          "id": "f970a6c4-41e2-49ac-a299-d4eb8da2998a",
           "name": "Get Notes by orderId",
           "request": {
             "name": "Get Notes by orderId",
@@ -269,7 +269,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "19b93363-4e01-4951-a8bd-802e94920503",
+              "id": "b25b2e9c-e9c5-454a-aafe-1bbe7d817c61",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -369,7 +369,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "035d4b81-9541-4b3a-95fa-6697dc24a16f",
+                "id": "d8d54ba7-5260-4b23-9cef-589ccce0866b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/notes - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -385,7 +385,7 @@
           }
         },
         {
-          "id": "24e6cc77-c8d4-4230-ba1a-f393a0be04db",
+          "id": "f9de8d07-e0de-40df-9741-cf410f24021d",
           "name": "Retrieve Note",
           "request": {
             "name": "Retrieve Note",
@@ -456,7 +456,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7eabc681-0310-4d07-a723-34691737d414",
+              "id": "d1f25eb7-3fba-4576-aab7-ff406ea1bef6",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -555,7 +555,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4a5cfd98-1fb2-4688-a730-8fefafa27269",
+                "id": "fd8e1319-3196-40eb-95c0-b14c9c552678",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/notes/:noteId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -574,7 +574,7 @@
       "event": []
     },
     {
-      "id": "0399a9ed-f8be-4c1c-addd-58634600db06",
+      "id": "a8794127-5ed2-4502-831f-50cb41848b5b",
       "name": "Task",
       "description": {
         "content": "",
@@ -582,7 +582,7 @@
       },
       "item": [
         {
-          "id": "b7c77f77-d6b7-4161-ad33-cf11ac17b7c1",
+          "id": "b220ee6b-3bf9-4ea7-b8d0-c07f6ac55d07",
           "name": "Create Task",
           "request": {
             "name": "Create Task",
@@ -645,7 +645,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a3efdff8-74b4-4470-8e09-7ca072d76bc6",
+              "id": "e5b9cf0b-fce2-4c15-a5d9-f801afe71ecd",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -736,7 +736,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b68efb08-919d-4ff1-ab7e-61a13802a0a2",
+                "id": "b41dec9d-f289-4ba0-8d21-970e798dc633",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/tasks - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -752,7 +752,7 @@
           }
         },
         {
-          "id": "074818a3-f88b-43b0-99d1-b36ccffee4f9",
+          "id": "f9b1f462-4933-494f-b8bb-794a86291ce6",
           "name": "List tasks",
           "request": {
             "name": "List tasks",
@@ -857,7 +857,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9f00fbc9-7fc6-46f0-bf53-b3e7c5d5db28",
+              "id": "bc297bd5-b8e0-4fe9-bf56-59dcabb63742",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -965,7 +965,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ad2a6d58-bcc9-44e5-a58c-814d7dcb1e13",
+                "id": "cdbbd9da-342c-4288-a725-57cfb566d330",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/tasks - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -981,7 +981,7 @@
           }
         },
         {
-          "id": "b66789d6-566f-4c05-a3a5-69a3635fac18",
+          "id": "92c863c1-2155-4a76-9e7b-a329827e4199",
           "name": "Retrieve Task",
           "request": {
             "name": "Retrieve Task",
@@ -1042,7 +1042,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e728ed3d-5da4-4649-9800-a8a75ee1bcd8",
+              "id": "7a4a921c-8aae-4b51-85f5-c3e20c714024",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1136,7 +1136,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8724a8b8-5ae3-4864-9048-75d8fcc2956d",
+                "id": "38b552ed-5c96-4f2d-bd17-f3071c8587bb",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/tasks/:taskId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1152,7 +1152,7 @@
           }
         },
         {
-          "id": "89f3ea65-848a-41ba-bd71-c58bd057c209",
+          "id": "a26ed112-4fb7-4afa-a862-1c62c06b27aa",
           "name": "Update Task",
           "request": {
             "name": "Update Task",
@@ -1226,7 +1226,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "2d9ec6c1-b629-426a-b0c5-f20552d09689",
+              "id": "382faa32-b141-426a-9512-db13bc5d0096",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1328,7 +1328,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d8f24377-3aed-463f-a697-8ff59e5d9044",
+                "id": "1a71c63c-4902-4c0f-b2a0-601000214d89",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/tasks/:taskId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1344,7 +1344,7 @@
           }
         },
         {
-          "id": "aa4da713-9adf-448f-8097-c47f0ddfc5a3",
+          "id": "d37c4ca2-031c-468e-9b4b-4e16b6f01117",
           "name": "Add Comment on a Task",
           "request": {
             "name": "Add Comment on a Task",
@@ -1419,7 +1419,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "aa23fee4-ca00-4a70-ac1e-e8be00874493",
+              "id": "0f3ae807-3dcc-4f38-b775-8d467b9bb805",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1522,7 +1522,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0fde47d8-67d9-49b0-a7aa-45dfef0d4f99",
+                "id": "8f7b2a60-32f6-4f2e-939c-0ec780629f73",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/tasks/:taskId/comments - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1588,7 +1588,7 @@
     }
   ],
   "info": {
-    "_postman_id": "40dbb710-ef15-42d9-b586-5bc0a020cc47",
+    "_postman_id": "ab123e6c-0925-44ed-87ec-31ab432c7d06",
     "name": "VTEX Do API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

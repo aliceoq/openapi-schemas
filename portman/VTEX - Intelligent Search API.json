@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "e3da99ae-43ed-48e6-b3b2-ca54b9bca1ea"
+    "postman_id": "0d5234cd-f303-4429-bc48-c2a88e0b80d7"
   },
   "item": [
     {
-      "id": "ced90c1a-9ba1-4898-8fe7-379ef82d15fc",
+      "id": "48c88c10-ebe4-4236-96a2-c9723e23e792",
       "name": "Autocomplete",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "083cbef6-40a8-43b9-942f-1b490a12d5b6",
+          "id": "aa7b005d-6bd8-4086-b0eb-fab6753a911f",
           "name": "Get list of the 10 most searched terms",
           "request": {
             "name": "Get list of the 10 most searched terms",
@@ -63,7 +63,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "16795c1d-4222-4cf1-9537-abc722f32589",
+              "id": "42fd5c7e-b057-4086-9b96-40e943f06bff",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -115,7 +115,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "356828cb-d6ca-46b7-be53-7af403040ebf",
+              "id": "9e50a620-ab44-4966-a758-00ec860571e7",
               "name": "Server error.",
               "originalRequest": {
                 "url": {
@@ -160,7 +160,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"stack\": \"deserunt eu magna esse\",\n  \"message\": \"ea\"\n}",
+              "body": "{\n  \"stack\": \"fugiat\",\n  \"message\": \"nostrud officia\"\n}",
               "cookie": []
             }
           ],
@@ -168,7 +168,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5ab59147-67d2-40e6-b0a3-5e3cf03eae58",
+                "id": "1a81993a-d18f-4144-bacf-d55cd545bad6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/top_searches - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -184,7 +184,7 @@
           }
         },
         {
-          "id": "62cc886f-d023-49c5-a128-4381e97c9905",
+          "id": "2180fc1a-562b-4673-aeb2-43c5b1ae2192",
           "name": "Get list of suggested terms and attributes similar to the search term",
           "request": {
             "name": "Get list of suggested terms and attributes similar to the search term",
@@ -244,7 +244,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ba5f393a-6152-4747-8f9a-2f39d71a6d35",
+              "id": "945fd2ce-b867-4eaf-a758-e0775e1c3384",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -293,14 +293,14 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"searches\": [\n    {\n      \"term\": \"sit ex\",\n      \"count\": -89053596.72450083,\n      \"attributes\": [\n        {\n          \"key\": \"labore ea laborum occaecat\",\n          \"value\": \"Ut elit Duis\",\n          \"labelKey\": \"sint cillum\",\n          \"labelValue\": \"mollit\"\n        },\n        {\n          \"key\": \"in sunt commodo Ut\",\n          \"value\": \"cupidatat non do\",\n          \"labelKey\": \"fugiat pariatur commodo nulla\",\n          \"labelValue\": \"incididunt commodo\"\n        }\n      ]\n    },\n    {\n      \"term\": \"Excepteur in Duis sed aliqua\",\n      \"count\": 8458241.539870396,\n      \"attributes\": [\n        {\n          \"key\": \"consectetur proi\",\n          \"value\": \"laborum voluptate velit amet\",\n          \"labelKey\": \"ut in esse\",\n          \"labelValue\": \"ut amet do Duis\"\n        },\n        {\n          \"key\": \"commodo quis\",\n          \"value\": \"aute veniam ut ex\",\n          \"labelKey\": \"amet veniam fugiat\",\n          \"labelValue\": \"Duis ipsum irure\"\n        }\n      ]\n    }\n  ]\n}",
+              "body": "{\n  \"searches\": [\n    {\n      \"term\": \"pariatur cupidatat mollit et\",\n      \"count\": 8949222.093869701,\n      \"attributes\": [\n        {\n          \"key\": \"Ut occaecat ut\",\n          \"value\": \"Ut cupidatat fugiat et\",\n          \"labelKey\": \"amet adipisicing dol\",\n          \"labelValue\": \"cillum Lorem\"\n        },\n        {\n          \"key\": \"ut Duis anim aliq\",\n          \"value\": \"incididunt esse nulla commodo et\",\n          \"labelKey\": \"in nisi\",\n          \"labelValue\": \"anim quis non\"\n        }\n      ]\n    },\n    {\n      \"term\": \"incididunt culpa amet dolore dolor\",\n      \"count\": 21013827.981686622,\n      \"attributes\": [\n        {\n          \"key\": \"nulla ex labore Excepteur\",\n          \"value\": \"esse ea deserunt\",\n          \"labelKey\": \"commodo sint ut Ut laborum\",\n          \"labelValue\": \"eu enim tempor nulla\"\n        },\n        {\n          \"key\": \"Excepteur exercitation sunt in dolor\",\n          \"value\": \"sed mi\",\n          \"labelKey\": \"ad\",\n          \"labelValue\": \"ea sed\"\n        }\n      ]\n    }\n  ]\n}",
               "cookie": []
             },
             {
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "66f341ae-dd3e-4e00-aedf-a0c2e1090d5e",
+              "id": "99ccb1a6-604e-429d-b8d2-dbbb4786bdee",
               "name": "Server error.",
               "originalRequest": {
                 "url": {
@@ -349,7 +349,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"stack\": \"deserunt eu magna esse\",\n  \"message\": \"ea\"\n}",
+              "body": "{\n  \"stack\": \"fugiat\",\n  \"message\": \"nostrud officia\"\n}",
               "cookie": []
             }
           ],
@@ -357,7 +357,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "55eb4abc-be92-44f0-9a64-60c5822d0582",
+                "id": "7175a979-e71e-4941-bce6-a10fb68fe78e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/autocomplete_suggestions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -376,7 +376,7 @@
       "event": []
     },
     {
-      "id": "ea98da37-40ac-4931-b0cc-eb9271e0c044",
+      "id": "e4dd9b37-1869-460b-9aa7-e250f19256ae",
       "name": "Product List Page",
       "description": {
         "content": "",
@@ -384,7 +384,7 @@
       },
       "item": [
         {
-          "id": "47dabdf0-fdea-407f-945e-12b9fa375cff",
+          "id": "687a68dc-9491-45f0-b150-2ebf78d50f2d",
           "name": "Get attempt of correction of a misspelled term",
           "request": {
             "name": "Get attempt of correction of a misspelled term",
@@ -444,7 +444,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a71b19bb-1fa0-4f8b-bb63-120fc63dfebb",
+              "id": "d97795de-eae0-48b0-8693-22b1c4777cf9",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -501,7 +501,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "96ef8002-3158-4c35-b11d-fb86fb1a0e41",
+                "id": "b4e3043a-9943-44ab-838b-203da4c9a68e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/correction_search - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -517,7 +517,7 @@
           }
         },
         {
-          "id": "83534208-c4e6-4da0-b47a-5b3ffd5d6508",
+          "id": "1c7ca3f8-16ab-48cf-a667-5f93500abc09",
           "name": "Get list of banners registered for query",
           "request": {
             "name": "Get list of banners registered for query",
@@ -588,7 +588,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "40d2ea3b-cd21-46ab-a565-235fa1883ed8",
+              "id": "4a59c2a0-13be-4acd-b058-72580281061d",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -656,7 +656,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9de1d421-9381-49d5-a814-571289245d3d",
+                "id": "6b34f182-2b7c-4488-b6d7-61337ac67d9b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/banners/:facets - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -672,7 +672,7 @@
           }
         },
         {
-          "id": "31bcce5e-1bc4-4ac3-abcc-50ddef84c5d0",
+          "id": "dd3f4141-95b7-49e1-b95c-eb8334a9541f",
           "name": "Get list of suggested terms similar to the search term",
           "request": {
             "name": "Get list of suggested terms similar to the search term",
@@ -732,7 +732,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "4945db06-a999-4f49-ad0f-e1bcd74b0780",
+              "id": "db3ce832-7767-4114-9175-3e74dba47fcd",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -781,14 +781,14 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"searches\": [\n    {\n      \"term\": \"ea u\",\n      \"count\": 60952218.77835587\n    },\n    {\n      \"term\": \"Excepteur sunt\",\n      \"count\": 74464908.63176408\n    }\n  ]\n}",
+              "body": "{\n  \"searches\": [\n    {\n      \"term\": \"esse officia ipsum ad\",\n      \"count\": -39640292.77634862\n    },\n    {\n      \"term\": \"in in\",\n      \"count\": -17049941.551994115\n    }\n  ]\n}",
               "cookie": []
             },
             {
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "374d8293-347f-4d67-b0b9-f7b79ed2ba59",
+              "id": "93d6b815-5039-4947-8c4d-bd8c20afe0c6",
               "name": "Server error.",
               "originalRequest": {
                 "url": {
@@ -837,7 +837,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"stack\": \"deserunt eu magna esse\",\n  \"message\": \"ea\"\n}",
+              "body": "{\n  \"stack\": \"fugiat\",\n  \"message\": \"nostrud officia\"\n}",
               "cookie": []
             }
           ],
@@ -845,7 +845,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c4ecf87c-fc02-4ede-84bd-317b6238d233",
+                "id": "66bca4c3-f225-4737-997f-69bf35329129",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/search_suggestions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -861,7 +861,7 @@
           }
         },
         {
-          "id": "280bae67-c5c9-40f1-b731-b5cfbd70e5a5",
+          "id": "88a0f3c1-e7ab-4d9f-a1f7-216172d3a18b",
           "name": "Get list of products for a query",
           "request": {
             "name": "Get list of products for a query",
@@ -977,7 +977,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "557d02d3-7d27-406a-80ac-88b528d1a23c",
+              "id": "44f5ec6f-b31b-4743-8e44-8c64f4301dda",
               "name": "List of products for the given query.",
               "originalRequest": {
                 "url": {
@@ -1065,7 +1065,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "53bff554-eb0d-40ec-9828-17ded87d6366",
+                "id": "361b7196-a6ce-4a5c-8fe0-baa7232c919a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/product_search/:facets - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1081,7 +1081,7 @@
           }
         },
         {
-          "id": "5c7ef13e-5b03-4d9b-8fc4-bb997c750306",
+          "id": "503dc6df-1d17-40bf-9d5a-77b202c58057",
           "name": "Get list of the possible facets for a given query",
           "request": {
             "name": "Get list of the possible facets for a given query",
@@ -1161,7 +1161,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "91eb5a15-6ec2-4a39-910e-cc8d7cbbb9de",
+              "id": "dd756b58-84b5-45e0-967c-0fd3f2e69d61",
               "name": "List of facets for the given query.",
               "originalRequest": {
                 "url": {
@@ -1225,7 +1225,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"facets\": [\n    {\n      \"type\": \"PRICERANGE\",\n      \"name\": \"laborum do occaecat\",\n      \"hidden\": false,\n      \"quantity\": 54753821.29810646,\n      \"values\": [\n        {\n          \"id\": \"dolor minim laborum\",\n          \"quantity\": 57216873.242236584,\n          \"name\": \"est mi\",\n          \"key\": \"esse eiusm\",\n          \"value\": \"ea sit\",\n          \"selected\": false\n        },\n        {\n          \"id\": \"eiusmod cupidatat deserunt\",\n          \"quantity\": -66171330.706123576,\n          \"name\": \"esse Ut consectetur\",\n          \"key\": \"qui proident\",\n          \"value\": \"id reprehenderit\",\n          \"selected\": true\n        }\n      ]\n    },\n    {\n      \"type\": \"TEXT\",\n      \"name\": \"laboris\",\n      \"hidden\": false,\n      \"quantity\": 17477720.98740667,\n      \"values\": [\n        {\n          \"id\": \"culpa Lorem dolor in in\",\n          \"quantity\": -46900382.625872485,\n          \"name\": \"sit\",\n          \"key\": \"aliquip\",\n          \"value\": \"ullamco Ut\",\n          \"selected\": false\n        },\n        {\n          \"id\": \"qui consequat\",\n          \"quantity\": -42458712.0462792,\n          \"name\": \"Ut qui proident\",\n          \"key\": \"aliquip\",\n          \"value\": \"occaeca\",\n          \"selected\": true\n        }\n      ]\n    }\n  ],\n  \"sampling\": true,\n  \"breadcrumb\": [\n    {\n      \"name\": \"est nostrud adipisicing reprehenderit\",\n      \"href\": \"aliqua exercitation\"\n    },\n    {\n      \"name\": \"esse aute ipsum sit nisi\",\n      \"href\": \"Lorem sunt\"\n    }\n  ],\n  \"queryArgs\": {\n    \"query\": \"aliquip sint occaecat\",\n    \"selectedFacets\": [\n      {\n        \"key\": \"nulla aliquip irure minim\",\n        \"value\": \"des\"\n      },\n      {\n        \"key\": \"in\",\n        \"value\": \"Lorem non in nost\"\n      }\n    ]\n  }\n}",
+              "body": "{\n  \"facets\": [\n    {\n      \"type\": \"TEXT\",\n      \"name\": \"ea laborum consequat Excepteur pariatur\",\n      \"hidden\": false,\n      \"quantity\": -72749404.81444746,\n      \"values\": [\n        {\n          \"id\": \"amet Duis in veniam\",\n          \"quantity\": 86276485.44671088,\n          \"name\": \"eiusmod velit\",\n          \"key\": \"do Lorem\",\n          \"value\": \"dolor in velit cupidatat ea\",\n          \"selected\": true\n        },\n        {\n          \"id\": \"esse qui sint\",\n          \"quantity\": 66440214.0709866,\n          \"name\": \"proident sed\",\n          \"key\": \"elit dolore\",\n          \"value\": \"do\",\n          \"selected\": true\n        }\n      ]\n    },\n    {\n      \"type\": \"PRICERANGE\",\n      \"name\": \"pariatur in ullamco\",\n      \"hidden\": true,\n      \"quantity\": 56206408.48134753,\n      \"values\": [\n        {\n          \"id\": \"reprehenderit nulla deserunt\",\n          \"quantity\": 41122455.269084185,\n          \"name\": \"ipsum irure sint officia consequat\",\n          \"key\": \"dolore\",\n          \"value\": \"adipisici\",\n          \"selected\": true\n        },\n        {\n          \"id\": \"irure dolor in in\",\n          \"quantity\": 36193239.91643709,\n          \"name\": \"cupidatat laboris\",\n          \"key\": \"qui consequat ipsum aliquip\",\n          \"value\": \"laboris adipisicing in voluptate et\",\n          \"selected\": true\n        }\n      ]\n    }\n  ],\n  \"sampling\": false,\n  \"breadcrumb\": [\n    {\n      \"name\": \"ea Ut\",\n      \"href\": \"occae\"\n    },\n    {\n      \"name\": \"culpa aliqua labore\",\n      \"href\": \"tempor ut Lorem\"\n    }\n  ],\n  \"queryArgs\": {\n    \"query\": \"sunt labore Duis culpa id\",\n    \"selectedFacets\": [\n      {\n        \"key\": \"et\",\n        \"value\": \"culpa ut Lorem\"\n      },\n      {\n        \"key\": \"amet sint enim laboris\",\n        \"value\": \"Ut ex\"\n      }\n    ]\n  }\n}",
               "cookie": []
             }
           ],
@@ -1233,7 +1233,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "59cf8f02-6d4f-4f23-bcb1-6ac28376a874",
+                "id": "82017cf3-13dd-4ba7-a23b-d69ca41da5e6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/facets/:facets - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1270,7 +1270,7 @@
     }
   ],
   "info": {
-    "_postman_id": "e3da99ae-43ed-48e6-b3b2-ca54b9bca1ea",
+    "_postman_id": "0d5234cd-f303-4429-bc48-c2a88e0b80d7",
     "name": "Intelligent Search API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

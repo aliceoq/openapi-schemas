@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "1f693c19-0176-4887-96f2-2e28325df9e8"
+    "postman_id": "eeeec30f-dfb3-432e-8b1a-169279d14ec6"
   },
   "item": [
     {
-      "id": "b586bb2c-5159-4487-b2d3-ba2d50be75be",
+      "id": "beae8f0f-6958-4e1e-86f0-15de56dcf983",
       "name": "Scheduled Delivery",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "f16c23e8-7118-43f3-b401-09db6682149e",
+          "id": "d2611602-2a7f-440d-982b-d21862cc92e1",
           "name": "Retrieve blocked delivery windows",
           "request": {
             "name": "Retrieve blocked delivery windows",
@@ -42,7 +42,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "carrierId"
                 },
                 {
@@ -72,7 +72,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "8955616a-7d73-4397-9c85-6fcb879d750f",
+              "id": "e3291ae3-097a-4ff3-8a5b-48b904dd7389",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -97,7 +97,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "carrierId"
                     },
                     {
@@ -167,7 +167,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e91a055e-4f26-4d56-b994-62298b8b35e5",
+                "id": "baf26916-8640-49c2-a424-6e968acda230",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/carriers/:carrierId/getdayofweekblocked - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -180,7 +180,7 @@
           }
         },
         {
-          "id": "b5d961b5-62a1-40c1-8147-352a01de1426",
+          "id": "17657e47-3592-4614-b4f3-24690f80c38f",
           "name": "Add blocked delivery windows",
           "request": {
             "name": "Add blocked delivery windows",
@@ -210,7 +210,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "carrierId"
                 },
                 {
@@ -255,7 +255,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "7897ab4f-9fb5-4a7e-9b03-1a02338e7e21",
+              "id": "05746d87-45b9-4c2b-9a02-9c875604c93c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -280,7 +280,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "carrierId"
                     },
                     {
@@ -358,7 +358,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c90bc72d-8e45-4817-8c77-4abc6d807660",
+                "id": "d15dbfd7-991a-42ff-8ce8-f31e3cbab46a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/carriers/:carrierId/adddayofweekblocked - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -371,7 +371,7 @@
           }
         },
         {
-          "id": "1b3d8aff-816c-4627-9f5f-6c56616a715d",
+          "id": "76d5c20f-6bfe-4829-b292-c4bc7d847495",
           "name": "Remove blocked delivery windows",
           "request": {
             "name": "Remove blocked delivery windows",
@@ -401,7 +401,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "carrierId"
                 },
                 {
@@ -446,7 +446,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "a1b1cb5d-ba0a-40fa-a200-f38a896b3907",
+              "id": "50896f19-267b-4722-a48f-e48a0d7ad079",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -471,7 +471,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "carrierId"
                     },
                     {
@@ -549,7 +549,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "31d5abc6-5d0e-44f5-9086-2892a955edb8",
+                "id": "3923a4a7-203e-489f-9772-9e8879f7704b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/carriers/:carrierId/removedayofweekblocked - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -562,7 +562,7 @@
           }
         },
         {
-          "id": "e3ce164b-3f87-4f5b-a0e4-c5880718dd63",
+          "id": "81a7b57c-76b9-44a3-b78b-1e650d282307",
           "name": "Search capacity reservations in time range",
           "request": {
             "name": "Search capacity reservations in time range",
@@ -635,7 +635,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "05d36ef3-f271-4444-9afc-a07fdeac6a8b",
+              "id": "c6d734a2-adcf-4058-b723-8104f6da285d",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -733,7 +733,7 @@
           }
         },
         {
-          "id": "c01dd4b7-fdef-45ac-a10e-92bda770487d",
+          "id": "e95b816a-7b72-4c47-a244-4afc531c8e98",
           "name": "Get capacity reservation usage by window",
           "request": {
             "name": "Get capacity reservation usage by window",
@@ -788,7 +788,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "eee6c667-e9ee-4328-9596-d438a5b7120c",
+              "id": "d0f4389b-7944-4a3f-9510-644c8e799f3c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -881,7 +881,7 @@
       "event": []
     },
     {
-      "id": "82f20d17-b472-4f12-b446-7e50c4e8aadc",
+      "id": "1af32436-508b-40e8-b94e-956588864b03",
       "name": "Shipping Policies",
       "description": {
         "content": "",
@@ -889,7 +889,7 @@
       },
       "item": [
         {
-          "id": "fec563ca-7f92-433c-b4c6-4e4632b4eccd",
+          "id": "f4111803-b7b8-41cd-a513-fcf65212334a",
           "name": "Retrieve shipping policy by ID",
           "request": {
             "name": "Retrieve shipping policy by ID",
@@ -947,7 +947,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d33c4ff0-e239-4df8-a35b-d34269b1f0bc",
+              "id": "1441fea8-2dfa-4575-961d-e2f78dc7e267",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1040,7 +1040,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6311d2ec-7fc9-4ab3-84e9-990bdd58d9d6",
+                "id": "643ca18d-5d3f-4deb-991f-0409c810717d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/shipping-policies/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1053,7 +1053,7 @@
           }
         },
         {
-          "id": "58c2ffbd-6b55-40f7-ad6f-d7d41d18fc15",
+          "id": "6b3e93aa-f826-4cfd-88cd-d228bd94c65b",
           "name": "Delete shipping policies by ID",
           "request": {
             "name": "Delete shipping policies by ID",
@@ -1111,7 +1111,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "7b1c4ed1-b099-421a-ae21-268318cd7e04",
+              "id": "2e169d9f-4def-407b-96a7-3e6e2251bb30",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1204,7 +1204,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "55e78c37-61d9-47c6-a2f7-cc4171e5f3a4",
+                "id": "37fb5b40-86db-4312-a6e8-09701ba2d56c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/logistics/pvt/shipping-policies/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1217,7 +1217,7 @@
           }
         },
         {
-          "id": "13021d46-0401-4a0a-b22b-b09e1aa9ad23",
+          "id": "9ee29bb6-e5aa-4ffe-b207-d30af72120ee",
           "name": "Update shipping policy",
           "request": {
             "name": "Update shipping policy",
@@ -1290,7 +1290,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "0e6a45c8-8cdc-4062-ac0e-7139bd2adea3",
+              "id": "847f949e-9bb0-47a7-83aa-22068b11b770",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1391,7 +1391,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "84796b8a-b6b8-4235-8fc5-1bd37dfc8177",
+                "id": "5f938049-152a-42a9-a045-897702d18d08",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/logistics/pvt/shipping-policies/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1404,7 +1404,7 @@
           }
         },
         {
-          "id": "c1517a36-94a7-4d27-bb49-6c0303de54ad",
+          "id": "8d892115-b2ea-4b4e-a8e9-f66e7a31e478",
           "name": "List shipping policies",
           "request": {
             "name": "List shipping policies",
@@ -1470,7 +1470,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "4b37ae04-5f51-4a27-a0f6-93bb1bb6fa18",
+              "id": "d25b9d04-0a6c-4d67-b954-dc642d01f778",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1561,7 +1561,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f06f9b99-b3c8-45dc-afb6-b0a66f53c0fd",
+                "id": "a6c41c84-99f9-464e-a1fd-8214d7fd9c17",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/shipping-policies - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1574,7 +1574,7 @@
           }
         },
         {
-          "id": "7155fe8c-861c-4184-a152-969731bf81d0",
+          "id": "c08e047d-d15c-4c26-bbb7-89c21c851248",
           "name": "Create shipping policy",
           "request": {
             "name": "Create shipping policy",
@@ -1636,7 +1636,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "963f9adc-288e-4138-8f5d-60d83b86e115",
+              "id": "543431f3-36ae-424c-86ab-1c4c912c4935",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1726,7 +1726,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4e1ddcfb-f18e-4245-908c-9d775d277af7",
+                "id": "528df6d0-1e59-464a-9f70-3618707d7b45",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/shipping-policies - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1742,7 +1742,7 @@
       "event": []
     },
     {
-      "id": "b7f88910-f83f-446b-b408-0504afd5ccc5",
+      "id": "32e55bfa-c746-4950-bf75-da52045277c0",
       "name": "Docks",
       "description": {
         "content": "",
@@ -1750,7 +1750,7 @@
       },
       "item": [
         {
-          "id": "423f081d-7999-4ce5-83e9-4123eed0dcfd",
+          "id": "1aad6c0d-e113-4ad8-be62-e93c0b3c53b8",
           "name": "Create/update dock",
           "request": {
             "name": "Create/update dock",
@@ -1813,7 +1813,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "8fc4541d-e3c9-42fe-90ff-986ba1fb194d",
+              "id": "0776ffe8-b11d-4488-8edc-fb6797442ebf",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1904,7 +1904,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bdffcbb8-8e68-4d88-addf-3a76b8927972",
+                "id": "63819dd4-b0cf-4a47-b809-353b05d4c42d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/docks - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1917,7 +1917,7 @@
           }
         },
         {
-          "id": "85f8bb5d-ac55-423b-aab6-b396939337fa",
+          "id": "6587965c-845c-4fb9-bcc8-d0bbad1b6e07",
           "name": "List all  docks",
           "request": {
             "name": "List all  docks",
@@ -1971,7 +1971,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a7ce3519-da86-4d66-a106-47e3eef7fbca",
+              "id": "b3ccf64f-3e0b-437a-b3b0-cb7605232593",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2220,7 +2220,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "68912979-1fb6-4a7d-a89f-4cb2e58055a2",
+                "id": "8aba4fe9-9549-4f71-b785-2c3728711e65",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/docks - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2254,7 +2254,7 @@
           }
         },
         {
-          "id": "2984298f-4853-4b83-a29a-23a4a3e69777",
+          "id": "dd469056-d2b8-448b-ad41-864f658d7de2",
           "name": "List dock by ID",
           "request": {
             "name": "List dock by ID",
@@ -2283,7 +2283,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "dockId"
                 },
                 {
@@ -2319,7 +2319,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a0bf499b-61a2-4151-909a-495359dec916",
+              "id": "c969fa63-4a39-4317-8d59-fe0c19275a1a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2343,7 +2343,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "dockId"
                     },
                     {
@@ -2561,7 +2561,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7c19d2a3-e253-401b-8604-9555dd817ce7",
+                "id": "19a8ccb6-aea8-48c4-b071-9cd2cf617d49",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/docks/:dockId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2593,7 +2593,7 @@
           }
         },
         {
-          "id": "866f8b12-d91c-48c7-8995-abd83f5ff750",
+          "id": "5badbf64-8883-41fc-bbd8-c2904f10729c",
           "name": "Delete dock",
           "request": {
             "name": "Delete dock",
@@ -2622,7 +2622,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "dockId"
                 },
                 {
@@ -2652,7 +2652,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ec4c1bfd-81cb-44d1-b048-2742bd86c18a",
+              "id": "35a14e18-d4b4-40a4-9abc-e04622a3e56e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2676,7 +2676,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "dockId"
                     },
                     {
@@ -2746,7 +2746,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c8cd620a-363b-4668-98d5-8520a8013d07",
+                "id": "5f021cd2-3e81-4331-ae38-7ae71e652dc1",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/logistics/pvt/configuration/docks/:dockId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2759,7 +2759,7 @@
           }
         },
         {
-          "id": "b5b966e1-5054-480a-a63d-9fbc2b81140e",
+          "id": "8679dbfe-7c8c-48aa-83ae-9a1791d0b7b4",
           "name": "Activate dock",
           "request": {
             "name": "Activate dock",
@@ -2789,7 +2789,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "dockId"
                 },
                 {
@@ -2819,7 +2819,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "4565414d-17d1-4187-8e48-eff86b4d4144",
+              "id": "b3db6420-d78a-4898-a06f-5f28889bbd8d",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2844,7 +2844,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "dockId"
                     },
                     {
@@ -2914,7 +2914,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4e21cc0f-dd89-465c-b7b9-62ae0aca6ded",
+                "id": "062e629a-0a55-417c-9182-e98a1c67b87a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/docks/:dockId/activation - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2927,7 +2927,7 @@
           }
         },
         {
-          "id": "ce6a43ef-2779-4c2f-908c-f5f2e8922596",
+          "id": "888e108b-b878-4700-b5cf-1505a23ad515",
           "name": "Deactivate dock",
           "request": {
             "name": "Deactivate dock",
@@ -2957,7 +2957,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "dockId"
                 },
                 {
@@ -2987,7 +2987,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "01b9c0cd-9f25-4be5-a2c8-ba0cecd43be0",
+              "id": "2f5a739e-3bff-4daa-9037-4874606f7595",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3012,7 +3012,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "dockId"
                     },
                     {
@@ -3082,7 +3082,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c2d62edf-add0-49ab-a720-656a2c3a9fb7",
+                "id": "9e84768b-a016-4bf4-83d8-9f9873f36234",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/docks/:dockId/deactivation - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3098,7 +3098,7 @@
       "event": []
     },
     {
-      "id": "6c1be6e5-8c20-4600-a75c-ba83530902b7",
+      "id": "96876078-ff1b-4ccf-be60-51337288a8b7",
       "name": "Warehouses",
       "description": {
         "content": "",
@@ -3106,7 +3106,7 @@
       },
       "item": [
         {
-          "id": "0e7ea3d2-e1ee-4028-a0c1-f3bc5d73777c",
+          "id": "4016dc45-bd67-40c4-be2e-9d5c8e682625",
           "name": "Create/update warehouse",
           "request": {
             "name": "Create/update warehouse",
@@ -3169,7 +3169,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ce67aaa3-1628-47a4-a09f-85bd6218f580",
+              "id": "6d989d5b-8ac0-4ad3-8e42-b56217ef1c10",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3260,7 +3260,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9fee36cb-8ce3-49a1-80c1-357e43781af6",
+                "id": "7fce9b90-f495-4794-b819-fca9f9abe882",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/warehouses - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3273,7 +3273,7 @@
           }
         },
         {
-          "id": "e926b183-5c26-4ff8-ac00-61722fa3310c",
+          "id": "a28e7823-8a0b-4206-a0ea-ee4caf2e6cff",
           "name": "List all warehouses",
           "request": {
             "name": "List all warehouses",
@@ -3327,7 +3327,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8d5c489d-d3fc-4868-8857-f8d7e7414c97",
+              "id": "f1113381-384f-46a2-b1f5-7a26b3a5947b",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3558,7 +3558,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "45d6a379-9648-4a41-840d-cc69ee5dce72",
+                "id": "c1a42366-c664-470f-85e0-8edf19fd8577",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/warehouses - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3590,7 +3590,7 @@
           }
         },
         {
-          "id": "ff692ebb-26d1-479d-ac21-1a0dd871ed8d",
+          "id": "c4f645f0-bfcb-42b3-a389-ff97870e1745",
           "name": "List warehouse by ID",
           "request": {
             "name": "List warehouse by ID",
@@ -3619,7 +3619,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -3655,7 +3655,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "41480127-23b8-4c47-84b4-f9e4a540f02b",
+              "id": "fc0d5b19-975b-468e-bb1a-c6ab3fc1db9f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3679,7 +3679,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -3915,7 +3915,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "579fb410-2045-467d-b8b4-aa710ec95ec6",
+                "id": "18c1f37d-0094-4c65-a585-a673cbf7010d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/warehouses/:warehouseId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3949,7 +3949,7 @@
           }
         },
         {
-          "id": "b58803c1-f430-4f7b-a8f4-7a8079e51b9d",
+          "id": "5e0f3000-243e-4316-bcc5-8ca3e9270292",
           "name": "Remove warehouse",
           "request": {
             "name": "Remove warehouse",
@@ -3978,7 +3978,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -4008,7 +4008,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "18d71d07-6bec-4f09-9dfb-72247efdea3b",
+              "id": "780bca2f-f777-45e6-88e4-8f2a9554f352",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4032,7 +4032,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -4102,7 +4102,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "68604bb2-9546-4197-83fa-a33d016badb8",
+                "id": "7f180c24-a9b2-4507-b1ef-75c336639b7d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/logistics/pvt/configuration/warehouses/:warehouseId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -4115,7 +4115,7 @@
           }
         },
         {
-          "id": "9fd2cf1b-a884-4f93-a817-0dfb73e53b0d",
+          "id": "92214729-ef93-4ab5-b0f4-cc566f357043",
           "name": "Activate warehouse",
           "request": {
             "name": "Activate warehouse",
@@ -4145,7 +4145,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -4175,7 +4175,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f3296075-d7c3-44c1-adac-a2a17e6d7f3e",
+              "id": "ee1541a2-d17c-4a65-a697-d08075e2b6f2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4200,7 +4200,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -4270,7 +4270,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8268115b-07a5-451b-be7e-b8e8b835d4dd",
+                "id": "b70bebc5-fc68-41f1-aadd-32f878e7ef84",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/warehouses/:warehouseId/activation - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -4283,7 +4283,7 @@
           }
         },
         {
-          "id": "20bc21e1-f0b3-45d2-b9f2-7599bcdb89f7",
+          "id": "d950213e-66e3-49d2-803e-94b8347cf27c",
           "name": "Deactivate warehouse",
           "request": {
             "name": "Deactivate warehouse",
@@ -4313,7 +4313,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -4343,7 +4343,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "7e62f3df-c737-4969-8b67-4c0d350b97a6",
+              "id": "04d26052-2388-4d04-8d0c-92afe3b0802c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4368,7 +4368,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -4438,7 +4438,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dcb4349b-a403-4f59-80b4-4c7c5c652510",
+                "id": "a0ec1a80-f4fb-438e-91e8-3b792d7f1a73",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/warehouses/:warehouseId/deactivation - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -4454,7 +4454,7 @@
       "event": []
     },
     {
-      "id": "0340f0f7-5699-40d3-ba90-33d57f7c66d7",
+      "id": "54c220ab-0517-4a0b-889e-08c3a44949a2",
       "name": "Inventory",
       "description": {
         "content": "",
@@ -4462,7 +4462,7 @@
       },
       "item": [
         {
-          "id": "eee84fc4-f992-4976-8865-b62ec44284ee",
+          "id": "7fb83a1e-6ce5-4948-a6ac-b34c36955218",
           "name": "List inventory by SKU",
           "request": {
             "name": "List inventory by SKU",
@@ -4491,7 +4491,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -4527,7 +4527,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ecee64b9-e4b5-4bf8-a90d-5848c201addd",
+              "id": "03dafda3-c826-4dec-afb7-b55b7e35ca0a",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4550,7 +4550,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -4705,7 +4705,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "356dd206-9ce3-4539-9211-f7f3e6441553",
+                "id": "9f94b5f2-65ee-4a33-adf0-f18a4422f07f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/inventory/skus/:skuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4730,7 +4730,7 @@
           }
         },
         {
-          "id": "7c6afc99-f71a-4945-b6c4-1f586d6d8108",
+          "id": "8b145830-4716-4085-ae7b-6c4e61a3b9b9",
           "name": "List inventory per warehouse",
           "request": {
             "name": "List inventory per warehouse",
@@ -4761,7 +4761,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -4771,7 +4771,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -4807,7 +4807,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "2fbefd04-5fb3-4aa5-a278-c6c13caefdae",
+              "id": "12dfd939-c9ad-4f26-b17b-a1c8ae3b616e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4833,7 +4833,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -4843,7 +4843,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -4917,7 +4917,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dc861317-c747-4b97-a6d6-92bb18648375",
+                "id": "540e13f8-9b0e-4682-89c2-e5940503fcf2",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/inventory/items/:skuId/warehouses/:warehouseId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4933,7 +4933,7 @@
           }
         },
         {
-          "id": "6f5078c0-c189-4af0-882d-15172bcf89f5",
+          "id": "5d7b81c5-0314-4bd2-87dc-0597c64f952f",
           "name": "Update inventory by SKU and warehouse",
           "request": {
             "name": "Update inventory by SKU and warehouse",
@@ -4964,7 +4964,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -4974,7 +4974,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -5019,7 +5019,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d4212c59-d7e3-4f5f-9add-745fc36f6ca9",
+              "id": "f645332e-7490-4ab2-9c25-99cb3e266513",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5045,7 +5045,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -5055,7 +5055,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -5133,7 +5133,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f784e1dd-0f6d-48cd-ace1-cb99efc22910",
+                "id": "f8a71e5c-bf9a-4c23-9a5f-a063534b9dac",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/logistics/pvt/inventory/skus/:skuId/warehouses/:warehouseId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -5146,7 +5146,7 @@
           }
         },
         {
-          "id": "e1727bb0-48fd-486f-aa24-4f85d0b4ad98",
+          "id": "eb1b7a38-5065-4587-88cf-db9ea5920149",
           "name": "List inventory per dock",
           "request": {
             "name": "List inventory per dock",
@@ -5177,7 +5177,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -5187,7 +5187,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "dockId"
                 },
                 {
@@ -5223,7 +5223,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "4c341100-acaf-4297-b163-5e2098f3268c",
+              "id": "5db0572d-9630-4ff6-953d-4cc724a172c3",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5249,7 +5249,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -5259,7 +5259,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "dockId"
                     },
                     {
@@ -5333,7 +5333,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5848914a-24ec-4d70-954b-0b79c99860af",
+                "id": "a8d8ff07-9e38-476f-a39c-c6ce69810080",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/inventory/items/:skuId/docks/:dockId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5349,7 +5349,7 @@
           }
         },
         {
-          "id": "6b0aa707-2951-44b9-aa3a-42bc0503b2ce",
+          "id": "b34ce5cf-db86-4bc8-8942-04835b92ff5e",
           "name": "List inventory per dock and warehouse",
           "request": {
             "name": "List inventory per dock and warehouse",
@@ -5382,7 +5382,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -5392,7 +5392,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "dockId"
                 },
                 {
@@ -5402,7 +5402,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -5438,7 +5438,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "f0730ccd-a5a7-4ade-8038-790de3df1c31",
+              "id": "857832e4-82a0-4acd-ae0b-5c2f8cbbee01",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5466,7 +5466,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -5476,7 +5476,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "dockId"
                     },
                     {
@@ -5486,7 +5486,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -5560,7 +5560,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4f64c529-264b-4154-b30c-f052098085ae",
+                "id": "33c24d15-b2a1-4213-afac-57d2b412c556",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/inventory/items/:skuId/docks/:dockId/warehouses/:warehouseId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5576,7 +5576,7 @@
           }
         },
         {
-          "id": "ec815f93-c2dc-4d14-b738-114141a409fd",
+          "id": "05a58f64-303c-4f92-9a46-8cfaace07101",
           "name": "List inventory with dispatched reservations",
           "request": {
             "name": "List inventory with dispatched reservations",
@@ -5608,7 +5608,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "itemId"
                 },
                 {
@@ -5618,7 +5618,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -5654,7 +5654,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "786a2cdd-a936-4187-848b-6277ceb34082",
+              "id": "811c20e6-ef2f-4348-bc98-911f416d45d4",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5681,7 +5681,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "itemId"
                     },
                     {
@@ -5691,7 +5691,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -5765,7 +5765,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9533170e-299b-42d7-b17a-c5bfb1c080cf",
+                "id": "266cd080-08fe-444b-9004-153013e24c7c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/inventory/items/:itemId/warehouses/:warehouseId/dispatched - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5781,7 +5781,7 @@
           }
         },
         {
-          "id": "0fb1635d-b20d-42b3-90f3-5bc5e8466134",
+          "id": "5116f744-f7ba-43dd-ab78-e262e492a587",
           "name": "List supply lots",
           "request": {
             "name": "List supply lots",
@@ -5813,7 +5813,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -5823,7 +5823,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -5853,7 +5853,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e26e1858-6710-4e01-8a91-a9dafb7a8a58",
+              "id": "7d649427-78e9-462d-be38-7a10d50e6ea2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5880,7 +5880,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -5890,7 +5890,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -5960,7 +5960,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "69fa2623-26d9-43ee-84eb-449c9e044de5",
+                "id": "cbf73349-b1d9-4f06-a580-946866d19a80",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/inventory/items/:skuId/warehouses/:warehouseId/supplyLots - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -5973,7 +5973,7 @@
           }
         },
         {
-          "id": "aea9d8f4-0280-47f2-9ce6-945e58d711ca",
+          "id": "25482e99-8981-40ba-88f1-c35d8f8f7611",
           "name": "Save supply lot",
           "request": {
             "name": "Save supply lot",
@@ -6006,7 +6006,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -6016,7 +6016,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -6026,7 +6026,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "supplyLotId"
                 },
                 {
@@ -6071,7 +6071,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "1fdce7cd-a395-4805-8c9b-c0ce2e75a844",
+              "id": "b64c1c8e-eb78-485b-a14a-e57a85ec866a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -6099,7 +6099,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -6109,7 +6109,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -6119,7 +6119,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "supplyLotId"
                     },
                     {
@@ -6197,7 +6197,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dc76da04-0962-4125-b461-959d5fcf72dc",
+                "id": "105403dc-721e-4ed4-aefb-0b1d8bfa189f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/logistics/pvt/inventory/items/:skuId/warehouses/:warehouseId/supplyLots/:supplyLotId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -6210,7 +6210,7 @@
           }
         },
         {
-          "id": "bf1cf9e2-2cc8-42f5-9314-23609281eda3",
+          "id": "da3f3669-b142-45f6-97a2-7bb0ed976b41",
           "name": "Transfer supply lot",
           "request": {
             "name": "Transfer supply lot",
@@ -6244,7 +6244,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -6254,7 +6254,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -6264,7 +6264,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "supplyLotId"
                 },
                 {
@@ -6294,7 +6294,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "2ce0f6a6-3d04-4d7d-8dbc-704eff396b42",
+              "id": "249683c0-81fd-45ba-b174-dbeb7816e6a6",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -6323,7 +6323,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -6333,7 +6333,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -6343,7 +6343,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "supplyLotId"
                     },
                     {
@@ -6413,7 +6413,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6aba50b7-1942-41c4-8fcd-b36d9128dc90",
+                "id": "baedae27-ac47-4fc8-b94b-b740b6c75abb",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/inventory/items/:skuId/warehouses/:warehouseId/supplyLots/:supplyLotId/transfer - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -6429,7 +6429,7 @@
       "event": []
     },
     {
-      "id": "245730a6-37b6-4c24-b1c6-11f59cd088f6",
+      "id": "cfcd5d60-d92d-4a48-86c1-01802830bf99",
       "name": "Holidays",
       "description": {
         "content": "",
@@ -6437,7 +6437,7 @@
       },
       "item": [
         {
-          "id": "5b25af2d-8407-419d-a9a4-65e17a99d4de",
+          "id": "206a6e93-af35-4855-9821-2033371151f4",
           "name": "Create/update holiday",
           "request": {
             "name": "Create/update holiday",
@@ -6466,7 +6466,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "holidayId"
                 },
                 {
@@ -6511,7 +6511,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f2389334-1492-45de-ab32-9d58dd73f257",
+              "id": "eb699c81-5e62-4305-b57c-6ed46a174471",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -6535,7 +6535,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "holidayId"
                     },
                     {
@@ -6613,7 +6613,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0ee4f2b4-34e0-4042-863b-a93507e41007",
+                "id": "a933e906-14b0-4d40-bb55-a7348a728cb5",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/logistics/pvt/configuration/holidays/:holidayId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -6626,7 +6626,7 @@
           }
         },
         {
-          "id": "4dc34a90-a0e6-4fa5-b8fe-1ce9ffc22515",
+          "id": "0a3ffa5a-1932-4c83-8a53-69b7378150b5",
           "name": "List holiday by ID",
           "request": {
             "name": "List holiday by ID",
@@ -6655,7 +6655,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "holidayId"
                 },
                 {
@@ -6685,7 +6685,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "3618aefc-9a6f-400a-9051-c778d95d5def",
+              "id": "ee613a4d-0aab-49d4-8ebe-27eb3f8afb48",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -6709,7 +6709,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "holidayId"
                     },
                     {
@@ -6779,7 +6779,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "45ef1d46-edd1-46af-8518-2c6d9ef20287",
+                "id": "495c46e9-7306-43a6-a3f0-3fec67c120d3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/holidays/:holidayId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -6792,7 +6792,7 @@
           }
         },
         {
-          "id": "cf9ef820-c380-4d62-90d5-70d43a0c4da5",
+          "id": "6dc9741c-c3a7-43c9-bd2a-f64308845be0",
           "name": "Delete holiday",
           "request": {
             "name": "Delete holiday",
@@ -6821,7 +6821,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "holidayId"
                 },
                 {
@@ -6851,7 +6851,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "4894bb25-93cb-49c1-b8f7-f8a42e3ab96f",
+              "id": "f3b4fd9b-547a-4e53-954f-dbd235fc4c59",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -6875,7 +6875,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "holidayId"
                     },
                     {
@@ -6945,7 +6945,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "91f06b91-9a79-4687-84e1-3e33d771ba46",
+                "id": "cfe9cf59-71a2-4e7b-a0cb-f16188a694ae",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/logistics/pvt/configuration/holidays/:holidayId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -6958,7 +6958,7 @@
           }
         },
         {
-          "id": "3f86f0db-c4dc-4a17-8b50-c416d2cc5859",
+          "id": "7bf3da2e-792f-4cc0-9fd2-9b6394bc155b",
           "name": "List all holidays",
           "request": {
             "name": "List all holidays",
@@ -7006,7 +7006,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "4030f314-98b6-4166-8ac0-aff2c9ab06c6",
+              "id": "340390df-ee39-49ca-b2fa-63a843ed681f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -7089,7 +7089,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "121b9cae-3655-48da-9ce8-2b8cc699df7a",
+                "id": "7a31c5d3-5dd0-43e5-bcda-6bfd0f7c5326",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/holidays - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -7105,7 +7105,7 @@
       "event": []
     },
     {
-      "id": "90878bc9-5aeb-42d9-84fa-d677a1d91532",
+      "id": "579e9ccf-3567-4f63-8a3a-021608651149",
       "name": "Reservations",
       "description": {
         "content": "",
@@ -7113,7 +7113,7 @@
       },
       "item": [
         {
-          "id": "104a2454-2c25-4fd7-a6bd-9594eae4bd3f",
+          "id": "3e68f96a-b6f7-4e00-8b9f-866b92397f6b",
           "name": "Create reservation",
           "request": {
             "name": "Create reservation",
@@ -7180,7 +7180,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "53ac9189-5266-4cb8-b33a-32bfd26c1454",
+              "id": "c1b31d94-e82a-44eb-b096-f70236f6fb87",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -7428,7 +7428,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "819b0cf9-ec87-4bcc-9f26-f8647386273a",
+                "id": "ca5481ea-b620-4f5e-93a3-aae8bf087d32",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/inventory/reservations - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -7461,7 +7461,7 @@
           }
         },
         {
-          "id": "5143ce10-cb98-4052-be8d-365b91c3bb07",
+          "id": "f4a65fb3-0477-40bf-a60b-1556476c236a",
           "name": "List reservation by ID",
           "request": {
             "name": "List reservation by ID",
@@ -7490,7 +7490,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "reservationId"
                 },
                 {
@@ -7526,7 +7526,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "bbb0c7ba-e480-4c49-b167-ffd29fae1a13",
+              "id": "b0ad2b3d-47f4-4bf0-a5ba-9f712894da9f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -7550,7 +7550,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "reservationId"
                     },
                     {
@@ -7786,7 +7786,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c8609831-daab-4b23-bb15-c84928b5ad34",
+                "id": "47655a26-12e6-4ca7-ba87-f3d4c71affae",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/inventory/reservations/:reservationId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -7820,7 +7820,7 @@
           }
         },
         {
-          "id": "643f4503-918c-47da-b160-fe154d0542ff",
+          "id": "6dbc08cb-2996-4a80-a77f-e8aca6639d72",
           "name": "Confirm reservation",
           "request": {
             "name": "Confirm reservation",
@@ -7850,7 +7850,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "reservationId"
                 },
                 {
@@ -7880,7 +7880,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "1f1a9f1a-ab02-46b0-a938-bbaa3246b61f",
+              "id": "ba98dfe4-f51b-45a4-88b8-d33eaa32d455",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -7905,7 +7905,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "reservationId"
                     },
                     {
@@ -7975,7 +7975,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dd2231d9-de92-4785-8d48-7feadaaa0c8a",
+                "id": "2b1b0e37-a26f-407e-8b62-f45acbe5b194",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/inventory/reservations/:reservationId/confirm - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -7988,7 +7988,7 @@
           }
         },
         {
-          "id": "272690ce-ed60-44db-97c6-560a48f4bdc8",
+          "id": "f219fca9-cc34-4536-829b-edf908f3edd9",
           "name": "Acknowledgment reservation",
           "request": {
             "name": "Acknowledgment reservation",
@@ -8018,7 +8018,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "reservationId"
                 },
                 {
@@ -8048,7 +8048,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "580b1945-ebd9-4966-94c4-d0ae54de86d1",
+              "id": "1b480e4e-7031-41b1-875b-713fa2e76337",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -8073,7 +8073,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "reservationId"
                     },
                     {
@@ -8143,7 +8143,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "35bcb39d-06bd-42d2-b2b5-662faa51a089",
+                "id": "006f912e-1126-4206-9393-82ac7ef9fc75",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/inventory/reservations/:reservationId/acknowledge - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -8156,7 +8156,7 @@
           }
         },
         {
-          "id": "7718e917-2e8e-4f46-b8d5-60f4bd938d8f",
+          "id": "83ce98f1-1e55-409e-872b-207cf38ee88f",
           "name": "Cancel reservation",
           "request": {
             "name": "Cancel reservation",
@@ -8186,7 +8186,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "reservationId"
                 },
                 {
@@ -8216,7 +8216,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "dd83da25-397f-4ac8-836c-68939b832940",
+              "id": "2a65c269-ddcd-4e06-b232-1eae75c3be11",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -8241,7 +8241,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "reservationId"
                     },
                     {
@@ -8311,7 +8311,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8891b5f8-fc00-4c95-a270-5715a967e9fd",
+                "id": "3c0964ad-4f26-40d8-b3da-c00bfb3cd9bc",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/inventory/reservations/:reservationId/cancel - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -8324,7 +8324,7 @@
           }
         },
         {
-          "id": "0b607283-2b62-4357-9936-83d786e6a878",
+          "id": "4ff23056-c9b8-4aaa-a1e7-1f9feb8e3a83",
           "name": "List reservation by warehouse and SKU",
           "request": {
             "name": "List reservation by warehouse and SKU",
@@ -8354,7 +8354,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "warehouseId"
                 },
                 {
@@ -8364,7 +8364,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "skuId"
                 },
                 {
@@ -8394,7 +8394,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "9b03ceaf-fde6-4a94-ab94-38d7f89f747c",
+              "id": "12e2d53b-a289-4357-b1fb-701e0254cfec",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -8419,7 +8419,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "warehouseId"
                     },
                     {
@@ -8429,7 +8429,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "skuId"
                     },
                     {
@@ -8499,7 +8499,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8687a279-8a4e-46f9-8cdd-55f52a6081b5",
+                "id": "8b61858d-a527-4b1a-804c-0bccb16e3ffa",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/inventory/reservations/:warehouseId/:skuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -8515,7 +8515,7 @@
       "event": []
     },
     {
-      "id": "5e949ece-1124-42e5-9059-8d26e12a531c",
+      "id": "3aad48cd-f595-4234-a39e-caf3a36a14a3",
       "name": "SLA",
       "description": {
         "content": "",
@@ -8523,7 +8523,7 @@
       },
       "item": [
         {
-          "id": "05cd41a6-2b81-406c-91e7-749cb0bead48",
+          "id": "af9fc6c9-b950-4ac1-92a4-63d41c2900f5",
           "name": "Calculate SLA",
           "request": {
             "name": "Calculate SLA",
@@ -8590,7 +8590,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "39a55ff1-a692-4fb2-8643-4b44e8d319af",
+              "id": "b16a9a61-3c55-486c-a77c-99ee9eaef4f4",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -8837,7 +8837,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "24bd58ef-4e6b-4b75-b31f-ce70f4ab3e36",
+                "id": "240fe722-a585-48b8-9058-83c59bffa52e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/shipping/calculate - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -8873,7 +8873,7 @@
       "event": []
     },
     {
-      "id": "76415571-3865-4ac4-a860-738771431bc6",
+      "id": "33eec644-129c-498d-8951-33edda7e5532",
       "name": "Pickup Points",
       "description": {
         "content": "",
@@ -8883,7 +8883,7 @@
       "event": []
     },
     {
-      "id": "9964b0b9-ba8a-4bf7-b24d-7c81327c3b7d",
+      "id": "fc3af2cc-d51f-431d-a5a7-9a4ca569ad55",
       "name": "Polygons",
       "description": {
         "content": "",
@@ -8891,7 +8891,7 @@
       },
       "item": [
         {
-          "id": "2306fcf9-2e0f-4d28-9261-e27298ff8ac7",
+          "id": "ab174f5c-7244-48dc-93b2-4336cfa24289",
           "name": "List paged polygons",
           "request": {
             "name": "List paged polygons",
@@ -8958,7 +8958,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "6e9fd2f8-ba7a-46fb-9ed7-251dfc85f99a",
+              "id": "26fa39dc-3e9f-4e85-92d0-35a4ad1874de",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -9050,7 +9050,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "da063a9e-7856-4479-870e-212ae5644626",
+                "id": "17231c3c-f071-4559-8bf5-499d5a6a3ec6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/geoshape - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -9063,7 +9063,7 @@
           }
         },
         {
-          "id": "7524e02c-cb1e-46fb-a0df-5693e238a95f",
+          "id": "84fc20e4-ab3d-472b-b7fa-98c6ce423ce4",
           "name": "Create/update polygon",
           "request": {
             "name": "Create/update polygon",
@@ -9113,7 +9113,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"culpa quis reprehenderit eiusmod\",\n  \"geoShape\": {\n    \"coordinates\": [\n      [\n        72489525.87191635,\n        42225026.36382264\n      ],\n      [\n        -29273675.425666437,\n        48159661.21633929\n      ]\n    ]\n  }\n}",
+              "raw": "{\n  \"name\": \"magna\",\n  \"geoShape\": {\n    \"coordinates\": [\n      [\n        38320357.07317138,\n        40098329.66410592\n      ],\n      [\n        -35825783.86890493,\n        35408641.45288515\n      ]\n    ]\n  }\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -9126,7 +9126,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "275564fd-ad1d-4357-93b7-3583a51f48c4",
+              "id": "87aeb2ab-78d4-4612-8fb3-49e891ee8c6a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -9193,7 +9193,7 @@
                 "method": "PUT",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"magna incididunt non veniam\",\n  \"geoShape\": {\n    \"coordinates\": [\n      [\n        76495373.13818279,\n        -10302952.043465659\n      ],\n      [\n        -70418364.60628001,\n        -92468334.3316842\n      ]\n    ]\n  }\n}",
+                  "raw": "{\n  \"name\": \"exercitation Excepteur do laborum\",\n  \"geoShape\": {\n    \"coordinates\": [\n      [\n        -44981474.8555486,\n        36998566.81753245\n      ],\n      [\n        73528222.53505668,\n        14255552.89390421\n      ]\n    ]\n  }\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -9217,7 +9217,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a8ecc1a6-2334-40d1-88e2-22cca70f3ede",
+                "id": "bfaf8265-bf5f-4ec6-a6cf-7dccb2512124",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/logistics/pvt/configuration/geoshape - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -9230,7 +9230,7 @@
           }
         },
         {
-          "id": "fa8bd04c-bd5a-4d31-9130-c9295b5e61b3",
+          "id": "0027b90f-7c3c-4255-99e5-91a4fe112ef1",
           "name": "List polygon by ID",
           "request": {
             "name": "List polygon by ID",
@@ -9259,7 +9259,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "polygonName"
                 },
                 {
@@ -9289,7 +9289,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f75ae362-1ae1-4369-8dd7-ab0ef12aaffe",
+              "id": "4b71a0e1-d678-4fe6-bd05-b567195a25c2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -9313,7 +9313,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "polygonName"
                     },
                     {
@@ -9383,7 +9383,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "65ee2889-daf5-45e6-aa17-736a0a61e723",
+                "id": "cb61b9ce-701b-43a5-9b97-1d8e8769451a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/geoshape/:polygonName - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -9396,7 +9396,7 @@
           }
         },
         {
-          "id": "1a8391d4-d839-4032-b049-9004d539e7c1",
+          "id": "85587b8b-4800-4e39-923f-3beb77bf425e",
           "name": "Delete polygon",
           "request": {
             "name": "Delete polygon",
@@ -9425,7 +9425,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "polygonName"
                 },
                 {
@@ -9455,7 +9455,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "dc4d2b8e-a44d-406f-acfc-1d1328a0c934",
+              "id": "b6d71d8b-530d-45da-ba2f-733433f95760",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -9479,7 +9479,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "polygonName"
                     },
                     {
@@ -9549,7 +9549,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4973f1cd-384f-4c57-8859-6afd39908d2d",
+                "id": "4cbed5ba-59f0-42c6-b4a7-8aaf200a6253",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/logistics/pvt/configuration/geoshape/:polygonName - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -9565,7 +9565,7 @@
       "event": []
     },
     {
-      "id": "ddca42d2-73a2-4b1c-b19c-563e7653af51",
+      "id": "a42234a3-5728-471f-bff7-a5bbc365dd86",
       "name": "Freight Values",
       "description": {
         "content": "",
@@ -9573,7 +9573,7 @@
       },
       "item": [
         {
-          "id": "b7ac64dd-6d4e-4d80-82e9-9896b5a8b61e",
+          "id": "4de7e563-2203-448f-ba47-0302861b229b",
           "name": "Create/update freight values",
           "request": {
             "name": "Create/update freight values",
@@ -9649,7 +9649,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "3c31e0b0-45c9-4013-b35c-39aadb9ed5de",
+              "id": "a89e9861-1b48-48ca-b22f-729af57573b2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -9753,7 +9753,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3a37bf89-241b-4573-8ce0-d56c53f9463b",
+                "id": "c4b6e542-189c-4aab-b622-892cbbceea91",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/logistics/pvt/configuration/freights/:carrierId/values/update - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -9766,7 +9766,7 @@
           }
         },
         {
-          "id": "534f3bbe-031e-4441-b753-738fbaf9cca5",
+          "id": "364dbcbc-144a-481e-91db-4b10a8a3d628",
           "name": "List freight values",
           "request": {
             "name": "List freight values",
@@ -9843,7 +9843,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "c6bc126b-4817-434d-b4cc-85dbf0efc19b",
+              "id": "72fdab58-7f26-4529-9adb-1972674cd64e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -10097,7 +10097,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a8ed2240-1e05-4243-a6f2-e30cdd8a5ad3",
+                "id": "68a753c1-451d-4a89-8cda-6f22418dd84e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/freights/:carrierId/:cep/values - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -10132,7 +10132,7 @@
       "event": []
     },
     {
-      "id": "70d8b86d-68cb-44d6-bd44-9f771d4e8572",
+      "id": "86d85c78-ded8-4fde-8412-20fa3162b659",
       "name": "Pickup points",
       "description": {
         "content": "",
@@ -10140,7 +10140,7 @@
       },
       "item": [
         {
-          "id": "d94773d2-ef99-4d2f-a1c2-e621031e82c8",
+          "id": "5af67400-3901-4985-97a2-ba86810b38ce",
           "name": "List all pickup points",
           "request": {
             "name": "List all pickup points",
@@ -10194,7 +10194,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9a1aa731-9636-45b8-a354-ee2a0ff60f3d",
+              "id": "4222900d-eac3-40f9-b8df-44e169450227",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -10281,7 +10281,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c218292c-852c-4229-9722-2c3c6f33f2f7",
+                "id": "9734b3e6-06c2-4ad7-a3db-2949f228deb2",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/pickuppoints - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -10297,7 +10297,7 @@
           }
         },
         {
-          "id": "7a0be53e-f212-4818-b9d6-cfc284094aad",
+          "id": "432ee9c8-d1ab-40ed-a894-2c2ce34a2455",
           "name": "Create/Update Pickup Point",
           "request": {
             "name": "Create/Update Pickup Point",
@@ -10375,7 +10375,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "798782c3-ce19-4c71-9d43-e7f9cef1bc49",
+              "id": "6de28f5d-2ae0-4648-bf0d-73b28e411650",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -10588,7 +10588,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "45febf7d-83eb-49e1-a361-703415d68e4d",
+                "id": "8a3bce97-64f5-4754-94a5-38c21fd7af24",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/logistics/pvt/configuration/pickuppoints/:pickupPointId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -10616,7 +10616,7 @@
           }
         },
         {
-          "id": "0639db75-2f0d-4a66-aae7-e422cde6eab1",
+          "id": "930fc20a-0df0-463f-95ff-a13b3cc51bc5",
           "name": "List Pickup Point By ID",
           "request": {
             "name": "List Pickup Point By ID",
@@ -10645,7 +10645,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "pickupPointId"
                 },
                 {
@@ -10681,7 +10681,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "2d1892d1-4e15-4c87-85c4-33c518e4d014",
+              "id": "fb28e478-471f-40d8-8b5d-b71f591468e8",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -10704,7 +10704,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "pickupPointId"
                     },
                     {
@@ -10913,7 +10913,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2441a8d3-69e2-421b-84d3-6cb8b37af953",
+                "id": "1b732f0b-001e-4143-ba1d-6f5715653873",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/pickuppoints/:pickupPointId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -10944,7 +10944,7 @@
           }
         },
         {
-          "id": "d2d3754a-7b57-492e-b0d2-ae123d7ceb65",
+          "id": "4c512bc5-8b85-4f99-a2d5-4c0f47ff7ea2",
           "name": "Delete Pickup Point",
           "request": {
             "name": "Delete Pickup Point",
@@ -10973,7 +10973,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "in dolor",
+                  "value": "dolor enim ea amet",
                   "key": "pickupPointId"
                 },
                 {
@@ -11003,7 +11003,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c15b9023-5c91-406a-9030-94a008d50ea0",
+              "id": "7b9981d1-84e8-46c1-a189-06baf68d079e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -11027,7 +11027,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "in dolor",
+                      "value": "dolor enim ea amet",
                       "key": "pickupPointId"
                     },
                     {
@@ -11097,7 +11097,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0619177c-c261-4362-8ee6-e3577aa63a0c",
+                "id": "c7ae2ef4-3341-4463-ad87-7cc436a5f5c8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/logistics/pvt/configuration/pickuppoints/:pickupPointId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -11110,7 +11110,7 @@
           }
         },
         {
-          "id": "baa54a06-505e-4690-91a0-266a1cab6784",
+          "id": "2becdfa6-7343-44df-aafc-00f169db0a21",
           "name": "List paged Pickup Points",
           "request": {
             "name": "List paged Pickup Points",
@@ -11187,7 +11187,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "71119c24-8d4e-4cc9-9d1e-8a7a4e89ae72",
+              "id": "86906e1e-e448-4c13-aa9d-10a658347856",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -11284,7 +11284,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9e475518-51c0-482a-a9c8-80ddeebeeaa8",
+                "id": "bfb58138-eb2e-4f5d-84cb-c1ab42552887",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/logistics/pvt/configuration/pickuppoints/_search - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -11397,7 +11397,7 @@
     }
   ],
   "info": {
-    "_postman_id": "1f693c19-0176-4887-96f2-2e28325df9e8",
+    "_postman_id": "eeeec30f-dfb3-432e-8b1a-169279d14ec6",
     "name": "Logistics API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

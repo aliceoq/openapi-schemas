@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "fb453290-9e5c-4825-84d5-915c8c80cd88"
+    "postman_id": "34e8c2ec-e931-4430-86d6-db1e23ff558a"
   },
   "item": [
     {
-      "id": "4abb8aae-03ea-486e-8e60-e77f6f10c0f5",
+      "id": "a3556d2c-ce43-43d5-9ace-1af429855944",
       "name": "Sellers",
       "description": {
         "content": "Get sellers' data",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "0f69111a-218c-48a6-9330-2a1a192e2136",
+          "id": "aaad4565-56f4-43d6-b38a-eec890dbf5af",
           "name": "Configure Seller Account",
           "request": {
             "name": "Configure Seller Account",
@@ -75,7 +75,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "0aac6075-05cc-409b-8293-89ddf722a3a8",
+              "id": "41612dd5-89ea-4873-92df-e096b92aa8ff",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -166,7 +166,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6110a162-4b73-4bf7-9ec4-f2cfb5d3e741",
+                "id": "68c40e4e-85b0-4c1e-901c-6a85c3c02c0e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/seller-register/pvt/sellers - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -179,7 +179,7 @@
           }
         },
         {
-          "id": "d047f2b0-ead5-4b3b-954d-9f0fc83ad0a0",
+          "id": "1c057ebe-a7d6-4b8b-be31-1545396f7eba",
           "name": "List Sellers",
           "request": {
             "name": "List Sellers",
@@ -327,7 +327,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ca3ace72-0f30-44c6-9535-9080e23108fc",
+              "id": "abd3ed2e-98d2-43a9-aa4f-42f02e07ec59",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -455,7 +455,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "702e8f2f-376e-4065-8a49-2620c3d65614",
+                "id": "6ee851fe-be96-4f4c-85af-477e1e34488d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/seller-register/pvt/sellers - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -468,7 +468,7 @@
           }
         },
         {
-          "id": "4fb24bbc-6202-4de6-8114-0ba0907c701d",
+          "id": "ad588b6d-5241-4568-b050-1c463db5c8ea",
           "name": "Update Seller by Seller ID",
           "request": {
             "name": "Update Seller by Seller ID",
@@ -542,7 +542,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "07419e79-5431-4001-88be-fdedcd70c168",
+              "id": "35824714-247c-4719-a3f2-71c3d8fae726",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -644,7 +644,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "effcf185-7845-4c10-8e88-6f184c97b51e",
+                "id": "ee994eb4-3b4d-41d5-a6f7-2ff4188d76b8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/seller-register/pvt/sellers/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -657,7 +657,7 @@
           }
         },
         {
-          "id": "c9532b88-2984-434b-aac7-e5d72904dadc",
+          "id": "9d600f53-3292-4e69-a553-b14490884ad4",
           "name": "Get Seller data by ID",
           "request": {
             "name": "Get Seller data by ID",
@@ -726,7 +726,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "328d50a9-324c-4252-a42c-d67770d7a4a7",
+              "id": "e46e2fda-24b7-492e-8550-d6464a644bfc",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -825,7 +825,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a2a4a704-8057-45f1-8a38-2bf0892d6c1e",
+                "id": "6c82acef-244d-4ae2-8b8e-6319c76a568f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/seller-register/pvt/sellers/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -841,7 +841,7 @@
       "event": []
     },
     {
-      "id": "22e8aa56-bf10-464a-b110-2e97fc26f0de",
+      "id": "4af1942c-2792-4eeb-a5a1-2b035f019dfd",
       "name": "Seller Invite",
       "description": {
         "content": "Used to invite sellers and configure their accounts",
@@ -849,7 +849,7 @@
       },
       "item": [
         {
-          "id": "c2e8e253-0c6d-4227-8ba7-d820848a021b",
+          "id": "50c00a0e-536c-4668-91ee-222d0062d067",
           "name": "Invite Seller Lead",
           "request": {
             "name": "Invite Seller Lead",
@@ -912,7 +912,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "0299e0fa-012b-4158-b5a8-30f5d0328715",
+              "id": "f1b23679-7fb3-4d55-92de-ac50090f58c4",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1003,7 +1003,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "13f36449-16cd-4ee3-9550-54bf765d5363",
+                "id": "00a3acda-da69-4c9b-b893-658374e311c5",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/seller-register/pvt/seller-leads - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1016,7 +1016,7 @@
           }
         },
         {
-          "id": "3e5d5439-cf0e-49eb-a877-eea88d79bb6b",
+          "id": "44cbf806-e7aa-4330-9935-319c4a8d0b70",
           "name": "List Seller Leads",
           "request": {
             "name": "List Seller Leads",
@@ -1086,7 +1086,7 @@
                     "type": "text/plain"
                   },
                   "key": "orderBy",
-                  "value": "ut"
+                  "value": "tempor id esse enim ea"
                 }
               ],
               "variable": [
@@ -1119,7 +1119,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f3457ee8-d27e-4b40-ba18-00e703e83b71",
+              "id": "af3f72e3-0e23-402e-a6c6-557f09e93c09",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1154,7 +1154,7 @@
                     },
                     {
                       "key": "orderBy",
-                      "value": "ut"
+                      "value": "tempor id esse enim ea"
                     }
                   ],
                   "variable": [
@@ -1227,7 +1227,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bad2cb7b-542b-44ca-8a9a-1f0143030de7",
+                "id": "27211bcf-4e31-4ce9-8758-28b7c4c650c0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/seller-register/pvt/seller-leads - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1240,7 +1240,7 @@
           }
         },
         {
-          "id": "f861ac2b-526c-4687-858f-163d6c3f736d",
+          "id": "51806ddc-3f28-4e41-bb1f-0a9f251d34f1",
           "name": "Accept Seller Lead",
           "request": {
             "name": "Accept Seller Lead",
@@ -1287,7 +1287,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ut",
+                  "value": "tempor id esse enim ea",
                   "key": "sellerLeadId"
                 }
               ]
@@ -1314,7 +1314,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "00aa3c28-5c4b-493c-a181-2002f1d0eeb6",
+              "id": "5b7fcd24-afc8-4226-9fc7-34731c29236d",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1356,7 +1356,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ut",
+                      "value": "tempor id esse enim ea",
                       "key": "sellerLeadId"
                     }
                   ]
@@ -1416,7 +1416,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3e3f1067-d133-4837-82bb-de2bb368e7d0",
+                "id": "53d9b8b2-e18f-4c2f-828e-f410a98ddbeb",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/seller-register/pvt/seller-leads/:sellerLeadId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1429,7 +1429,7 @@
           }
         },
         {
-          "id": "3d07f98e-6c62-4819-a92e-6bd806dd7863",
+          "id": "5838536c-9989-4e64-a769-7e9e25d6ea4e",
           "name": "Get Seller Lead's Data by Id",
           "request": {
             "name": "Get Seller Lead's Data by Id",
@@ -1476,7 +1476,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ut",
+                  "value": "tempor id esse enim ea",
                   "key": "sellerLeadId"
                 }
               ]
@@ -1488,7 +1488,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "fb0a5fa0-636d-42a5-b924-5e21dbf657bd",
+              "id": "abbcb79f-7653-475e-927d-7803338899c8",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1530,7 +1530,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ut",
+                      "value": "tempor id esse enim ea",
                       "key": "sellerLeadId"
                     }
                   ]
@@ -1582,7 +1582,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "74f4ee2d-d70c-4462-96ef-ad47ab46f9a3",
+                "id": "c95ca43e-831a-4917-99db-1a7b691788fe",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/seller-register/pvt/seller-leads/:sellerLeadId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1595,7 +1595,7 @@
           }
         },
         {
-          "id": "2f09d872-1c7e-42ec-82ea-546735c2cd3d",
+          "id": "b1d6a28d-1338-45de-a1d8-85aefc0657b8",
           "name": "Delete Seller Lead",
           "request": {
             "name": "Delete Seller Lead",
@@ -1642,7 +1642,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ut",
+                  "value": "tempor id esse enim ea",
                   "key": "sellerLeadId"
                 }
               ]
@@ -1654,7 +1654,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "fe0d5b86-08ed-428f-87c2-29dd62a401a2",
+              "id": "73e07445-7b68-4caf-ac92-3ba2486dcd89",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1696,7 +1696,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ut",
+                      "value": "tempor id esse enim ea",
                       "key": "sellerLeadId"
                     }
                   ]
@@ -1748,7 +1748,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "07eb6dbd-19df-40c2-9de1-c85fd3c75774",
+                "id": "81e11b28-ce6d-47b2-819d-119e21faa105",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/seller-register/pvt/seller-leads/:sellerLeadId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1761,7 +1761,7 @@
           }
         },
         {
-          "id": "cb1ec4cc-852d-4a55-84ec-3a24aca9b88b",
+          "id": "969e61dc-b77b-4a59-b237-99ff365a4f77",
           "name": "Create Seller From Lead",
           "request": {
             "name": "Create Seller From Lead",
@@ -1819,7 +1819,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ut",
+                  "value": "tempor id esse enim ea",
                   "key": "sellerLeadId"
                 }
               ]
@@ -1831,7 +1831,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "62384840-4cc7-45e5-b610-ddc003b7ddb5",
+              "id": "b8e48d71-354e-40be-bf00-d24322bb356d",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1879,7 +1879,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ut",
+                      "value": "tempor id esse enim ea",
                       "key": "sellerLeadId"
                     }
                   ]
@@ -1931,7 +1931,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f4a06be6-c5f9-4dca-8621-8cb02a9abd3a",
+                "id": "3c54ce91-02de-4ab3-b473-189861d84de3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/seller-register/pvt/seller-leads/:sellerLeadId/seller - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1944,7 +1944,7 @@
           }
         },
         {
-          "id": "3058fe32-80c8-4dad-a0be-36124b5dfd7c",
+          "id": "cf2fa799-e62d-4a1c-9a94-ba9eaabc58e7",
           "name": "Resend Seller Lead Invite",
           "request": {
             "name": "Resend Seller Lead Invite",
@@ -1992,7 +1992,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ut",
+                  "value": "tempor id esse enim ea",
                   "key": "sellerLeadId"
                 }
               ]
@@ -2019,7 +2019,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "036efe38-9502-4278-8a2c-3a13e7925fe9",
+              "id": "f1ac85a3-c154-42db-9f3c-679877aea6f0",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2062,7 +2062,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ut",
+                      "value": "tempor id esse enim ea",
                       "key": "sellerLeadId"
                     }
                   ]
@@ -2122,7 +2122,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "854968be-a565-405f-95a9-9b7a9de12efa",
+                "id": "768d5e8d-354b-48c3-89c6-fbac579646c8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/seller-register/pvt/seller-leads/:sellerLeadId/status - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2138,7 +2138,7 @@
       "event": []
     },
     {
-      "id": "e500f9a1-9aba-436f-a057-21d8ca59057e",
+      "id": "ec309415-8fb3-4c2a-9180-406cea7547a1",
       "name": "Seller Commissions",
       "description": {
         "content": "Get sellers' data",
@@ -2146,7 +2146,7 @@
       },
       "item": [
         {
-          "id": "dbdc49b6-1b78-42f9-ab19-1b55962d3a9b",
+          "id": "4d23d058-19c2-4290-91db-c0b878890ac1",
           "name": "Upsert Seller Commissions in Bulk",
           "request": {
             "name": "Upsert Seller Commissions in Bulk",
@@ -2222,7 +2222,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c6bfbede-c0aa-44f2-8f8d-643e58f40ce1",
+              "id": "9df009e3-9d11-4028-84b4-7006c2df5a7b",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2326,7 +2326,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "21fac809-aae6-4365-bac8-8a473cca78ce",
+                "id": "3ef4e945-8e03-4487-a18e-e86fbf559d3f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/seller-register/pvt/sellers/:sellerId/commissions/categories - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2339,7 +2339,7 @@
           }
         },
         {
-          "id": "45f49b97-a9f5-47fa-a9f8-092b98b772e5",
+          "id": "d38b332c-a39e-4132-a16c-5758c13c30e4",
           "name": "List Seller Commissions by seller ID",
           "request": {
             "name": "List Seller Commissions by seller ID",
@@ -2399,7 +2399,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "9d36b244-b1d5-4d2a-9cbb-795be9441422",
+              "id": "ebb83ce8-3e88-4d84-8550-70561c3f6a9a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2494,7 +2494,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bdf94c51-e972-4cf4-aa99-5f195c616f96",
+                "id": "389d1722-efb5-4b4d-a95d-65216d60ad9d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/seller-register/pvt/sellers/:sellerId/commissions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2507,7 +2507,7 @@
           }
         },
         {
-          "id": "74a30988-858d-49bf-be69-3a6ce0beb766",
+          "id": "032dc068-11b8-4726-998f-00d0dfc006bc",
           "name": "Upsert Seller Commissions by Category ID",
           "request": {
             "name": "Upsert Seller Commissions by Category ID",
@@ -2593,7 +2593,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "b3447e8b-827f-4d11-bbab-d72cf53469c6",
+              "id": "7cce3ffb-14b2-481a-9e1d-c12e7453b85c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2707,7 +2707,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "59280d04-7d81-4f7c-9060-64ad3dcf7fd5",
+                "id": "6a2de2f3-f06e-4bf2-a856-65b81e44d249",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/seller-register/pvt/sellers/:sellerId/commissions/:categoryId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2720,7 +2720,7 @@
           }
         },
         {
-          "id": "c8c4592a-3125-49f4-9289-207fd953ec34",
+          "id": "6a7f3e79-ef04-405c-990a-0f0ec25f354e",
           "name": "Remove Seller Commissions by Category ID",
           "request": {
             "name": "Remove Seller Commissions by Category ID",
@@ -2791,7 +2791,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "2b9ded03-e251-4dbb-8a19-a582152f8fe0",
+              "id": "05c0e898-1b91-4ee9-a619-52e9b683492c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2897,7 +2897,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bed524fa-61b4-4fb9-b205-130eb9c9fd9c",
+                "id": "5b4c2d6a-2fb4-4d09-b878-7214daefd944",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/seller-register/pvt/sellers/:sellerId/commissions/:categoryId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2910,7 +2910,7 @@
           }
         },
         {
-          "id": "740cb9fc-9f57-4d17-b9a8-1d5eccf79f04",
+          "id": "904e0e6a-607d-440c-9493-56ce83290cb4",
           "name": "Get Seller Commissions by Category ID",
           "request": {
             "name": "Get Seller Commissions by Category ID",
@@ -2981,7 +2981,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c9620aef-b966-4f85-aec4-3d8c96c44c4b",
+              "id": "96d63b15-c0d7-4350-a65b-dd0e8f553147",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3087,7 +3087,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a0fc6308-8741-40ca-a46c-5ca8daf27483",
+                "id": "6c319111-26b0-4559-aef9-57f297bd60f2",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/seller-register/pvt/sellers/:sellerId/commissions/:categoryId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3103,7 +3103,7 @@
       "event": []
     },
     {
-      "id": "4ab35b34-07c3-4121-a4cc-6ebe51475190",
+      "id": "abfbdc91-0cd3-4ebe-aa89-e29d198ccb2d",
       "name": "Notification",
       "description": {
         "content": "",
@@ -3111,7 +3111,7 @@
       },
       "item": [
         {
-          "id": "b2e74a2b-b6e6-420c-98b8-345863c97349",
+          "id": "64698106-290b-4e26-aa5c-40f66aff9a25",
           "name": "Notify marketplace of price update",
           "request": {
             "name": "Notify marketplace of price update",
@@ -3181,7 +3181,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "be69bc60-6e95-4fb2-8c2f-31ab9ac46af6",
+              "id": "9aa89512-ed66-4206-add9-bbf798f06bfc",
               "name": "Accepted",
               "originalRequest": {
                 "url": {
@@ -3286,7 +3286,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b241acc6-53d5-4c17-a5e3-003cca48501f",
+                "id": "352cc4e7-829d-46a0-b860-121110e142e0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/notificator/:sellerId/changenotification/:skuId/price - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3299,7 +3299,7 @@
           }
         },
         {
-          "id": "bec23021-bbb9-44ab-bca5-e1100f0202b9",
+          "id": "49b87baa-1622-49ca-917e-e1dc6f2ac59d",
           "name": "Notify marketplace of inventory update",
           "request": {
             "name": "Notify marketplace of inventory update",
@@ -3369,7 +3369,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "46ca56c1-7bfd-4ace-b219-2b3f7d749edf",
+              "id": "d0d772fd-ee0c-4ec1-a80a-dc0aeff2453f",
               "name": "Accepted",
               "originalRequest": {
                 "url": {
@@ -3474,7 +3474,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5a6bd1a1-df97-437a-b96c-0e19fa30af14",
+                "id": "3b506cc9-9614-4b89-9d15-ba9692943055",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/notificator/:sellerId/changenotification/:skuId/inventory - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3490,7 +3490,7 @@
       "event": []
     },
     {
-      "id": "a87df6fb-77ef-4ac5-950b-d77d56718af0",
+      "id": "12dcf7eb-fb5d-4e3b-a62e-39c2e019662c",
       "name": "Matched Offers",
       "description": {
         "content": "",
@@ -3498,7 +3498,7 @@
       },
       "item": [
         {
-          "id": "b9d2fe02-be1f-422a-b5e2-a5d6d975d449",
+          "id": "6c6d9cb3-3f36-4862-aa88-7a580def2bd8",
           "name": "Get Matched Offers List",
           "request": {
             "name": "Get Matched Offers List",
@@ -3589,7 +3589,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "3de5b526-13e3-4a66-b048-aff127691700",
+              "id": "dbb2b234-414b-4ea2-9aef-6f3838ab88dd",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3693,7 +3693,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2b0e282e-c707-4e8b-bfaa-df3e7a53db1c",
+                "id": "5d680e9f-ad71-48e0-9fe5-a4479c822c12",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/offer-manager/pvt/offers - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3709,7 +3709,7 @@
           }
         },
         {
-          "id": "be67e80d-1da5-4faf-8b20-eb096ea600cf",
+          "id": "81ef27fc-d654-4134-8902-4f510988da19",
           "name": "Get Matched Offer's Data by SKU ID",
           "request": {
             "name": "Get Matched Offer's Data by SKU ID",
@@ -3780,7 +3780,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "7e8180e0-99fc-48c3-800b-69f822cad9bb",
+              "id": "dcba3439-5884-47a3-a42f-7c9cf53efd16",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3886,7 +3886,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "1ca79e3b-3677-4990-8d30-4a200fa5192b",
+                "id": "d007bc16-3818-4c46-a4ae-26c6df27db19",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/offer-manager/pvt/product/:productId/sku/:skuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3899,7 +3899,7 @@
           }
         },
         {
-          "id": "d78cbeef-c0e9-45f7-9128-212356de3d4f",
+          "id": "79d1cd91-6b90-489a-97ff-1501a130de14",
           "name": "Get Matched Offer's Data by Product ID",
           "request": {
             "name": "Get Matched Offer's Data by Product ID",
@@ -3958,7 +3958,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "65a35d2d-6159-4f8e-9c32-92a84601e12a",
+              "id": "8f40f13a-2933-46b3-9fbf-ce95122e12e2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4052,7 +4052,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d13b3639-f088-46e4-beac-5e56855187aa",
+                "id": "397ca99e-4ecf-4a45-998c-c847a42e1035",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/offer-manager/pvt/product/:productId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -4068,7 +4068,7 @@
       "event": []
     },
     {
-      "id": "5225b797-83f9-4b6a-8c46-d202ed17ba9a",
+      "id": "ded7c059-e13a-4557-9feb-cc8e52f1862c",
       "name": "Sales Channel Mapping",
       "description": {
         "content": "Mapping between a marketplace's sales channel and a seller's affiliate.",
@@ -4076,7 +4076,7 @@
       },
       "item": [
         {
-          "id": "5700df32-d42d-493a-a3e3-04158a221237",
+          "id": "76f4eebe-4edf-49c3-b525-49b6502997c1",
           "name": "Upsert Sales Channel Mapping",
           "request": {
             "name": "Upsert Sales Channel Mapping",
@@ -4166,7 +4166,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "b27decbc-9237-4dcb-a335-091dbaee8c49",
+              "id": "0c3584f9-65fe-44b7-a57b-1eed386f03ce",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4279,7 +4279,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "108bc61a-021e-4e34-9f60-9e0b4aaa846a",
+                "id": "97cb8268-9132-4470-942f-648bfb3ecf23",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/seller-register/pvt/sellers/:sellerId/sales-channel/mapping - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4295,7 +4295,7 @@
           }
         },
         {
-          "id": "c7679b5e-9eec-4808-90f1-375c95f7658c",
+          "id": "693d092c-ec6b-4f5b-9607-a9f46bb083bb",
           "name": "Get Sales Channel Mapping Data",
           "request": {
             "name": "Get Sales Channel Mapping Data",
@@ -4372,7 +4372,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "20e2369e-a75e-4e58-8023-117c0414fb51",
+              "id": "0f8e2b6a-d35b-48d7-9d50-52fe53ff9f06",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4477,7 +4477,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c3f0ced4-6abc-42e2-8ee1-3201ee323261",
+                "id": "917481d7-2556-452a-aefb-25386ee89b78",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/seller-register/pvt/sellers/:sellerId/sales-channel/mapping - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4543,7 +4543,7 @@
     }
   ],
   "info": {
-    "_postman_id": "fb453290-9e5c-4825-84d5-915c8c80cd88",
+    "_postman_id": "34e8c2ec-e931-4430-86d6-db1e23ff558a",
     "name": "Marketplace API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

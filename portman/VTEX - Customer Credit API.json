@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "198cb726-2ea8-4a84-9ae8-df54886fb1e5"
+    "postman_id": "f2249c15-727a-4610-a145-0e71ec81bca3"
   },
   "item": [
     {
-      "id": "724f64e3-3c6c-4f84-a9ec-f5f7c3d1aa3f",
+      "id": "636ad19f-2052-46f3-8660-574a8cf519e7",
       "name": "Invoices",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "88fe2fbb-c2b7-45f6-9978-356b86e3fc3c",
+          "id": "34b048e0-debf-49ac-90d4-c5a9af603733",
           "name": "Search all invoices",
           "request": {
             "name": "Search all invoices",
@@ -121,7 +121,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "004f039b-78dc-4d0a-8216-a7734adb2556",
+              "id": "546ceea2-1519-4e81-87f1-f2040f52920e",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -319,7 +319,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "83eb24ab-130f-4a7f-8935-5ead4ed66b39",
+                "id": "9e4e5235-56eb-4cae-970e-f629c1682e61",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/creditcontrol/invoices - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -344,7 +344,7 @@
           }
         },
         {
-          "id": "20256de7-1fea-432b-8073-1609161b5007",
+          "id": "735e4b18-86cc-4da4-9356-e1a6ed571325",
           "name": "Retrieve Invoice by Id",
           "request": {
             "name": "Retrieve Invoice by Id",
@@ -419,7 +419,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7ab01af3-bb4c-418d-81f4-ef230f58bad5",
+              "id": "4e242e57-b2e0-4023-9fe7-6cd5c3df3b84",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -598,7 +598,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2953c15f-3acf-4f27-8c5d-9a9a313ed605",
+                "id": "45079ad3-43fa-46e9-86e3-da53326ce4f9",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/creditcontrol/accounts/:creditAccountId/invoices/:invoiceId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -622,7 +622,7 @@
           }
         },
         {
-          "id": "a9b224a0-a636-4578-be8f-ded6e3fd306b",
+          "id": "03454984-daa5-43c0-abe2-111a96d06740",
           "name": "Change Invoice",
           "request": {
             "name": "Change Invoice",
@@ -720,7 +720,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "17c24b9c-9097-414f-a672-8a838c6ecfdc",
+              "id": "60a0d808-0005-424e-b171-1acb16bea08d",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -939,7 +939,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bb96c9f0-5b4b-48ae-9064-33207931fbb1",
+                "id": "8d44c594-df9f-4041-9e33-94cf768c3b95",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:creditAccountId/invoices/:invoiceId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -964,7 +964,7 @@
           }
         },
         {
-          "id": "5fac8d9f-5e3a-4823-a7b3-cc2622251837",
+          "id": "901a6f4d-e298-4932-8718-fc1e98f0ff0b",
           "name": "Cancel Invoice",
           "request": {
             "name": "Cancel Invoice",
@@ -1039,7 +1039,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "52e624d0-2316-4b7a-8aec-88c427d47e19",
+              "id": "94e23229-c15b-49cd-abb6-a02c1e7eb9dc",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1245,7 +1245,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "40dc8e71-67da-4c6d-9acf-ec67e5549e00",
+                "id": "ec2cb246-e9fa-4c7b-be96-1d10a52b10f4",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/creditcontrol/accounts/:creditAccountId/invoices/:invoiceId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1270,7 +1270,7 @@
           }
         },
         {
-          "id": "bbe70391-25b8-4908-bdab-653f46eadd62",
+          "id": "34df8355-61b6-45f9-9e41-5b08f3844178",
           "name": "Retrieve invoice by creditAccountId",
           "request": {
             "name": "Retrieve invoice by creditAccountId",
@@ -1334,7 +1334,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ebde307b-668a-4728-9ee5-ff271572e379",
+              "id": "fa040f1f-3147-40bd-9034-7b339537eb11",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1511,7 +1511,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9b0bf90c-11f7-4fc1-a2b6-8ceed4e4771b",
+                "id": "ceb08e42-6592-4cd1-b0d5-1ffce4c14d78",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/creditcontrol/accounts/:creditAccountId/invoices - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1536,7 +1536,7 @@
           }
         },
         {
-          "id": "8fc77826-8e65-4c34-9064-f9a7af31421e",
+          "id": "19be8e65-2759-4533-a596-3149b31483e1",
           "name": "Mark an invoice as Paid",
           "request": {
             "name": "Mark an invoice as Paid",
@@ -1625,7 +1625,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7141d052-5ead-4fb1-8bdb-fb46b9e54fa4",
+              "id": "18961480-0a9a-4f98-a151-d32b6c3d6079",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1840,7 +1840,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "52ab2d46-8d2a-4b93-9554-436f57a581dc",
+                "id": "8bfffc2b-6b52-4d9a-ba5d-004d58dd320f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/creditcontrol/accounts/:creditAccountId/invoices/:invoiceId/payments - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1867,7 +1867,7 @@
           }
         },
         {
-          "id": "30dd53f9-7615-4fc1-b3df-c1276e8f18f9",
+          "id": "e4200d3c-c046-4abc-8775-03bcb3ea6352",
           "name": "Postpone an invoice",
           "request": {
             "name": "Postpone an invoice",
@@ -1897,7 +1897,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ad non ven",
+                  "value": "magna nulla ut",
                   "key": "creditAccountId"
                 },
                 {
@@ -1907,7 +1907,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ad non ven",
+                  "value": "magna nulla ut",
                   "key": "invoiceId"
                 },
                 {
@@ -1956,7 +1956,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f23541c0-e8cb-474a-8b53-07097ba6999c",
+              "id": "818b309f-c96d-445a-bbcc-84c2a591ca49",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1980,7 +1980,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ad non ven",
+                      "value": "magna nulla ut",
                       "key": "creditAccountId"
                     },
                     {
@@ -1990,7 +1990,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ad non ven",
+                      "value": "magna nulla ut",
                       "key": "invoiceId"
                     },
                     {
@@ -2171,7 +2171,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "db55b526-6b34-4e18-9a46-c166cb9b7522",
+                "id": "43fd33b1-2764-4f42-8b4d-8f0efca823f3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:creditAccountId/invoices/:invoiceId/postponement - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2199,7 +2199,7 @@
       "event": []
     },
     {
-      "id": "a85e8b8f-79ad-4831-a76e-826970254d8f",
+      "id": "8c0cb39b-8df9-401d-b5d3-ee93672410c8",
       "name": "Account",
       "description": {
         "content": "",
@@ -2207,7 +2207,7 @@
       },
       "item": [
         {
-          "id": "e7508592-c887-459a-901c-d2896e9614ad",
+          "id": "60eb9794-d5b3-4dd1-95d9-8bd7e251fdfc",
           "name": "Search all accounts",
           "request": {
             "name": "Search all accounts",
@@ -2259,7 +2259,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "1c64cd9e-f60f-44b6-b494-87ae2f2ab8c6",
+              "id": "2774852c-7105-43fd-af59-7dcdc2c1e628",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2433,7 +2433,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2d492b09-8680-4b69-8f77-cbc5ccd12229",
+                "id": "44287c45-8fd0-4f91-98d7-c4fbc1553350",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/creditcontrol/accounts - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2459,7 +2459,7 @@
           }
         },
         {
-          "id": "040f783a-7da8-42c3-9f2e-90e8bd780e0d",
+          "id": "4ceb481d-80e5-4f42-9ed1-d4351e3d2ba9",
           "name": "Open an Account",
           "request": {
             "name": "Open an Account",
@@ -2524,7 +2524,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ac37ed51-0c84-49e9-8763-e43146852d7c",
+              "id": "e35842bd-08bb-420b-9995-c6dc5df6ad68",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2706,7 +2706,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "77c941e3-3624-4b3a-a547-4a7baee4ec82",
+                "id": "eb07eb81-9402-42c1-b4bf-059e2dffe850",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/creditcontrol/accounts - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2732,7 +2732,7 @@
           }
         },
         {
-          "id": "191fa2b7-267a-49df-8c4f-256dfba6edd0",
+          "id": "4edef58b-5018-4af9-bcb0-e16d50fa5427",
           "name": "Retrieve an Account by Id",
           "request": {
             "name": "Retrieve an Account by Id",
@@ -2795,7 +2795,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "f40821bb-b701-4d67-b65a-03d100f56b7f",
+              "id": "2778f933-b620-42c8-8e80-0f10040bfea0",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2962,7 +2962,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5498b5b0-dd5e-422e-8dd0-3e52b03b94ee",
+                "id": "efa97a23-804c-4a4e-9dd2-d124d36b9e61",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/creditcontrol/accounts/:creditAccountId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2986,7 +2986,7 @@
           }
         },
         {
-          "id": "9a52afd6-dc7b-42e4-8a7f-c6216660c832",
+          "id": "4bbbffba-d89b-4481-a976-014a74dafe58",
           "name": "Close an Account",
           "request": {
             "name": "Close an Account",
@@ -3058,7 +3058,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ce4d8839-b9e9-4aa6-bd69-bd7fda585584",
+              "id": "85b87c44-fe5c-4a56-bed1-9c7856294be8",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3157,7 +3157,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3a55be26-1abb-43fc-9a56-7f75ab97bbeb",
+                "id": "89cbfb0b-5943-4d39-b011-ef0fbc821e87",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/creditcontrol/accounts/:creditAccountId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3170,7 +3170,7 @@
           }
         },
         {
-          "id": "0384ca23-95fa-4f10-9c49-da0f41926f7b",
+          "id": "b88e3e52-23e7-4b5d-a5bf-c03c2f2c507a",
           "name": "Update email and description of a account",
           "request": {
             "name": "Update email and description of a account",
@@ -3246,7 +3246,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "493e9252-df4d-4669-ad1b-8c445a8c4245",
+              "id": "975bc62c-e6b6-4965-86a0-9a785b1b1dc9",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3439,7 +3439,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "795e86a1-2094-46cb-906e-dc544014a96c",
+                "id": "0d9cf04d-3705-4868-a78c-c3b2aa26d814",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:creditAccountId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3465,7 +3465,7 @@
           }
         },
         {
-          "id": "9f18b566-f95f-4f5c-97e3-e824edf1d36a",
+          "id": "fff13250-b53f-446d-8233-349e2d65a316",
           "name": "Account statements",
           "request": {
             "name": "Account statements",
@@ -3529,7 +3529,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ea2360b4-fb76-4f0f-91bd-d1cfbeb49266",
+              "id": "afa8e312-d00c-4add-b992-109144667731",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3724,7 +3724,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f5b40990-e8e0-476c-bb0b-eba07eff8561",
+                "id": "e99dcc4e-64eb-4e64-93a9-6a017ddec189",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/creditcontrol/accounts/:creditAccountId/statements - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3751,7 +3751,7 @@
           }
         },
         {
-          "id": "e325cc5c-92a0-4c6b-afa0-8ae849b9c355",
+          "id": "903a6f3e-e80d-487d-9802-54670644067b",
           "name": "Open or Change Account",
           "request": {
             "name": "Open or Change Account",
@@ -3827,7 +3827,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "04e21ba8-f62e-41c1-87b0-93d982ce963c",
+              "id": "f5dbd6ad-e630-48cc-b90f-553bdc8a8301",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4020,7 +4020,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "96dc354b-1425-4414-bd05-608b91a9c201",
+                "id": "a40992f5-1f4b-41bc-843e-d18a135b9e59",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:accountId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4046,7 +4046,7 @@
           }
         },
         {
-          "id": "ebb7c645-de0b-49cf-9b12-1ad4b2a05615",
+          "id": "09fd8f19-d397-4823-bb76-678adbfefe03",
           "name": "Change credit limit of an Account",
           "request": {
             "name": "Change credit limit of an Account",
@@ -4123,7 +4123,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "456efe5d-9b86-459c-bc91-e18c279b27e1",
+              "id": "c7e11770-519a-4f7f-8ff4-2a4869dc4822",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4308,7 +4308,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6672554c-73b4-46d1-a876-2a68b36f1b94",
+                "id": "310be799-8ab7-4919-95f8-0e494754a3a3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:creditAccountId/creditlimit - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4331,7 +4331,7 @@
           }
         },
         {
-          "id": "4fe1f575-4a62-40f5-a733-02fc0e95ff29",
+          "id": "990e6dcf-9667-4195-aae2-34dc8dd65c17",
           "name": "Decrease balance of an account",
           "request": {
             "name": "Decrease balance of an account",
@@ -4415,7 +4415,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c9d70a33-0237-4307-bd87-1ffa7c3273cd",
+              "id": "22487eb7-9d45-489b-b5cf-284ed613863c",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4526,7 +4526,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "83941bb5-e9dd-4e68-aa5e-ee99fd1106b7",
+                "id": "a4b0483a-28d8-4850-82fd-7c512d36ee16",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:creditAccountId/statements/:statementId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -4539,7 +4539,7 @@
           }
         },
         {
-          "id": "e4642e7c-3fa6-4eaa-bb31-8c6c1c429e6a",
+          "id": "ed121fb7-f87f-4dc2-8e66-2bf122321c65",
           "name": "Create or Update Settlement",
           "request": {
             "name": "Create or Update Settlement",
@@ -4628,7 +4628,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "24357474-f4d8-4d04-9372-02c8a9bd74c7",
+              "id": "07c32ccc-286e-4fe8-9073-1ce2724a12a9",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4798,7 +4798,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "553bf38d-a663-4374-9b8a-fbd673630abd",
+                "id": "c915514d-0d14-4ddd-a128-c2a7156513cc",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:creditAccountId/transactions/:transactionId/settlement - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4821,7 +4821,7 @@
           }
         },
         {
-          "id": "432677a6-7e1a-46e1-9857-bd2a2e5ad5dd",
+          "id": "a65c5a20-3bbe-4543-b765-897b3e25d6b7",
           "name": "Create a Pre Authorization",
           "request": {
             "name": "Create a Pre Authorization",
@@ -4894,7 +4894,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "5e081298-fabb-4121-834e-139a8a6b5a50",
+              "id": "48aa1d7b-61da-46bf-a4b4-c62d7ce7f11c",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4994,7 +4994,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8042ccc5-5b95-4f0a-978a-37e2e2de1947",
+                "id": "f33a6537-cd2c-4800-8918-dcf07097f04b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/creditcontrol/accounts/:creditAccountId/transaction - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -5007,7 +5007,7 @@
           }
         },
         {
-          "id": "ec0cff8a-fe1b-467f-8672-cb5187400cde",
+          "id": "f4ffc3cb-89df-4246-9bdf-aedc6a22bfc9",
           "name": "Create a Pre Authorization (using id)",
           "request": {
             "name": "Create a Pre Authorization (using id)",
@@ -5091,7 +5091,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "cb0bbcf9-ccee-4b68-94e2-b169e9c31708",
+              "id": "c24a3fd0-7d35-4b31-953b-fd9526791606",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -5202,7 +5202,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4ebbaf6b-a02a-409c-ace4-332a975daece",
+                "id": "6b4ad397-42df-4b0b-b06c-fbe3a079d570",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:creditAccountId/transactions/:transactionId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -5215,7 +5215,7 @@
           }
         },
         {
-          "id": "d81eb662-e32d-47ba-b3c8-02248909974f",
+          "id": "20f3df00-80c7-4a2f-a062-04c89eb8cb12",
           "name": "Cancel a Pre Authorization",
           "request": {
             "name": "Cancel a Pre Authorization",
@@ -5284,7 +5284,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "7ee31a07-b943-41f5-815d-e4d5a6379d1d",
+              "id": "3ca05f41-20d1-4058-9b30-1c767b897c78",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -5387,7 +5387,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d9222c12-b183-400b-87db-990c98849ee4",
+                "id": "e7ada0fe-a6de-4b83-a3f9-459ec7e535f8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/creditcontrol/accounts/:creditAccountId/transactions/:transactionId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -5400,7 +5400,7 @@
           }
         },
         {
-          "id": "2850a150-094b-41ea-a92e-241a1dca6eaf",
+          "id": "30fbe1dc-a184-4fef-9884-76243165fc16",
           "name": "Add an account Holder",
           "request": {
             "name": "Add an account Holder",
@@ -5477,7 +5477,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "312f05b9-f0f7-4369-a50d-ba5fd37179bf",
+              "id": "3c787f1d-8a87-4d4b-8faf-c790d2069c34",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -5671,7 +5671,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "82380d9f-aa98-4094-9ba1-d673e46e1867",
+                "id": "bf20bc56-ad81-4721-8fe8-bf2b70c8f85d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/creditcontrol/accounts/:creditAccountId/holders - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5697,7 +5697,7 @@
           }
         },
         {
-          "id": "d47103d4-b64a-4a47-bd1d-9a9eb7b3bcf7",
+          "id": "a2c6d106-0e85-459a-bc83-47f6d9494f89",
           "name": "Delete an account holder",
           "request": {
             "name": "Delete an account holder",
@@ -5772,7 +5772,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "670442f3-b19c-4cd6-8ce6-9be8dfab8829",
+              "id": "943cdd33-7640-44f4-9936-b6426e7fab45",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -5969,7 +5969,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8b6d1a6a-da59-4e86-b5d2-ab32c0011ee3",
+                "id": "708fc909-dbab-4994-9650-ffb648088736",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/creditcontrol/accounts/:creditAccountId/holders/:holderId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5995,7 +5995,7 @@
           }
         },
         {
-          "id": "362d7770-107e-4b9b-b761-7594f8b806c0",
+          "id": "424017cd-4389-4750-9134-a1714eaff385",
           "name": "Change tolerance of an account",
           "request": {
             "name": "Change tolerance of an account",
@@ -6072,7 +6072,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ffbc7f56-83dc-4c29-a8f6-5fb2e04231b9",
+              "id": "9b5bef75-a294-473b-90ea-c2d32326b640",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -6257,7 +6257,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "735aa047-07b3-467c-969c-31083f88df6e",
+                "id": "05679562-daf5-483d-806e-7a82c8136d6d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/accounts/:creditAccountId/tolerance - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -6280,7 +6280,7 @@
           }
         },
         {
-          "id": "84002a79-99c4-4d77-b47c-4382828cfcf7",
+          "id": "2cace781-e9c6-4315-be0f-43d7a2517094",
           "name": "Partial or Total Refund a Settlement",
           "request": {
             "name": "Partial or Total Refund a Settlement",
@@ -6369,7 +6369,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "2c0f00c9-c3e3-4101-86b3-18321c407d18",
+              "id": "02cab145-43db-42a0-bd21-b511f36bae94",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -6539,7 +6539,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e42f5d78-756a-4f48-9eae-244d4398e4ae",
+                "id": "6e1e338c-cad8-4216-b341-4c5e0a3d9ea3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/creditcontrol/accounts/:creditAccountId/transactions/:transactionId/refunds - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -6565,7 +6565,7 @@
       "event": []
     },
     {
-      "id": "2a3fcc63-708c-44aa-9db0-ee18dd0e76e5",
+      "id": "83f6b4ce-de69-4e11-875e-ffdda0348b84",
       "name": "Store Configuration",
       "description": {
         "content": "",
@@ -6573,7 +6573,7 @@
       },
       "item": [
         {
-          "id": "0cf304a1-ab30-4172-99dd-8a97d9b25ba9",
+          "id": "d5de98cb-1f7d-407b-9d47-c18a9f97925c",
           "name": "Retrieve store configuration",
           "request": {
             "name": "Retrieve store configuration",
@@ -6625,7 +6625,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "aeb1501d-9bee-4e72-8dda-b71505eea974",
+              "id": "0fd8b67b-db00-4458-8694-d50464018df5",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -6799,7 +6799,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "501081e2-3267-4b2e-a6e2-c87f485dedd3",
+                "id": "60f8ba20-7099-4205-82dc-04665ba9a2e4",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/creditcontrol/storeconfig - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -6825,7 +6825,7 @@
           }
         },
         {
-          "id": "b9b56c66-b9a0-451b-a021-4027ff05db11",
+          "id": "f4f0916f-7cbe-4d79-bb24-8f2407dd38ab",
           "name": "Create or change store configuration",
           "request": {
             "name": "Create or change store configuration",
@@ -6890,7 +6890,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e43a326a-1aae-4cb3-b1a9-22390afb8678",
+              "id": "d9241e4d-1b3f-433b-b3b8-d850d78032c1",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -7072,7 +7072,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7eb9139e-6054-4c55-bd05-85f7d7768fba",
+                "id": "ddad1789-df22-46ee-8446-db5543f06b47",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/creditcontrol/storeconfig - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -7148,7 +7148,7 @@
     }
   ],
   "info": {
-    "_postman_id": "198cb726-2ea8-4a84-9ae8-df54886fb1e5",
+    "_postman_id": "f2249c15-727a-4610-a145-0e71ec81bca3",
     "name": "Customer Credit API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "eb20be52-0458-4740-ab38-f2d47f8d5fe1"
+    "postman_id": "c56dd1bc-f8d9-44c6-9ca0-80b355913030"
   },
   "item": [
     {
-      "id": "b66e5772-fbb2-432e-a33e-0047b77aa778",
+      "id": "7b6e1c1d-ec99-42da-8de3-11b7ee77ac10",
       "name": "External Marketplace",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "73f2ce3d-77e4-4e3d-8a3c-ec9730179b97",
+          "id": "1feed5bb-b095-49ca-9efa-2a74c4e801b0",
           "name": "List all channels",
           "request": {
             "name": "List all channels",
@@ -76,7 +76,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7dd65b19-9ef4-413d-b242-a157efd1d0f4",
+              "id": "b3980eda-5084-40d6-b995-e081766330ab",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -168,7 +168,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "990f3239-0eec-40ef-ad6f-f2a04c3cc5bf",
+                "id": "6fa34566-9686-42cb-ae30-12ba7a3385fc",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/channel-manager/channel/all - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -184,7 +184,7 @@
           }
         },
         {
-          "id": "a6fa8a2e-959d-4593-95db-0e16393f20c5",
+          "id": "574811b1-bc3f-47c5-8173-a14ea3d41f31",
           "name": "Retrieve channel",
           "request": {
             "name": "Retrieve channel",
@@ -258,7 +258,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "4bc67bd9-5d58-43af-8501-53a34f643c96",
+              "id": "fc1f99e6-abe4-4561-ac37-e04d1725cabe",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -362,7 +362,7 @@
           }
         },
         {
-          "id": "930b17ae-afba-459b-b250-6a0b553951c2",
+          "id": "0d83c030-bd4f-46b7-9219-fe94445213f8",
           "name": "VTEX Mapper Registration",
           "request": {
             "name": "VTEX Mapper Registration",
@@ -412,7 +412,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"displayName\": \"Marketplace A\",\n  \"categoryTreeEndPoint\": \"http://api.vtexinternal.com.br/api/{{marketplaceName}}/mapper/categories\",\n  \"mappingEndPoint\": \"http://api.vtexinternal.com.br/api/{{marketplaceName}}/mapper/mapping\",\n  \"properties\": {\n    \"allowsRemap\": true\n  },\n  \"CategoryTreeProcessingNotificationEndpoint\": \"https://CategoryTreeProcessingNotificationEndpoint.com/api\"\n}",
+              "raw": "{\n  \"displayName\": \"Marketplace A\",\n  \"categoryTreeEndPoint\": \"http://api.vtexinternal.com.br/api/{{marketplaceName}}/mapper/categories\",\n  \"mappingEndPoint\": \"http://api.vtexinternal.com.br/api/{{marketplaceName}}/mapper/mapping\",\n  \"properties\": {\n    \"allowsRemap\": \"dolor voluptate occaecat Excepteur\"\n  },\n  \"CategoryTreeProcessingNotificationEndpoint\": \"https://CategoryTreeProcessingNotificationEndpoint.com/api\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -425,7 +425,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ee230da9-7804-4f9e-a6de-9bb12ea90dcf",
+              "id": "34e15bfe-08bb-4035-95be-d2e2b26a5dfc",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -487,7 +487,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"displayName\": \"Marketplace A\",\n  \"categoryTreeEndPoint\": \"http://api.vtexinternal.com.br/api/{{marketplaceName}}/mapper/categories\",\n  \"mappingEndPoint\": \"http://api.vtexinternal.com.br/api/{{marketplaceName}}/mapper/mapping\",\n  \"properties\": {\n    \"allowsRemap\": true\n  },\n  \"CategoryTreeProcessingNotificationEndpoint\": \"https://CategoryTreeProcessingNotificationEndpoint.com/api\"\n}",
+                  "raw": "{\n  \"displayName\": \"Marketplace A\",\n  \"categoryTreeEndPoint\": \"http://api.vtexinternal.com.br/api/{{marketplaceName}}/mapper/categories\",\n  \"mappingEndPoint\": \"http://api.vtexinternal.com.br/api/{{marketplaceName}}/mapper/mapping\",\n  \"properties\": {\n    \"allowsRemap\": \"dolor voluptate occaecat Excepteur\"\n  },\n  \"CategoryTreeProcessingNotificationEndpoint\": \"https://CategoryTreeProcessingNotificationEndpoint.com/api\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -511,7 +511,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "462883c0-9759-43b7-ae2c-cbda0c865e74",
+                "id": "0ab2a5ef-c636-4d1a-a33c-7bb62a799256",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/mkp-category-mapper/connector/register - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -524,7 +524,7 @@
           }
         },
         {
-          "id": "9aceb220-8518-4466-afc6-fb67933f1372",
+          "id": "c108b38a-e00b-4dc8-a4c2-61b820cdfa46",
           "name": "Send Category Mapping to VTEX Mapper",
           "request": {
             "name": "Send Category Mapping to VTEX Mapper",
@@ -575,7 +575,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"categories\": [],\n  \"id\": true,\n  \"name\": \"veniam minim qui\"\n}",
+              "raw": "{\n  \"categories\": [],\n  \"id\": \"Lorem ipsum ut\",\n  \"name\": true\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -588,7 +588,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e3b73582-ff63-441d-8263-0f1af7748b5e",
+              "id": "a601ea63-5744-4b9a-be83-2f5a81480b3e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -656,7 +656,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"categories\": [],\n  \"id\": \"do minim incididunt officia\",\n  \"name\": true\n}",
+                  "raw": "{\n  \"categories\": [],\n  \"id\": 55460021,\n  \"name\": \"sit aute Duis veniam\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -680,7 +680,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "09472040-f8d4-45cf-8673-2cdd0e3652c9",
+                "id": "d1a86e0e-def5-4dfe-92cc-a84ea8f16cea",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/mkp-category-mapper/categories/marketplace/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -693,7 +693,7 @@
           }
         },
         {
-          "id": "625cc262-4be0-4031-89af-9a131811905b",
+          "id": "fa487c08-a1af-4ea1-90eb-46d3f43fc45b",
           "name": "Register connector",
           "request": {
             "name": "Register connector",
@@ -760,7 +760,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "0463eed6-b204-418e-81cf-c5ea5e699300",
+              "id": "bd985834-7653-4b3b-b9c3-3535568a1cf7",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -850,7 +850,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3132a59f-c772-487c-bcdc-0128e0f97254",
+                "id": "906b870e-cf34-4171-9a13-f379bd0c42e2",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/channel-manager/connector - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -866,7 +866,7 @@
           }
         },
         {
-          "id": "20188e88-7c93-439b-9f6e-025e1a7994aa",
+          "id": "715ef743-8118-4ab6-b5da-457d4fcc3c54",
           "name": "List all connectors",
           "request": {
             "name": "List all connectors",
@@ -1002,7 +1002,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "f21ede5e-130f-4b7c-bee6-3c9ab972c06a",
+              "id": "ad9ae6c9-8af0-4a3a-88a6-f885c2b33ff8",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1121,7 +1121,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "abaa4b88-1b62-46ae-92d1-1637899142fe",
+                "id": "f37f9691-bd9c-45b6-b07e-7f29d093e614",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/channel-manager/connector/all - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1137,7 +1137,7 @@
           }
         },
         {
-          "id": "3d73bc20-8a0a-428a-99f5-46b2cfc1977b",
+          "id": "df00c1cc-c415-46cd-b366-a988d26c51f5",
           "name": "Retrieve connector",
           "request": {
             "name": "Retrieve connector",
@@ -1202,7 +1202,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a7dc9611-25cd-4f93-88b6-3b7d34cfc578",
+              "id": "97239f02-e59e-4fd1-a9d7-6a75d164000d",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1297,7 +1297,7 @@
           }
         },
         {
-          "id": "a620b6e0-bcd5-4595-887c-a080db1a5552",
+          "id": "b83aa0b6-d2c6-4be9-ba03-ffb41e8652fe",
           "name": "Upsert merchant connection",
           "request": {
             "name": "Upsert merchant connection",
@@ -1371,7 +1371,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "81f980a0-92b8-42a7-9f09-f167215bc0a4",
+              "id": "63a9ddec-eb52-461e-ac0d-20691e744350",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1470,7 +1470,7 @@
           }
         },
         {
-          "id": "911679de-8d5e-4ebf-9bae-316dfd6c7ac9",
+          "id": "eeb6fab4-7602-4c95-aef0-97229fa4bb89",
           "name": "Remove connector",
           "request": {
             "name": "Remove connector",
@@ -1529,7 +1529,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "561c7273-8dbb-433a-b375-e7dc17ad41e2",
+              "id": "e714551e-3cf5-4354-86b5-83a15a950d20",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1620,7 +1620,7 @@
           }
         },
         {
-          "id": "78a9edb4-e624-4a24-a5fa-df8b4595e089",
+          "id": "b7f95984-5ab4-4c37-a813-7017524b4c2d",
           "name": "Full update connector",
           "request": {
             "name": "Full update connector",
@@ -1694,7 +1694,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "a516de97-1558-405a-a775-9b5b28ab9977",
+              "id": "0d77f027-fdad-4351-b9f7-148ea651c81e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1793,7 +1793,7 @@
           }
         },
         {
-          "id": "bc0146f5-f063-4f9a-a437-0fd2a0b03e73",
+          "id": "6c222369-37f5-4131-ad13-aa7a884b8f50",
           "name": "Partial update connector",
           "request": {
             "name": "Partial update connector",
@@ -1867,7 +1867,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c60aad24-5117-4cf3-abf1-eac6ff900207",
+              "id": "3c7e51ca-52a1-473d-b30f-b65165b55cac",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2007,7 +2007,7 @@
     }
   ],
   "info": {
-    "_postman_id": "eb20be52-0458-4740-ab38-f2d47f8d5fe1",
+    "_postman_id": "c56dd1bc-f8d9-44c6-9ca0-80b355913030",
     "name": "Marketplace Protocol",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
