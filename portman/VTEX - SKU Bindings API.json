@@ -1,0 +1,3292 @@
+{
+  "_": {
+    "postman_id": "15a85637-8c4e-470c-aa54-492bcca91376"
+  },
+  "item": [
+    {
+      "id": "c3da4a24-5bdd-4892-898a-09fc7c9049a1",
+      "name": "SKU Bindings",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "74f5c854-5fbe-447f-95b1-8ccd14b96133",
+          "name": "Get SKU Bindings by SKU ID",
+          "request": {
+            "name": "Get SKU Bindings by SKU ID",
+            "description": {
+              "content": "Retrieves SKU Bindings details by SKU ID.\r\n\r\n## Response body example\r\n\r\n```json\r\n[\r\n    {\r\n        \"Id\": 48,\r\n        \"SellerId\": \"cosmetics1\",\r\n        \"StockKeepingUnitId\": 1,\r\n        \"SellerSkuId\": \"42\",\r\n        \"IsActive\": true,\r\n        \"LastUpdateDate\": \"2020-10-21T19:13:00.657\",\r\n        \"SalesPolicy\": 0\r\n    }\r\n]\r\n```",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "catalog",
+                "pvt",
+                "skusellers",
+                ":skuId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) SKU's unique identifier in the marketplace.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "1",
+                  "key": "skuId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "3e2f20aa-d94f-427f-addd-497b5a6ad0c3",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "catalog",
+                    "pvt",
+                    "skusellers",
+                    ":skuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) SKU's unique identifier in the marketplace.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "skuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"Id\": -15444594,\n    \"SellerId\": \"culpa aliqua est ad\",\n    \"StockKeepingUnitId\": 78392856,\n    \"SellerSkuId\": \"culpa dolor\",\n    \"IsActive\": true,\n    \"LastUpdateDate\": \"nostrud consectetur ut ullamco\",\n    \"SalesPolicy\": -85604549\n  },\n  {\n    \"Id\": -84599137,\n    \"SellerId\": \"et deserunt laboris velit\",\n    \"StockKeepingUnitId\": 94146826,\n    \"SellerSkuId\": \"minim in consectetur nostrud id\",\n    \"IsActive\": true,\n    \"LastUpdateDate\": \"amet culpa\",\n    \"SalesPolicy\": 60139471\n  }\n]",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "94bd4e64-17e9-4a05-a3aa-9fc516f14dbf",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/catalog/pvt/skusellers/:skuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/catalog/pvt/skusellers/:skuId - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/catalog/pvt/skusellers/:skuId - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"description\":\"Array containing objects with information about each SKU Binding.\",\"items\":{\"type\":\"object\",\"description\":\"Object with information about an SKU Binding.\",\"properties\":{\"Id\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"SKU Binding ID.\"},\"SellerId\":{\"type\":\"string\",\"description\":\"ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.\"},\"StockKeepingUnitId\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"SKU ID in the VTEX marketplace.\"},\"SellerSkuId\":{\"type\":\"string\",\"description\":\"SKU seller ID.\"},\"IsActive\":{\"type\":\"boolean\",\"description\":\"Defines if the SKU binding is active.\"},\"LastUpdateDate\":{\"type\":\"string\",\"description\":\"Date when the SKU binding was updated for the last time, in UTC format.\"},\"SalesPolicy\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"Sales policy ID.\"}},\"example\":[{\"Id\":48,\"SellerId\":\"cosmetics1\",\"StockKeepingUnitId\":1,\"SellerSkuId\":\"42\",\"IsActive\":true,\"LastUpdateDate\":\"2020-10-21T19:13:00.657\",\"SalesPolicy\":0}]}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/catalog/pvt/skusellers/:skuId - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "49a24bf1-1b18-4f27-81a5-5c2a3dd9b0b4",
+          "name": "Get SKU Bindings information",
+          "request": {
+            "name": "Get SKU Bindings information",
+            "description": {
+              "content": "Retrieves SKU Bindings administrative information using optional query params `sellerId`, `skuId`, `sellerSkuId` and `IsActive` to filter results and `size` to restrict the amount of results. \r\n\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/admin`.\r\n\r\n## Response body example\r\n\r\n```json\r\n[\r\n    {\r\n        \"IsPersisted\": true,\r\n        \"IsRemoved\": false,\r\n        \"SkuSellerId\": 1,\r\n        \"UpdateDate\": \"2019-12-04T01:56:00.673Z\",\r\n        \"RequestedUpdateDate\": null,\r\n        \"SellerStockKeepingUnitId\": \"12\",\r\n        \"SellerId\": \"cosmetics1\",\r\n        \"StockKeepingUnitId\": 25,\r\n        \"IsActive\": true\r\n    }\r\n]\r\n```",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "admin"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "key": "sellerId",
+                  "value": "vtxkfj7352"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "SKU's unique identifier in the marketplace.",
+                    "type": "text/plain"
+                  },
+                  "key": "skuId",
+                  "value": "1"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "SKU ID in the seller's store.",
+                    "type": "text/plain"
+                  },
+                  "key": "sellerSkuId",
+                  "value": "71"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "Defines if the SKU binding is active.",
+                    "type": "text/plain"
+                  },
+                  "key": "isActive",
+                  "value": "true"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "Amount of results.",
+                    "type": "text/plain"
+                  },
+                  "key": "size",
+                  "value": "1"
+                }
+              ],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "81d847e5-e3f7-42f6-9225-2c493a8403e6",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "admin"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "sellerId",
+                      "value": "vtxkfj7352"
+                    },
+                    {
+                      "key": "skuId",
+                      "value": "1"
+                    },
+                    {
+                      "key": "sellerSkuId",
+                      "value": "71"
+                    },
+                    {
+                      "key": "isActive",
+                      "value": "true"
+                    },
+                    {
+                      "key": "size",
+                      "value": "1"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"IsPersisted\": true,\n  \"IsRemoved\": true,\n  \"SkuSellerId\": 80182893,\n  \"UpdateDate\": \"deserunt qui\",\n  \"RequestedUpdateDate\": \"aliquip Excepteur ex\",\n  \"SellerStockKeepingUnitId\": \"do nisi\",\n  \"SellerId\": \"laboris qui ex veniam\",\n  \"StockKeepingUnitId\": 32503007,\n  \"IsActive\": false\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "470b3d67-9118-4daa-94cd-9ee48bc0f384",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/sku-binding/pvt/skuseller/admin - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/sku-binding/pvt/skuseller/admin - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/sku-binding/pvt/skuseller/admin - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"object\",\"properties\":{\"IsPersisted\":{\"type\":\"boolean\",\"description\":\"Defines if the seller is persisted.\"},\"IsRemoved\":{\"type\":\"boolean\",\"description\":\"Defines if the seller is removed.\"},\"SkuSellerId\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"SKU Binding ID.\"},\"UpdateDate\":{\"type\":\"string\",\"description\":\"Date when the SKU binding was updated for the last time, in UTC format.\"},\"RequestedUpdateDate\":{\"type\":[\"string\",\"null\"],\"description\":\"Date when an SKU binding update was requested for the last time, in UTC format.\"},\"SellerStockKeepingUnitId\":{\"type\":\"string\",\"description\":\"SKU ID in the seller's store.\"},\"SellerId\":{\"type\":\"string\",\"description\":\"ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.\"},\"StockKeepingUnitId\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"SKU ID in the VTEX marketplace.\"},\"IsActive\":{\"type\":\"boolean\",\"description\":\"Defines if the SKU binding is active.\"}},\"example\":[{\"IsPersisted\":true,\"IsRemoved\":false,\"SkuSellerId\":102,\"UpdateDate\":\"2021-04-12T20:06:59.413Z\",\"RequestedUpdateDate\":null,\"SellerStockKeepingUnitId\":\"71\",\"SellerId\":\"vtxkfj7352\",\"StockKeepingUnitId\":1,\"IsActive\":true}]}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/sku-binding/pvt/skuseller/admin - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "7c1e1dbc-fd22-4a82-86d1-af8785703287",
+          "name": "Get details of a seller's SKU",
+          "request": {
+            "name": "Get details of a seller's SKU",
+            "description": {
+              "content": "Retrieves the details of a seller's SKU given a seller ID and the SKU ID in the seller's store. \r\n\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/{sellerId}/{sellerSkuId}`.\r\n\r\n## Response body example\r\n\r\n```json\r\n{\r\n    \"IsPersisted\": true,\r\n    \"IsRemoved\": false,\r\n    \"SkuSellerId\": 102,\r\n    \"UpdateDate\": \"2021-04-12T20:06:59.413Z\",\r\n    \"RequestedUpdateDate\": null,\r\n    \"SellerStockKeepingUnitId\": \"71\",\r\n    \"SellerId\": \"vtxkfj7352\",\r\n    \"StockKeepingUnitId\": 1,\r\n    \"IsActive\": true\r\n}\r\n```",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                ":sellerId",
+                ":sellerSkuId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "101",
+                  "key": "sellerId"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) SKU ID in the seller's store.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "1",
+                  "key": "sellerSkuId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "aa101c88-1b1a-41ae-8455-25bd06c24f1b",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    ":sellerId",
+                    ":sellerSkuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "101",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) SKU ID in the seller's store.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "sellerSkuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"IsPersisted\": true,\n  \"IsRemoved\": false,\n  \"SkuSellerId\": 799,\n  \"UpdateDate\": \"2018-10-11T04:52:42.1\",\n  \"RequestedUpdateDate\": null,\n  \"SellerStockKeepingUnitId\": \"502\",\n  \"SellerId\": \"myseller\",\n  \"StockKeepingUnitId\": 50,\n  \"IsActive\": true\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "4ffeb8b1-cfb4-4592-a0b9-bda44790d246",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/sku-binding/pvt/skuseller/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/sku-binding/pvt/skuseller/:sellerId/:sellerSkuId - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/sku-binding/pvt/skuseller/:sellerId/:sellerSkuId - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"object\",\"required\":[\"IsPersisted\",\"IsRemoved\",\"SkuSellerId\",\"SellerId\",\"StockKeepingUnitId\",\"SellerStockKeepingUnitId\",\"IsActive\",\"UpdateDate\",\"RequestedUpdateDate\"],\"properties\":{\"IsPersisted\":{\"type\":\"boolean\",\"description\":\"Defines if the seller is persisted.\"},\"IsRemoved\":{\"type\":\"boolean\",\"description\":\"Defines if the seller is removed.\"},\"SkuSellerId\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"SKU ID in the seller's store.\"},\"UpdateDate\":{\"type\":\"string\",\"description\":\"Date when the SKU binding was updated for the last time, in UTC format.\"},\"RequestedUpdateDate\":{\"type\":[\"string\",\"null\"],\"description\":\"Date when an SKU binding update was requested for the last time, in UTC format.\"},\"SellerStockKeepingUnitId\":{\"type\":\"string\",\"description\":\"SKU seller ID.\"},\"SellerId\":{\"type\":\"string\",\"description\":\"ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.\"},\"StockKeepingUnitId\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"SKU ID in the VTEX marketplace.\"},\"IsActive\":{\"type\":\"boolean\",\"description\":\"Defines if the SKU binding is active.\"}},\"example\":{\"IsPersisted\":true,\"IsRemoved\":false,\"SkuSellerId\":799,\"UpdateDate\":\"2018-10-11T04:52:42.1\",\"RequestedUpdateDate\":null,\"SellerStockKeepingUnitId\":\"502\",\"SellerId\":\"myseller\",\"StockKeepingUnitId\":50,\"IsActive\":true}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/sku-binding/pvt/skuseller/:sellerId/:sellerSkuId - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "baeaae21-b8cd-4e83-a3dd-ece80ef2dcaa",
+          "name": "Bind a seller's SKU to another SKU",
+          "request": {
+            "name": "Bind a seller's SKU to another SKU",
+            "description": {
+              "content": "Associates a seller's SKU to another marketplace SKU.\r\n\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/{sellerId}/{sellerSkuId}`.\r\n\r\n## Request body example\r\n\r\n```json\r\n{\r\n    \"StockKeepingUnitId\": 1\r\n}\r\n```",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                ":sellerId",
+                ":sellerSkuId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "101",
+                  "key": "sellerId"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) SKU ID in the seller's store.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "1",
+                  "key": "sellerSkuId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"StockKeepingUnitId\": 1\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "4fde2aaa-601b-4f54-b9c1-d2c2ff6cd8c5",
+              "name": "No Content",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    ":sellerId",
+                    ":sellerSkuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "101",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) SKU ID in the seller's store.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "sellerSkuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"StockKeepingUnitId\": 1\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "No Content",
+              "code": 204,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "d03fbe95-74bb-4d1d-9308-bede2676aac1",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/sku-binding/pvt/skuseller/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response has empty Body \npm.test(\"[PUT]::/sku-binding/pvt/skuseller/:sellerId/:sellerSkuId - Response has empty Body\", function () {\n    pm.response.to.not.be.withBody;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "a7e0592f-03ee-4fc1-a400-b87546049016",
+          "name": "Get all SKU Bindings by Seller ID",
+          "request": {
+            "name": "Get all SKU Bindings by Seller ID",
+            "description": {
+              "content": "Retrieves a list of SKU Bindings given a specific Seller ID. \r\n\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/list/bysellerId/{sellerId}`.\r\n\r\n## Response body example\r\n\r\n```json\r\n[\r\n    {\r\n        \"SellerStockKeepingUnitId\": \"24\",\r\n        \"FreightCommissionPercentage\": null,\r\n        \"ProductCommissionPercentage\": null,\r\n        \"SellerId\": \"vtxkfj7352\",\r\n        \"StockKeepingUnitId\": 121,\r\n        \"IsActive\": true\r\n    }\r\n]\r\n```",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "list",
+                "bysellerId",
+                ":sellerId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "vtxkfj7352",
+                  "key": "sellerId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "ee56633e-e9c4-4a3b-95e2-83e18f068d31",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "list",
+                    "bysellerId",
+                    ":sellerId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "vtxkfj7352",
+                      "key": "sellerId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"SellerStockKeepingUnitId\": \"24\",\n    \"FreightCommissionPercentage\": null,\n    \"ProductCommissionPercentage\": null,\n    \"SellerId\": \"vtxkfj7352\",\n    \"StockKeepingUnitId\": 121,\n    \"IsActive\": true\n  },\n  {\n    \"SellerStockKeepingUnitId\": \"24\",\n    \"FreightCommissionPercentage\": null,\n    \"ProductCommissionPercentage\": null,\n    \"SellerId\": \"vtxkfj7352\",\n    \"StockKeepingUnitId\": 121,\n    \"IsActive\": true\n  }\n]",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "1f95796e-2cc4-414a-b73d-ba42e803dbd1",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/sku-binding/pvt/skuseller/list/bysellerId/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/sku-binding/pvt/skuseller/list/bysellerId/:sellerId - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/sku-binding/pvt/skuseller/list/bysellerId/:sellerId - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"SellerStockKeepingUnitId\":{\"type\":\"string\",\"description\":\"SKU ID in the seller's store.\"},\"FreightCommissionPercentage\":{\"type\":[\"number\",\"null\"],\"description\":\"The percentage that must be filled in as agreed between the marketplace and the seller.\"},\"ProductCommissionPercentage\":{\"type\":[\"number\",\"null\"],\"description\":\"The percentage that must be filled in as agreed between the marketplace and the seller. If there is no such commission, please fill in the field with the value: `0.00`.\"},\"SellerId\":{\"type\":\"string\",\"description\":\"ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.\"},\"StockKeepingUnitId\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"SKU ID in the marketplace.\"},\"IsActive\":{\"type\":\"boolean\",\"description\":\"Defines if the SKU binding is active.\"}},\"example\":{\"SellerStockKeepingUnitId\":\"24\",\"FreightCommissionPercentage\":null,\"ProductCommissionPercentage\":null,\"SellerId\":\"vtxkfj7352\",\"StockKeepingUnitId\":121,\"IsActive\":true}}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/sku-binding/pvt/skuseller/list/bysellerId/:sellerId - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "082dad41-8929-4d29-ae79-c91faadbc888",
+          "name": "Get paged SKU Bindings by Seller ID",
+          "request": {
+            "name": "Get paged SKU Bindings by Seller ID",
+            "description": {
+              "content": "Retrieves a paged list of SKU Bindings given a specific Seller ID. \r\n\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/paged/sellerid/{sellerId}`.\r\n\r\n## Response body example\r\n\r\n```json\r\n[\r\n    {\r\n        \"SellerId\": \"vtxkfj7352\",\r\n        \"StockKeepingUnitId\": 121,\r\n        \"SellerStockKeepingUnitId\": \"24\",\r\n        \"IsActive\": true,\r\n        \"FreightCommissionPercentage\": null,\r\n        \"ProductCommissionPercentage\": null\r\n    },\r\n    {\r\n        \"SellerId\": \"vtxkfj7352\",\r\n        \"StockKeepingUnitId\": 14,\r\n        \"SellerStockKeepingUnitId\": \"60\",\r\n        \"IsActive\": true,\r\n        \"FreightCommissionPercentage\": null,\r\n        \"ProductCommissionPercentage\": null\r\n    }\r\n]\r\n```",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "paged",
+                "sellerid",
+                ":sellerId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Page number.",
+                    "type": "text/plain"
+                  },
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Amount of results per page.",
+                    "type": "text/plain"
+                  },
+                  "key": "size",
+                  "value": "2"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "vtxkfj7352",
+                  "key": "sellerId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "615d11fc-6635-4ecb-8587-3ac40a7b6132",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "paged",
+                    "sellerid",
+                    ":sellerId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "size",
+                      "value": "2"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "vtxkfj7352",
+                      "key": "sellerId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"SellerId\": \"vtxkfj7352\",\n    \"StockKeepingUnitId\": 121,\n    \"SellerStockKeepingUnitId\": \"24\",\n    \"IsActive\": true,\n    \"FreightCommissionPercentage\": null,\n    \"ProductCommissionPercentage\": null\n  },\n  {\n    \"SellerId\": \"vtxkfj7352\",\n    \"StockKeepingUnitId\": 14,\n    \"SellerStockKeepingUnitId\": \"60\",\n    \"IsActive\": true,\n    \"FreightCommissionPercentage\": null,\n    \"ProductCommissionPercentage\": null\n  }\n]",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "1270d39f-83bc-4e7e-9d18-c773ad2c701f",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/sku-binding/pvt/skuseller/paged/sellerid/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/sku-binding/pvt/skuseller/paged/sellerid/:sellerId - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/sku-binding/pvt/skuseller/paged/sellerid/:sellerId - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"SellerId\":{\"type\":\"string\",\"description\":\"ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.\"},\"StockKeepingUnitId\":{\"type\":\"integer\",\"format\":\"int32\",\"description\":\"SKU ID in the marketplace.\"},\"SellerStockKeepingUnitId\":{\"type\":\"string\",\"description\":\"SKU ID in the seller's store.\"},\"IsActive\":{\"type\":\"boolean\",\"description\":\"Defines if the SKU binding is active.\"},\"FreightCommissionPercentage\":{\"type\":[\"number\",\"null\"],\"description\":\"The percentage that must be filled in as agreed between the marketplace and the seller.\"},\"ProductCommissionPercentage\":{\"type\":[\"number\",\"null\"],\"description\":\"The percentage that must be filled in as agreed between the marketplace and the seller. If there is no such commission, please fill in the field with the value: `0.00`.\"}},\"example\":{\"SellerId\":\"vtxkfj7352\",\"StockKeepingUnitId\":121,\"SellerStockKeepingUnitId\":\"24\",\"IsActive\":true,\"FreightCommissionPercentage\":null,\"ProductCommissionPercentage\":null}}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/sku-binding/pvt/skuseller/paged/sellerid/:sellerId - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "c110aab9-8589-4598-855f-478d3d131d56",
+          "name": "Change Notification with SKU ID",
+          "request": {
+            "name": "Change Notification with SKU ID",
+            "description": {
+              "content": "The seller is responsible for suggesting new SKUs to be sold in the VTEX marketplace and also for informing the marketplace about changes in their SKUs that already exist in the marketplace. Both actions start with a catalog notification, which is made by this request.\n\nWith this notification, the seller is telling the marketplace that something has changed about a specific SKU, like price or inventory, or that this is a new SKU that the seller would like to offer to the marketplace.\n\nThe body of the request should be empty.\r\n\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/changenotification/{skuId}`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "changenotification",
+                ":skuId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) A string that identifies the SKU in the marketplace. This is the ID that the marketplace will use to look for the SKU whose change the seller wants to inform. If the marketplace finds this ID, it responds with status code `200`. Otherwise, it responds with status code `404`.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "10",
+                  "key": "skuId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "0642d22f-9406-4c26-a04c-133571c60c2e",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":skuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) A string that identifies the SKU in the marketplace. This is the ID that the marketplace will use to look for the SKU whose change the seller wants to inform. If the marketplace finds this ID, it responds with status code `200`. Otherwise, it responds with status code `404`.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "10",
+                      "key": "skuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "ec70eb48-b0fb-466d-9386-637803d9d6b6",
+              "name": "Bad Request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":skuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) A string that identifies the SKU in the marketplace. This is the ID that the marketplace will use to look for the SKU whose change the seller wants to inform. If the marketplace finds this ID, it responds with status code `200`. Otherwise, it responds with status code `404`.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "10",
+                      "key": "skuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "eb61674a-98b6-4b62-bbb1-e45425c58d15",
+              "name": "Forbidden",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":skuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) A string that identifies the SKU in the marketplace. This is the ID that the marketplace will use to look for the SKU whose change the seller wants to inform. If the marketplace finds this ID, it responds with status code `200`. Otherwise, it responds with status code `404`.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "10",
+                      "key": "skuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Forbidden",
+              "code": 403,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "599b7aca-c743-4fa9-a5f1-633898c04eeb",
+              "name": "Not found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":skuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) A string that identifies the SKU in the marketplace. This is the ID that the marketplace will use to look for the SKU whose change the seller wants to inform. If the marketplace finds this ID, it responds with status code `200`. Otherwise, it responds with status code `404`.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "10",
+                      "key": "skuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "146d9a4b-fb2c-4dbf-b659-daee5568546f",
+              "name": "Too many requests",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":skuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) A string that identifies the SKU in the marketplace. This is the ID that the marketplace will use to look for the SKU whose change the seller wants to inform. If the marketplace finds this ID, it responds with status code `200`. Otherwise, it responds with status code `404`.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "10",
+                      "key": "skuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Too Many Requests",
+              "code": 429,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "d4c307e1-ba5c-4008-8430-e0a780c8c0b8",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/changenotification/:skuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "125a0926-757f-41ed-961e-e369db2c2c3a",
+          "name": "Change Notification with Seller ID and Seller SKU ID",
+          "request": {
+            "name": "Change Notification with Seller ID and Seller SKU ID",
+            "description": {
+              "content": "The seller is responsible for suggesting new SKUs to be sold in the VTEX marketplace and also for informing the marketplace about changes in their SKUs that already exist in the marketplace. Both actions start with a catalog notification, which is made by this request.\n\nWith this notification, the seller is telling the marketplace that something has changed about a specific SKU, like price or inventory, or that this is a new SKU that the seller would like to offer to the marketplace.\n\nThere are two information expected by the marketplace in this request: the `sellerId`, which identifies the seller, and the `sellerSkuId`, which identifies the binding of the seller with the SKU.\n\nBoth information are passed through the request URL. The body of the request should be empty.\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/changenotification/{sellerId}/{sellerSkuId}`.\r\n\r\n## Example\r\n\r\nLet's say your seller has the ID `123` in the marketplace and you want to inform the marketplace that has been a change in the SKU with ID `700`.\r\n\r\nIn this case, you would have to replace the `sellerId` parameter with the value `123` and the `skuId` parameter with the value `700`. The URL of the request would be the following.\r\n\r\n```\r\nhttps://{{accountName}}.vtexcommercestable.com.br/api/sku-binding/pvt/skuseller/changenotification/123/700\r\n```\r\n\r\n## Response codes\r\n\r\nThe following response codes are possible for this request.\r\n* 200: the SKU whose ID was informed in the URL already exists in the marketplace and was found. The marketplace can now proceed with a fulfillment simulation in order to get updated information about this SKU's inventory and price.\r\n* 403: Failure in the authentication.\r\n* 404: the SKU was not found in the marketplace. The body of the response, in this case, should follow this format: \"Seller StockKeepingUnit `{{skuId}}` not found for this seller id `{{sellerId}}`. This means that the seller can now proceed with sending an offer to the marketplace in order to suggest that this SKU is sold there.\r\n* 429: Failure due to too many requests.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "changenotification",
+                ":sellerId",
+                ":sellerSkuId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "101",
+                  "key": "sellerId"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID of the binding of the seller with the SKU.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "1",
+                  "key": "sellerSkuId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "18c86981-b16c-498a-aa75-fd727c350f2c",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":sellerId",
+                    ":sellerSkuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "101",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID of the binding of the seller with the SKU.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "sellerSkuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "2e456314-3d75-4f33-8164-08f8f074747f",
+              "name": "Bad Request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":sellerId",
+                    ":sellerSkuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "101",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID of the binding of the seller with the SKU.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "sellerSkuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "0a8b6a68-d63e-49bb-94f5-10337a6c1f87",
+              "name": "Forbidden",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":sellerId",
+                    ":sellerSkuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "101",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID of the binding of the seller with the SKU.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "sellerSkuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Forbidden",
+              "code": 403,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "49eeeb19-b0fb-49dd-8d95-b4bc6312a1dc",
+              "name": "Not found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":sellerId",
+                    ":sellerSkuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "101",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID of the binding of the seller with the SKU.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "sellerSkuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "4e9b5329-e5e2-4604-b0f2-c8a64326ab84",
+              "name": "Too many requests",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "changenotification",
+                    ":sellerId",
+                    ":sellerSkuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "101",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID of the binding of the seller with the SKU.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "sellerSkuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Too Many Requests",
+              "code": 429,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "02a3a676-a292-43c5-a3c9-a06631fafb5f",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/changenotification/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "5584f534-00ad-43c7-acce-4d7e4f0bf907",
+          "name": "Insert SKU Binding",
+          "request": {
+            "name": "Insert SKU Binding",
+            "description": {
+              "content": "Creates an SKU Binding, associating a seller's SKU with a marketplace's SKU.\r\n\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/insertion`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "insertion"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"StockKeepingUnitId\": 1,\n  \"IsActive\": true,\n  \"SellerId\": \"vtxkfj7352\",\n  \"SellerStockKeepingUnitId\": \"71\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "b4354feb-d232-4610-8f28-a28d68777533",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "insertion"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"StockKeepingUnitId\": 1,\n  \"IsActive\": true,\n  \"SellerId\": \"vtxkfj7352\",\n  \"SellerStockKeepingUnitId\": \"71\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "a0cddbaf-3795-4303-a21a-16208dbfb9d7",
+              "name": "Bad Request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "insertion"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"StockKeepingUnitId\": 1,\n  \"IsActive\": true,\n  \"SellerId\": \"vtxkfj7352\",\n  \"SellerStockKeepingUnitId\": \"71\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "613209bf-0a37-430e-a5dd-d97c1da03a3b",
+              "name": "Conflict",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "insertion"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"StockKeepingUnitId\": 1,\n  \"IsActive\": true,\n  \"SellerId\": \"vtxkfj7352\",\n  \"SellerStockKeepingUnitId\": \"71\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Conflict",
+              "code": 409,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "bef75ef2-12f7-436a-af32-d613a93c5635",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/insertion - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "138e7165-f977-4bcb-a767-5b029850d6b2",
+          "name": "Activate SKU Binding",
+          "request": {
+            "name": "Activate SKU Binding",
+            "description": {
+              "content": "Changes the status of an SKU Binding to active, setting `isActive` to `true`.\r\n\r\n > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/activate/{sellerId}/{skuSellerId}`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "activate",
+                ":sellerId",
+                ":skuSellerId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "vtxkfj7352",
+                  "key": "sellerId"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) SKU ID in the seller's store.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "71",
+                  "key": "skuSellerId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "101de648-ef8e-420c-8f4f-ac3db19a3cd9",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "activate",
+                    ":sellerId",
+                    ":skuSellerId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "vtxkfj7352",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) SKU ID in the seller's store.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "71",
+                      "key": "skuSellerId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "a746d1fd-f2e5-4d62-afc9-f1e5b43a4a97",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/activate/:sellerId/:skuSellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "b3f78772-10c8-4db5-87d3-a776f3b44335",
+          "name": "Deactivate SKU Binding",
+          "request": {
+            "name": "Deactivate SKU Binding",
+            "description": {
+              "content": "Changes the status of an SKU Binding to inactive, setting `isActive` to `false`.\r\n\r\n  > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/inactivate/{sellerId}/{skuSellerId}`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "inactivate",
+                ":sellerId",
+                ":skuSellerId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "vtxkfj7352",
+                  "key": "sellerId"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) SKU ID in the seller's store.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "71",
+                  "key": "skuSellerId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "b6a9e5e4-5df3-43f1-ab11-b62fa5357d15",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "inactivate",
+                    ":sellerId",
+                    ":skuSellerId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "vtxkfj7352",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) SKU ID in the seller's store.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "71",
+                      "key": "skuSellerId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "29a6c586-79e6-434c-9917-8b623156b516",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/inactivate/:sellerId/:skuSellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "8582ddfa-f236-429c-a670-3b883e0ce5fd",
+          "name": "Remove a seller's SKU Binding",
+          "request": {
+            "name": "Remove a seller's SKU Binding",
+            "description": {
+              "content": "Remove a seller's SKU binding, given the Seller ID and the SKU ID in the seller's store.\r\n\r\n  > ℹ This path is an updated version of `/api/catalog_system/pvt/skuseller/remove/{sellerId}/{sellerSkuId}`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "sku-binding",
+                "pvt",
+                "skuseller",
+                "remove",
+                ":sellerId",
+                ":sellerSkuId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "vtxkfj7352",
+                  "key": "sellerId"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) SKU ID in the seller's store.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "71",
+                  "key": "sellerSkuId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "98269e2c-0da6-4000-bb83-d6735bfa57ed",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sku-binding",
+                    "pvt",
+                    "skuseller",
+                    "remove",
+                    ":sellerId",
+                    ":sellerSkuId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ID that identifies the seller in the marketplace. It can be the same as the seller name or a unique number. Check the **Sellers management** section in the Admin to get the correct ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "vtxkfj7352",
+                      "key": "sellerId"
+                    },
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) SKU ID in the seller's store.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "71",
+                      "key": "sellerSkuId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "82f9f60d-fb28-4a92-af90-1db8cebce95b",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/remove/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "type": "any",
+        "value": "X-VTEX-API-AppKey",
+        "key": "key"
+      },
+      {
+        "type": "any",
+        "value": "{{apiKey}}",
+        "key": "value"
+      },
+      {
+        "type": "any",
+        "value": "header",
+        "key": "in"
+      }
+    ]
+  },
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "Name of the VTEX account. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{accountName}",
+      "key": "accountName"
+    },
+    {
+      "description": {
+        "content": "Environment to use. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{environment}",
+      "key": "environment"
+    },
+    {
+      "type": "string",
+      "value": "https://{{accountName}}.{{environment}}.com.br/api",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "15a85637-8c4e-470c-aa54-492bcca91376",
+    "name": "SKU Bindings API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}
