@@ -30,13 +30,10 @@ jobs:
           git config --local user.email "${{ github.event.pull_request.user.email }}"
           git config --local user.name "${{ github.event.pull_request.user.login }}"
 
-      - name: Pull latest changes
-        run: git pull origin ${{ github.event.pull_request.head.ref }}
-
-      - name: Commit changes
+      - name: Fetch and rebase changes
         run: |
-          git add .
-          git commit -m "Update generated files by portman"
+          git fetch origin ${{ github.event.pull_request.head.ref }}
+          git rebase origin/${{ github.event.pull_request.head.ref }}
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
