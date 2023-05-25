@@ -30,6 +30,9 @@ jobs:
           git config --local user.email "${{ github.event.pull_request.user.email }}"
           git config --local user.name "${{ github.event.pull_request.user.login }}"
 
+      - name: Pull latest changes
+        run: git pull origin ${{ github.event.pull_request.head.ref }}
+
       - name: Commit changes
         run: |
           git add .
@@ -40,4 +43,3 @@ jobs:
         with:
           branch: ${{ github.event.pull_request.head.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
