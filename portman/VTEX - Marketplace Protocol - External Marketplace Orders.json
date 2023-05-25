@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "9de1cb03-b1da-4dde-a0f9-f865813b6721"
+    "postman_id": "7031c031-2c0f-4628-96fb-546cb38be1c3"
   },
   "item": [
     {
-      "id": "4a346b67-cf27-4043-9228-87659c1fc9aa",
+      "id": "4c311520-0d8d-4ea2-a8da-5db4115a4062",
       "name": "External Marketplace",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "1702a7a3-a93a-4bf7-88ad-c034a847c43b",
+          "id": "c581a24e-9e6e-4976-920c-287a98d0b059",
           "name": "Place fulfillment order",
           "request": {
             "name": "Place fulfillment order",
@@ -86,7 +86,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"marketplaceOrderId\": \"123456789\",\n  \"marketplaceServicesEndpoint\": \"https://exampleseller.marketplaceservices.com\",\n  \"marketplacePaymentValue\": 100,\n  \"items\": [\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"\",\n        \"reprehenderit dolor exercitation proident\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    },\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"irure veniam culpa\",\n        \"nulla\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    }\n  ],\n  \"clientProfileData\": {\n    \"email\": \"customer@examplemail.com\",\n    \"firstName\": \"first-name\",\n    \"lastName\": \"last-name\",\n    \"documentType\": \"cpf\",\n    \"document\": \"123456789\",\n    \"phone\": \"+55110988887777\",\n    \"corporateName\": \"company-name\",\n    \"tradeName\": \"trade-name\",\n    \"corporateDocument\": \"12345678000100\",\n    \"stateInscription\": \"12345678\",\n    \"corporatePhone\": \"+551100988887777\",\n    \"isCorporate\": false\n  },\n  \"shippingData\": {\n    \"address\": {\n      \"addressType\": \"residential\",\n      \"receiverName\": \"receiver-name\",\n      \"postalCode\": \"12345000\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"Rio de Janeiro\",\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo\",\n      \"number\": \"300\",\n      \"addressId\": \"Home\",\n      \"neighborhood\": \"Botafogo\",\n      \"complement\": \"3rd floor\",\n      \"reference\": \"Grey building\",\n      \"geoCoordinates\": [\n        \"00.00000\",\n        \"00.00000\"\n      ]\n    },\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      },\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"isCreatedAsync\": false,\n  \"paymentData\": null,\n  \"marketingData\": {\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-exmaple\",\n    \"utmiCampaign\": \"utmi_campaign-exmaple\"\n  },\n  \"openTextField\": \"open-text-example\"\n}",
+              "raw": "{\n  \"marketplaceOrderId\": \"123456789\",\n  \"marketplaceServicesEndpoint\": \"https://exampleseller.marketplaceservices.com\",\n  \"marketplacePaymentValue\": 100,\n  \"items\": [\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"ea\",\n        \"sunt occaecat mollit\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    },\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"dolore culpa\",\n        \"Lorem non\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    }\n  ],\n  \"clientProfileData\": {\n    \"email\": \"customer@examplemail.com\",\n    \"firstName\": \"first-name\",\n    \"lastName\": \"last-name\",\n    \"documentType\": \"cpf\",\n    \"document\": \"123456789\",\n    \"phone\": \"+55110988887777\",\n    \"corporateName\": \"company-name\",\n    \"tradeName\": \"trade-name\",\n    \"corporateDocument\": \"12345678000100\",\n    \"stateInscription\": \"12345678\",\n    \"corporatePhone\": \"+551100988887777\",\n    \"isCorporate\": false\n  },\n  \"shippingData\": {\n    \"address\": {\n      \"addressType\": \"residential\",\n      \"receiverName\": \"receiver-name\",\n      \"postalCode\": \"12345000\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"Rio de Janeiro\",\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo\",\n      \"number\": \"300\",\n      \"addressId\": \"Home\",\n      \"neighborhood\": \"Botafogo\",\n      \"complement\": \"3rd floor\",\n      \"reference\": \"Grey building\",\n      \"geoCoordinates\": [\n        \"00.00000\",\n        \"00.00000\"\n      ]\n    },\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      },\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"isCreatedAsync\": false,\n  \"paymentData\": null,\n  \"marketingData\": {\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-exmaple\",\n    \"utmiCampaign\": \"utmi_campaign-exmaple\"\n  },\n  \"openTextField\": \"open-text-example\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -99,7 +99,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8e6e331a-6e5e-44ec-9ca5-8e0cc36238eb",
+              "id": "7852251d-550c-4c1c-814e-3e8a56cd6606",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -180,7 +180,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"marketplaceOrderId\": \"123456789\",\n  \"marketplaceServicesEndpoint\": \"https://exampleseller.marketplaceservices.com\",\n  \"marketplacePaymentValue\": 100,\n  \"items\": [\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"officia commodo elit\",\n        \"cupidatat ad\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    },\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"commodo Lorem Duis\",\n        \"nostrud eiusmod occaecat sunt veniam\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    }\n  ],\n  \"clientProfileData\": {\n    \"email\": \"customer@examplemail.com\",\n    \"firstName\": \"first-name\",\n    \"lastName\": \"last-name\",\n    \"documentType\": \"cpf\",\n    \"document\": \"123456789\",\n    \"phone\": \"+55110988887777\",\n    \"corporateName\": \"company-name\",\n    \"tradeName\": \"trade-name\",\n    \"corporateDocument\": \"12345678000100\",\n    \"stateInscription\": \"12345678\",\n    \"corporatePhone\": \"+551100988887777\",\n    \"isCorporate\": false\n  },\n  \"shippingData\": {\n    \"address\": {\n      \"addressType\": \"residential\",\n      \"receiverName\": \"receiver-name\",\n      \"postalCode\": \"12345000\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"Rio de Janeiro\",\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo\",\n      \"number\": \"300\",\n      \"addressId\": \"Home\",\n      \"neighborhood\": \"Botafogo\",\n      \"complement\": \"3rd floor\",\n      \"reference\": \"Grey building\",\n      \"geoCoordinates\": [\n        \"00.00000\",\n        \"00.00000\"\n      ]\n    },\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      },\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"isCreatedAsync\": false,\n  \"paymentData\": null,\n  \"marketingData\": {\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-exmaple\",\n    \"utmiCampaign\": \"utmi_campaign-exmaple\"\n  },\n  \"openTextField\": \"open-text-example\"\n}",
+                  "raw": "{\n  \"marketplaceOrderId\": \"123456789\",\n  \"marketplaceServicesEndpoint\": \"https://exampleseller.marketplaceservices.com\",\n  \"marketplacePaymentValue\": 100,\n  \"items\": [\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"dolor ea labore velit\",\n        \"nostrud nulla\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    },\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": 1034,\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"est adipisicing dolore\",\n        \"ex do\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    }\n  ],\n  \"clientProfileData\": {\n    \"email\": \"customer@examplemail.com\",\n    \"firstName\": \"first-name\",\n    \"lastName\": \"last-name\",\n    \"documentType\": \"cpf\",\n    \"document\": \"123456789\",\n    \"phone\": \"+55110988887777\",\n    \"corporateName\": \"company-name\",\n    \"tradeName\": \"trade-name\",\n    \"corporateDocument\": \"12345678000100\",\n    \"stateInscription\": \"12345678\",\n    \"corporatePhone\": \"+551100988887777\",\n    \"isCorporate\": false\n  },\n  \"shippingData\": {\n    \"address\": {\n      \"addressType\": \"residential\",\n      \"receiverName\": \"receiver-name\",\n      \"postalCode\": \"12345000\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"Rio de Janeiro\",\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo\",\n      \"number\": \"300\",\n      \"addressId\": \"Home\",\n      \"neighborhood\": \"Botafogo\",\n      \"complement\": \"3rd floor\",\n      \"reference\": \"Grey building\",\n      \"geoCoordinates\": [\n        \"00.00000\",\n        \"00.00000\"\n      ]\n    },\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      },\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"isCreatedAsync\": false,\n  \"paymentData\": null,\n  \"marketingData\": {\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-exmaple\",\n    \"utmiCampaign\": \"utmi_campaign-exmaple\"\n  },\n  \"openTextField\": \"open-text-example\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -204,7 +204,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ec882a3a-f288-43f0-b9bc-32af0e00f4ce",
+                "id": "5b3a250c-b3b6-4582-8cef-1f953b3b153a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/fulfillment/pvt/orders - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -219,7 +219,7 @@
           }
         },
         {
-          "id": "eac3a8b0-f495-47bd-a8c6-b9d4d477ec8b",
+          "id": "06ca5b48-8876-4679-bd24-78249ecc7b31",
           "name": "Authorize dispatch for fulfillment order",
           "request": {
             "name": "Authorize dispatch for fulfillment order",
@@ -318,7 +318,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ed0753c5-5901-42b3-8ea0-9e8cec8d9225",
+              "id": "26d06744-c88f-486c-8e75-0bcd146af242",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -435,7 +435,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5c606155-9f7d-4ad0-89c1-e0bc5946e5d9",
+                "id": "1c2ab0f9-f041-429d-8397-6b95d4ca0fcc",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/fulfillment/pvt/orders/:orderId/fulfill - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -450,7 +450,7 @@
           }
         },
         {
-          "id": "d4383a8e-1ab7-4be4-a858-0ec965e9ab0f",
+          "id": "f460a560-ee4d-4ba9-b651-b4c7b113b783",
           "name": "New Order Integration",
           "request": {
             "name": "New Order Integration",
@@ -535,7 +535,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "de341b71-2d37-4340-acab-91ace0c5b506",
+              "id": "f3d1342a-2aba-462c-9f24-82aab9415da5",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -637,7 +637,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8c032d58-7679-4e50-9e17-44e357851bc9",
+              "id": "7df43253-3f5a-48b2-baf7-3bf35bf99245",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -739,7 +739,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c3d075df-b348-4f82-a4bd-ea77c4709dd2",
+                "id": "d910e18b-7e80-4858-aa26-d9c56c7e6f2b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/order-integration/orders - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -755,7 +755,7 @@
           }
         },
         {
-          "id": "44bfb32f-4cfb-4c48-91a8-97642890db60",
+          "id": "65825b6b-6d21-4c81-909f-d34327f65680",
           "name": "Update Order Status",
           "request": {
             "name": "Update Order Status",
@@ -832,7 +832,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7b89b022-eb92-4749-ac1e-062615c7e4c9",
+              "id": "d8ff1773-71e2-46af-bf2a-841488785a09",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -932,7 +932,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dc9be35a-eda3-42f6-917a-cbd627d3f495",
+                "id": "b0f6b416-0c25-429b-8fc8-a6ab0ebe46b7",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/order-integration/orders/status - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -948,7 +948,7 @@
           }
         },
         {
-          "id": "a73629f0-04e9-4b14-8e9c-7b3f42356a08",
+          "id": "7098292b-be27-418c-a7f7-b95ecad5d5dd",
           "name": "Fulfillment simulation - External Marketplace",
           "request": {
             "name": "Fulfillment simulation - External Marketplace",
@@ -1023,7 +1023,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"items\": [\n    {\n      \"id\": \"1\",\n      \"quantity\": 1,\n      \"seller\": \"1\"\n    },\n    {\n      \"id\": \"1\",\n      \"quantity\": 1,\n      \"seller\": \"1\"\n    }\n  ],\n  \"marketingData\": {\n    \"coupon\": \"free-shipping\",\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-example\",\n    \"utmiCampaign\": \"utmi_campaign-example\"\n  },\n  \"postalCode\": \"12345-000\",\n  \"country\": \"BRA\",\n  \"selectedSla\": \"Normal\",\n  \"clientProfileData\": {\n    \"email\": \"clark.kent@example.com\",\n    \"firstName\": \"Clark\",\n    \"lastName\": \"Kent\",\n    \"documentType\": \"cpf\",\n    \"document\": \"12345678900\",\n    \"phone\": \"+552199999999\",\n    \"corporateName\": \"Ut aliqua ea dolor \",\n    \"tradeName\": \"enim dolor\",\n    \"corporateDocument\": \"in dolor dolore cupidatat\",\n    \"stateInscription\": \"ut ullamco commodo reprehenderit\",\n    \"corporatePhone\": \"cupidatat sint enim\",\n    \"isCorporate\": false,\n    \"profileCompleteOnLoading\": true,\n    \"profileErrorOnLoading\": true,\n    \"customerClass\": \"minim ullamco sint dolor\"\n  },\n  \"geoCoordinates\": [\n    -47.924747467041016,\n    -15.832582473754883\n  ],\n  \"isCheckedIn\": false,\n  \"storeId\": \"dolore eu adipisicing in\"\n}",
+              "raw": "{\n  \"items\": [\n    {\n      \"id\": \"1\",\n      \"quantity\": 1,\n      \"seller\": \"1\"\n    },\n    {\n      \"id\": \"1\",\n      \"quantity\": 1,\n      \"seller\": \"1\"\n    }\n  ],\n  \"marketingData\": {\n    \"coupon\": \"free-shipping\",\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-example\",\n    \"utmiCampaign\": \"utmi_campaign-example\"\n  },\n  \"postalCode\": \"12345-000\",\n  \"country\": \"BRA\",\n  \"selectedSla\": \"Normal\",\n  \"clientProfileData\": {\n    \"email\": \"clark.kent@example.com\",\n    \"firstName\": \"Clark\",\n    \"lastName\": \"Kent\",\n    \"documentType\": \"cpf\",\n    \"document\": \"12345678900\",\n    \"phone\": \"+552199999999\",\n    \"corporateName\": \"dolor aute in\",\n    \"tradeName\": \"aliqua id occaecat\",\n    \"corporateDocument\": \"dolore Excepteur non\",\n    \"stateInscription\": \"laborum pariatur in ex\",\n    \"corporatePhone\": \"mollit adipisicing\",\n    \"isCorporate\": true,\n    \"profileCompleteOnLoading\": true,\n    \"profileErrorOnLoading\": true,\n    \"customerClass\": \"sint enim repre\"\n  },\n  \"geoCoordinates\": [\n    -47.924747467041016,\n    -15.832582473754883\n  ],\n  \"isCheckedIn\": false,\n  \"storeId\": \"consequat ipsum ut\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1036,7 +1036,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "77a028f1-eb5d-464f-885f-bac75b32da4b",
+              "id": "c07844cd-0d76-447b-8e05-ebabab2ae6e2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1118,7 +1118,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"items\": [\n    {\n      \"id\": \"1\",\n      \"quantity\": 1,\n      \"seller\": \"1\"\n    },\n    {\n      \"id\": \"1\",\n      \"quantity\": 1,\n      \"seller\": \"1\"\n    }\n  ],\n  \"marketingData\": {\n    \"coupon\": \"free-shipping\",\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-example\",\n    \"utmiCampaign\": \"utmi_campaign-example\"\n  },\n  \"postalCode\": \"12345-000\",\n  \"country\": \"BRA\",\n  \"selectedSla\": \"Normal\",\n  \"clientProfileData\": {\n    \"email\": \"clark.kent@example.com\",\n    \"firstName\": \"Clark\",\n    \"lastName\": \"Kent\",\n    \"documentType\": \"cpf\",\n    \"document\": \"12345678900\",\n    \"phone\": \"+552199999999\",\n    \"corporateName\": \"mollit et deserunt in\",\n    \"tradeName\": \"labore sint cupidatat\",\n    \"corporateDocument\": \"qui incididunt adipisicing\",\n    \"stateInscription\": \"ut adipisicing tempor\",\n    \"corporatePhone\": \"aliquip dolor nostrud\",\n    \"isCorporate\": false,\n    \"profileCompleteOnLoading\": false,\n    \"profileErrorOnLoading\": false,\n    \"customerClass\": \"et dolor nisi \"\n  },\n  \"geoCoordinates\": [\n    -47.924747467041016,\n    -15.832582473754883\n  ],\n  \"isCheckedIn\": false,\n  \"storeId\": \"et proident nostrud anim\"\n}",
+                  "raw": "{\n  \"items\": [\n    {\n      \"id\": \"1\",\n      \"quantity\": 1,\n      \"seller\": \"1\"\n    },\n    {\n      \"id\": \"1\",\n      \"quantity\": 1,\n      \"seller\": \"1\"\n    }\n  ],\n  \"marketingData\": {\n    \"coupon\": \"free-shipping\",\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-example\",\n    \"utmiCampaign\": \"utmi_campaign-example\"\n  },\n  \"postalCode\": \"12345-000\",\n  \"country\": \"BRA\",\n  \"selectedSla\": \"Normal\",\n  \"clientProfileData\": {\n    \"email\": \"clark.kent@example.com\",\n    \"firstName\": \"Clark\",\n    \"lastName\": \"Kent\",\n    \"documentType\": \"cpf\",\n    \"document\": \"12345678900\",\n    \"phone\": \"+552199999999\",\n    \"corporateName\": \"est magna nulla\",\n    \"tradeName\": \"aute eu exercitation\",\n    \"corporateDocument\": \"eu ut cupidatat la\",\n    \"stateInscription\": \"dolore incididunt\",\n    \"corporatePhone\": \"aute in d\",\n    \"isCorporate\": false,\n    \"profileCompleteOnLoading\": false,\n    \"profileErrorOnLoading\": true,\n    \"customerClass\": \"ni\"\n  },\n  \"geoCoordinates\": [\n    -47.924747467041016,\n    -15.832582473754883\n  ],\n  \"isCheckedIn\": false,\n  \"storeId\": \"occaecat\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1142,7 +1142,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ad2ed4ad-5eea-4b62-8f57-acc6f8989c22",
+                "id": "fd709fed-3880-4228-a9bc-c95a1f2735ac",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForms/simulation - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1208,7 +1208,7 @@
     }
   ],
   "info": {
-    "_postman_id": "9de1cb03-b1da-4dde-a0f9-f865813b6721",
+    "_postman_id": "7031c031-2c0f-4628-96fb-546cb38be1c3",
     "name": "Marketplace Protocol",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

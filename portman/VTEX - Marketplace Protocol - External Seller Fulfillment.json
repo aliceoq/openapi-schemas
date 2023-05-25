@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "2d9c48a6-c2a8-4b7a-a8fd-7e31fadf48cf"
+    "postman_id": "8b8b45af-0a5a-4ff8-a0e1-46933a16428f"
   },
   "item": [
     {
-      "id": "725bde0a-2cc4-422d-9a3d-199b35b46ca8",
+      "id": "0a121bff-0438-48ee-83c5-98ea52487040",
       "name": "External Seller",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "4d4eb7cf-36a4-4548-a1ab-afd0a8ba1eed",
+          "id": "b9898a62-e2a7-472c-82bb-be26dfe57259",
           "name": "Fulfillment simulation - External Seller",
           "request": {
             "name": "Fulfillment simulation - External Seller",
@@ -69,7 +69,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "87d3fe3a-804e-425c-a562-77821bfce9a2",
+              "id": "c040d00f-7f6d-4708-8fef-94a70fa149d4",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -146,7 +146,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"country\": \"BRA\",\n  \"items\": [\n    {\n      \"id\": \"2000037\",\n      \"listPrice\": 67203,\n      \"measurementUnit\": \"un\",\n      \"merchantName\": \"mySeller1\",\n      \"offerings\": [\n        {\n          \"type\": \"Warranty\",\n          \"id\": \"5\",\n          \"name\": \"1 year warranty\",\n          \"price\": 10000\n        },\n        {\n          \"type\": \"Warranty\",\n          \"id\": \"5\",\n          \"name\": \"1 year warranty\",\n          \"price\": 10000\n        }\n      ],\n      \"price\": 67203,\n      \"priceTags\": [\n        \"promotion 1\",\n        \"promotion 1\"\n      ],\n      \"priceValidUntil\": \"2014-03-01T22:58:28.143\",\n      \"quantity\": 1,\n      \"requestIndex\": 0,\n      \"seller\": \"1\",\n      \"unitMultiplier\": 1\n    },\n    {\n      \"id\": \"2000037\",\n      \"listPrice\": 67203,\n      \"measurementUnit\": \"un\",\n      \"merchantName\": \"mySeller1\",\n      \"offerings\": [\n        {\n          \"type\": \"Warranty\",\n          \"id\": \"5\",\n          \"name\": \"1 year warranty\",\n          \"price\": 10000\n        },\n        {\n          \"type\": \"Warranty\",\n          \"id\": \"5\",\n          \"name\": \"1 year warranty\",\n          \"price\": 10000\n        }\n      ],\n      \"price\": 67203,\n      \"priceTags\": [\n        \"promotion 1\",\n        \"promotion 1\"\n      ],\n      \"priceValidUntil\": \"2014-03-01T22:58:28.143\",\n      \"quantity\": 1,\n      \"requestIndex\": 0,\n      \"seller\": \"1\",\n      \"unitMultiplier\": 1\n    }\n  ],\n  \"logisticsInfo\": [\n    {\n      \"itemIndex\": 0,\n      \"quantity\": 1,\n      \"shipsTo\": [\n        \"BRA\",\n        \"BOL\"\n      ],\n      \"slas\": [\n        {\n          \"id\": \"Curbside pickup\",\n          \"deliveryChannel\": \"pickup-in-point\",\n          \"name\": \"Curbside pickup\",\n          \"price\": 846,\n          \"shippingEstimate\": \"19bd\",\n          \"availableDeliveryWindows\": [\n            {\n              \"startDateUtc\": \"2013-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2013-02-04T13:00:00+00:00\",\n              \"price\": 0\n            },\n            {\n              \"startDateUtc\": \"2014-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2014-02-04T13:00:00+00:00\",\n              \"price\": 100\n            }\n          ],\n          \"pickupStoreInfo\": {\n            \"isPickupStore\": true,\n            \"friendlyName\": \"Santa Felicidade\",\n            \"address\": {\n              \"addressType\": \"pickup\",\n              \"receiverName\": \"Juliana\",\n              \"addressId\": \"548304ed-dd40-4416-b12b-4b32bfa7b1e0\",\n              \"postalCode\": \"82320-040\",\n              \"city\": \"Curitiba\",\n              \"state\": \"PR\",\n              \"country\": \"BRA\",\n              \"street\": \"Rua Domingos Strapasson\",\n              \"number\": \"100\",\n              \"neighborhood\": \"Santa Felicidade\",\n              \"complement\": \"Loja 10\",\n              \"reference\": \"Right next to the Unicorn statue.\",\n              \"geoCoordinates\": [\n                49.334934,\n                25.401705\n              ]\n            },\n            \"additionalInfo\": \"\"\n          }\n        },\n        {\n          \"id\": \"Curbside pickup\",\n          \"deliveryChannel\": \"pickup-in-point\",\n          \"name\": \"Curbside pickup\",\n          \"price\": 846,\n          \"shippingEstimate\": \"19bd\",\n          \"availableDeliveryWindows\": [\n            {\n              \"startDateUtc\": \"2013-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2013-02-04T13:00:00+00:00\",\n              \"price\": 0\n            },\n            {\n              \"startDateUtc\": \"2014-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2014-02-04T13:00:00+00:00\",\n              \"price\": 100\n            }\n          ],\n          \"pickupStoreInfo\": {\n            \"isPickupStore\": true,\n            \"friendlyName\": \"Santa Felicidade\",\n            \"address\": {\n              \"addressType\": \"pickup\",\n              \"receiverName\": \"Juliana\",\n              \"addressId\": \"548304ed-dd40-4416-b12b-4b32bfa7b1e0\",\n              \"postalCode\": \"82320-040\",\n              \"city\": \"Curitiba\",\n              \"state\": \"PR\",\n              \"country\": \"BRA\",\n              \"street\": \"Rua Domingos Strapasson\",\n              \"number\": \"100\",\n              \"neighborhood\": \"Santa Felicidade\",\n              \"complement\": \"Loja 10\",\n              \"reference\": \"Right next to the Unicorn statue.\",\n              \"geoCoordinates\": [\n                49.334934,\n                25.401705\n              ]\n            },\n            \"additionalInfo\": \"\"\n          }\n        }\n      ],\n      \"stockBalance\": 199,\n      \"deliveryChannels\": [\n        {\n          \"id\": \"pickup-in-point\",\n          \"stockBalance\": 20\n        },\n        {\n          \"id\": \"pickup-in-point\",\n          \"stockBalance\": 20\n        }\n      ]\n    },\n    {\n      \"itemIndex\": 0,\n      \"quantity\": 1,\n      \"shipsTo\": [\n        \"BRA\",\n        \"BOL\"\n      ],\n      \"slas\": [\n        {\n          \"id\": \"Curbside pickup\",\n          \"deliveryChannel\": \"pickup-in-point\",\n          \"name\": \"Curbside pickup\",\n          \"price\": 846,\n          \"shippingEstimate\": \"19bd\",\n          \"availableDeliveryWindows\": [\n            {\n              \"startDateUtc\": \"2013-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2013-02-04T13:00:00+00:00\",\n              \"price\": 0\n            },\n            {\n              \"startDateUtc\": \"2014-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2014-02-04T13:00:00+00:00\",\n              \"price\": 100\n            }\n          ],\n          \"pickupStoreInfo\": {\n            \"isPickupStore\": true,\n            \"friendlyName\": \"Santa Felicidade\",\n            \"address\": {\n              \"addressType\": \"pickup\",\n              \"receiverName\": \"Juliana\",\n              \"addressId\": \"548304ed-dd40-4416-b12b-4b32bfa7b1e0\",\n              \"postalCode\": \"82320-040\",\n              \"city\": \"Curitiba\",\n              \"state\": \"PR\",\n              \"country\": \"BRA\",\n              \"street\": \"Rua Domingos Strapasson\",\n              \"number\": \"100\",\n              \"neighborhood\": \"Santa Felicidade\",\n              \"complement\": \"Loja 10\",\n              \"reference\": \"Right next to the Unicorn statue.\",\n              \"geoCoordinates\": [\n                49.334934,\n                25.401705\n              ]\n            },\n            \"additionalInfo\": \"\"\n          }\n        },\n        {\n          \"id\": \"Curbside pickup\",\n          \"deliveryChannel\": \"pickup-in-point\",\n          \"name\": \"Curbside pickup\",\n          \"price\": 846,\n          \"shippingEstimate\": \"19bd\",\n          \"availableDeliveryWindows\": [\n            {\n              \"startDateUtc\": \"2013-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2013-02-04T13:00:00+00:00\",\n              \"price\": 0\n            },\n            {\n              \"startDateUtc\": \"2014-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2014-02-04T13:00:00+00:00\",\n              \"price\": 100\n            }\n          ],\n          \"pickupStoreInfo\": {\n            \"isPickupStore\": true,\n            \"friendlyName\": \"Santa Felicidade\",\n            \"address\": {\n              \"addressType\": \"pickup\",\n              \"receiverName\": \"Juliana\",\n              \"addressId\": \"548304ed-dd40-4416-b12b-4b32bfa7b1e0\",\n              \"postalCode\": \"82320-040\",\n              \"city\": \"Curitiba\",\n              \"state\": \"PR\",\n              \"country\": \"BRA\",\n              \"street\": \"Rua Domingos Strapasson\",\n              \"number\": \"100\",\n              \"neighborhood\": \"Santa Felicidade\",\n              \"complement\": \"Loja 10\",\n              \"reference\": \"Right next to the Unicorn statue.\",\n              \"geoCoordinates\": [\n                49.334934,\n                25.401705\n              ]\n            },\n            \"additionalInfo\": \"\"\n          }\n        }\n      ],\n      \"stockBalance\": 199,\n      \"deliveryChannels\": [\n        {\n          \"id\": \"pickup-in-point\",\n          \"stockBalance\": 20\n        },\n        {\n          \"id\": \"pickup-in-point\",\n          \"stockBalance\": 20\n        }\n      ]\n    }\n  ],\n  \"postalCode\": \"80250000\",\n  \"allowMultipleDeliveries\": true\n}",
+              "body": "{\n  \"country\": \"BRA\",\n  \"items\": [\n    {\n      \"id\": \"2000037\",\n      \"listPrice\": 67203,\n      \"measurementUnit\": \"un\",\n      \"merchantName\": \"mySeller1\",\n      \"offerings\": [\n        {\n          \"type\": \"Warranty\",\n          \"id\": \"5\",\n          \"name\": \"1 year warranty\",\n          \"price\": 10000\n        },\n        {\n          \"type\": \"Warranty\",\n          \"id\": \"5\",\n          \"name\": \"1 year warranty\",\n          \"price\": 10000\n        }\n      ],\n      \"price\": 67203,\n      \"priceTags\": [\n        \"promotion 1\",\n        \"promotion 1\"\n      ],\n      \"priceValidUntil\": \"2014-03-01T22:58:28.143\",\n      \"quantity\": 1,\n      \"requestIndex\": 0,\n      \"seller\": \"1\",\n      \"unitMultiplier\": 1\n    },\n    {\n      \"id\": \"2000037\",\n      \"listPrice\": 67203,\n      \"measurementUnit\": \"un\",\n      \"merchantName\": \"mySeller1\",\n      \"offerings\": [\n        {\n          \"type\": \"Warranty\",\n          \"id\": \"5\",\n          \"name\": \"1 year warranty\",\n          \"price\": 10000\n        },\n        {\n          \"type\": \"Warranty\",\n          \"id\": \"5\",\n          \"name\": \"1 year warranty\",\n          \"price\": 10000\n        }\n      ],\n      \"price\": 67203,\n      \"priceTags\": [\n        \"promotion 1\",\n        \"promotion 1\"\n      ],\n      \"priceValidUntil\": \"2014-03-01T22:58:28.143\",\n      \"quantity\": 1,\n      \"requestIndex\": 0,\n      \"seller\": \"1\",\n      \"unitMultiplier\": 1\n    }\n  ],\n  \"logisticsInfo\": [\n    {\n      \"itemIndex\": 0,\n      \"quantity\": 1,\n      \"shipsTo\": [\n        \"BRA\",\n        \"BOL\"\n      ],\n      \"slas\": [\n        {\n          \"id\": \"Curbside pickup\",\n          \"deliveryChannel\": \"pickup-in-point\",\n          \"name\": \"Curbside pickup\",\n          \"price\": 846,\n          \"shippingEstimate\": \"19bd\",\n          \"availableDeliveryWindows\": [\n            {\n              \"startDateUtc\": \"2013-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2013-02-04T13:00:00+00:00\",\n              \"price\": 0\n            },\n            {\n              \"startDateUtc\": \"2014-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2014-02-04T13:00:00+00:00\",\n              \"price\": 100\n            }\n          ],\n          \"pickupStoreInfo\": {\n            \"isPickupStore\": true,\n            \"friendlyName\": \"Santa Felicidade\",\n            \"address\": {\n              \"addressType\": \"pickup\",\n              \"receiverName\": \"Juliana\",\n              \"addressId\": \"548304ed-dd40-4416-b12b-4b32bfa7b1e0\",\n              \"postalCode\": \"82320-040\",\n              \"city\": \"Curitiba\",\n              \"state\": \"PR\",\n              \"country\": \"BRA\",\n              \"street\": \"Rua Domingos Strapasson\",\n              \"number\": \"100\",\n              \"neighborhood\": \"Santa Felicidade\",\n              \"complement\": \"Loja 10\",\n              \"reference\": \"Right next to the Unicorn statue.\",\n              \"geoCoordinates\": [\n                49.334934,\n                25.401705\n              ]\n            },\n            \"additionalInfo\": \"\"\n          }\n        },\n        {\n          \"id\": \"Curbside pickup\",\n          \"deliveryChannel\": \"pickup-in-point\",\n          \"name\": \"Curbside pickup\",\n          \"price\": 846,\n          \"shippingEstimate\": \"19bd\",\n          \"availableDeliveryWindows\": [\n            {\n              \"startDateUtc\": \"2013-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2013-02-04T13:00:00+00:00\",\n              \"price\": 0\n            },\n            {\n              \"startDateUtc\": \"2014-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2014-02-04T13:00:00+00:00\",\n              \"price\": 100\n            }\n          ],\n          \"pickupStoreInfo\": {\n            \"isPickupStore\": true,\n            \"friendlyName\": \"Santa Felicidade\",\n            \"address\": {\n              \"addressType\": \"pickup\",\n              \"receiverName\": \"Juliana\",\n              \"addressId\": \"548304ed-dd40-4416-b12b-4b32bfa7b1e0\",\n              \"postalCode\": \"82320-040\",\n              \"city\": \"Curitiba\",\n              \"state\": \"PR\",\n              \"country\": \"BRA\",\n              \"street\": \"Rua Domingos Strapasson\",\n              \"number\": \"100\",\n              \"neighborhood\": \"Santa Felicidade\",\n              \"complement\": \"Loja 10\",\n              \"reference\": \"Right next to the Unicorn statue.\",\n              \"geoCoordinates\": [\n                49.334934,\n                25.401705\n              ]\n            },\n            \"additionalInfo\": \"\"\n          }\n        }\n      ],\n      \"stockBalance\": 199,\n      \"deliveryChannels\": [\n        {\n          \"id\": \"pickup-in-point\",\n          \"stockBalance\": 20\n        },\n        {\n          \"id\": \"pickup-in-point\",\n          \"stockBalance\": 20\n        }\n      ]\n    },\n    {\n      \"itemIndex\": 0,\n      \"quantity\": 1,\n      \"shipsTo\": [\n        \"BRA\",\n        \"BOL\"\n      ],\n      \"slas\": [\n        {\n          \"id\": \"Curbside pickup\",\n          \"deliveryChannel\": \"pickup-in-point\",\n          \"name\": \"Curbside pickup\",\n          \"price\": 846,\n          \"shippingEstimate\": \"19bd\",\n          \"availableDeliveryWindows\": [\n            {\n              \"startDateUtc\": \"2013-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2013-02-04T13:00:00+00:00\",\n              \"price\": 0\n            },\n            {\n              \"startDateUtc\": \"2014-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2014-02-04T13:00:00+00:00\",\n              \"price\": 100\n            }\n          ],\n          \"pickupStoreInfo\": {\n            \"isPickupStore\": true,\n            \"friendlyName\": \"Santa Felicidade\",\n            \"address\": {\n              \"addressType\": \"pickup\",\n              \"receiverName\": \"Juliana\",\n              \"addressId\": \"548304ed-dd40-4416-b12b-4b32bfa7b1e0\",\n              \"postalCode\": \"82320-040\",\n              \"city\": \"Curitiba\",\n              \"state\": \"PR\",\n              \"country\": \"BRA\",\n              \"street\": \"Rua Domingos Strapasson\",\n              \"number\": \"100\",\n              \"neighborhood\": \"Santa Felicidade\",\n              \"complement\": \"Loja 10\",\n              \"reference\": \"Right next to the Unicorn statue.\",\n              \"geoCoordinates\": [\n                49.334934,\n                25.401705\n              ]\n            },\n            \"additionalInfo\": \"\"\n          }\n        },\n        {\n          \"id\": \"Curbside pickup\",\n          \"deliveryChannel\": \"pickup-in-point\",\n          \"name\": \"Curbside pickup\",\n          \"price\": 846,\n          \"shippingEstimate\": \"19bd\",\n          \"availableDeliveryWindows\": [\n            {\n              \"startDateUtc\": \"2013-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2013-02-04T13:00:00+00:00\",\n              \"price\": 0\n            },\n            {\n              \"startDateUtc\": \"2014-02-04T08:00:00+00:00\",\n              \"endDateUtc\": \"2014-02-04T13:00:00+00:00\",\n              \"price\": 100\n            }\n          ],\n          \"pickupStoreInfo\": {\n            \"isPickupStore\": true,\n            \"friendlyName\": \"Santa Felicidade\",\n            \"address\": {\n              \"addressType\": \"pickup\",\n              \"receiverName\": \"Juliana\",\n              \"addressId\": \"548304ed-dd40-4416-b12b-4b32bfa7b1e0\",\n              \"postalCode\": \"82320-040\",\n              \"city\": \"Curitiba\",\n              \"state\": \"PR\",\n              \"country\": \"BRA\",\n              \"street\": \"Rua Domingos Strapasson\",\n              \"number\": \"100\",\n              \"neighborhood\": \"Santa Felicidade\",\n              \"complement\": \"Loja 10\",\n              \"reference\": \"Right next to the Unicorn statue.\",\n              \"geoCoordinates\": [\n                49.334934,\n                25.401705\n              ]\n            },\n            \"additionalInfo\": \"\"\n          }\n        }\n      ],\n      \"stockBalance\": 199,\n      \"deliveryChannels\": [\n        {\n          \"id\": \"pickup-in-point\",\n          \"stockBalance\": 20\n        },\n        {\n          \"id\": \"pickup-in-point\",\n          \"stockBalance\": 20\n        }\n      ]\n    }\n  ],\n  \"postalCode\": \"80250000\",\n  \"allowMultipleDeliveries\": false\n}",
               "cookie": []
             }
           ],
@@ -154,7 +154,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "aff669a8-34d5-4697-ab3b-78c1e0c5395d",
+                "id": "e2d06d5b-a518-4af2-aa77-f6c7d3ecf9f8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pvt/orderForms/simulation - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -170,7 +170,7 @@
           }
         },
         {
-          "id": "9f88990e-eb50-4f1b-8d9e-35da43d06826",
+          "id": "3fa3e8da-a453-461d-8cc7-63cc81953a67",
           "name": "Order placement",
           "request": {
             "name": "Order placement",
@@ -307,7 +307,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "36529de1-c26d-434b-a9d0-0b0a4611979d",
+              "id": "cbc97355-4fe9-4062-aad9-9c168216a7cd",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -481,7 +481,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fcf2ee11-5f7e-488e-9ee5-c3b955384bd0",
+                "id": "472171c3-8607-4639-bc40-0ae5aca63f43",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pvt/orders - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -497,7 +497,7 @@
           }
         },
         {
-          "id": "04656500-51de-4f1b-8416-b6573624b0a9",
+          "id": "a19e7a85-cb81-4d59-8f9f-7d40ca444a06",
           "name": "Authorize fulfillment",
           "request": {
             "name": "Authorize fulfillment",
@@ -565,7 +565,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a73f0d33-f6f0-4e06-a9a0-2678fc1f1a1f",
+              "id": "b99c2a0c-3fe5-4521-94a6-9a4784e1d2fb",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -661,7 +661,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fbfda3f2-a144-4e49-a58d-03dc79f69c94",
+                "id": "d9d6792f-8cb5-4910-ad29-e4adc6fef0e4",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pvt/orders/:sellerOrderId/fulfill - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -676,7 +676,7 @@
           }
         },
         {
-          "id": "5107bd28-40eb-4b89-9eda-0828f9426b7b",
+          "id": "560b0b45-b98b-4a2e-968a-cc11f39090d9",
           "name": "Marketplace order cancellation",
           "request": {
             "name": "Marketplace order cancellation",
@@ -744,7 +744,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "db4ee6e0-9db1-40d1-abb2-babe8a18df0a",
+              "id": "9ac44ad7-0c56-4360-beb3-9bc01c88afe1",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -840,7 +840,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5ba3b700-b2ea-4451-b9b3-678e91815e34",
+                "id": "48d124d0-08fc-4737-9671-9d81c767b2c2",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pvt/orders/:orderId/cancel - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -896,7 +896,7 @@
     }
   ],
   "info": {
-    "_postman_id": "2d9c48a6-c2a8-4b7a-a8fd-7e31fadf48cf",
+    "_postman_id": "8b8b45af-0a5a-4ff8-a0e1-46933a16428f",
     "name": "Marketplace Protocol",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

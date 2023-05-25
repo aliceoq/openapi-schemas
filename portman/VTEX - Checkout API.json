@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "d5cc11d7-3565-4a1a-9bd9-d8839550219b"
+    "postman_id": "e3e5e535-4843-4ffc-a83b-e6d16759318d"
   },
   "item": [
     {
-      "id": "ce3f1b2c-bb95-4be7-bd45-8d3397cd5304",
+      "id": "c4308cbf-aff7-4d4e-a9bb-aa3b827f0e2f",
       "name": "Shopping cart",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "07831068-4d99-444f-b19f-7bac5f140f43",
+          "id": "8dee364e-5393-4cb6-a2e2-a2a1945cd94b",
           "name": "Cart simulation",
           "request": {
             "name": "Cart simulation",
@@ -98,7 +98,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "883ce591-52e9-46ea-9968-15d0065f6f9c",
+              "id": "b53831db-0798-4431-8d9f-fd6367bc584a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -202,7 +202,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8e3f3bf4-4329-4203-a289-0e335c03d792",
+                "id": "3062d644-9a1c-4d0a-981b-2c9b42ead234",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForms/simulation - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -218,7 +218,7 @@
           }
         },
         {
-          "id": "b088a43a-0583-4422-9dc5-4405f0ea590e",
+          "id": "39673771-096c-492c-9ce4-216708cd0054",
           "name": "Get current or create a new cart",
           "request": {
             "name": "Get current or create a new cart",
@@ -281,7 +281,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a2ef9fd5-26c1-4fb3-94d1-494ffd9c1fe1",
+              "id": "a4a294ad-11f1-43c3-80c1-3270cac6998d",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -372,7 +372,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d6dbd11f-24c1-49e9-80b2-6c38c9dbc6ed",
+                "id": "9e9a23b2-f856-41cf-bcc3-1e3d042b265c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pub/orderForm - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -387,7 +387,7 @@
           }
         },
         {
-          "id": "7ffdbe39-6d08-4673-9d72-7b6b926f328a",
+          "id": "0b1db06a-d2d6-46b8-9c86-f21ce74cc300",
           "name": "Get cart information by ID",
           "request": {
             "name": "Get cart information by ID",
@@ -461,7 +461,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "64ff5c07-42a9-410b-8f7e-916f29acfd52",
+              "id": "1fa2bd44-ed9a-4e87-88dd-9a5dfabf5e34",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -562,7 +562,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5f0934ee-682c-419d-9dfe-f159a3def181",
+                "id": "53b972ef-7ce8-4958-8ba3-8a6a5daa1321",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pub/orderForm/:orderFormId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -577,7 +577,7 @@
           }
         },
         {
-          "id": "ee8eef2e-4d2a-488d-a8f2-e9c9e36a3e54",
+          "id": "8a62d419-8e40-4e0b-8099-9c33855a1419",
           "name": "Remove all items",
           "request": {
             "name": "Remove all items",
@@ -656,7 +656,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e1af344e-6ef5-45df-b5ab-f77d005745a2",
+              "id": "7b6f5ddd-12b9-41db-b4a5-c8a0fea3ff23",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -762,7 +762,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0f8e7121-5c63-462f-8f63-128405c0f331",
+                "id": "d643b539-8703-441f-bfa6-1bbfbecbe448",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/items/removeAll - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -778,7 +778,7 @@
           }
         },
         {
-          "id": "368b8e8c-efa8-450d-a09f-d60cc020af6e",
+          "id": "3a06aa07-8caf-4733-97b6-73088312bead",
           "name": "Remove all personal data",
           "request": {
             "name": "Remove all personal data",
@@ -840,7 +840,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "5d429dd4-2d22-4fae-854a-e4aef5bc0fb4",
+              "id": "e9b1a0b0-1e09-445d-a7c0-fb8227a1033a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -935,7 +935,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e36ceaf7-9891-4056-9a77-47d6c10fe51c",
+                "id": "36e88a88-8b33-46ba-831d-17081a6ca4e0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/checkout/changeToAnonymousUser/:orderFormId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -949,7 +949,7 @@
           }
         },
         {
-          "id": "fa2f321c-430e-4349-b63f-896694ae2676",
+          "id": "0de5d04b-61a9-4580-a5cf-f4fd8c5ef141",
           "name": "Update cart items",
           "request": {
             "name": "Update cart items",
@@ -1038,7 +1038,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "5f5953c7-1369-4078-82a0-5362830eaebb",
+              "id": "f9785261-0863-41af-a8c6-3103443ee1a2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1150,7 +1150,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b09e3f47-7190-428a-b08a-8d799c8e917d",
+                "id": "8fcb8faa-af66-47c7-9488-78db622c4852",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/items/update - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1166,7 +1166,7 @@
           }
         },
         {
-          "id": "9657c622-f6b1-4bd9-8ee1-f96b55ac329b",
+          "id": "02a1f371-c53d-4e03-b391-a7046b7fce72",
           "name": "Add cart items",
           "request": {
             "name": "Add cart items",
@@ -1254,7 +1254,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "c72f6385-8cdd-4473-8da9-463595081a4c",
+              "id": "6984975e-5f95-465d-a2dd-fe039ec32566",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1365,7 +1365,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e99d163f-0e32-4aeb-b80d-ee9cf13deb64",
+                "id": "37f87b86-b5a3-4028-8fdb-4ff83b3daa4f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/items - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1381,7 +1381,7 @@
           }
         },
         {
-          "id": "e13611a2-17d3-4b7d-be69-efbc531992d5",
+          "id": "f50bd94e-3cb9-4942-8bde-053d2dacf747",
           "name": "Handle cart items",
           "request": {
             "name": "Handle cart items",
@@ -1459,7 +1459,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "3726d246-0880-4076-a992-97dd7d4fd8a9",
+              "id": "e7c8105b-a21d-485d-b701-f3ca42816b61",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1565,7 +1565,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bbabace0-e409-41d6-a3f8-713495ae5ab8",
+                "id": "e5dcb81e-7033-4925-bc95-ce7a0b26703e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/checkout/pub/orderForm/:orderFormId/items - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1581,7 +1581,7 @@
           }
         },
         {
-          "id": "4cabf7af-0359-4a67-9679-416236a964bf",
+          "id": "e5eb2176-9478-4559-aca2-2004ce554a04",
           "name": "Change price",
           "request": {
             "name": "Change price",
@@ -1622,7 +1622,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "itemIndex"
                 },
                 {
@@ -1671,7 +1671,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "495351ae-82eb-4681-89fe-c611f27b1d05",
+              "id": "3bd54a3a-50c0-468e-bb7c-cbe76053ec23",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1707,7 +1707,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "itemIndex"
                     },
                     {
@@ -1789,7 +1789,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6c9c72f0-0971-48b9-86b8-a59158400947",
+                "id": "494aa683-01df-447e-bc3d-a469cc53346c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/checkout/pub/orderForm/:orderFormId/items/:itemIndex/price - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1804,7 +1804,7 @@
           }
         },
         {
-          "id": "8d40924c-3f70-4338-a638-8eec4d7e5d11",
+          "id": "994a2d64-3001-48a3-8ec6-655730793a47",
           "name": "Ignore profile data",
           "request": {
             "name": "Ignore profile data",
@@ -1882,7 +1882,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "81671de0-458c-4520-9ffc-45e00fbe40c7",
+              "id": "ad482fae-a572-48cd-8303-d3170f5a9401",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1987,7 +1987,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "eb64556f-62f7-42f1-b1d3-81e92fd74fee",
+                "id": "18edd3dd-67f0-49f0-8983-9464dee97ea5",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/checkout/pub/orderForm/:orderFormId/profile - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2002,7 +2002,7 @@
           }
         },
         {
-          "id": "16cc56e9-aba7-4564-9777-a5ac3eb6969d",
+          "id": "bf3a4d65-1155-4497-baa7-37d5f3f476a8",
           "name": "Cart installments",
           "request": {
             "name": "Cart installments",
@@ -2030,7 +2030,7 @@
                     "type": "text/plain"
                   },
                   "key": "paymentSystem",
-                  "value": "-75965157"
+                  "value": "95150862"
                 }
               ],
               "variable": [
@@ -2041,7 +2041,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -2077,7 +2077,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "147eda20-1bc8-4208-bd51-50577c3d135a",
+              "id": "36668d62-3459-4abb-a837-b26c7032d461",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2095,7 +2095,7 @@
                   "query": [
                     {
                       "key": "paymentSystem",
-                      "value": "-75965157"
+                      "value": "95150862"
                     }
                   ],
                   "variable": [
@@ -2106,7 +2106,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -2180,7 +2180,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ec271363-1233-4fdb-9d63-7522a6eee69b",
+                "id": "59707a50-5432-4698-8101-9a2683df5b1d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pub/orderForm/:orderFormId/installments - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2195,7 +2195,7 @@
           }
         },
         {
-          "id": "8bb5d036-2ebd-4ea0-ba36-e6a0c45934bd",
+          "id": "78ffe90b-de45-4676-bd4d-b32da8bcd15c",
           "name": "Add coupons to the cart",
           "request": {
             "name": "Add coupons to the cart",
@@ -2273,7 +2273,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "75aaba1f-c185-4980-9b59-08123f4f9749",
+              "id": "b672f842-7320-44a6-b15f-396c46da3d96",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2379,7 +2379,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "cedb6011-7110-4810-8892-600b88fe6d50",
+                "id": "fceefb5c-463e-463e-a732-3d467da0a954",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/coupons - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2398,7 +2398,7 @@
       "event": []
     },
     {
-      "id": "6699ed0f-a8f1-45fe-a601-58a03af64ecd",
+      "id": "2499969b-32a5-4b67-bb04-d020e21dcaf4",
       "name": "Cart attachments",
       "description": {
         "content": "",
@@ -2406,7 +2406,7 @@
       },
       "item": [
         {
-          "id": "a2170988-b2bb-4353-abfc-b7be95c48881",
+          "id": "1ffa8bcb-26e4-4fdc-adfb-662fa4923844",
           "name": "Get client profile by email",
           "request": {
             "name": "Get client profile by email",
@@ -2469,7 +2469,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "148e5c25-f4d3-4e4b-9de0-af53cbfd4ac7",
+              "id": "108277f5-60ae-4179-b4e6-f9ddbb28eb8e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2560,7 +2560,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9ea6d38e-9701-4b62-9634-ad080ef8cedc",
+                "id": "b97b3d32-e5c6-4f58-aa0e-e9728e72de33",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pub/profiles - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2576,7 +2576,7 @@
           }
         },
         {
-          "id": "4673dc46-535f-4901-b42c-f53f9ffd9c8f",
+          "id": "ab14464a-3f3f-4b0b-b129-adba8bd4ca02",
           "name": "Add client profile",
           "request": {
             "name": "Add client profile",
@@ -2606,7 +2606,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -2655,7 +2655,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "378246ca-12a7-435f-8187-ad1273cf9472",
+              "id": "836a9aac-acf8-4514-8e63-0fff4001357c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2680,7 +2680,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -2762,7 +2762,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "04095202-c3c4-43c3-b243-758ef518ae3f",
+                "id": "a40c8f3c-c450-4936-8d4e-a359343bd361",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/attachments/clientProfileData - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2777,7 +2777,7 @@
           }
         },
         {
-          "id": "9273dbef-6ab6-482d-afc4-1b3b0cd98b7d",
+          "id": "d02d3f1a-1687-4ae2-b928-9ae543b9f967",
           "name": "Add shipping address and select delivery option",
           "request": {
             "name": "Add shipping address and select delivery option",
@@ -2807,7 +2807,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -2856,7 +2856,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "c278c64d-a31a-49c4-b0f9-f694d8c8de72",
+              "id": "cba21dc0-1303-49ce-accb-851a9660052d",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2880,7 +2880,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -2962,7 +2962,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d6d7eb29-bf2e-42fc-a765-619adb12a6e6",
+                "id": "1bde89bb-58d7-4d81-8921-95a608001e70",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/attachments/shippingData - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2977,7 +2977,7 @@
           }
         },
         {
-          "id": "38d4926e-6f64-4495-b848-1a17cb9bc946",
+          "id": "59fb3efb-bbd6-499e-92bc-663f46cf325b",
           "name": "Add client preferences",
           "request": {
             "name": "Add client preferences",
@@ -3007,7 +3007,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -3056,7 +3056,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "42c2204f-7010-41c1-b885-710fbd1a379c",
+              "id": "e8248d06-506f-4d8a-bb39-ac40b5201a53",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3081,7 +3081,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -3163,7 +3163,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "aa5a1fc2-af05-4b92-801f-26310dde5fcc",
+                "id": "ad8fa66d-af81-43ed-afdd-859f9c921da4",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/attachments/clientPreferencesData - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3179,7 +3179,7 @@
           }
         },
         {
-          "id": "4285c0bf-ff90-4b2b-8a2c-b47a03b324d4",
+          "id": "026cb9dd-588f-4d6f-af4c-379957ec8041",
           "name": "Add marketing data",
           "request": {
             "name": "Add marketing data",
@@ -3209,7 +3209,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -3258,7 +3258,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "be7b71db-a3c8-4a85-b763-c2cb655a127f",
+              "id": "fffb40cc-f83b-4a9d-9292-b8eacc1cdf58",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3283,7 +3283,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -3365,7 +3365,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a173233c-a577-4dcc-858d-0c109a3e49ec",
+                "id": "e43edaa7-9296-40bc-9a34-c502e8176acf",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/attachments/marketingData - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3380,7 +3380,7 @@
           }
         },
         {
-          "id": "2a2149de-9844-4c59-ba6e-31d7137d2995",
+          "id": "a0a0af6a-65c0-4066-9fb9-c9f8370fc92f",
           "name": "Add payment data",
           "request": {
             "name": "Add payment data",
@@ -3410,7 +3410,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -3459,7 +3459,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "18350718-141b-49d3-9031-aeb4a689d632",
+              "id": "d3d2e653-e247-43ac-8cff-860956c64707",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3483,7 +3483,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -3565,7 +3565,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ce8ef720-c6b4-4530-a6e4-ad380868b8cd",
+                "id": "fd7208d3-f1ca-4efa-9b63-e12fe8472eae",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/attachments/paymentData - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3580,7 +3580,7 @@
           }
         },
         {
-          "id": "8c1511e8-b45f-4060-b215-90288eff3c0f",
+          "id": "42601006-1c6f-4665-9283-be4681021ed8",
           "name": "Add merchant context data",
           "request": {
             "name": "Add merchant context data",
@@ -3659,7 +3659,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "2bd5083f-58db-4e55-8862-81ea790c673c",
+              "id": "16cd69ce-7156-470e-886e-48c74b49e0a2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3766,7 +3766,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4568e858-fe84-4f87-aceb-cfb563e51d94",
+                "id": "c06cdfcd-4389-489a-ad4c-bb39455b9902",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/attachments/merchantContextData - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3785,7 +3785,7 @@
       "event": []
     },
     {
-      "id": "17fbe1bf-dce0-49b0-8bd9-34b4d241d8c0",
+      "id": "27e244a9-a755-4cc1-b8b7-6f1ff25bb3ed",
       "name": "Custom data",
       "description": {
         "content": "",
@@ -3793,7 +3793,7 @@
       },
       "item": [
         {
-          "id": "bf526de4-07a0-4353-be3f-7938943b7906",
+          "id": "ed94c426-d909-49e6-ac62-2d53c1aecf4b",
           "name": "Set multiple custom field values",
           "request": {
             "name": "Set multiple custom field values",
@@ -3823,7 +3823,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -3833,7 +3833,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "appId"
                 },
                 {
@@ -3869,7 +3869,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"labore0f9\": 7535173.792564273\n}",
+              "raw": "{\n  \"sunt_fe\": \"veniam in\",\n  \"velit_ab_\": 13624288\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -3882,7 +3882,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "10fa2d70-53c9-428f-8f91-55ba65f16935",
+              "id": "f9140776-bc26-4831-98dd-5b85a0c7090c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3907,7 +3907,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -3917,7 +3917,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "appId"
                     },
                     {
@@ -3975,7 +3975,7 @@
                 "method": "PUT",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"labore0f9\": 7535173.792564273\n}",
+                  "raw": "{\n  \"sunt_fe\": \"veniam in\",\n  \"velit_ab_\": 13624288\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -3999,7 +3999,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9e4c1c1d-e303-4d0b-8d36-b0ffbe1b9ea2",
+                "id": "7ede8b7e-3934-4505-8e0a-2dc34c413187",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/checkout/pub/orderForm/:orderFormId/customData/:appId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4015,7 +4015,7 @@
           }
         },
         {
-          "id": "5edafba5-0497-4b99-b917-26f23a115b22",
+          "id": "da46a6ed-ace2-4fad-a252-8b184b1e0635",
           "name": "Set single custom field value",
           "request": {
             "name": "Set single custom field value",
@@ -4046,7 +4046,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -4056,7 +4056,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "appId"
                 },
                 {
@@ -4066,7 +4066,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "appFieldName"
                 },
                 {
@@ -4115,7 +4115,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8886c8d3-d1cb-4d15-ad39-c1ed2d98aed0",
+              "id": "c965fd71-2d5d-48ef-b793-8363d6c067f5",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4140,7 +4140,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -4150,7 +4150,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "appId"
                     },
                     {
@@ -4160,7 +4160,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "appFieldName"
                     },
                     {
@@ -4242,7 +4242,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "839058a1-bd3c-41cc-91ec-944cf85f5cfd",
+                "id": "d41613f4-277a-42eb-a674-c11c71f5988b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/checkout/pub/orderForm/:orderFormId/customData/:appId/:appFieldName - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4257,7 +4257,7 @@
           }
         },
         {
-          "id": "5befefc3-4259-4505-87b4-6926085ad4c1",
+          "id": "1c0d971d-3da6-4d22-9857-580880178023",
           "name": "Remove single custom field value",
           "request": {
             "name": "Remove single custom field value",
@@ -4288,7 +4288,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "orderFormId"
                 },
                 {
@@ -4298,7 +4298,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "appId"
                 },
                 {
@@ -4308,7 +4308,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "deserunt exercitation laboris adipisicing",
+                  "value": "sunt ad",
                   "key": "appFieldName"
                 },
                 {
@@ -4344,7 +4344,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8b46604f-3b1f-49f9-b895-22dd28b9f9f4",
+              "id": "2807223f-d031-493c-b59d-f4258c9b58c0",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4370,7 +4370,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "orderFormId"
                     },
                     {
@@ -4380,7 +4380,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "appId"
                     },
                     {
@@ -4390,7 +4390,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "deserunt exercitation laboris adipisicing",
+                      "value": "sunt ad",
                       "key": "appFieldName"
                     },
                     {
@@ -4464,7 +4464,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8d87474d-59bb-4bce-8c32-34ee03f07437",
+                "id": "8be0219a-cd21-4a9a-bbb4-a46b5824ba60",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/checkout/pub/orderForm/:orderFormId/customData/:appId/:appFieldName - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4482,7 +4482,7 @@
       "event": []
     },
     {
-      "id": "ef21eeb9-471f-424a-9539-38aef691f9c7",
+      "id": "ab9ecc78-6ce6-4f0e-91d4-8a1b9194fc18",
       "name": "Configuration",
       "description": {
         "content": "",
@@ -4490,7 +4490,7 @@
       },
       "item": [
         {
-          "id": "0c925bdb-89ce-45f4-83c8-54add9460549",
+          "id": "a88d08f6-0328-4ee4-9944-b9b7855ffd01",
           "name": "Get orderForm configuration",
           "request": {
             "name": "Get orderForm configuration",
@@ -4544,7 +4544,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "1f8f461c-5b99-40b4-a987-cb2055675480",
+              "id": "f0cfa663-acc3-48d7-a545-533929b3a30b",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4630,7 +4630,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e522b31e-82dc-41bf-a7a3-763c7eba0503",
+                "id": "5038dc09-2cb0-4883-9f78-bec35d432704",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pvt/configuration/orderForm - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4646,7 +4646,7 @@
           }
         },
         {
-          "id": "297a5227-ca3b-4927-b6c7-b927897f18d6",
+          "id": "007c55e8-1e2b-4eca-b52a-b7e8fb36fcff",
           "name": "Update orderForm configuration",
           "request": {
             "name": "Update orderForm configuration",
@@ -4709,7 +4709,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "260cc109-82c1-4b7c-a92c-347a8c865740",
+              "id": "7bba1f8b-6d78-41bc-970e-4835a5678112",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4799,7 +4799,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0e4a94e4-f499-4665-b0e7-e5f281e4f1fe",
+                "id": "37f13566-2d2b-452e-aa86-b1eccfbf88fe",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pvt/configuration/orderForm - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4813,7 +4813,7 @@
           }
         },
         {
-          "id": "a9e181ef-744b-43b6-914d-59bc96ea479f",
+          "id": "93eda13a-facb-454e-98cb-a2d5e9f15bef",
           "name": "Get window to change seller",
           "request": {
             "name": "Get window to change seller",
@@ -4867,7 +4867,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "71aa4ea5-0736-425d-8c90-781f12a64e9b",
+              "id": "434b40b5-df55-40d0-8621-652de4739ffc",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4954,7 +4954,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dd481f91-7771-4ce4-b6f8-cf5f98138649",
+                "id": "ff194031-09f7-41c2-b2bb-654cf10faeab",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pvt/configuration/window-to-change-seller - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4968,7 +4968,7 @@
           }
         },
         {
-          "id": "b9d2a34f-500d-47de-a4f6-eb5a1bc1fd0d",
+          "id": "c70518de-1044-4de1-8d97-9e3e06c2dc66",
           "name": "Update window to change seller",
           "request": {
             "name": "Update window to change seller",
@@ -5031,7 +5031,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e59d5d87-94c4-41d7-a206-e6f8e528dc89",
+              "id": "cb61f464-730f-4e50-bf05-546323222b41",
               "name": "Created",
               "originalRequest": {
                 "url": {
@@ -5122,7 +5122,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "da3d1358-47f6-426b-a25b-01b2aa9a4ce5",
+                "id": "58f4e405-3912-4891-b0c5-bc0ece074370",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pvt/configuration/window-to-change-seller - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -5135,7 +5135,7 @@
           }
         },
         {
-          "id": "b106bf61-ffe7-4105-89ef-3f0b2ed968f8",
+          "id": "e2742503-96c2-4bb1-a503-86124bec5f4e",
           "name": "Clear orderForm messages",
           "request": {
             "name": "Clear orderForm messages",
@@ -5214,7 +5214,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "dadc04bd-6b33-4214-b428-241766829261",
+              "id": "154aeb10-da34-430e-b43c-4c5067490b9d",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5321,7 +5321,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2f663f50-55b2-403e-bf43-d283ee40bf23",
+                "id": "3f5c206b-835e-402a-b338-5e6df8698229",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/messages/clear - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5340,7 +5340,7 @@
       "event": []
     },
     {
-      "id": "7d79f50f-cc86-45d6-99a5-974b7025503b",
+      "id": "ebc13391-c35f-400e-a37e-03a5c759ff19",
       "name": "Fulfillment",
       "description": {
         "content": "",
@@ -5348,7 +5348,7 @@
       },
       "item": [
         {
-          "id": "b1360904-3d5e-4cf1-ba93-b2d1e02eb5db",
+          "id": "b9b63abf-ab1c-42e3-b0b5-82ebb67e1cc6",
           "name": "List pickup points by location",
           "request": {
             "name": "List pickup points by location",
@@ -5438,7 +5438,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "5b5cd435-6f17-428d-af07-e612e6db576e",
+              "id": "3ac4c3c1-e2e0-4b83-bc2a-4d61317e9428",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5541,7 +5541,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a74c8e62-54b7-497e-b2d1-8d3edaf3f636",
+                "id": "78beec08-1484-4712-8131-ef97a979b8f6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pub/pickup-points - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5556,7 +5556,7 @@
           }
         },
         {
-          "id": "0bdcc3bc-e061-4d95-bada-8a95d1fb481a",
+          "id": "a978877a-9747-4315-b9f8-680b320c1968",
           "name": "Get address by postal code",
           "request": {
             "name": "Get address by postal code",
@@ -5631,7 +5631,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "befafe75-3237-46cb-badb-9922337d6298",
+              "id": "6d54308e-749f-48d1-a069-b1db5a82a294",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5739,7 +5739,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c87be032-4144-4fd4-8567-08cf29d68831",
+                "id": "2b5be218-705a-44d7-b18c-69f11e3f4b9c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pub/postal-code/:countryCode/:postalCode - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5757,7 +5757,7 @@
       "event": []
     },
     {
-      "id": "5b570572-e8d6-435e-b3ce-56b0559721a0",
+      "id": "a023cfc3-a442-4a96-a500-ac791e27b66f",
       "name": "Order placement",
       "description": {
         "content": "",
@@ -5765,7 +5765,7 @@
       },
       "item": [
         {
-          "id": "44973b98-d671-405d-be33-c434bc6ee601",
+          "id": "f72cca43-380a-40bb-96f4-0086d9d9cde2",
           "name": "Place order from an existing cart",
           "request": {
             "name": "Place order from an existing cart",
@@ -5843,7 +5843,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "b380646b-dabd-482d-85cd-5fef636182fb",
+              "id": "c98cdced-6dd0-4439-b049-2a24545c97d5",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -5948,7 +5948,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "329be0ca-6859-4d1c-bf7e-5439b5683ec5",
+                "id": "62970433-4e55-43d3-8312-f08cede50afd",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/orderForm/:orderFormId/transaction - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5964,7 +5964,7 @@
           }
         },
         {
-          "id": "4cf4efd3-7682-4852-9024-797f0473e7a3",
+          "id": "27fee588-767b-4a58-aa8a-330297f4e403",
           "name": "Place order",
           "request": {
             "name": "Place order",
@@ -6027,7 +6027,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"items\": [\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"labore Ut irure incididunt qui\",\n        \"amet exercitation\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    },\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"tempor ex Ut\",\n        \"in\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    }\n  ],\n  \"clientProfileData\": {\n    \"email\": \"customer@examplemail.com\",\n    \"firstName\": \"first-name\",\n    \"lastName\": \"last-name\",\n    \"documentType\": \"cpf\",\n    \"document\": \"123456789\",\n    \"phone\": \"+55110988887777\",\n    \"corporateName\": \"company-name\",\n    \"tradeName\": \"trade-name\",\n    \"corporateDocument\": \"12345678000100\",\n    \"stateInscription\": \"12345678\",\n    \"corporatePhone\": \"+551100988887777\",\n    \"isCorporate\": false\n  },\n  \"shippingData\": {\n    \"address\": {\n      \"addressType\": \"residential\",\n      \"receiverName\": \"receiver-name\",\n      \"addressId\": \"Home\",\n      \"postalCode\": \"12345-000\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"Rio de Janeiro\",\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"complement\": \"3rd floor\",\n      \"reference\": \"Grey building\",\n      \"geoCoordinates\": [\n        -47.924747467041016,\n        -15.832582473754883\n      ]\n    },\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      },\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"paymentData\": {\n    \"payments\": [\n      {\n        \"paymentSystem\": \"12\",\n        \"referenceValue\": 16175,\n        \"value\": 16175,\n        \"installments\": 2,\n        \"accountId\": \"accountID-example\",\n        \"bin\": \"2\"\n      },\n      {\n        \"paymentSystem\": \"12\",\n        \"referenceValue\": 16175,\n        \"value\": 16175,\n        \"installments\": 2,\n        \"accountId\": \"accountID-example\",\n        \"bin\": \"2\"\n      }\n    ],\n    \"giftCards\": [\n      {\n        \"redemptionCode\": \"HYUO-TEZZ-QFFT-HTFR\",\n        \"value\": 500,\n        \"balance\": 500,\n        \"name\": \"name-example\",\n        \"id\": \"1390324156495k195pmab4rall3di\",\n        \"inUse\": true,\n        \"isSpecialCard\": false\n      },\n      {\n        \"redemptionCode\": \"HYUO-TEZZ-QFFT-HTFR\",\n        \"value\": 500,\n        \"balance\": 500,\n        \"name\": \"name-example\",\n        \"id\": \"1390324156495k195pmab4rall3di\",\n        \"inUse\": true,\n        \"isSpecialCard\": false\n      }\n    ],\n    \"giftCardMessages\": [\n      \"message-example\",\n      \"message-example\"\n    ],\n    \"paymentSystems\": [\n      {\n        \"id\": 2,\n        \"name\": \"Visa\",\n        \"groupName\": \"creditCardPaymentGroup\",\n        \"validator\": {\n          \"regex\": \"^4\",\n          \"mask\": \"9999 9999 9999 9999\",\n          \"cardCodeRegex\": \"[^0-9]\",\n          \"cardCodeMask\": \"999\",\n          \"weights\": [\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2\n          ]\n        },\n        \"stringId\": \"12345abc\",\n        \"template\": \"creditCardPaymentGroup-template\",\n        \"requiresDocument\": false,\n        \"selected\": false,\n        \"isCustom\": false,\n        \"description\": \"description-example\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Visa\",\n        \"groupName\": \"creditCardPaymentGroup\",\n        \"validator\": {\n          \"regex\": \"^4\",\n          \"mask\": \"9999 9999 9999 9999\",\n          \"cardCodeRegex\": \"[^0-9]\",\n          \"cardCodeMask\": \"999\",\n          \"weights\": [\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2\n          ]\n        },\n        \"stringId\": \"12345abc\",\n        \"template\": \"creditCardPaymentGroup-template\",\n        \"requiresDocument\": false,\n        \"selected\": false,\n        \"isCustom\": false,\n        \"description\": \"description-example\"\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"marketingData\": {\n    \"coupon\": \"free-shipping\",\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-exmaple\",\n    \"utmiCampaign\": \"utmi_campaign-exmaple\"\n  },\n  \"openTextField\": \"open-text-example\",\n  \"salesAssociateData\": {\n    \"salesAssociateId\": \"seller123\"\n  }\n}",
+              "raw": "{\n  \"items\": [\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"consectetur id sed dolor\",\n        \"Lorem quis dolor labore\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    },\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"labore aliqua sint irure do\",\n        \"reprehenderit cillum mollit\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    }\n  ],\n  \"clientProfileData\": {\n    \"email\": \"customer@examplemail.com\",\n    \"firstName\": \"first-name\",\n    \"lastName\": \"last-name\",\n    \"documentType\": \"cpf\",\n    \"document\": \"123456789\",\n    \"phone\": \"+55110988887777\",\n    \"corporateName\": \"company-name\",\n    \"tradeName\": \"trade-name\",\n    \"corporateDocument\": \"12345678000100\",\n    \"stateInscription\": \"12345678\",\n    \"corporatePhone\": \"+551100988887777\",\n    \"isCorporate\": false\n  },\n  \"shippingData\": {\n    \"address\": {\n      \"addressType\": \"residential\",\n      \"receiverName\": \"receiver-name\",\n      \"addressId\": \"Home\",\n      \"postalCode\": \"12345-000\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"Rio de Janeiro\",\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"complement\": \"3rd floor\",\n      \"reference\": \"Grey building\",\n      \"geoCoordinates\": [\n        -47.924747467041016,\n        -15.832582473754883\n      ]\n    },\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      },\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"paymentData\": {\n    \"payments\": [\n      {\n        \"paymentSystem\": \"12\",\n        \"referenceValue\": 16175,\n        \"value\": 16175,\n        \"installments\": 2,\n        \"accountId\": \"accountID-example\",\n        \"bin\": \"2\"\n      },\n      {\n        \"paymentSystem\": \"12\",\n        \"referenceValue\": 16175,\n        \"value\": 16175,\n        \"installments\": 2,\n        \"accountId\": \"accountID-example\",\n        \"bin\": \"2\"\n      }\n    ],\n    \"giftCards\": [\n      {\n        \"redemptionCode\": \"HYUO-TEZZ-QFFT-HTFR\",\n        \"value\": 500,\n        \"balance\": 500,\n        \"name\": \"name-example\",\n        \"id\": \"1390324156495k195pmab4rall3di\",\n        \"inUse\": true,\n        \"isSpecialCard\": false\n      },\n      {\n        \"redemptionCode\": \"HYUO-TEZZ-QFFT-HTFR\",\n        \"value\": 500,\n        \"balance\": 500,\n        \"name\": \"name-example\",\n        \"id\": \"1390324156495k195pmab4rall3di\",\n        \"inUse\": true,\n        \"isSpecialCard\": false\n      }\n    ],\n    \"giftCardMessages\": [\n      \"message-example\",\n      \"message-example\"\n    ],\n    \"paymentSystems\": [\n      {\n        \"id\": 2,\n        \"name\": \"Visa\",\n        \"groupName\": \"creditCardPaymentGroup\",\n        \"validator\": {\n          \"regex\": \"^4\",\n          \"mask\": \"9999 9999 9999 9999\",\n          \"cardCodeRegex\": \"[^0-9]\",\n          \"cardCodeMask\": \"999\",\n          \"weights\": [\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2\n          ]\n        },\n        \"stringId\": \"12345abc\",\n        \"template\": \"creditCardPaymentGroup-template\",\n        \"requiresDocument\": false,\n        \"selected\": false,\n        \"isCustom\": false,\n        \"description\": \"description-example\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Visa\",\n        \"groupName\": \"creditCardPaymentGroup\",\n        \"validator\": {\n          \"regex\": \"^4\",\n          \"mask\": \"9999 9999 9999 9999\",\n          \"cardCodeRegex\": \"[^0-9]\",\n          \"cardCodeMask\": \"999\",\n          \"weights\": [\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2\n          ]\n        },\n        \"stringId\": \"12345abc\",\n        \"template\": \"creditCardPaymentGroup-template\",\n        \"requiresDocument\": false,\n        \"selected\": false,\n        \"isCustom\": false,\n        \"description\": \"description-example\"\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"marketingData\": {\n    \"coupon\": \"free-shipping\",\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-exmaple\",\n    \"utmiCampaign\": \"utmi_campaign-exmaple\"\n  },\n  \"openTextField\": \"open-text-example\",\n  \"salesAssociateData\": {\n    \"salesAssociateId\": \"seller123\"\n  }\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -6040,7 +6040,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "75632e4f-2eb0-465f-aa81-c8147730e08c",
+              "id": "b8ec0c27-40da-4841-8bb0-39d3312562ec",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -6115,7 +6115,7 @@
                 "method": "PUT",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"items\": [\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"anim\",\n        \"laborum velit esse dolor\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    },\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"labore ad culpa minim\",\n        \"nostrud ex conse\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    }\n  ],\n  \"clientProfileData\": {\n    \"email\": \"customer@examplemail.com\",\n    \"firstName\": \"first-name\",\n    \"lastName\": \"last-name\",\n    \"documentType\": \"cpf\",\n    \"document\": \"123456789\",\n    \"phone\": \"+55110988887777\",\n    \"corporateName\": \"company-name\",\n    \"tradeName\": \"trade-name\",\n    \"corporateDocument\": \"12345678000100\",\n    \"stateInscription\": \"12345678\",\n    \"corporatePhone\": \"+551100988887777\",\n    \"isCorporate\": false\n  },\n  \"shippingData\": {\n    \"address\": {\n      \"addressType\": \"residential\",\n      \"receiverName\": \"receiver-name\",\n      \"addressId\": \"Home\",\n      \"postalCode\": \"12345-000\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"Rio de Janeiro\",\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"complement\": \"3rd floor\",\n      \"reference\": \"Grey building\",\n      \"geoCoordinates\": [\n        -47.924747467041016,\n        -15.832582473754883\n      ]\n    },\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      },\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"paymentData\": {\n    \"payments\": [\n      {\n        \"paymentSystem\": \"12\",\n        \"referenceValue\": 16175,\n        \"value\": 16175,\n        \"installments\": 2,\n        \"accountId\": \"accountID-example\",\n        \"bin\": \"2\"\n      },\n      {\n        \"paymentSystem\": \"12\",\n        \"referenceValue\": 16175,\n        \"value\": 16175,\n        \"installments\": 2,\n        \"accountId\": \"accountID-example\",\n        \"bin\": \"2\"\n      }\n    ],\n    \"giftCards\": [\n      {\n        \"redemptionCode\": \"HYUO-TEZZ-QFFT-HTFR\",\n        \"value\": 500,\n        \"balance\": 500,\n        \"name\": \"name-example\",\n        \"id\": \"1390324156495k195pmab4rall3di\",\n        \"inUse\": true,\n        \"isSpecialCard\": false\n      },\n      {\n        \"redemptionCode\": \"HYUO-TEZZ-QFFT-HTFR\",\n        \"value\": 500,\n        \"balance\": 500,\n        \"name\": \"name-example\",\n        \"id\": \"1390324156495k195pmab4rall3di\",\n        \"inUse\": true,\n        \"isSpecialCard\": false\n      }\n    ],\n    \"giftCardMessages\": [\n      \"message-example\",\n      \"message-example\"\n    ],\n    \"paymentSystems\": [\n      {\n        \"id\": 2,\n        \"name\": \"Visa\",\n        \"groupName\": \"creditCardPaymentGroup\",\n        \"validator\": {\n          \"regex\": \"^4\",\n          \"mask\": \"9999 9999 9999 9999\",\n          \"cardCodeRegex\": \"[^0-9]\",\n          \"cardCodeMask\": \"999\",\n          \"weights\": [\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2\n          ]\n        },\n        \"stringId\": \"12345abc\",\n        \"template\": \"creditCardPaymentGroup-template\",\n        \"requiresDocument\": false,\n        \"selected\": false,\n        \"isCustom\": false,\n        \"description\": \"description-example\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Visa\",\n        \"groupName\": \"creditCardPaymentGroup\",\n        \"validator\": {\n          \"regex\": \"^4\",\n          \"mask\": \"9999 9999 9999 9999\",\n          \"cardCodeRegex\": \"[^0-9]\",\n          \"cardCodeMask\": \"999\",\n          \"weights\": [\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2\n          ]\n        },\n        \"stringId\": \"12345abc\",\n        \"template\": \"creditCardPaymentGroup-template\",\n        \"requiresDocument\": false,\n        \"selected\": false,\n        \"isCustom\": false,\n        \"description\": \"description-example\"\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"marketingData\": {\n    \"coupon\": \"free-shipping\",\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-exmaple\",\n    \"utmiCampaign\": \"utmi_campaign-exmaple\"\n  },\n  \"openTextField\": \"open-text-example\",\n  \"salesAssociateData\": {\n    \"salesAssociateId\": \"seller123\"\n  }\n}",
+                  "raw": "{\n  \"items\": [\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"officia\",\n        \"Excepteur sed veniam\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    },\n    {\n      \"id\": \"123\",\n      \"quantity\": 1,\n      \"seller\": \"1\",\n      \"commission\": 10,\n      \"freightCommission\": 10,\n      \"price\": 2499,\n      \"bundleItems\": [\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        },\n        {\n          \"type\": \"type-example\",\n          \"id\": \"id-example\",\n          \"name\": \"name-example\",\n          \"price\": 199\n        }\n      ],\n      \"itemAttachment\": {\n        \"name\": \"name-example\",\n        \"content\": \"content-example\"\n      },\n      \"attachments\": [\n        \"D\",\n        \"voluptate nulla incididunt Duis\"\n      ],\n      \"priceTags\": [\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        },\n        {\n          \"identifier\": \"1234abc-5678b-1234c\",\n          \"isPercentual\": false,\n          \"name\": \"discount@name-1234abc-5678b-1234c\",\n          \"rawValue\": -12,\n          \"value\": -1200\n        }\n      ],\n      \"measurementUnit\": \"g\",\n      \"unitMultiplier\": 1,\n      \"isGift\": false\n    }\n  ],\n  \"clientProfileData\": {\n    \"email\": \"customer@examplemail.com\",\n    \"firstName\": \"first-name\",\n    \"lastName\": \"last-name\",\n    \"documentType\": \"cpf\",\n    \"document\": \"123456789\",\n    \"phone\": \"+55110988887777\",\n    \"corporateName\": \"company-name\",\n    \"tradeName\": \"trade-name\",\n    \"corporateDocument\": \"12345678000100\",\n    \"stateInscription\": \"12345678\",\n    \"corporatePhone\": \"+551100988887777\",\n    \"isCorporate\": false\n  },\n  \"shippingData\": {\n    \"address\": {\n      \"addressType\": \"residential\",\n      \"receiverName\": \"receiver-name\",\n      \"addressId\": \"Home\",\n      \"postalCode\": \"12345-000\",\n      \"city\": \"Rio de Janeiro\",\n      \"state\": \"Rio de Janeiro\",\n      \"country\": \"BRA\",\n      \"street\": \"Praia de Botafogo\",\n      \"number\": \"300\",\n      \"neighborhood\": \"Botafogo\",\n      \"complement\": \"3rd floor\",\n      \"reference\": \"Grey building\",\n      \"geoCoordinates\": [\n        -47.924747467041016,\n        -15.832582473754883\n      ]\n    },\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      },\n      {\n        \"itemIndex\": 0,\n        \"selectedSla\": \"Express\",\n        \"price\": 1099,\n        \"lockTTL\": \"8d\",\n        \"shippingEstimate\": \"7d\",\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2021-07-13T00:00:00+00:00\",\n          \"endDateUtc\": \"2021-07-13T23:59:59+00:00\",\n          \"price\": 0,\n          \"lisPrice\": 0,\n          \"tax\": 0\n        }\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"paymentData\": {\n    \"payments\": [\n      {\n        \"paymentSystem\": \"12\",\n        \"referenceValue\": 16175,\n        \"value\": 16175,\n        \"installments\": 2,\n        \"accountId\": \"accountID-example\",\n        \"bin\": \"2\"\n      },\n      {\n        \"paymentSystem\": \"12\",\n        \"referenceValue\": 16175,\n        \"value\": 16175,\n        \"installments\": 2,\n        \"accountId\": \"accountID-example\",\n        \"bin\": \"2\"\n      }\n    ],\n    \"giftCards\": [\n      {\n        \"redemptionCode\": \"HYUO-TEZZ-QFFT-HTFR\",\n        \"value\": 500,\n        \"balance\": 500,\n        \"name\": \"name-example\",\n        \"id\": \"1390324156495k195pmab4rall3di\",\n        \"inUse\": true,\n        \"isSpecialCard\": false\n      },\n      {\n        \"redemptionCode\": \"HYUO-TEZZ-QFFT-HTFR\",\n        \"value\": 500,\n        \"balance\": 500,\n        \"name\": \"name-example\",\n        \"id\": \"1390324156495k195pmab4rall3di\",\n        \"inUse\": true,\n        \"isSpecialCard\": false\n      }\n    ],\n    \"giftCardMessages\": [\n      \"message-example\",\n      \"message-example\"\n    ],\n    \"paymentSystems\": [\n      {\n        \"id\": 2,\n        \"name\": \"Visa\",\n        \"groupName\": \"creditCardPaymentGroup\",\n        \"validator\": {\n          \"regex\": \"^4\",\n          \"mask\": \"9999 9999 9999 9999\",\n          \"cardCodeRegex\": \"[^0-9]\",\n          \"cardCodeMask\": \"999\",\n          \"weights\": [\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2\n          ]\n        },\n        \"stringId\": \"12345abc\",\n        \"template\": \"creditCardPaymentGroup-template\",\n        \"requiresDocument\": false,\n        \"selected\": false,\n        \"isCustom\": false,\n        \"description\": \"description-example\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Visa\",\n        \"groupName\": \"creditCardPaymentGroup\",\n        \"validator\": {\n          \"regex\": \"^4\",\n          \"mask\": \"9999 9999 9999 9999\",\n          \"cardCodeRegex\": \"[^0-9]\",\n          \"cardCodeMask\": \"999\",\n          \"weights\": [\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2,\n            1,\n            2\n          ]\n        },\n        \"stringId\": \"12345abc\",\n        \"template\": \"creditCardPaymentGroup-template\",\n        \"requiresDocument\": false,\n        \"selected\": false,\n        \"isCustom\": false,\n        \"description\": \"description-example\"\n      }\n    ],\n    \"updateStatus\": \"updated\"\n  },\n  \"marketingData\": {\n    \"coupon\": \"free-shipping\",\n    \"utmSource\": \"Facebook\",\n    \"utmMedium\": \"CPC\",\n    \"utmCampaign\": \"Black friday\",\n    \"utmiPage\": \"utmi_page-example\",\n    \"utmiPart\": \"utmi_part-exmaple\",\n    \"utmiCampaign\": \"utmi_campaign-exmaple\"\n  },\n  \"openTextField\": \"open-text-example\",\n  \"salesAssociateData\": {\n    \"salesAssociateId\": \"seller123\"\n  }\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -6139,7 +6139,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "89480908-2ba5-4721-8d99-b533aa1165a6",
+                "id": "6a34e1c3-ffcd-4737-a56c-6c3d0ce457d1",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/checkout/pub/orders - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -6155,7 +6155,7 @@
           }
         },
         {
-          "id": "bad008a4-e1be-494e-8157-b7a792c049e9",
+          "id": "83160c84-3ae8-44a2-8708-1772c17ea684",
           "name": "Process order",
           "request": {
             "name": "Process order",
@@ -6228,7 +6228,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "5d793273-02ec-40b8-b2ff-56b4f444f03b",
+              "id": "5d5ab507-f05c-4566-9c93-c249f2c42f85",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -6333,7 +6333,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "246d3598-bfa6-404e-9633-5477abf4aaac",
+              "id": "44e953b1-18bf-4e6f-b219-74032a8ae118",
               "name": "Internal Server Error",
               "originalRequest": {
                 "url": {
@@ -6439,7 +6439,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "117203e9-5da6-49d9-bd02-fbb749d97380",
+                "id": "09d6f22a-b855-4994-8ed6-c595339b329f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/checkout/pub/gatewayCallback/:orderGroup - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -6457,7 +6457,7 @@
       "event": []
     },
     {
-      "id": "e59423c0-1ff8-492a-9ab3-4c549b8b11e4",
+      "id": "84639e9a-90d6-492a-bf03-69637ae32079",
       "name": "Region",
       "description": {
         "content": "",
@@ -6465,7 +6465,7 @@
       },
       "item": [
         {
-          "id": "590d9a42-dd47-46ec-a1d2-7b85e849d231",
+          "id": "fec13dc2-e4d6-4692-ac82-60facea4409d",
           "name": "Get sellers by region or address",
           "request": {
             "name": "Get sellers by region or address",
@@ -6566,7 +6566,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "45b0c387-3123-4a13-9b78-3ea12f99c0d4",
+              "id": "1bcf9fd1-5c82-4b19-b409-457be752cc38",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -6680,7 +6680,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "72751fb1-75ae-44b8-a5ec-a48ece898cd7",
+                "id": "bbd10972-9958-4b0b-973c-9f3647b7c39e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/checkout/pub/regions/:regionId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -6746,7 +6746,7 @@
     }
   ],
   "info": {
-    "_postman_id": "d5cc11d7-3565-4a1a-9bd9-d8839550219b",
+    "_postman_id": "e3e5e535-4843-4ffc-a83b-e6d16759318d",
     "name": "Checkout API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

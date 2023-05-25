@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "add82816-b26f-4e43-b336-decb0e811911"
+    "postman_id": "5602e42d-7ccd-4d73-9aab-1c8169cf5797"
   },
   "item": [
     {
-      "id": "9f575847-42fb-40ed-83a7-d24febedd0f0",
+      "id": "30811e54-c433-4ea5-885b-d8f39e172901",
       "name": "Pricing Hub Prices",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "4bca6f5c-7479-432f-946e-c5eeffb74a47",
+          "id": "a4e62d45-27bb-40af-a258-3722e3558970",
           "name": "Get Prices",
           "request": {
             "name": "Get Prices",
@@ -96,7 +96,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ce232afd-76e2-4089-9884-5bdfec7c8713",
+              "id": "96840dfc-a57e-4dbc-90d2-b96575aae159",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -203,7 +203,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "98d894ed-ae8f-4b2a-ada7-3f723c598e6e",
+                "id": "97d571ac-3169-4f86-88f4-cb54e2ea3e0c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pricing-hub/prices - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -219,7 +219,7 @@
           }
         },
         {
-          "id": "c4f3c91b-8e76-4df6-b81a-9ccc47d445c7",
+          "id": "ca0ef6b4-7b16-4fd0-8617-9318dc09a540",
           "name": "Configure External Price Source",
           "request": {
             "name": "Configure External Price Source",
@@ -297,7 +297,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "3fcbb7e8-9aab-4245-b65c-b5fae17986d2",
+              "id": "d65df459-1916-4b00-afb5-d0cf07da5574",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -398,7 +398,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bb7eff7e-a2b3-480c-a4ee-a0c2b121545c",
+                "id": "64f57c6f-e4a0-4c5b-9db1-09f82a1686d3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/config - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -452,7 +452,7 @@
     }
   ],
   "info": {
-    "_postman_id": "add82816-b26f-4e43-b336-decb0e811911",
+    "_postman_id": "5602e42d-7ccd-4d73-9aab-1c8169cf5797",
     "name": "Pricing Hub",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

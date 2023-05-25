@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "38ea60e1-086c-486b-8c46-4cab50022e71"
+    "postman_id": "7fe50d7a-3601-49a0-bd4d-23272f455c2b"
   },
   "item": [
     {
-      "id": "259fbb93-ccb4-406a-863c-126869685708",
+      "id": "cfc58b5e-096d-4846-8c05-c5fd0befbd99",
       "name": "Miscellaneous",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "5785248d-54cd-4e3f-931c-e7cc43b73f8d",
+          "id": "f5eeb394-0f13-47a0-a0a6-3bb8b4664812",
           "name": "Get Subscription by recurrenceId",
           "request": {
             "name": "Get Subscription by recurrenceId",
@@ -37,7 +37,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "id eu nulla",
+                  "value": "enim consectetur repr",
                   "key": "recurrenceId"
                 },
                 {
@@ -67,7 +67,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "489387a0-2220-4331-ae4a-bd6c60a60d8d",
+              "id": "94587cd7-2dfc-4d4a-98ff-5a75d0fac854",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -86,7 +86,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "id eu nulla",
+                      "value": "enim consectetur repr",
                       "key": "recurrenceId"
                     },
                     {
@@ -156,7 +156,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0c11c472-0df9-43fe-9a8b-62b21a08918b",
+                "id": "aa37b2ed-89bf-4ba3-8ac4-d13dc05de441",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/:recurrenceId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -169,7 +169,7 @@
           }
         },
         {
-          "id": "ae08c8df-fc6e-4cc8-951a-beafedd573da",
+          "id": "a1822640-38cb-4db5-9f89-e37dd6b024d9",
           "name": "Update partial Subscription",
           "request": {
             "name": "Update partial Subscription",
@@ -194,7 +194,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "id eu nulla",
+                  "value": "enim consectetur repr",
                   "key": "recurrenceId"
                 },
                 {
@@ -239,7 +239,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d6617b0e-82fb-4557-97b0-a82e56df41c1",
+              "id": "0a41b95f-0581-47b1-a18e-2f4cbca571c9",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -258,7 +258,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "id eu nulla",
+                      "value": "enim consectetur repr",
                       "key": "recurrenceId"
                     },
                     {
@@ -336,7 +336,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6890305b-f7e2-4d48-9526-25b8b058f4b8",
+                "id": "6877fae2-f18f-4fe0-bb84-d5224bf8589c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/subscriptions/:recurrenceId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -349,7 +349,7 @@
           }
         },
         {
-          "id": "d0758667-761c-4c47-9cb0-1cd0458dc2e4",
+          "id": "cbb1c32b-7174-4bbb-a17f-284bbc259d57",
           "name": "Get Subscriptions",
           "request": {
             "name": "Get Subscriptions",
@@ -412,7 +412,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e9514434-c083-4fd8-a5a9-a62d5dfa3942",
+              "id": "c7a8096c-0e9e-449c-bde6-6677a2d26402",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -499,7 +499,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "90044a72-6b95-4535-97c7-b84926b9a5f6",
+                "id": "2d16ac93-ca40-4a98-a932-ef8690f90627",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/subscriptions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -512,7 +512,7 @@
           }
         },
         {
-          "id": "4a09d64f-7b16-4213-8bb2-423632901666",
+          "id": "efb63199-27cb-4d66-ae5e-931caf388ecf",
           "name": "Update Subscription",
           "request": {
             "name": "Update Subscription",
@@ -571,7 +571,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "3be74137-7455-4599-9dbb-9690125af5cf",
+              "id": "4070d469-edb6-4332-8e28-c363f0cbd3b8",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -657,7 +657,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "46017366-efaa-4e77-91b9-3a191fc1eb7e",
+                "id": "ba52a41d-d755-477c-beee-6822102bd8b5",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/subscriptions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -670,7 +670,7 @@
           }
         },
         {
-          "id": "85c6d9cd-a43e-42df-bc97-cc99dbb63c8f",
+          "id": "5f5a2885-ff89-41a2-b587-60557fd79fed",
           "name": "Add Subscription item",
           "request": {
             "name": "Add Subscription item",
@@ -696,7 +696,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "id eu nulla",
+                  "value": "enim consectetur repr",
                   "key": "recurrenceId"
                 },
                 {
@@ -741,7 +741,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "1d32ea60-13ee-4d2f-9b8b-85e511d23355",
+              "id": "9fcf6b03-bdda-4e86-b71b-02e913b82e5a",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -761,7 +761,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "id eu nulla",
+                      "value": "enim consectetur repr",
                       "key": "recurrenceId"
                     },
                     {
@@ -839,7 +839,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fd65961c-26a6-4f6a-a138-f4be4f97db44",
+                "id": "0fdfc512-09df-4fc1-a5f7-bf96638f64f3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/subscriptions/:recurrenceId/items - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -852,7 +852,7 @@
           }
         },
         {
-          "id": "72aae685-abc5-4fa3-bf97-2ad3f22874f6",
+          "id": "cefcc884-2d0e-416e-a0db-e08d2118ea46",
           "name": "Reindex Subscription",
           "request": {
             "name": "Reindex Subscription",
@@ -878,7 +878,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "id eu nulla",
+                  "value": "enim consectetur repr",
                   "key": "recurrenceId"
                 },
                 {
@@ -923,7 +923,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "fa46d1e1-658b-42bc-aca6-bbc9dc581199",
+              "id": "d66f31bc-26a3-4914-a2ab-a63401256606",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -943,7 +943,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "id eu nulla",
+                      "value": "enim consectetur repr",
                       "key": "recurrenceId"
                     },
                     {
@@ -1021,7 +1021,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e300844d-1d6c-44af-a33a-8fc624c9c2f6",
+                "id": "813f51e7-dfd6-4d64-9a4d-82fcad6425da",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/subscriptions/:recurrenceId/reindex - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1034,7 +1034,7 @@
           }
         },
         {
-          "id": "6259146a-6c82-464a-a849-6b1914832c2c",
+          "id": "ddddc237-0d43-4162-add0-00999aa792d1",
           "name": "Get Subscription addresses",
           "request": {
             "name": "Get Subscription addresses",
@@ -1060,7 +1060,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "id eu nulla",
+                  "value": "enim consectetur repr",
                   "key": "recurrenceId"
                 },
                 {
@@ -1090,7 +1090,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "177611ed-491d-4bb3-b189-dbe11e891d70",
+              "id": "9c011e34-3fd4-4f26-8a20-226d68b25190",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1110,7 +1110,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "id eu nulla",
+                      "value": "enim consectetur repr",
                       "key": "recurrenceId"
                     },
                     {
@@ -1180,7 +1180,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7ada9ded-85c2-4a40-b5af-d1278c6baa1f",
+                "id": "f261c7f4-89a5-498f-aafa-0e713a94317b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/:recurrenceId/addresses - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1193,7 +1193,7 @@
           }
         },
         {
-          "id": "c39b022e-68b4-49aa-91c5-44d401dee20f",
+          "id": "5a493a43-ee45-4d52-b5c0-02ba56ede5cd",
           "name": "Get payment accounts",
           "request": {
             "name": "Get payment accounts",
@@ -1219,7 +1219,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "id eu nulla",
+                  "value": "enim consectetur repr",
                   "key": "recurrenceid"
                 },
                 {
@@ -1249,7 +1249,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ac9ccfa3-bb2c-4c1d-8b69-7918e43557f3",
+              "id": "aa7ad6f6-52ae-4f21-b1cf-5cc47a194e71",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1269,7 +1269,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "id eu nulla",
+                      "value": "enim consectetur repr",
                       "key": "recurrenceid"
                     },
                     {
@@ -1339,7 +1339,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "06d013f3-8693-4809-87aa-66c9d2097d8c",
+                "id": "14daad25-5210-4ea6-87d4-362179066231",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/:recurrenceid/accounts - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1352,7 +1352,7 @@
           }
         },
         {
-          "id": "ce4ae688-9f78-45b0-8bda-fbb281e7474d",
+          "id": "22ce3cb0-f151-467f-a543-423a50d41c90",
           "name": "Get Subscription settings",
           "request": {
             "name": "Get Subscription settings",
@@ -1397,7 +1397,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "5d886e1d-7d94-4e8f-bdb9-43190c6051ac",
+              "id": "4b3410b7-f505-4f6f-b8e9-81c9c4349a82",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1476,7 +1476,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "52df5936-630e-430b-949b-b798f3c7583c",
+                "id": "2c9f3478-3485-4bcc-a7bf-88860a489ca6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/settings - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1489,7 +1489,7 @@
           }
         },
         {
-          "id": "21a32586-517b-4233-8839-327a284266e7",
+          "id": "025e1a96-4e62-40ef-a7b3-1797534b4601",
           "name": "Update Subscription settings",
           "request": {
             "name": "Update Subscription settings",
@@ -1549,7 +1549,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "a9dc05f4-aede-4cce-a85c-ae74d60a7bf7",
+              "id": "ac224611-dedb-461c-827f-a2fe569528f0",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1636,7 +1636,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9005e610-a028-4334-a34c-750441a8c102",
+                "id": "b4f0847f-9e89-4022-8cbe-1527eb089ec9",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/subscriptions/settings - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1649,7 +1649,7 @@
           }
         },
         {
-          "id": "b5c33c85-c5c1-475c-a1a0-43535a06a9a0",
+          "id": "074db8ac-8592-4334-82c1-57b1bd19ef83",
           "name": "Get self Subscription",
           "request": {
             "name": "Get self Subscription",
@@ -1694,7 +1694,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "a730cc2d-1d61-4fe6-b0d1-ae40374d845a",
+              "id": "b50816ba-077d-4d3f-b0d6-38a7fdae1233",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1773,7 +1773,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "950020d0-84b9-4508-a2ca-67a2ca846b6d",
+                "id": "20654c9c-f955-4783-ac80-451cbb1ae655",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/me - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1836,7 +1836,7 @@
     }
   ],
   "info": {
-    "_postman_id": "38ea60e1-086c-486b-8c46-4cab50022e71",
+    "_postman_id": "7fe50d7a-3601-49a0-bd4d-23272f455c2b",
     "name": "Subscription (v1 - deprecated)",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

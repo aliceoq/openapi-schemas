@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "74b3e1cd-3305-4398-9fa1-a63e989c9048"
+    "postman_id": "71b50772-3f4c-4df4-8aaa-5c581de44bec"
   },
   "item": [
     {
-      "id": "53441c0b-686e-4a37-917f-7abb01ebd784",
+      "id": "81826475-50fc-4a04-bbb0-daf644ad359c",
       "name": "Coupons",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "2c62ba74-3b57-4e1a-a330-4933f4becb3e",
+          "id": "7140bfad-91bd-413a-9b73-7f5c713b77e9",
           "name": "Get coupons",
           "request": {
             "name": "Get coupons",
@@ -62,7 +62,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "83ec0740-84ea-4794-9168-7c8361bd1b1e",
+              "id": "e93c6e81-ebfc-4b2a-a9a5-68dfa897d6ae",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -137,7 +137,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "16813498-5f2b-4b9f-b2a7-26c4afcfdbc3",
+                "id": "b5f4cb09-c4ad-444f-9c79-acbcd19c867b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/coupon - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -153,7 +153,7 @@
           }
         },
         {
-          "id": "9ceab6c3-2da3-4e83-91d6-68f5cbf3206f",
+          "id": "5f02ddfa-5322-4385-afe6-48916dd66919",
           "name": "Get archived coupons",
           "request": {
             "name": "Get archived coupons",
@@ -205,7 +205,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9c2d5058-486b-41aa-9ae7-728eee8eea00",
+              "id": "a32092f8-ccdd-499f-af96-be959133929c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -282,7 +282,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "58b567c4-16e8-401a-a040-12b4cbcaaa99",
+                "id": "366dfe5e-104b-42a3-8f77-a870c7c79229",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/coupon/group/archived - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -298,7 +298,7 @@
           }
         },
         {
-          "id": "1c6ef4b9-5163-4138-95c7-6e15426a454b",
+          "id": "9fdc3f83-39b8-4ec5-8485-b3869559da0a",
           "name": "Get coupon batch information",
           "request": {
             "name": "Get coupon batch information",
@@ -360,7 +360,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8f921cda-75d8-4a40-ba91-973e1e5e7630",
+              "id": "5b4c883b-5607-443e-abfc-2853cfc51207",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -447,7 +447,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a216ba39-bcbd-410e-9b08-a2d8c62ba787",
+                "id": "a6df8a76-fd9c-4275-9858-b5b76a6bdff6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/coupon/group/:groupingKey - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -463,7 +463,7 @@
           }
         },
         {
-          "id": "823a689e-a71e-44aa-abd2-96c6fd6c55c4",
+          "id": "1cd02418-7e15-4708-8988-7a4a11ddc1fd",
           "name": "Edit coupon batch configuration",
           "request": {
             "name": "Edit coupon batch configuration",
@@ -538,7 +538,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "680a23ae-b602-44b6-8d9e-04348e4626a2",
+              "id": "6a9cf2b1-3cca-4a08-98a7-eceee2a2f4b4",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -632,7 +632,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "edf0ba0b-5746-401f-b7f7-863c0f681c0e",
+              "id": "38503fad-26e8-44d9-8c3c-2231247a0a6f",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -727,7 +727,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2fef3e90-d91c-48d2-a121-06dfbb25f06d",
+                "id": "aa514a02-94a6-4c92-adfe-c4fc8cb54016",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/coupon/group/:groupingKey - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -743,7 +743,7 @@
           }
         },
         {
-          "id": "5c54093e-4c6e-4d09-8ef1-f92ee65c9068",
+          "id": "9a266dce-3eb0-423c-8d0e-eac8a4eb07e1",
           "name": "Get coupon batch codes",
           "request": {
             "name": "Get coupon batch codes",
@@ -806,7 +806,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "69598abe-6840-4777-ab24-98bbd7195453",
+              "id": "1f6fb452-f095-4fa8-a71f-94072f0987cd",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -893,7 +893,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "417e9fa1-0269-40d7-9219-186d7afb6e8b",
+              "id": "3ff9e0be-bdfe-4391-8ff4-4debcc094da8",
               "name": "Not Found",
               "originalRequest": {
                 "url": {
@@ -981,7 +981,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "76103820-209c-4273-a4c0-e2f9655580d0",
+                "id": "303018ff-968d-41b3-894d-00b9be5149a2",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/coupon/group/:groupingKey/codes - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -997,7 +997,7 @@
           }
         },
         {
-          "id": "d7e272af-e095-4fc7-8c94-e5139c71de6d",
+          "id": "ebf6d41d-3e5c-4ee6-ad76-5473df4c4ea4",
           "name": "Archive a coupon batch",
           "request": {
             "name": "Archive a coupon batch",
@@ -1060,7 +1060,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c0bd16b9-0b4f-4d05-8fd6-979287bac3bd",
+              "id": "4b1f0552-8916-4488-bb68-fb653c7e213e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1143,7 +1143,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "3781f935-9ace-4fdc-9487-39ecd2acca6d",
+              "id": "d64bad9b-b1a2-468d-8007-d0fa093d5bb1",
               "name": "Not Found",
               "originalRequest": {
                 "url": {
@@ -1231,7 +1231,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c942adc3-0096-4cbf-8104-0450637f0512",
+                "id": "0d86ef67-4e33-4ce9-a567-b992b68fe34b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/coupon/group/:groupingKey/archive - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1244,7 +1244,7 @@
           }
         },
         {
-          "id": "d9bc5f8a-c152-43fd-8511-117135f6de41",
+          "id": "ff58af3e-2600-419c-86d8-0eeb5ba27fb0",
           "name": "Create coupon batches",
           "request": {
             "name": "Create coupon batches",
@@ -1308,7 +1308,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "fa09411d-55f0-48aa-9bae-08139cacc839",
+              "id": "1dc3d0ed-363c-42e6-be7f-bebdcbcfcdf5",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1391,7 +1391,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "79a0dd9e-eddb-4107-8bee-e20bdbe757ad",
+              "id": "30862f37-feba-4e92-b374-b941bcb44a26",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -1475,7 +1475,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "741139b4-ee5f-4eff-82c6-fb250ba6f9dc",
+                "id": "6f965920-f497-4c14-8a07-856658b7c873",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/coupon/group - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1491,7 +1491,7 @@
           }
         },
         {
-          "id": "57208af2-fc1c-4a4a-89ce-73f6f42a34c0",
+          "id": "4b9fe668-9920-430b-90bb-4de2c1d466de",
           "name": "Unarchive a coupon batch",
           "request": {
             "name": "Unarchive a coupon batch",
@@ -1548,7 +1548,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "956d28d3-2002-4d48-beaa-55b29ea8e108",
+              "id": "fa39424e-cfaa-465f-91ce-ab8435ea3c07",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1632,7 +1632,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5155719d-f070-4984-9f33-d8d1a7a90de0",
+                "id": "a8f5edf2-5371-4cd6-ad4c-cebe298832ac",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/coupon/group/:groupingKey/unarchive - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1645,7 +1645,7 @@
           }
         },
         {
-          "id": "3c8bb039-8f39-48cb-9ddc-832d03ac810a",
+          "id": "172f3112-d19c-4177-951f-44a5ea6a26e5",
           "name": "Get usage count for a single coupon",
           "request": {
             "name": "Get usage count for a single coupon",
@@ -1707,7 +1707,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "781aa86e-3ac2-40ec-8139-ca7c985e45b5",
+              "id": "9fb8a898-93a3-448f-b7a8-964f8f018d30",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1794,7 +1794,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "73abac28-e28a-402e-9487-1433987f9661",
+                "id": "6a2c10d2-73a6-4f9a-827c-eb88403fb58c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/coupon/usage-count/:couponCode - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1810,7 +1810,7 @@
           }
         },
         {
-          "id": "05ed3d25-41dc-4fb4-8331-7afb8a2b1ce4",
+          "id": "34e2e62e-cfa4-4f14-8a0c-478fe58dd612",
           "name": "Get usage count for a coupon batch",
           "request": {
             "name": "Get usage count for a coupon batch",
@@ -1873,7 +1873,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "2f7481de-3b0d-42d0-93cc-abd54f33cdfb",
+              "id": "8ac951c8-6e23-4cc0-ba7e-018ac29c0db6",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1961,7 +1961,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "530f456f-15e4-4638-b65f-b67993053180",
+                "id": "73ed5f01-a86e-4860-8d88-5449abb5ff28",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/coupon/usage-count/group/:groupingKey - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2007,7 +2007,7 @@
     }
   ],
   "info": {
-    "_postman_id": "74b3e1cd-3305-4398-9fa1-a63e989c9048",
+    "_postman_id": "71b50772-3f4c-4df4-8aaa-5c581de44bec",
     "name": "Promotions & Taxes API v2",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

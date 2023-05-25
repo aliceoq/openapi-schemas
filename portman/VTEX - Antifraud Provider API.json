@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "3412fe22-2e10-47e9-9c5e-1e46e2f29993"
+    "postman_id": "5edbc5bc-093a-49d4-bc94-6bfde590d639"
   },
   "item": [
     {
-      "id": "34f5ac9a-df1f-427b-b857-37c295913a35",
+      "id": "b1c7be04-895c-4de4-8846-8bbb37e7f425",
       "name": "Antifraud  Flow",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "bbaaf7c8-2ce5-4660-99e5-8b3e7bd5df10",
+          "id": "55d71571-7af4-486f-b3c8-45af4f56b0be",
           "name": "Send Antifraud Pre-Analysis Data (optional)",
           "request": {
             "name": "Send Antifraud Pre-Analysis Data (optional)",
@@ -84,7 +84,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "96539a2b-3105-4b20-9c86-15b3db3f4d7d",
+              "id": "c20eab65-9336-484b-89c8-71d12a65b22a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -184,7 +184,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2b1e0c14-0e8a-4c06-9d09-837ff7b2dcd8",
+                "id": "b66f5c03-3452-4ba6-93dd-3758e3748d62",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pre-analysis - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -200,7 +200,7 @@
           }
         },
         {
-          "id": "145d5bcf-5495-43ef-bd81-4c687c0329b9",
+          "id": "608250f2-36ed-4b37-a6d4-e7ad46d3561d",
           "name": "Send Antifraud Data",
           "request": {
             "name": "Send Antifraud Data",
@@ -263,7 +263,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "87392171-88ee-49d5-9929-3ed9d5534c09",
+              "id": "1a9e8259-0ce5-4b93-924d-713fc1519de6",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -462,7 +462,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "cc07a3bf-1e8e-4c66-9b41-6608aee78f3f",
+                "id": "1f324790-f992-45fe-b728-2f8359ce4d86",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/transactions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -491,7 +491,7 @@
           }
         },
         {
-          "id": "758d9942-948f-4ec9-9749-fd4a4fbded7f",
+          "id": "bf170a14-1759-41c7-8de6-b575cda36194",
           "name": "Update Antifraud Transactions (optional)",
           "request": {
             "name": "Update Antifraud Transactions (optional)",
@@ -517,7 +517,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ullamco non anim",
+                  "value": "non elit",
                   "key": "transactionId"
                 }
               ]
@@ -566,7 +566,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "d5f0ba63-bb61-4af5-b495-9171951fa913",
+              "id": "34028ae0-6539-424a-b94e-dac795b69cbc",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -587,7 +587,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ullamco non anim",
+                      "value": "non elit",
                       "key": "transactionId"
                     }
                   ]
@@ -768,7 +768,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "076acfe0-af21-4060-95bc-5c8669936a38",
+                "id": "4655a028-4772-4e19-bccf-a597b7b7bc80",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/transactions/:transactionId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -796,7 +796,7 @@
           }
         },
         {
-          "id": "f229604b-21fd-4d51-85b2-e59ddf3cd3fd",
+          "id": "aa68ee47-b188-486e-a7b9-416ef17dcb3f",
           "name": "List Antifraud Provider Manifest",
           "request": {
             "name": "List Antifraud Provider Manifest",
@@ -837,7 +837,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "86391a11-8550-4478-9125-e0b38dd87b10",
+              "id": "605d9e64-0b03-4ed7-80a3-1c13352b3d50",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -911,7 +911,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "419ba30a-5789-4402-a14e-2aed0b0fdaa9",
+                "id": "004b4f60-183c-4c22-9052-b76f68836d98",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/manifest - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -927,7 +927,7 @@
           }
         },
         {
-          "id": "59c9ae67-f37c-4e0f-911b-9b0b29c8b41f",
+          "id": "b8896688-c35f-4e68-8e25-49b25913df1e",
           "name": "Get Antifraud Status",
           "request": {
             "name": "Get Antifraud Status",
@@ -954,7 +954,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ullamco non anim",
+                  "value": "non elit",
                   "key": "transactions.id"
                 }
               ]
@@ -990,7 +990,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "3267d4ab-2262-49bb-b1bd-7e4eab1a36dc",
+              "id": "51b37f22-4df2-4cd4-bbf3-8dc9e870d1d6",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1012,7 +1012,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ullamco non anim",
+                      "value": "non elit",
                       "key": "transactions.id"
                     }
                   ]
@@ -1167,7 +1167,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "df539001-6898-41c9-a126-b1fe0d8c4efe",
+                "id": "73b246b9-1759-4ccb-be48-132c597f7a6c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/transactions/:transactions.id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1194,7 +1194,7 @@
           }
         },
         {
-          "id": "2b5d48df-1e33-48aa-bc13-55a3378a046d",
+          "id": "b0b5e6de-7838-4f8b-83df-953fac17a98c",
           "name": "Stop Antifraud Analysis (optional)",
           "request": {
             "name": "Stop Antifraud Analysis (optional)",
@@ -1221,7 +1221,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "ullamco non anim",
+                  "value": "non elit",
                   "key": "transactions.Id"
                 }
               ]
@@ -1257,7 +1257,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "42c9c1c3-6207-4e8c-9621-423f3c306211",
+              "id": "df268fad-7bc4-40af-a002-fa99b3268723",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1279,7 +1279,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "ullamco non anim",
+                      "value": "non elit",
                       "key": "transactions.Id"
                     }
                   ]
@@ -1434,7 +1434,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "08df0732-0d05-409d-a42f-94f93bf55a33",
+                "id": "e44a85ba-271d-43d4-8570-9f6feb165c87",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/transactions/:transactions.Id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1463,7 +1463,7 @@
       "event": []
     },
     {
-      "id": "5c34a5d5-bc57-48a4-97a8-5f3be8f3340c",
+      "id": "beaf82dc-bfc8-4663-bb60-eb92db79cbf1",
       "name": "OAuth Flow",
       "description": {
         "content": "",
@@ -1471,7 +1471,7 @@
       },
       "item": [
         {
-          "id": "144469c4-ae3b-49a1-b6b4-f4add741d666",
+          "id": "6b796cd3-d2c4-43bc-b587-411b5c9475fb",
           "name": "1. Retrieve Token",
           "request": {
             "name": "1. Retrieve Token",
@@ -1526,7 +1526,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "62c5486e-58fd-4365-b3d3-f0f0d95f2447",
+              "id": "03ddbd80-7834-4564-bcc7-4a8d9dd91733",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1701,7 +1701,7 @@
           }
         },
         {
-          "id": "09d7a488-ad57-4224-95fd-6f1d44143044",
+          "id": "e482a092-5e1e-4015-83dd-ea60ef4b1fc0",
           "name": "2. Redirect",
           "request": {
             "name": "2. Redirect",
@@ -1754,7 +1754,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "23552309-e3a5-4f1d-a4c0-de7f0661ff94",
+              "id": "f7eb4789-7a89-451d-9c44-bd803e523c3f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1832,7 +1832,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "452ab51f-a9cf-46d4-8428-d58b0eb81065",
+                "id": "9cf15824-fc1a-4861-90ce-629ddef5acb7",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/redirect - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1845,7 +1845,7 @@
           }
         },
         {
-          "id": "8b82e8d0-e8af-4ef0-986b-70fb0043c921",
+          "id": "c56d4f74-80e7-4898-a8bb-44f9c0805416",
           "name": "3. Return to VTEX",
           "request": {
             "name": "3. Return to VTEX",
@@ -1889,7 +1889,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "fe3e3c0c-6039-46ad-ab3c-33d932bba389",
+              "id": "1d8c3fc5-c8db-461e-b72a-063fde8966ec",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1945,7 +1945,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "257c618e-05ed-4b05-8341-7b4bff12453a",
+                "id": "73b0dfbd-2309-40bf-ba2b-493cc0e8c4e1",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/authorizationCode - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1958,7 +1958,7 @@
           }
         },
         {
-          "id": "ed0a681c-4e88-4b23-85b0-31adc7be902e",
+          "id": "32020fb9-2581-4586-b7ee-dffcf947a4f7",
           "name": "4. Get Credentials",
           "request": {
             "name": "4. Get Credentials",
@@ -2019,7 +2019,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "bad3be69-fee6-46c0-a9a7-8156b1bd0f3f",
+              "id": "62f9e030-8447-425a-9ab1-ea31d2388b36",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2218,7 +2218,7 @@
     }
   ],
   "info": {
-    "_postman_id": "3412fe22-2e10-47e9-9c5e-1e46e2f29993",
+    "_postman_id": "5edbc5bc-093a-49d4-bc94-6bfde590d639",
     "name": "Antifraud Provider",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

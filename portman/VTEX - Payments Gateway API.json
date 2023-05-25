@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "2d4ddba0-31c7-4289-90c6-bb0218c17c58"
+    "postman_id": "5c06c5a3-6129-4243-8e71-ba5e53562e03"
   },
   "item": [
     {
-      "id": "eecd45da-c28f-48e1-91be-ed87526745ba",
+      "id": "bd55b2b4-09c8-42c3-bd1f-1195da7dcb04",
       "name": "Installments",
       "description": {
         "content": "We provided payment methods configuration that allow our sellers to configure installment options and from that configuration we generate an installment service.",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "62d916ff-e785-490b-a5c0-1928821060f2",
+          "id": "7863df8a-94a6-459e-b7d3-f012d7719855",
           "name": "Installments options",
           "request": {
             "name": "Installments options",
@@ -103,7 +103,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "91ed2cf7-0fc8-41d5-a188-5feb8be140a1",
+              "id": "9d06a7a1-bcfc-45b7-a0d9-3f1a2364b875",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -297,7 +297,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "44477e0f-72ef-4239-8bcf-aacac9c2d404",
+              "id": "27b3e22b-7b48-4dcd-bcf0-f77cac99aac8",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -412,7 +412,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8338162a-688a-4b8c-bccb-2a05405b0d72",
+                "id": "13d2714c-10bd-410d-8615-4fb78814356c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/installments - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -440,7 +440,7 @@
       "event": []
     },
     {
-      "id": "e79192a8-8e80-477f-ba88-d628774d5c25",
+      "id": "3f9dc3ff-fe67-4ef3-893a-6294ddd2d766",
       "name": "Configuration",
       "description": {
         "content": "",
@@ -448,7 +448,7 @@
       },
       "item": [
         {
-          "id": "48cf83f8-99d1-44de-bb21-ea8a6edc0384",
+          "id": "765809d8-66a3-4e32-873d-cc019d59f512",
           "name": "Affiliations",
           "request": {
             "name": "Affiliations",
@@ -505,7 +505,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "748f27c6-7b3f-49bf-b625-00056bc67ed9",
+              "id": "f9d1e06b-6fd9-404f-927a-bd0e111d2fa7",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -594,7 +594,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "58912ffd-967e-4853-b769-e6ad486acb54",
+                "id": "a2a676da-788e-4013-ac41-634509e338c5",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/affiliations - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -607,7 +607,7 @@
           }
         },
         {
-          "id": "aea94d77-9c5d-45bb-9c9f-f378f9b2a585",
+          "id": "36a54951-632b-47a5-888e-8c755d7986a5",
           "name": "Insert Affiliation",
           "request": {
             "name": "Insert Affiliation",
@@ -677,7 +677,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ab9d6c6b-b08c-495d-9d3f-0b7dafd17abe",
+              "id": "bc6332fe-c6b5-4a07-8772-89bfdbca11de",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -774,7 +774,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d7c08698-8a0a-489d-a5ad-80b74dff378e",
+                "id": "67c5c110-096c-4248-b594-c3bd30f63590",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/affiliations - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -787,7 +787,7 @@
           }
         },
         {
-          "id": "93b067fb-cf08-450a-8301-2e4441d3cad1",
+          "id": "52ca00b7-13cb-4e2b-b538-ab40208d7a1f",
           "name": "Update Affiliation",
           "request": {
             "name": "Update Affiliation",
@@ -868,7 +868,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ddac1a15-4744-458a-9e8c-01f3a1034fc3",
+              "id": "3300aead-a0cb-4e5e-be4d-a8ea8cbab4c5",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -976,7 +976,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9081bb07-26c7-4f63-864f-49d332fed988",
+                "id": "ad9a3bc1-3e25-49ab-8d45-f411f8602f28",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/pvt/affiliations/:affiliationId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -989,7 +989,7 @@
           }
         },
         {
-          "id": "ec8c7d68-c609-4008-a9fc-fd398c73a40c",
+          "id": "a73742a6-d749-4b5e-8c13-38260e868193",
           "name": "Affiliation By Id",
           "request": {
             "name": "Affiliation By Id",
@@ -1057,7 +1057,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f1812cfe-a806-48c5-8947-abbf16faa002",
+              "id": "fdd300d9-7b93-4c10-b516-c36887830d52",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1157,7 +1157,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4551f0f0-327f-4c55-bc9d-8d34924c8d4e",
+                "id": "ed60b9a2-7fe7-4ada-943f-f0995b7af761",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/affiliations/:affiliationId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1170,7 +1170,7 @@
           }
         },
         {
-          "id": "16ef7e7d-4332-43cc-b2c1-6a63391bd08a",
+          "id": "2960e397-ba3e-441e-bb97-f65a8dd5eebf",
           "name": "Rules",
           "request": {
             "name": "Rules",
@@ -1227,7 +1227,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "66a0c6b2-70d6-4beb-8ee7-c95bc8de6a1a",
+              "id": "b7c42149-f524-4320-b8e2-06ce209684f2",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1316,7 +1316,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fd925cf4-b751-4308-99a0-43d8e91838a8",
+                "id": "4e10bfc9-ca1e-4fd2-88e3-37b44ec9c6e8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/rules - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1329,7 +1329,7 @@
           }
         },
         {
-          "id": "c01d17c0-fb22-4e04-9e47-3f760452c775",
+          "id": "a8627f2c-bc1c-4bec-8b03-d0b4f89d9c5b",
           "name": "Insert Rule",
           "request": {
             "name": "Insert Rule",
@@ -1399,7 +1399,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "98370f3e-c30f-4db3-a068-d69ba55b4f9e",
+              "id": "7212e526-28f0-4578-9cc8-a8c4511f7547",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1496,7 +1496,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c4ae26ba-e4b8-40c6-8797-08b38b786db8",
+                "id": "5bb54dc2-cf80-46d5-abe6-3cc62f8d5c53",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/rules - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1509,7 +1509,7 @@
           }
         },
         {
-          "id": "e8e24acc-930c-4a99-8a34-6210b4b954c5",
+          "id": "845d9e09-098b-4c13-997c-6c805b0a4933",
           "name": "Rule By Id",
           "request": {
             "name": "Rule By Id",
@@ -1536,7 +1536,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "ruleId"
                 },
                 {
@@ -1577,7 +1577,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "964c9c4f-a52f-4423-88d1-a73af3c69cbe",
+              "id": "65e6fd4c-6d63-45c0-a23a-cae4d53d13b3",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1598,7 +1598,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "ruleId"
                     },
                     {
@@ -1677,7 +1677,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8c9e3e8c-6e2e-492f-a7b9-cb0fe6621791",
+                "id": "6ecd2c34-7b61-435e-879b-b0fee87176ff",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/rules/:ruleId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1690,7 +1690,7 @@
           }
         },
         {
-          "id": "1ce875e8-397a-4792-83d8-642667ff295c",
+          "id": "5e838185-5c15-4ed6-9774-be43df00024c",
           "name": "Rule By Id",
           "request": {
             "name": "Rule By Id",
@@ -1717,7 +1717,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "ruleId"
                 },
                 {
@@ -1771,7 +1771,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "b8c6ec11-86f3-4e95-84c2-4e2672bf78e9",
+              "id": "43467549-92cd-4fbf-9e59-5e4556c5ce15",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1792,7 +1792,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "ruleId"
                     },
                     {
@@ -1879,7 +1879,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "57e772d8-79eb-45db-88e2-14f2657cd838",
+                "id": "fdfc0d47-8bac-43bf-b729-477eafddc6c7",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/pvt/rules/:ruleId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1892,7 +1892,7 @@
           }
         },
         {
-          "id": "e6687bdb-948b-4390-a569-a86b7a98643b",
+          "id": "6567946c-d613-42f8-92f1-b38157aec193",
           "name": "Delete Rule",
           "request": {
             "name": "Delete Rule",
@@ -1919,7 +1919,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "ruleId"
                 },
                 {
@@ -1960,7 +1960,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c2c065e9-ea18-48bf-a25d-086d6a5d0716",
+              "id": "8cab8ca7-ca08-49aa-a9b2-fce0f44442fa",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1981,7 +1981,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "ruleId"
                     },
                     {
@@ -2060,7 +2060,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fc48c82d-499e-43de-950b-d572dfc1e1bf",
+                "id": "875abe05-7b11-4c13-bc3c-5761a36ac1ff",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/pvt/rules/:ruleId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2073,7 +2073,7 @@
           }
         },
         {
-          "id": "37fb7665-c4fd-4b5e-b13f-08f3d80bcb29",
+          "id": "afa7bff9-de70-41b2-9b86-b2dca8e8086c",
           "name": "Available Payment Methods",
           "request": {
             "name": "Available Payment Methods",
@@ -2135,7 +2135,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "cccec82f-bd4a-43fa-b11f-09d751c38710",
+              "id": "e652c305-a3b9-474d-b77b-07b206e76943",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2319,7 +2319,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "23afd632-58d8-4747-81b9-d4fafd12dedd",
+                "id": "c720b3fc-7c64-4579-bd9a-8fdc162b4cf0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/merchants/payment-systems - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2348,7 +2348,7 @@
       "event": []
     },
     {
-      "id": "4797f6cb-9845-4eb4-9667-a214a4e4a9dc",
+      "id": "f17307ce-85ed-43f6-bc10-dd2d9305861a",
       "name": "Transaction Process",
       "description": {
         "content": "This is meant to explain the requests that are necessary to complete a transaction using PCI Gateway.",
@@ -2356,7 +2356,7 @@
       },
       "item": [
         {
-          "id": "dfc70deb-098c-4598-a7ad-d52b1a7fd594",
+          "id": "6edd9fad-3c05-4c53-9df7-df5cc141c9da",
           "name": "1. Starts a new transaction",
           "request": {
             "name": "1. Starts a new transaction",
@@ -2430,7 +2430,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "953a34e0-165a-4c32-8510-cb0a797711e6",
+              "id": "0c90917e-0e93-42b5-b07a-1aa3678652e7",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2639,7 +2639,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a60bbfec-fc8c-4030-89f5-1c4ccf1afbe8",
+                "id": "96928b95-3a79-4710-ac06-bb053589a6e6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/transactions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2667,7 +2667,7 @@
           }
         },
         {
-          "id": "685e1805-798e-458a-b779-e0eac19c8c21",
+          "id": "2711b0d9-55b7-4f7c-b72d-1e46c9dbbd37",
           "name": "2.1 Send Payments Information Public",
           "request": {
             "name": "2.1 Send Payments Information Public",
@@ -2705,7 +2705,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -2759,7 +2759,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "96704875-1954-4c25-b248-08bfa0ad7da2",
+              "id": "83ace1f3-c479-4e41-877d-6a713fa632e2",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2786,7 +2786,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -2873,7 +2873,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "765d3330-b8cc-4814-a05f-f141828c0b41",
+                "id": "f047c749-b2ef-4c99-b88b-a865fb38f247",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pub/transactions/:transactionId/payments - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2886,7 +2886,7 @@
           }
         },
         {
-          "id": "be23923a-b1d2-42d3-8a01-5788cf20bdfb",
+          "id": "a2b85f74-edce-4a54-a6a8-e64fc2d29ba3",
           "name": "2.2 Send Payments With Saved Credit Card",
           "request": {
             "name": "2.2 Send Payments With Saved Credit Card",
@@ -2914,7 +2914,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -2968,7 +2968,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "9e3ae704-6029-433d-ac6b-5a9ecc6cc5b1",
+              "id": "8d49f7fb-f4b6-41db-ab07-657b60732092",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2990,7 +2990,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -3077,7 +3077,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7b801fe1-e244-439d-9627-98d555b6d231",
+                "id": "fd4076e4-78ef-4a5f-b413-af2a55762cb6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/transactions/:transactionId/payments - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3090,7 +3090,7 @@
           }
         },
         {
-          "id": "7cc1a1c3-6ad3-4513-91d8-af4423e8d891",
+          "id": "fe57b282-c1b3-4d64-8678-dc61e16f5cfb",
           "name": "3. Send Additional Data",
           "request": {
             "name": "3. Send Additional Data",
@@ -3118,7 +3118,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -3159,7 +3159,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"deserunt officia irure ad qui\",\n  \"value\": \"dolore consectetur deserunt cupidatat\"\n}",
+              "raw": "{\n  \"name\": \"cillum sunt nulla officia\",\n  \"value\": \"elit ut sint ex\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -3172,7 +3172,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "03d1348f-bf49-495e-b41a-698705a40ab6",
+              "id": "15b94453-65b6-4777-9e96-2d646fe81bdc",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3195,7 +3195,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -3258,7 +3258,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"deserunt officia irure ad qui\",\n  \"value\": \"dolore consectetur deserunt cupidatat\"\n}",
+                  "raw": "{\n  \"name\": \"cillum sunt nulla officia\",\n  \"value\": \"elit ut sint ex\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -3282,7 +3282,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "183d9fa5-384f-4065-8c0d-f0746a01af62",
+                "id": "2ef203ce-bff4-48d9-8123-750f28ac90a8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/transactions/:transactionId/additional-data - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3295,7 +3295,7 @@
           }
         },
         {
-          "id": "b24c3579-9d7d-4f42-93fe-3759f3921121",
+          "id": "2c4d6a76-b63e-431c-9f0a-7dfd80a9f404",
           "name": "Do authorization",
           "request": {
             "name": "Do authorization",
@@ -3323,7 +3323,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -3377,7 +3377,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "9c8ec47d-a79c-4296-8004-4a4b4ef164cd",
+              "id": "de6a2f6c-c9c9-4a7f-a287-0828130d487f",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3399,7 +3399,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -3486,7 +3486,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fa63f0f9-90bd-4d25-906c-868d113ed490",
+                "id": "537393cd-636f-4a89-b4e6-73b5413a37a4",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/transactions/:transactionId/authorization-request - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3499,7 +3499,7 @@
           }
         },
         {
-          "id": "015be800-fc9f-4d06-9a0e-eb2e4fe067c6",
+          "id": "b7e8d2b8-32fe-48d5-ae39-d842d2d9f9a3",
           "name": "Transaction Details",
           "request": {
             "name": "Transaction Details",
@@ -3526,7 +3526,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -3571,7 +3571,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "2423a024-90fb-4e3d-9bcc-d7dd95127097",
+              "id": "7e0b74ba-f899-47fe-886b-87ffe598559d",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3592,7 +3592,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -3765,7 +3765,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b24b7fef-f5b0-4bed-a487-7accf7939bd3",
+                "id": "1a44bcee-cae0-43ec-bef5-f0c49cdca9ba",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/transactions/:transactionId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3791,7 +3791,7 @@
           }
         },
         {
-          "id": "ffb1bc2d-2044-4473-8080-94c8e7892c77",
+          "id": "ff9242aa-0ba2-4c42-a529-9c5fc88d5bee",
           "name": "Payment Details",
           "request": {
             "name": "Payment Details",
@@ -3820,7 +3820,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -3830,7 +3830,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "paymentId"
                 },
                 {
@@ -3875,7 +3875,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "fc23e1a3-2437-4b80-89f8-8bc3d33c0925",
+              "id": "ecef653b-4405-4d4d-89c9-0d1e0848071d",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3898,7 +3898,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -3908,7 +3908,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "paymentId"
                     },
                     {
@@ -4081,7 +4081,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c27d0ca3-bf79-40e8-a114-16b71afa37f6",
+                "id": "9f945519-9ace-4166-805e-c5624a349f07",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/transactions/:transactionId/payments/:paymentId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4107,7 +4107,7 @@
           }
         },
         {
-          "id": "96103870-e344-4999-8471-bf2bcaa4c87f",
+          "id": "cde24f6f-ac65-4676-9b74-6bcbd6b3187b",
           "name": "Transaction Settlement  Details",
           "request": {
             "name": "Transaction Settlement  Details",
@@ -4135,7 +4135,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -4180,7 +4180,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "3cd6a5df-ebcc-4c2f-a88f-84bb810ee253",
+              "id": "7ece1ee6-8a3a-4524-9b07-23905b48adb4",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4202,7 +4202,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -4375,7 +4375,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e43ec00f-ffe1-474c-a53b-ee5b2f932c76",
+                "id": "96f473cb-7bae-4331-a200-30e8f2733bc9",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/pvt/transactions/:transactionId/settlements - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4405,7 +4405,7 @@
       "event": []
     },
     {
-      "id": "5e92726c-0c0d-4eff-b07e-ca979e1d6ac2",
+      "id": "ae11b02a-7712-4327-994e-4dddfd74d916",
       "name": "Transaction Flow",
       "description": {
         "content": "After one transaction is authorized, there is remaining to do some calls in order to complete a transaction and its payments. We explain the settle process, cancel authorized payments process, and refund process by using examples.",
@@ -4413,7 +4413,7 @@
       },
       "item": [
         {
-          "id": "439f3cd3-c86e-477f-85f0-d324218c9152",
+          "id": "00cd365d-7af8-446a-b5f6-7922fea0155b",
           "name": "Settle the transaction",
           "request": {
             "name": "Settle the transaction",
@@ -4441,7 +4441,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -4499,7 +4499,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a38ba421-64c5-4b5c-9b3f-a0980903368a",
+              "id": "68c19ab3-65c3-452e-864e-6f1512f68956",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4521,7 +4521,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -4720,7 +4720,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7ed1d344-e1fc-4ffb-be41-b52cb4d0079f",
+                "id": "770b2ebf-a502-4e17-9df4-109b61e79443",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/transactions/:transactionId/settlement-request - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4749,7 +4749,7 @@
           }
         },
         {
-          "id": "954c8402-e809-4579-8c89-51671b56e40e",
+          "id": "fd23ca9b-75b7-441e-866e-dee54191ccb5",
           "name": "Refund the transaction",
           "request": {
             "name": "Refund the transaction",
@@ -4777,7 +4777,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -4831,7 +4831,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "6d647c76-374d-409d-a598-62b462f05c3d",
+              "id": "bee1c52f-e29f-4100-89f5-f2c0bfe472bf",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -4853,7 +4853,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -4940,7 +4940,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f13ce7a8-8ecf-465a-af31-26fb0cf6f144",
+                "id": "02aab351-3a16-4f99-8f51-0407b3de6204",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/transactions/:transactionId/refunding-request - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -4953,7 +4953,7 @@
           }
         },
         {
-          "id": "38ff53b4-40f6-4081-9f36-5ea3f1a86e4d",
+          "id": "334a2207-f2a6-4b61-afb0-35bf573574c1",
           "name": "Cancel the transaction",
           "request": {
             "name": "Cancel the transaction",
@@ -4981,7 +4981,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "tempor occaecat",
+                  "value": "laborum aliquip deserunt",
                   "key": "transactionId"
                 },
                 {
@@ -5035,7 +5035,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "73b33588-fb35-4678-89a3-88b575367eb7",
+              "id": "f1e56ac5-fce2-4bae-835b-ff5e775d024f",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -5057,7 +5057,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "tempor occaecat",
+                      "value": "laborum aliquip deserunt",
                       "key": "transactionId"
                     },
                     {
@@ -5144,7 +5144,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "955d168e-8f0d-4619-9d28-ec97784cb45d",
+                "id": "f67b6496-b467-404a-acf8-62f87528bf67",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/pvt/transactions/:transactionId/cancellation-request - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -5198,7 +5198,7 @@
     }
   ],
   "info": {
-    "_postman_id": "2d4ddba0-31c7-4289-90c6-bb0218c17c58",
+    "_postman_id": "5c06c5a3-6129-4243-8e71-ba5e53562e03",
     "name": "Payments Gateway API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

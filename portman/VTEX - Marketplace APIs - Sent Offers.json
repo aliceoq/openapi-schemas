@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "246e138e-6b3d-49e6-a6bd-a45e466423ec"
+    "postman_id": "af622e44-f86e-4d0d-ae7b-5f56e0e3133b"
   },
   "item": [
     {
-      "id": "bb289cd4-6d87-4b2f-b4dc-cde1abab214a",
+      "id": "5ec3efdf-e736-44b7-8b7d-f2997aaa506f",
       "name": "Offer Management",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "464adcdc-704e-4064-99c7-9d5404e307e9",
+          "id": "117216e4-8771-4079-b205-ec7016008189",
           "name": "Create Channel",
           "request": {
             "name": "Create Channel",
@@ -79,7 +79,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a6013ac1-2211-43dc-95c1-18bb355b995b",
+              "id": "7d112bf8-a441-41e7-95ab-e95fc2cf750a",
               "name": "Created",
               "originalRequest": {
                 "url": {
@@ -169,7 +169,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3a0bfd72-5ce4-4680-9634-bc4a9b20ed0f",
+                "id": "6205426b-8103-4e78-a370-c6d9a5052f2f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/sent-offers/channels - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -185,7 +185,7 @@
           }
         },
         {
-          "id": "1579ace6-7b4d-429a-9645-72148d048a75",
+          "id": "2a380fa4-723c-4381-935f-cc1f771014af",
           "name": "Activate Feed",
           "request": {
             "name": "Activate Feed",
@@ -252,7 +252,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ff3768d4-6828-4f89-b185-abfabf50af5b",
+              "id": "3668ebd5-0749-49b3-9ff8-0746ce417080",
               "name": "Created",
               "originalRequest": {
                 "url": {
@@ -342,7 +342,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "18e6a5fa-cf7a-47d4-abef-0e837dfdfd33",
+                "id": "164c1d9f-560f-4f99-904d-e032aec54c51",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/sent-offers/feeds - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -358,7 +358,7 @@
           }
         },
         {
-          "id": "081079e3-8f3e-40be-a624-5a945d8bd46f",
+          "id": "10a1fb86-1401-4408-982a-075c0967f1a7",
           "name": "List Feeds",
           "request": {
             "name": "List Feeds",
@@ -412,7 +412,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "07013e25-c1d9-4911-8a2f-3379ed21c981",
+              "id": "a4e091ae-d6f8-41d2-8009-7f8293678fef",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -494,7 +494,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d73edc7b-d74a-451e-9ea1-40fc092e57c9",
+                "id": "7d4fe6c3-c463-486a-a17a-48c2a01fce7b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/sent-offers/feeds - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -510,7 +510,7 @@
           }
         },
         {
-          "id": "1b6c9092-a23b-4b89-88fc-4ac5292c5f05",
+          "id": "b6a121a0-602d-4fd3-8406-bc1614dc5f0d",
           "name": "Update Feed",
           "request": {
             "name": "Update Feed",
@@ -584,7 +584,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "06449a69-8077-48fb-a24c-b4b7ea849eaa",
+              "id": "8557f8c6-6d13-4c1b-903e-e5b80491e8cb",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -681,7 +681,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dd883075-c8c3-4184-84ee-90f894ab26ca",
+                "id": "246c97ab-a3e4-4c7c-a1ed-d8606391eeb4",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/sent-offers/feeds/:feedId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -695,7 +695,7 @@
           }
         },
         {
-          "id": "a9c3882b-34f9-44aa-adc1-0d2c5c6c3d5f",
+          "id": "1075edc6-c095-421e-bfee-4057bb20e510",
           "name": "Get Feed by feedId",
           "request": {
             "name": "Get Feed by feedId",
@@ -760,7 +760,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "1b585c94-ed7b-4fbe-bedf-b15bfe0ea7ed",
+              "id": "6a924c0a-30b3-4c95-8821-955b83a8aafc",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -853,7 +853,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "cc0776c8-ab63-41e8-9f48-d79d02eb73d5",
+                "id": "c74b20f8-01b5-47a2-bb60-46afe034cae6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/sent-offers/feeds/:feedId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -869,7 +869,7 @@
           }
         },
         {
-          "id": "f77438d1-3512-49f0-9240-979779d687ea",
+          "id": "6d5ab3a4-109c-40da-8461-650b08eab7bb",
           "name": "Deactivate Feed",
           "request": {
             "name": "Deactivate Feed",
@@ -928,7 +928,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "7eb28459-72c2-4a62-ab5c-5c6fafe15989",
+              "id": "74425166-04d2-4251-bb17-6a5e7ae833f9",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -1017,7 +1017,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8562388a-e60d-4d7c-9b08-bf7d5ed6c2d5",
+                "id": "55a462b5-f573-49c0-ae3b-8679638239ea",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/sent-offers/feeds/:feedId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1031,7 +1031,7 @@
           }
         },
         {
-          "id": "91e55dc3-41ed-4d91-9613-4afd537a2a0e",
+          "id": "b870b7f9-4340-4d62-a4d3-aa7502aa55c5",
           "name": "Open Interaction",
           "request": {
             "name": "Open Interaction",
@@ -1122,7 +1122,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "98815288-16b1-4614-a755-88aa018ca8c4",
+              "id": "fea14f7b-412d-42a2-8407-178d15256994",
               "name": "Created",
               "originalRequest": {
                 "url": {
@@ -1228,7 +1228,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"account\": \"mollit nulla\",\n  \"feedId\": \"sint aliqua\",\n  \"skuId\": \"eu quis do \",\n  \"id\": \"officia id dolore do\",\n  \"startDate\": \"ut quis incididunt\",\n  \"result\": \"incididunt ipsum\",\n  \"state\": \"esse Duis aliquip sed\",\n  \"source\": \"eu voluptate consectetur aliqua\",\n  \"origin\": \"cillum consectetur nulla\",\n  \"context\": \"cupidatat dolore consectetur\",\n  \"logs\": {\n    \"type\": \"eu\"\n  }\n}",
+              "body": "{\n  \"account\": \"sit\",\n  \"feedId\": \"et ex non officia\",\n  \"skuId\": \"sint Excepteur quis esse\",\n  \"id\": \"dolore Duis incididunt ut reprehenderit\",\n  \"startDate\": \"non sit\",\n  \"result\": \"tempor occaecat minim dolor\",\n  \"state\": \"proident in Lorem deserunt\",\n  \"source\": \"sed\",\n  \"origin\": \"Duis amet\",\n  \"context\": \"dolor aute in\",\n  \"logs\": {\n    \"type\": \"non amet mollit ad\"\n  }\n}",
               "cookie": []
             }
           ],
@@ -1236,7 +1236,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "660797b2-8c0c-42ee-b3db-6a1870d2eccf",
+                "id": "8853c63c-26fa-46c7-a501-c7d474cb8de6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/sent-offers/feeds/:feedId/skus/:skuId/interactions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1252,7 +1252,7 @@
           }
         },
         {
-          "id": "3f40d159-cba4-4126-a708-ffbcfe8ddb9f",
+          "id": "6e1565ff-ee13-40b9-8c5e-2fb1891bfe7c",
           "name": "Get Interaction Data by interactionId",
           "request": {
             "name": "Get Interaction Data by interactionId",
@@ -1341,7 +1341,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "50aad01d-e079-456a-99d7-0ae9846dc1c2",
+              "id": "206a837c-549b-41f7-aa9a-8b42f79e3314",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1450,7 +1450,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"account\": \"laborum\",\n  \"feedId\": \"enim\",\n  \"skuId\": \"in cillum sit\",\n  \"id\": \"dolore reprehenderit\",\n  \"startDate\": \"dolore nulla velit minim eiusmod\",\n  \"result\": \"id deserunt\",\n  \"state\": \"nulla magna aute dolor\",\n  \"source\": \"Duis adipisicing\",\n  \"origin\": \"ex non enim exercitation\",\n  \"context\": \"quis commodo\",\n  \"logs\": {\n    \"type\": \"sit dolor fugiat magna\"\n  }\n}",
+              "body": "{\n  \"account\": \"aliquip ea\",\n  \"feedId\": \"magna consequat esse aliquip\",\n  \"skuId\": \"proident incididunt dolor id\",\n  \"id\": \"aliquip occaecat tempor\",\n  \"startDate\": \"reprehenderit aute\",\n  \"result\": \"ut aliqua\",\n  \"state\": \"do consectetur velit sed non\",\n  \"source\": \"qui dolore veniam\",\n  \"origin\": \"in deserunt ut\",\n  \"context\": \"cillum \",\n  \"logs\": {\n    \"type\": \"dolor in in\"\n  }\n}",
               "cookie": []
             }
           ],
@@ -1458,7 +1458,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "889e11d1-1c88-4d81-ac47-d76f28e80164",
+                "id": "5ed945a5-b9ff-43a5-9758-de09affc6cac",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/sent-offers/feeds/:feedId/skus/:skuId/interactions/:interactionId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1474,7 +1474,7 @@
           }
         },
         {
-          "id": "48159cfa-e179-4b2a-b424-60983ca4eefa",
+          "id": "4ec00ab6-1302-4691-89a6-98eb4cfd72b5",
           "name": "Close Interaction",
           "request": {
             "name": "Close Interaction",
@@ -1558,7 +1558,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "0cb59849-1c74-4648-95a0-b0f523719082",
+              "id": "aaaeeae6-7a3d-4971-bccb-33f86b0d9809",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -1672,7 +1672,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3723aacc-3983-433b-b984-7f166451c267",
+                "id": "a5efd3f3-e3e1-4de4-ac94-c3290e2d1a01",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/sent-offers/feeds/:feedId/skus/:skuId/interactions/:interactionId/close - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1686,7 +1686,7 @@
           }
         },
         {
-          "id": "fa3c5255-c1bf-484a-bf0d-9ce47ac70cfc",
+          "id": "070cffd7-b35c-4014-92d3-16001189c0c7",
           "name": "Create Log",
           "request": {
             "name": "Create Log",
@@ -1789,7 +1789,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "1291273f-301b-44ba-92e9-14dd7cc7d0ee",
+              "id": "3b1ca919-082a-4a8b-8ae5-41fa5887b4f5",
               "name": "Created",
               "originalRequest": {
                 "url": {
@@ -1915,7 +1915,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2a0bf239-9118-4496-86b2-4c1bc16e5314",
+                "id": "d597a69e-33f2-482e-ba84-b986f4e3ed18",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/sent-offers/feeds/:feedId/skus/:skuId/interactions/:interactionId/logs - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1931,7 +1931,7 @@
           }
         },
         {
-          "id": "1efcded3-e8b3-453e-a471-6b39f638f912",
+          "id": "8bbcf5ef-df41-42e8-96bf-d1f1f1c590b2",
           "name": "Get Log Data by logId",
           "request": {
             "name": "Get Log Data by logId",
@@ -2032,7 +2032,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ceb680c8-5cfd-4641-be72-4fca99197398",
+              "id": "2726d245-e32a-42c4-a8ad-dabba5090086",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2161,7 +2161,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "65a4f540-c6fa-48b5-89b5-06372b88b7de",
+                "id": "b04e6d7f-4d02-4f00-b0ca-f96a755d878c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/sent-offers/feeds/:feedId/skus/:skuId/interactions/:interactionId/logs/:logId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2177,7 +2177,7 @@
           }
         },
         {
-          "id": "c5a053d1-ae01-4aa1-a1a3-aac91b6ba447",
+          "id": "c9af8a38-5534-4279-af86-432622191218",
           "name": "Search Interactions and their Logs",
           "request": {
             "name": "Search Interactions and their Logs",
@@ -2325,7 +2325,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d1b0cc95-7f92-46f3-b811-2e1fe8b0c861",
+              "id": "289a7e97-3455-4033-8776-de9eca53bad5",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2430,7 +2430,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "167e1d0b-bf83-4337-b886-0746c1ceafab",
+                "id": "31df8064-e6cb-44c9-88ab-cd9451fb79c2",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/sent-offers/search/interactions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2443,7 +2443,7 @@
           }
         },
         {
-          "id": "09faa63b-612f-4a2d-903c-946f7a41aa5c",
+          "id": "b8e0ed4b-0947-4a4f-99ef-02f7859f20ea",
           "name": "Search Errors",
           "request": {
             "name": "Search Errors",
@@ -2564,7 +2564,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "427e0c49-4cfb-4047-aedd-d24c17aa8a34",
+              "id": "a06787c4-e70f-4429-a630-1fcb1385f2b0",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2675,7 +2675,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "67ae747e-bedb-4a4f-b590-f956ad54ca6d",
+                "id": "bd079739-55bd-4513-be0b-88a98ac20958",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/sent-offers/search/errors - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2688,7 +2688,7 @@
           }
         },
         {
-          "id": "ad3535bb-99cf-4381-bba5-d8f14be1d272",
+          "id": "e7b56d72-4c28-4b30-9b78-1de49647cf0f",
           "name": "Get Error Code data by errorCodeId",
           "request": {
             "name": "Get Error Code data by errorCodeId",
@@ -2743,7 +2743,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "866e4068-e671-4f48-bf15-376cb9517eb8",
+              "id": "e072305c-42b8-48ed-afc7-ad690da6d5dc",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2831,7 +2831,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ce5cf78b-07a3-4608-9a99-08b9941b3da2",
+                "id": "e11133f8-2a29-4297-9d4f-5b27c018645a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/sent-offers/error-codes/:errorCodeId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2888,7 +2888,7 @@
     }
   ],
   "info": {
-    "_postman_id": "246e138e-6b3d-49e6-a6bd-a45e466423ec",
+    "_postman_id": "af622e44-f86e-4d0d-ae7b-5f56e0e3133b",
     "name": "Sent Offers",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

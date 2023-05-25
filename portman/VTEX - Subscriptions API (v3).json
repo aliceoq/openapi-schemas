@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "06a87d16-0af3-439f-b78d-7231c3511ec8"
+    "postman_id": "31637a5d-3516-44c4-b931-d942d1926f1a"
   },
   "item": [
     {
-      "id": "3ae3e426-2449-48f3-a3d2-d657c2274abc",
+      "id": "ab446961-e051-40b1-9d2c-c59e6c9a34dd",
       "name": "Cycles",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "54b7302a-e254-4939-b2d3-069452738029",
+          "id": "3913cf6b-bfdf-4654-b954-23d39879a417",
           "name": "Get cycle details",
           "request": {
             "name": "Get cycle details",
@@ -40,7 +40,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "cycleId"
                 },
                 {
@@ -76,7 +76,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "c4fb204c-2e75-42bd-b69e-4c644331f9c9",
+              "id": "b5c466f6-f038-479e-a12c-d957e0fbb615",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -99,7 +99,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "cycleId"
                     },
                     {
@@ -165,7 +165,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"id\": \"consequat ea minim exercitation Lorem\",\n  \"subscriptionId\": \"Ut ut in ex\",\n  \"status\": \"in irure\",\n  \"customerEmail\": \"magna\",\n  \"date\": \"2001-03-28T16:18:24.908Z\",\n  \"lastUpdate\": \"1999-07-30T04:45:41.147Z\",\n  \"cycleCount\": 80548001,\n  \"isInRetry\": false,\n  \"message\": \"aliqua laborum tempor\",\n  \"orderInfo\": {\n    \"orderId\": \"dolor ut ad\",\n    \"orderGroup\": \"elit consectetur\",\n    \"paymentURL\": \"laborum nulla adipisicing\",\n    \"value\": -49023743\n  },\n  \"context\": {\n    \"items\": [\n      {\n        \"subscriptionItemId\": \"nulla cupidatat elit sint\",\n        \"skuId\": \"12\",\n        \"quantity\": 5,\n        \"status\": 2,\n        \"isSkipped\": false,\n        \"cycleCount\": 20302765\n      },\n      {\n        \"subscriptionItemId\": \"consequat labore veniam proident\",\n        \"skuId\": \"12\",\n        \"quantity\": 5,\n        \"status\": 0,\n        \"isSkipped\": true,\n        \"cycleCount\": 87259854\n      }\n    ],\n    \"paymentSystem\": \"Ut sed\",\n    \"paymentSystemName\": \"irure\",\n    \"paymentSystemGroup\": \"minim irure sint quis\",\n    \"paymentAccountId\": \"laboris aliquip aliqua laborum\",\n    \"addressId\": \"fugiat dolore anim\",\n    \"addressType\": \"irure in\"\n  },\n  \"simulationItems\": [\n    {\n      \"id\": \"qui \",\n      \"quantity\": 5,\n      \"unitPrice\": -40351716,\n      \"status\": 4,\n      \"statusName\": \"irure reprehenderit sed dolore veniam\"\n    },\n    {\n      \"id\": \"u\",\n      \"quantity\": 5,\n      \"unitPrice\": 13097742,\n      \"status\": 4,\n      \"statusName\": \"aliquip dolor nulla eiusmod\"\n    }\n  ]\n}",
+              "body": "{\n  \"id\": \"consect\",\n  \"subscriptionId\": \"non Duis consectetur elit\",\n  \"status\": \"dolor tempor veniam\",\n  \"customerEmail\": \"est do ut sit\",\n  \"date\": \"1975-12-12T04:31:14.705Z\",\n  \"lastUpdate\": \"1967-01-01T12:44:35.770Z\",\n  \"cycleCount\": -95117669,\n  \"isInRetry\": true,\n  \"message\": \"proident\",\n  \"orderInfo\": {\n    \"orderId\": \"dolor eiusmod esse\",\n    \"orderGroup\": \"reprehenderit Lorem mollit consequat est\",\n    \"paymentURL\": \"fugiat amet Duis\",\n    \"value\": -35319488\n  },\n  \"context\": {\n    \"items\": [\n      {\n        \"subscriptionItemId\": \"ex aliquip labore\",\n        \"skuId\": \"12\",\n        \"quantity\": 5,\n        \"status\": 0,\n        \"isSkipped\": false,\n        \"cycleCount\": -58860470\n      },\n      {\n        \"subscriptionItemId\": \"in eiusmod pariatur veniam\",\n        \"skuId\": \"12\",\n        \"quantity\": 5,\n        \"status\": 3,\n        \"isSkipped\": true,\n        \"cycleCount\": -57663406\n      }\n    ],\n    \"paymentSystem\": \"laborum Duis Lorem aliquip\",\n    \"paymentSystemName\": \"ex Ut minim\",\n    \"paymentSystemGroup\": \"amet\",\n    \"paymentAccountId\": \"aliqua\",\n    \"addressId\": \"adipisicing quis\",\n    \"addressType\": \"consequat commodo\"\n  },\n  \"simulationItems\": [\n    {\n      \"id\": \"enim nisi est aliquip\",\n      \"quantity\": 5,\n      \"unitPrice\": -37272498,\n      \"status\": 2,\n      \"statusName\": \"ipsum\"\n    },\n    {\n      \"id\": \"et consectetur eu officia Duis\",\n      \"quantity\": 5,\n      \"unitPrice\": 51859213,\n      \"status\": 1,\n      \"statusName\": \"eiusmod incididunt ut anim\"\n    }\n  ]\n}",
               "cookie": []
             }
           ],
@@ -173,7 +173,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "1146c5fe-cd48-44f6-aa4e-7909b9c3b55a",
+                "id": "19c02868-f1d7-46fe-b7d0-8ea455325b6d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pub/cycles/:cycleId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -187,7 +187,7 @@
           }
         },
         {
-          "id": "cd737ab0-2f5e-4443-92d2-44f16c535c10",
+          "id": "3bdc254d-a32c-48aa-b097-04e1f376737c",
           "name": "List cycles",
           "request": {
             "name": "List cycles",
@@ -213,7 +213,7 @@
                     "type": "text/plain"
                   },
                   "key": "beginDate",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -222,7 +222,7 @@
                     "type": "text/plain"
                   },
                   "key": "endDate",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -231,7 +231,7 @@
                     "type": "text/plain"
                   },
                   "key": "subscriptionId",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -240,7 +240,7 @@
                     "type": "text/plain"
                   },
                   "key": "customerEmail",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -249,7 +249,7 @@
                     "type": "text/plain"
                   },
                   "key": "status",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -304,7 +304,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "662ef0b1-89ba-47ec-a743-bfec285b427e",
+              "id": "91254e3d-7e0b-427a-bbc5-5ad4327ee7a1",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -320,23 +320,23 @@
                   "query": [
                     {
                       "key": "beginDate",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "endDate",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "subscriptionId",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "customerEmail",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "status",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "page",
@@ -411,7 +411,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "[\n  {\n    \"id\": \"ut officia elit dolor\",\n    \"subscriptionId\": \"nisi dolore labore Duis\",\n    \"status\": \"dolore qui dolor\",\n    \"customerEmail\": \"ea consequat anim mollit culpa\",\n    \"date\": \"2003-11-21T09:30:11.553Z\",\n    \"lastUpdate\": \"2006-08-31T14:00:36.201Z\",\n    \"cycleCount\": 85259190,\n    \"isInRetry\": true,\n    \"message\": \"qui dolor deserunt\",\n    \"orderInfo\": {\n      \"orderId\": \"ea reprehenderit\",\n      \"orderGroup\": \"in fugiat aliquip nostrud exercitation\",\n      \"paymentURL\": \"tempor veniam\",\n      \"value\": -45085179\n    },\n    \"context\": {\n      \"items\": [\n        {\n          \"subscriptionItemId\": \"esse proident eu ut occaecat\",\n          \"skuId\": \"12\",\n          \"quantity\": 5,\n          \"status\": 3,\n          \"isSkipped\": true,\n          \"cycleCount\": 87851579\n        },\n        {\n          \"subscriptionItemId\": \"aliqua proident tempor anim deserunt\",\n          \"skuId\": \"12\",\n          \"quantity\": 5,\n          \"status\": 3,\n          \"isSkipped\": true,\n          \"cycleCount\": 49116589\n        }\n      ],\n      \"paymentSystem\": \"veniam ullamco laboris\",\n      \"paymentSystemName\": \"voluptate mollit cu\",\n      \"paymentSystemGroup\": \"ex Dui\",\n      \"paymentAccountId\": \"non anim\",\n      \"addressId\": \"sunt aliqua\",\n      \"addressType\": \"Lorem nulla qui\"\n    },\n    \"simulationItems\": [\n      {\n        \"id\": \"cupidatat ad\",\n        \"quantity\": 5,\n        \"unitPrice\": -89290784,\n        \"status\": 0,\n        \"statusName\": \"officia fugiat ex ipsum\"\n      },\n      {\n        \"id\": \"ex Excepteur\",\n        \"quantity\": 5,\n        \"unitPrice\": -1407208,\n        \"status\": 0,\n        \"statusName\": \"in velit\"\n      }\n    ]\n  },\n  {\n    \"id\": \"commodo occaecat cupidatat\",\n    \"subscriptionId\": \"tempor laborum dolore quis\",\n    \"status\": \"et dolore sunt\",\n    \"customerEmail\": \"cillum elit sed aliqua\",\n    \"date\": \"1994-06-30T04:39:38.841Z\",\n    \"lastUpdate\": \"1987-05-19T15:01:14.899Z\",\n    \"cycleCount\": 69751810,\n    \"isInRetry\": false,\n    \"message\": \"voluptate cupidatat proident ullamco velit\",\n    \"orderInfo\": {\n      \"orderId\": \"sed sint aliqua\",\n      \"orderGroup\": \"sint irure anim ut\",\n      \"paymentURL\": \"laboris et reprehenderit eiusmod\",\n      \"value\": -3935851\n    },\n    \"context\": {\n      \"items\": [\n        {\n          \"subscriptionItemId\": \"dolore mollit ad adipisic\",\n          \"skuId\": \"12\",\n          \"quantity\": 5,\n          \"status\": 3,\n          \"isSkipped\": false,\n          \"cycleCount\": 72219519\n        },\n        {\n          \"subscriptionItemId\": \"et ad Lorem officia cupidatat\",\n          \"skuId\": \"12\",\n          \"quantity\": 5,\n          \"status\": 2,\n          \"isSkipped\": true,\n          \"cycleCount\": -48069280\n        }\n      ],\n      \"paymentSystem\": \"esse irure aliqua sunt\",\n      \"paymentSystemName\": \"cillum mo\",\n      \"paymentSystemGroup\": \"minim do non elit cupidatat\",\n      \"paymentAccountId\": \"qui adipisicing labore\",\n      \"addressId\": \"dolore esse\",\n      \"addressType\": \"deserunt et reprehenderit amet\"\n    },\n    \"simulationItems\": [\n      {\n        \"id\": \"sed\",\n        \"quantity\": 5,\n        \"unitPrice\": 80348349,\n        \"status\": 2,\n        \"statusName\": \"culpa aliquip\"\n      },\n      {\n        \"id\": \"velit eu cillum\",\n        \"quantity\": 5,\n        \"unitPrice\": 33117300,\n        \"status\": 0,\n        \"statusName\": \"adipisicing est\"\n      }\n    ]\n  }\n]",
+              "body": "[\n  {\n    \"id\": \"anim ea\",\n    \"subscriptionId\": \"quis\",\n    \"status\": \"ipsum dolore\",\n    \"customerEmail\": \"consectetur ullamco cupidatat\",\n    \"date\": \"2001-05-15T02:10:00.486Z\",\n    \"lastUpdate\": \"1986-12-22T22:11:05.350Z\",\n    \"cycleCount\": -16217997,\n    \"isInRetry\": false,\n    \"message\": \"dolore est laborum\",\n    \"orderInfo\": {\n      \"orderId\": \"do sit adipisicing exercitation dolore\",\n      \"orderGroup\": \"labore nulla\",\n      \"paymentURL\": \"eu enim\",\n      \"value\": -96900580\n    },\n    \"context\": {\n      \"items\": [\n        {\n          \"subscriptionItemId\": \"Ut fugiat\",\n          \"skuId\": \"12\",\n          \"quantity\": 5,\n          \"status\": 1,\n          \"isSkipped\": true,\n          \"cycleCount\": 40658591\n        },\n        {\n          \"subscriptionItemId\": \"minim aliquip magna do veniam\",\n          \"skuId\": \"12\",\n          \"quantity\": 5,\n          \"status\": 3,\n          \"isSkipped\": false,\n          \"cycleCount\": -46517308\n        }\n      ],\n      \"paymentSystem\": \"amet et\",\n      \"paymentSystemName\": \"amet quis\",\n      \"paymentSystemGroup\": \"Excepteur aliqua\",\n      \"paymentAccountId\": \"occaecat veniam anim consequat\",\n      \"addressId\": \"esse eu nulla dolor\",\n      \"addressType\": \"\"\n    },\n    \"simulationItems\": [\n      {\n        \"id\": \"cillum Excepteur\",\n        \"quantity\": 5,\n        \"unitPrice\": -93390013,\n        \"status\": 2,\n        \"statusName\": \"dolor do enim dolor ullamco\"\n      },\n      {\n        \"id\": \"ex\",\n        \"quantity\": 5,\n        \"unitPrice\": -36011609,\n        \"status\": 3,\n        \"statusName\": \"culpa\"\n      }\n    ]\n  },\n  {\n    \"id\": \"ipsum qui Ut\",\n    \"subscriptionId\": \"reprehenderit enim anim culpa velit\",\n    \"status\": \"ipsum sit\",\n    \"customerEmail\": \"irure aliqua in\",\n    \"date\": \"1951-04-26T21:08:47.518Z\",\n    \"lastUpdate\": \"2022-10-22T16:38:18.140Z\",\n    \"cycleCount\": 62292003,\n    \"isInRetry\": true,\n    \"message\": \"fugiat irure minim dolor labore\",\n    \"orderInfo\": {\n      \"orderId\": \"velit esse\",\n      \"orderGroup\": \"Duis qui in ad\",\n      \"paymentURL\": \"exercitation ex nostrud pariatur ni\",\n      \"value\": 41069072\n    },\n    \"context\": {\n      \"items\": [\n        {\n          \"subscriptionItemId\": \"ea anim et irure minim\",\n          \"skuId\": \"12\",\n          \"quantity\": 5,\n          \"status\": 2,\n          \"isSkipped\": false,\n          \"cycleCount\": 447828\n        },\n        {\n          \"subscriptionItemId\": \"proident consectetur\",\n          \"skuId\": \"12\",\n          \"quantity\": 5,\n          \"status\": 3,\n          \"isSkipped\": false,\n          \"cycleCount\": 72783165\n        }\n      ],\n      \"paymentSystem\": \"ut ipsum\",\n      \"paymentSystemName\": \"anim est elit exercitation\",\n      \"paymentSystemGroup\": \"aliqua exercitation Ut\",\n      \"paymentAccountId\": \"labore\",\n      \"addressId\": \"dolore id\",\n      \"addressType\": \"adipisicing ullamco sunt laboris dolor\"\n    },\n    \"simulationItems\": [\n      {\n        \"id\": \"\",\n        \"quantity\": 5,\n        \"unitPrice\": 13744550,\n        \"status\": 0,\n        \"statusName\": \"veniam aliquip in\"\n      },\n      {\n        \"id\": \"dolore ullamco\",\n        \"quantity\": 5,\n        \"unitPrice\": -77730218,\n        \"status\": 3,\n        \"statusName\": \"exe\"\n      }\n    ]\n  }\n]",
               "cookie": []
             }
           ],
@@ -419,7 +419,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f29f2637-a05d-4b5a-ab07-8fc55e38f64e",
+                "id": "a23083bd-b5c1-4459-a258-f0198165b1c4",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pub/cycles - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -433,7 +433,7 @@
           }
         },
         {
-          "id": "63414510-df67-4403-884b-4ddf70dd3d90",
+          "id": "4f0f462a-8a76-4538-b8df-f5d9d7a63ac7",
           "name": "Retry cycle",
           "request": {
             "name": "Retry cycle",
@@ -462,7 +462,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "cycleId"
                 },
                 {
@@ -492,7 +492,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "b0dc52cd-ba5e-47be-9ae9-30be3aeb9829",
+              "id": "4635f71c-a87e-4446-8a71-c891dcd259ea",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -516,7 +516,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "cycleId"
                     },
                     {
@@ -586,7 +586,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0265d748-1399-4626-8af8-639c464777ff",
+                "id": "4344ab10-85dc-45bb-9256-28825c68979b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/rns/pub/cycles/:cycleId/retry - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -602,7 +602,7 @@
       "event": []
     },
     {
-      "id": "13c629d7-a2e3-4bcb-b4fb-a83cbce7e671",
+      "id": "36fd6c00-85f1-401d-bc04-f0976c1d3116",
       "name": "Plans",
       "description": {
         "content": "",
@@ -610,7 +610,7 @@
       },
       "item": [
         {
-          "id": "7761c0b3-1332-4671-a457-7604f79448d4",
+          "id": "c1e40fe6-3358-422a-9b31-74912b49f1ef",
           "name": "List plans",
           "request": {
             "name": "List plans",
@@ -636,7 +636,7 @@
                     "type": "text/plain"
                   },
                   "key": "periodicity",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -645,7 +645,7 @@
                     "type": "text/plain"
                   },
                   "key": "interval",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -700,7 +700,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "c1a6a85a-d01d-489d-a49e-01426eaac52c",
+              "id": "4d3a6251-169b-4e93-9194-8050795e345d",
               "name": "Requested plans",
               "originalRequest": {
                 "url": {
@@ -716,11 +716,11 @@
                   "query": [
                     {
                       "key": "periodicity",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "interval",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "page",
@@ -795,7 +795,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "[\n  {\n    \"id\": \"ea\",\n    \"frequencies\": [\n      {\n        \"periodicityAsString\": \"enim elit irure ut\",\n        \"periodicity\": 2,\n        \"interval\": 46525205\n      },\n      {\n        \"periodicityAsString\": \"quis eiusmod consectetur exercitation\",\n        \"periodicity\": 1,\n        \"interval\": -3822414\n      }\n    ]\n  },\n  {\n    \"id\": \"in eiusmod\",\n    \"frequencies\": [\n      {\n        \"periodicityAsString\": \"deserunt sed sint qui\",\n        \"periodicity\": 4,\n        \"interval\": 92598229\n      },\n      {\n        \"periodicityAsString\": \"est dolor\",\n        \"periodicity\": 2,\n        \"interval\": -45465519\n      }\n    ]\n  }\n]",
+              "body": "[\n  {\n    \"id\": \"in aliquip veniam ea\",\n    \"frequencies\": [\n      {\n        \"periodicityAsString\": \"pariatur consectetur ullamco irure\",\n        \"periodicity\": 0,\n        \"interval\": 26465231\n      },\n      {\n        \"periodicityAsString\": \"minim id c\",\n        \"periodicity\": 3,\n        \"interval\": -39810787\n      }\n    ]\n  },\n  {\n    \"id\": \"irure incididunt reprehenderit exercitation Duis\",\n    \"frequencies\": [\n      {\n        \"periodicityAsString\": \"eiusmod labore\",\n        \"periodicity\": 2,\n        \"interval\": 36202168\n      },\n      {\n        \"periodicityAsString\": \"ipsum non\",\n        \"periodicity\": 3,\n        \"interval\": 94272169\n      }\n    ]\n  }\n]",
               "cookie": []
             }
           ],
@@ -803,7 +803,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d773f91c-4fcf-43a0-a412-97f537484835",
+                "id": "7e77ed79-9380-4c14-9043-56eabaf0d413",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pvt/plans - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -817,7 +817,7 @@
           }
         },
         {
-          "id": "c66eb9d6-e6c3-453f-a80d-69f54046b211",
+          "id": "842ec37e-8765-43df-aea8-c1adbcc3f804",
           "name": "Get plan details",
           "request": {
             "name": "Get plan details",
@@ -845,7 +845,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "id"
                 },
                 {
@@ -881,7 +881,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "82b86509-e611-4382-a86a-1026fc6923b6",
+              "id": "3393e82d-8b9d-4a52-8824-40d2373b45b8",
               "name": "Requested plan",
               "originalRequest": {
                 "url": {
@@ -904,7 +904,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "id"
                     },
                     {
@@ -970,7 +970,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"id\": \"mollit\",\n  \"frequencies\": [\n    {\n      \"periodicityAsString\": \"dolor Excepteur\",\n      \"periodicity\": 4,\n      \"interval\": -31597883\n    },\n    {\n      \"periodicityAsString\": \"voluptate\",\n      \"periodicity\": 2,\n      \"interval\": -10980720\n    }\n  ]\n}",
+              "body": "{\n  \"id\": \"elit nostrud\",\n  \"frequencies\": [\n    {\n      \"periodicityAsString\": \"qui sunt fugiat pariatur\",\n      \"periodicity\": 2,\n      \"interval\": -88682193\n    },\n    {\n      \"periodicityAsString\": \"nostrud minim \",\n      \"periodicity\": 4,\n      \"interval\": 60609800\n    }\n  ]\n}",
               "cookie": []
             }
           ],
@@ -978,7 +978,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f5c9fb81-cb8f-4352-a138-2c3ca8191710",
+                "id": "7b2c4391-2eb0-413d-b629-a21f4d148ffe",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pvt/plans/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -995,7 +995,7 @@
       "event": []
     },
     {
-      "id": "01cbd6da-9865-4d6f-82c7-c4983d8a1c49",
+      "id": "fa249ff8-32a0-4f50-b1bf-7029a9a5018e",
       "name": "Reports",
       "description": {
         "content": "",
@@ -1003,7 +1003,7 @@
       },
       "item": [
         {
-          "id": "500196d9-8a72-4637-b40f-f5715b3aa91f",
+          "id": "0c30b97b-60ad-43aa-9c81-05646fcb1f7a",
           "name": "List report templates",
           "request": {
             "name": "List report templates",
@@ -1056,7 +1056,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7fb1f61e-d26c-48d0-9005-9e8461ee03cc",
+              "id": "38647a74-1c2c-42e3-bfd8-ecdf9dceca1f",
               "name": "Requested report templates",
               "originalRequest": {
                 "url": {
@@ -1134,7 +1134,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "[\n  {\n    \"account\": \"aute Excepteur e\",\n    \"key\": \"aute irure laborum cupidatat in\",\n    \"name\": \"aliqua do id exercitation\",\n    \"description\": \"consectetur culpa\",\n    \"requesterEmail\": \"culpa sunt\",\n    \"entity\": \"velit Excepteur commodo elit\",\n    \"schema\": \"aliqua laborum\",\n    \"query\": \"nisi aute do\",\n    \"params\": [\n      {\n        \"name\": \"dolore laborum ut\",\n        \"type\": \"nulla\",\n        \"value\": {}\n      },\n      {\n        \"name\": \"aliquip\",\n        \"type\": \"sint\",\n        \"value\": {}\n      }\n    ]\n  },\n  {\n    \"account\": \"dolor tempor aute commodo\",\n    \"key\": \"reprehenderit sed\",\n    \"name\": \"est sunt id in\",\n    \"description\": \"enim in\",\n    \"requesterEmail\": \"et \",\n    \"entity\": \"ipsum eiusmod nisi c\",\n    \"schema\": \"id\",\n    \"query\": \"do\",\n    \"params\": [\n      {\n        \"name\": \"magna aute\",\n        \"type\": \"aute culpa sit\",\n        \"value\": {}\n      },\n      {\n        \"name\": \"ullamco si\",\n        \"type\": \"in adipisicing\",\n        \"value\": {}\n      }\n    ]\n  }\n]",
+              "body": "[\n  {\n    \"account\": \"ipsum in esse\",\n    \"key\": \"aliquip qui occaecat\",\n    \"name\": \"do cupidatat se\",\n    \"description\": \"velit nisi laboris aliquip\",\n    \"requesterEmail\": \"sed Excepteur quis sunt\",\n    \"entity\": \"officia non\",\n    \"schema\": \"laborum fugiat Ut\",\n    \"query\": \"Excepteur nisi\",\n    \"params\": [\n      {\n        \"name\": \"enim nisi consequat\",\n        \"type\": \"minim velit ea sint\",\n        \"value\": {}\n      },\n      {\n        \"name\": \"cillum ut Duis\",\n        \"type\": \"qui est \",\n        \"value\": {}\n      }\n    ]\n  },\n  {\n    \"account\": \"occaecat pariatur\",\n    \"key\": \"ut incididunt\",\n    \"name\": \"dolor ut exercitation ma\",\n    \"description\": \"est Duis\",\n    \"requesterEmail\": \"ut Lorem\",\n    \"entity\": \"labore in\",\n    \"schema\": \"ipsum incididunt\",\n    \"query\": \"sint enim\",\n    \"params\": [\n      {\n        \"name\": \"cillum dolore\",\n        \"type\": \"ex tempor eu\",\n        \"value\": {}\n      },\n      {\n        \"name\": \"officia in mollit s\",\n        \"type\": \"dolore\",\n        \"value\": {}\n      }\n    ]\n  }\n]",
               "cookie": []
             }
           ],
@@ -1142,7 +1142,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "07e8aea9-f344-4723-8f8e-22bc27a97b22",
+                "id": "5e74dfbe-ed76-4c04-af7b-b816bd28a597",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pvt/reports - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1156,7 +1156,7 @@
           }
         },
         {
-          "id": "b5d7eb77-cba1-4f1d-86f7-257feb2b3600",
+          "id": "c689fa25-df3d-408c-a55e-d3a222ea326c",
           "name": "Get report document details",
           "request": {
             "name": "Get report document details",
@@ -1186,7 +1186,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "reportName"
                 },
                 {
@@ -1196,7 +1196,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "documentId"
                 },
                 {
@@ -1232,7 +1232,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ac0b996e-6deb-4aa9-8372-9359d429e371",
+              "id": "0289cbee-8e52-4f09-8833-a6a32fa63709",
               "name": "Requested report document",
               "originalRequest": {
                 "url": {
@@ -1257,7 +1257,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "reportName"
                     },
                     {
@@ -1267,7 +1267,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "documentId"
                     },
                     {
@@ -1333,7 +1333,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"id\": \"elit in proident\",\n  \"finished\": false,\n  \"recordsProcessed\": 75985319,\n  \"recordsSum\": 61862978,\n  \"startDate\": \"1980-01-12T06:27:27.222Z\",\n  \"lastUpdateTime\": \"2007-10-28T02:39:39.511Z\",\n  \"completedDate\": \"1998-03-16T04:17:34.153Z\",\n  \"errorCount\": 6248329,\n  \"percentageProcessed\": 4423608,\n  \"enqueueDate\": \"1985-10-28T01:06:54.346Z\",\n  \"email\": \"velit elit ut\",\n  \"canceled\": false,\n  \"outputType\": \"quis elit\",\n  \"zipped\": true,\n  \"linkToDownload\": \"irure enim non\",\n  \"lastErrorMessage\": \"do exercitation\",\n  \"statusMessage\": \"ut in\"\n}",
+              "body": "{\n  \"id\": \"id commodo minim consectetur\",\n  \"finished\": true,\n  \"recordsProcessed\": 19283474,\n  \"recordsSum\": -75614099,\n  \"startDate\": \"1971-07-20T05:52:25.056Z\",\n  \"lastUpdateTime\": \"1965-02-26T10:09:23.500Z\",\n  \"completedDate\": \"1976-03-21T02:08:17.371Z\",\n  \"errorCount\": 96499943,\n  \"percentageProcessed\": -91743188,\n  \"enqueueDate\": \"2012-08-13T02:00:24.216Z\",\n  \"email\": \"sunt reprehenderit\",\n  \"canceled\": false,\n  \"outputType\": \"eiusmod enim\",\n  \"zipped\": false,\n  \"linkToDownload\": \"ut labore reprehenderit eu fugiat\",\n  \"lastErrorMessage\": \"do laboris adipisicing\",\n  \"statusMessage\": \"consectetur exercitation\"\n}",
               "cookie": []
             }
           ],
@@ -1341,7 +1341,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6a61951c-2072-442c-8906-185393bd45fb",
+                "id": "15d09cbe-4192-4361-81ac-dafe7edd1f60",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pvt/reports/:reportName/documents/:documentId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1355,7 +1355,7 @@
           }
         },
         {
-          "id": "a9f081a3-58d5-4928-840b-5ec9a01db201",
+          "id": "6b25bf1f-2fab-40c3-93cc-6c83afb30cde",
           "name": "Generate report",
           "request": {
             "name": "Generate report",
@@ -1412,7 +1412,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "reportName"
                 },
                 {
@@ -1448,7 +1448,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "bf24a384-47d6-4a40-b582-6a72df8b3a86",
+              "id": "ba4b184a-4694-4817-944a-a5680693b453",
               "name": "Requested report",
               "originalRequest": {
                 "url": {
@@ -1485,7 +1485,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "reportName"
                     },
                     {
@@ -1551,7 +1551,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"id\": \"elit in proident\",\n  \"finished\": false,\n  \"recordsProcessed\": 75985319,\n  \"recordsSum\": 61862978,\n  \"startDate\": \"1980-01-12T06:27:27.222Z\",\n  \"lastUpdateTime\": \"2007-10-28T02:39:39.511Z\",\n  \"completedDate\": \"1998-03-16T04:17:34.153Z\",\n  \"errorCount\": 6248329,\n  \"percentageProcessed\": 4423608,\n  \"enqueueDate\": \"1985-10-28T01:06:54.346Z\",\n  \"email\": \"velit elit ut\",\n  \"canceled\": false,\n  \"outputType\": \"quis elit\",\n  \"zipped\": true,\n  \"linkToDownload\": \"irure enim non\",\n  \"lastErrorMessage\": \"do exercitation\",\n  \"statusMessage\": \"ut in\"\n}",
+              "body": "{\n  \"id\": \"id commodo minim consectetur\",\n  \"finished\": true,\n  \"recordsProcessed\": 19283474,\n  \"recordsSum\": -75614099,\n  \"startDate\": \"1971-07-20T05:52:25.056Z\",\n  \"lastUpdateTime\": \"1965-02-26T10:09:23.500Z\",\n  \"completedDate\": \"1976-03-21T02:08:17.371Z\",\n  \"errorCount\": 96499943,\n  \"percentageProcessed\": -91743188,\n  \"enqueueDate\": \"2012-08-13T02:00:24.216Z\",\n  \"email\": \"sunt reprehenderit\",\n  \"canceled\": false,\n  \"outputType\": \"eiusmod enim\",\n  \"zipped\": false,\n  \"linkToDownload\": \"ut labore reprehenderit eu fugiat\",\n  \"lastErrorMessage\": \"do laboris adipisicing\",\n  \"statusMessage\": \"consectetur exercitation\"\n}",
               "cookie": []
             }
           ],
@@ -1559,7 +1559,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3a08e803-ad8b-48bd-8d27-7b3996f75a3a",
+                "id": "1c5755ee-7170-4f6b-97cc-15fce594a172",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/rns/pvt/reports/:reportName/documents - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1576,7 +1576,7 @@
       "event": []
     },
     {
-      "id": "2ba9755f-0673-4680-9005-fc65f80e5919",
+      "id": "a79c14c2-c9fd-4cd8-85c7-ebe16e07ce2f",
       "name": "Subscriptions",
       "description": {
         "content": "",
@@ -1584,7 +1584,7 @@
       },
       "item": [
         {
-          "id": "65b65fea-7709-41be-9abd-7dc085159b1a",
+          "id": "254edefc-e09d-4fe4-b4ce-6182c4aa96a9",
           "name": "Get subscription details",
           "request": {
             "name": "Get subscription details",
@@ -1612,7 +1612,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "id"
                 },
                 {
@@ -1648,7 +1648,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "91784339-b5c9-468a-b9a2-bdaae8cf4cc6",
+              "id": "deb07013-5244-4d9f-9b0b-6aaf00955bf1",
               "name": "Requested subscription",
               "originalRequest": {
                 "url": {
@@ -1671,7 +1671,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "id"
                     },
                     {
@@ -1737,7 +1737,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"createdAt\": \"2021-03-18T23:45:06.233Z\",\n  \"customerEmail\": \"proident\",\n  \"customerId\": \"nulla\",\n  \"cycleCount\": -34898893,\n  \"id\": \"cons\",\n  \"isSkipped\": false,\n  \"items\": [\n    {\n      \"id\": \"cillum nisi quis irure occaecat\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"non\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"sunt est\"\n    },\n    {\n      \"id\": \"minim adipisicing\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"Duis Ut laboris\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"magna culpa laborum in cillum\"\n    }\n  ],\n  \"lastUpdate\": \"1954-09-29T02:11:40.366Z\",\n  \"nextPurchaseDate\": \"1969-02-17T11:57:57.587Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 56316191,\n      \"periodicity\": \"laborum\"\n    },\n    \"id\": \"ut amet eu\",\n    \"purchaseDay\": 6,\n    \"validity\": {\n      \"begin\": \"1967-09-04T04:47:42.594Z\",\n      \"end\": \"1951-04-19T00:18:54.313Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"anim eiusmod aute ullamco\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"Ut ullamco fugiat quis minim\",\n      \"paymentAccountId\": \"consectetur occaecat cupidatat magna pariatur\",\n      \"installments\": -20975622\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"Lorem consectetur minim irure enim\",\n    \"addressType\": \"enim labore\"\n  },\n  \"status\": \"et sed labore Duis\",\n  \"title\": \"sunt deserunt\",\n  \"lastPurchaseDate\": \"1960-04-11T00:43:43.887Z\"\n}",
+              "body": "{\n  \"createdAt\": \"1979-08-15T04:34:39.211Z\",\n  \"customerEmail\": \"amet exercitation ullamco\",\n  \"customerId\": \"anim occaecat consectetur sit qu\",\n  \"cycleCount\": -30178884,\n  \"id\": \"in\",\n  \"isSkipped\": true,\n  \"items\": [\n    {\n      \"id\": \"sint et aute velit\",\n      \"isSkipped\": false,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"et consequat\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"ut et ex sed\"\n    },\n    {\n      \"id\": \"elit dolor\",\n      \"isSkipped\": false,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"anim nulla\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"dolo\"\n    }\n  ],\n  \"lastUpdate\": \"1983-08-10T00:51:06.627Z\",\n  \"nextPurchaseDate\": \"1953-12-27T07:59:30.134Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -6996340,\n      \"periodicity\": \"Excepteur anim veniam\"\n    },\n    \"id\": \"mol\",\n    \"purchaseDay\": 28,\n    \"validity\": {\n      \"begin\": \"1956-06-27T00:21:32.451Z\",\n      \"end\": \"1976-08-01T05:47:57.787Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"do Excepteur pariatur consectetur\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"voluptate nostrud nisi deserunt\",\n      \"paymentAccountId\": \"reprehenderit veniam in in\",\n      \"installments\": 30863805\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"deserunt exercitation sit\",\n    \"addressType\": \"aute in ad\"\n  },\n  \"status\": \"laboris occaecat\",\n  \"title\": \"conse\",\n  \"lastPurchaseDate\": \"1956-09-16T09:51:24.323Z\"\n}",
               "cookie": []
             }
           ],
@@ -1745,7 +1745,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "69e2ebde-437f-44a2-9142-22712f1b292b",
+                "id": "df183253-7f35-404f-a039-fffdbd52f2db",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pub/subscriptions/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1759,7 +1759,7 @@
           }
         },
         {
-          "id": "3c319164-6c9f-40c8-88a6-2d66c77f3d32",
+          "id": "a9d69827-0a00-4afc-941c-b092754f3f0c",
           "name": "Update subscription",
           "request": {
             "name": "Update subscription",
@@ -1836,7 +1836,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "92394d29-8cca-4ac5-9a74-297c3e2e92d8",
+              "id": "480ddd5a-8406-4c10-9207-ab1463756f9d",
               "name": "Subscription successfully updated",
               "originalRequest": {
                 "url": {
@@ -1933,7 +1933,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"createdAt\": \"1972-06-08T08:52:16.815Z\",\n  \"customerEmail\": \"pariatur exercitation sed deserunt\",\n  \"customerId\": \"Ut magna commodo\",\n  \"cycleCount\": 14770866,\n  \"id\": \"voluptate et\",\n  \"isSkipped\": false,\n  \"items\": [\n    {\n      \"id\": \"anim sit ipsum magna\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"nostrud proident\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"est sed sunt\"\n    },\n    {\n      \"id\": \"consequat ad et Duis\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"dolor adipisicing ullamco\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"mollit et laborum\"\n    }\n  ],\n  \"lastUpdate\": \"1967-09-14T21:04:18.588Z\",\n  \"nextPurchaseDate\": \"1989-11-05T18:59:57.917Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -71003986,\n      \"periodicity\": \"nisi\"\n    },\n    \"id\": \"laborum\",\n    \"purchaseDay\": 2,\n    \"validity\": {\n      \"begin\": \"2007-04-22T18:36:04.906Z\",\n      \"end\": \"1986-08-12T06:14:50.353Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"anim cupidatat dolor\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"incididunt culpa ex eiusmod\",\n      \"paymentAccountId\": \"magna enim in\",\n      \"installments\": 61136067\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"Excepteur quis exercitation incididunt\",\n    \"addressType\": \"reprehenderit cupidatat\"\n  },\n  \"status\": \"quis d\",\n  \"title\": \"occaecat in eu sunt\",\n  \"lastPurchaseDate\": \"1976-03-12T16:07:13.003Z\"\n}",
+              "body": "{\n  \"createdAt\": \"2019-07-11T21:36:30.704Z\",\n  \"customerEmail\": \"culpa reprehenderit\",\n  \"customerId\": \"culpa consectetur in cillum\",\n  \"cycleCount\": -29841928,\n  \"id\": \"aut\",\n  \"isSkipped\": true,\n  \"items\": [\n    {\n      \"id\": \"id et dolore\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"in ad \",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"ex cillum\"\n    },\n    {\n      \"id\": \"cupidatat esse Lorem\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"commodo ea est\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"nostrud est sed pro\"\n    }\n  ],\n  \"lastUpdate\": \"1958-12-11T04:58:51.021Z\",\n  \"nextPurchaseDate\": \"1989-07-14T23:46:58.633Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -17560982,\n      \"periodicity\": \"consequat dolor laboris\"\n    },\n    \"id\": \"labore esse\",\n    \"purchaseDay\": 28,\n    \"validity\": {\n      \"begin\": \"2012-04-09T03:35:26.464Z\",\n      \"end\": \"2019-11-12T11:11:01.297Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"ut cillum aliquip do\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"exercitation reprehenderit sunt consectetur\",\n      \"paymentAccountId\": \"anim exercitation ad\",\n      \"installments\": 77955129\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"ad consequat cillum eu pariatur\",\n    \"addressType\": \"cillum veniam ad id\"\n  },\n  \"status\": \"mollit adipisicing enim\",\n  \"title\": \"eu Duis officia et sed\",\n  \"lastPurchaseDate\": \"2009-11-05T11:51:59.609Z\"\n}",
               "cookie": []
             }
           ],
@@ -1941,7 +1941,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "64072586-139f-4aa5-9dc5-09c39e798910",
+                "id": "5062641c-d7d3-4b16-b965-6f6052f67342",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/rns/pub/subscriptions/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1955,7 +1955,7 @@
           }
         },
         {
-          "id": "a1b8ce12-18d6-475b-be4e-75b3a2af7d02",
+          "id": "3259595f-8eab-4fb3-9b8e-653c20d80ec6",
           "name": "List subscriptions",
           "request": {
             "name": "List subscriptions",
@@ -1981,7 +1981,7 @@
                     "type": "text/plain"
                   },
                   "key": "customerEmail",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -1990,7 +1990,7 @@
                     "type": "text/plain"
                   },
                   "key": "status",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -1999,7 +1999,7 @@
                     "type": "text/plain"
                   },
                   "key": "addressId",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -2008,7 +2008,7 @@
                     "type": "text/plain"
                   },
                   "key": "paymentId",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -2017,7 +2017,7 @@
                     "type": "text/plain"
                   },
                   "key": "planId",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -2026,7 +2026,7 @@
                     "type": "text/plain"
                   },
                   "key": "nextPurchaseDate",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -2035,7 +2035,7 @@
                     "type": "text/plain"
                   },
                   "key": "originalOrderId",
-                  "value": "sunt occaecat"
+                  "value": "Lorem velit magna dolor"
                 },
                 {
                   "disabled": false,
@@ -2090,7 +2090,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "454c5f57-2b0f-4317-aff8-542c48b28726",
+              "id": "8c09c727-abcb-4c72-b2b3-4056778f7f85",
               "name": "Requested subscriptions",
               "originalRequest": {
                 "url": {
@@ -2106,31 +2106,31 @@
                   "query": [
                     {
                       "key": "customerEmail",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "status",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "addressId",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "paymentId",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "planId",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "nextPurchaseDate",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "originalOrderId",
-                      "value": "sunt occaecat"
+                      "value": "Lorem velit magna dolor"
                     },
                     {
                       "key": "page",
@@ -2205,7 +2205,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "[\n  {\n    \"createdAt\": \"1969-12-23T23:12:54.848Z\",\n    \"customerEmail\": \"commodo ut adipisicing\",\n    \"customerId\": \"sit voluptate sed non\",\n    \"cycleCount\": 39681415,\n    \"id\": \"et dolor\",\n    \"isSkipped\": false,\n    \"items\": [\n      {\n        \"id\": \"mollit laborum aliquip\",\n        \"isSkipped\": false,\n        \"quantity\": 5,\n        \"skuId\": \"12\",\n        \"status\": \"quis\",\n        \"manualPrice\": 40,\n        \"originalOrderId\": \"mollit est non ipsum\"\n      },\n      {\n        \"id\": \"irure\",\n        \"isSkipped\": true,\n        \"quantity\": 5,\n        \"skuId\": \"12\",\n        \"status\": \"in qui Ut\",\n        \"manualPrice\": 40,\n        \"originalOrderId\": \"veniam est\"\n      }\n    ],\n    \"lastUpdate\": \"2010-08-04T03:47:48.280Z\",\n    \"nextPurchaseDate\": \"1985-12-24T11:33:31.042Z\",\n    \"plan\": {\n      \"frequency\": {\n        \"interval\": -75729630,\n        \"periodicity\": \"occaecat labore do\"\n      },\n      \"id\": \"commodo ad laborum sunt\",\n      \"purchaseDay\": 15,\n      \"validity\": {\n        \"begin\": \"1991-07-21T08:29:04.458Z\",\n        \"end\": \"2015-01-31T22:54:52.526Z\"\n      }\n    },\n    \"purchaseSettings\": {\n      \"currencyCode\": \"ea esse aliqua\",\n      \"paymentMethod\": {\n        \"paymentSystem\": \"sed in eiusmod\",\n        \"paymentAccountId\": \"consequat voluptate sunt aliquip\",\n        \"installments\": 90715392\n      }\n    },\n    \"shippingAddress\": {\n      \"addressId\": \"Excepteur ea\",\n      \"addressType\": \"irure officia\"\n    },\n    \"status\": \"tempor pariatur aliquip sunt\",\n    \"title\": \"officia dolor adipisicing\",\n    \"lastPurchaseDate\": \"1943-07-26T09:16:17.812Z\"\n  },\n  {\n    \"createdAt\": \"1990-06-08T01:16:22.051Z\",\n    \"customerEmail\": \"tempor\",\n    \"customerId\": \"commodo deserunt eu consectetur\",\n    \"cycleCount\": -43651256,\n    \"id\": \"sunt ullamco esse\",\n    \"isSkipped\": true,\n    \"items\": [\n      {\n        \"id\": \"elit\",\n        \"isSkipped\": true,\n        \"quantity\": 5,\n        \"skuId\": \"12\",\n        \"status\": \"consequat anim esse\",\n        \"manualPrice\": 40,\n        \"originalOrderId\": \"de\"\n      },\n      {\n        \"id\": \"et esse ut\",\n        \"isSkipped\": true,\n        \"quantity\": 5,\n        \"skuId\": \"12\",\n        \"status\": \"voluptate adipisicing Excepteur quis\",\n        \"manualPrice\": 40,\n        \"originalOrderId\": \"consequat consectetur Duis laborum irure\"\n      }\n    ],\n    \"lastUpdate\": \"2009-01-27T03:22:50.552Z\",\n    \"nextPurchaseDate\": \"1994-06-01T11:12:09.612Z\",\n    \"plan\": {\n      \"frequency\": {\n        \"interval\": -1966035,\n        \"periodicity\": \"minim in aliquip\"\n      },\n      \"id\": \"reprehenderit deserunt laborum cupidatat\",\n      \"purchaseDay\": 8,\n      \"validity\": {\n        \"begin\": \"1944-08-27T14:44:29.033Z\",\n        \"end\": \"1968-07-02T19:57:38.187Z\"\n      }\n    },\n    \"purchaseSettings\": {\n      \"currencyCode\": \"sit vo\",\n      \"paymentMethod\": {\n        \"paymentSystem\": \"officia occaecat\",\n        \"paymentAccountId\": \"dolore veniam incididunt\",\n        \"installments\": 29331756\n      }\n    },\n    \"shippingAddress\": {\n      \"addressId\": \"ipsum\",\n      \"addressType\": \"esse\"\n    },\n    \"status\": \"aliquip ea\",\n    \"title\": \"sint sunt eu in\",\n    \"lastPurchaseDate\": \"1987-12-12T06:09:03.936Z\"\n  }\n]",
+              "body": "[\n  {\n    \"createdAt\": \"1977-02-24T06:29:31.577Z\",\n    \"customerEmail\": \"ad aliqua est\",\n    \"customerId\": \"Lorem ipsum\",\n    \"cycleCount\": 75932639,\n    \"id\": \"ex\",\n    \"isSkipped\": true,\n    \"items\": [\n      {\n        \"id\": \"ullamco minim aliqua sit tempor\",\n        \"isSkipped\": true,\n        \"quantity\": 5,\n        \"skuId\": \"12\",\n        \"status\": \"Duis id\",\n        \"manualPrice\": 40,\n        \"originalOrderId\": \"magna\"\n      },\n      {\n        \"id\": \"amet incididunt \",\n        \"isSkipped\": true,\n        \"quantity\": 5,\n        \"skuId\": \"12\",\n        \"status\": \"ip\",\n        \"manualPrice\": 40,\n        \"originalOrderId\": \"consectetur laboris id velit\"\n      }\n    ],\n    \"lastUpdate\": \"1982-12-17T15:44:09.019Z\",\n    \"nextPurchaseDate\": \"1958-12-10T12:55:40.873Z\",\n    \"plan\": {\n      \"frequency\": {\n        \"interval\": 8051308,\n        \"periodicity\": \"nostrud sed aute\"\n      },\n      \"id\": \"amet aute\",\n      \"purchaseDay\": 0,\n      \"validity\": {\n        \"begin\": \"1987-12-27T09:40:51.710Z\",\n        \"end\": \"1981-12-02T11:59:01.974Z\"\n      }\n    },\n    \"purchaseSettings\": {\n      \"currencyCode\": \"deserunt tempor s\",\n      \"paymentMethod\": {\n        \"paymentSystem\": \"adipisicing fugiat\",\n        \"paymentAccountId\": \"mollit \",\n        \"installments\": 52372364\n      }\n    },\n    \"shippingAddress\": {\n      \"addressId\": \"dolor incididunt ad anim\",\n      \"addressType\": \"ullamco velit non fugiat\"\n    },\n    \"status\": \"nostrud anim\",\n    \"title\": \"dolore deserunt\",\n    \"lastPurchaseDate\": \"1997-10-24T05:42:49.859Z\"\n  },\n  {\n    \"createdAt\": \"2010-01-17T06:14:32.138Z\",\n    \"customerEmail\": \"ipsum Duis qui eiusmod officia\",\n    \"customerId\": \"reprehenderit\",\n    \"cycleCount\": -64215281,\n    \"id\": \"Duis dolore reprehenderit Ut\",\n    \"isSkipped\": true,\n    \"items\": [\n      {\n        \"id\": \"culpa\",\n        \"isSkipped\": false,\n        \"quantity\": 5,\n        \"skuId\": \"12\",\n        \"status\": \"ex dolore Duis\",\n        \"manualPrice\": 40,\n        \"originalOrderId\": \"ipsum exercit\"\n      },\n      {\n        \"id\": \"exercitation incididunt ut\",\n        \"isSkipped\": false,\n        \"quantity\": 5,\n        \"skuId\": \"12\",\n        \"status\": \"non Duis velit\",\n        \"manualPrice\": 40,\n        \"originalOrderId\": \"veniam sunt sed nulla\"\n      }\n    ],\n    \"lastUpdate\": \"1999-03-09T12:30:50.635Z\",\n    \"nextPurchaseDate\": \"2007-05-31T21:07:07.372Z\",\n    \"plan\": {\n      \"frequency\": {\n        \"interval\": -13379630,\n        \"periodicity\": \"ut non laborum\"\n      },\n      \"id\": \"elit officia anim\",\n      \"purchaseDay\": 15,\n      \"validity\": {\n        \"begin\": \"1985-11-26T17:14:59.987Z\",\n        \"end\": \"1978-10-30T20:53:13.237Z\"\n      }\n    },\n    \"purchaseSettings\": {\n      \"currencyCode\": \"dolore tempor do\",\n      \"paymentMethod\": {\n        \"paymentSystem\": \"cupidatat exercitat\",\n        \"paymentAccountId\": \"qui velit\",\n        \"installments\": -78203296\n      }\n    },\n    \"shippingAddress\": {\n      \"addressId\": \"eu nisi\",\n      \"addressType\": \"aliquip adipisicing Ut esse\"\n    },\n    \"status\": \"in deserunt\",\n    \"title\": \"laborum fugiat in officia pariatur\",\n    \"lastPurchaseDate\": \"1993-11-05T20:50:21.790Z\"\n  }\n]",
               "cookie": []
             }
           ],
@@ -2213,7 +2213,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0dab6c0a-1c2c-4822-a4c9-f2cef9f76936",
+                "id": "09bbb21b-a5b6-458e-b158-a45cded06431",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pub/subscriptions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2227,7 +2227,7 @@
           }
         },
         {
-          "id": "d27cab8b-f99b-4d45-8836-ca05b5098cff",
+          "id": "9bb13f2f-34b3-4cd0-9327-715cff92b6f9",
           "name": "Create subscription",
           "request": {
             "name": "Create subscription",
@@ -2280,7 +2280,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"customerEmail\": \"veniam\",\n  \"items\": [\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    },\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    }\n  ],\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 3,\n      \"periodicity\": \"MONTHLY\"\n    },\n    \"id\": \"store.subscription\",\n    \"purchaseDay\": \"15\",\n    \"validity\": {\n      \"begin\": \"2022-06-10T00:00:00\",\n      \"end\": \"2023-06-10T00:00:00\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"paymentMethod\": {\n      \"paymentSystem\": \"4\",\n      \"paymentAccountId\": \"340357032569595\",\n      \"installments\": 3\n    },\n    \"salesChannel\": \"1\"\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"8109266555005\",\n    \"addressType\": \"residential\"\n  },\n  \"title\": \"\",\n  \"status\": \"Duis ut est consectetur\",\n  \"nextPurchaseDate\": \"1988-12-29T04:26:35.397Z\",\n  \"catalogAttachment\": \"irure et\"\n}",
+              "raw": "{\n  \"customerEmail\": \"quis dolor\",\n  \"items\": [\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    },\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    }\n  ],\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 3,\n      \"periodicity\": \"MONTHLY\"\n    },\n    \"id\": \"store.subscription\",\n    \"purchaseDay\": \"15\",\n    \"validity\": {\n      \"begin\": \"2022-06-10T00:00:00\",\n      \"end\": \"2023-06-10T00:00:00\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"paymentMethod\": {\n      \"paymentSystem\": \"4\",\n      \"paymentAccountId\": \"340357032569595\",\n      \"installments\": 3\n    },\n    \"salesChannel\": \"1\"\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"8109266555005\",\n    \"addressType\": \"residential\"\n  },\n  \"title\": \"esse adipisicing cillum velit\",\n  \"status\": \"ea labore et nisi\",\n  \"nextPurchaseDate\": \"2021-09-18T06:57:04.124Z\",\n  \"catalogAttachment\": \"Excepteur tempor aliqua adipisicing id\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -2293,7 +2293,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "fc65a5df-dc52-4988-84ac-78a569bb7778",
+              "id": "b5e832c6-6557-4a44-9848-2ae2da537790",
               "name": "Subscription created",
               "originalRequest": {
                 "url": {
@@ -2363,7 +2363,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"customerEmail\": \"incididunt\",\n  \"items\": [\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    },\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    }\n  ],\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 3,\n      \"periodicity\": \"MONTHLY\"\n    },\n    \"id\": \"store.subscription\",\n    \"purchaseDay\": \"15\",\n    \"validity\": {\n      \"begin\": \"2022-06-10T00:00:00\",\n      \"end\": \"2023-06-10T00:00:00\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"paymentMethod\": {\n      \"paymentSystem\": \"4\",\n      \"paymentAccountId\": \"340357032569595\",\n      \"installments\": 3\n    },\n    \"salesChannel\": \"1\"\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"8109266555005\",\n    \"addressType\": \"residential\"\n  },\n  \"title\": \"ut officia\",\n  \"status\": \"esse ut ad\",\n  \"nextPurchaseDate\": \"1946-02-12T18:05:44.326Z\",\n  \"catalogAttachment\": \"nostrud laborum qu\"\n}",
+                  "raw": "{\n  \"customerEmail\": \"amet \",\n  \"items\": [\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    },\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    }\n  ],\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 3,\n      \"periodicity\": \"MONTHLY\"\n    },\n    \"id\": \"store.subscription\",\n    \"purchaseDay\": \"15\",\n    \"validity\": {\n      \"begin\": \"2022-06-10T00:00:00\",\n      \"end\": \"2023-06-10T00:00:00\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"paymentMethod\": {\n      \"paymentSystem\": \"4\",\n      \"paymentAccountId\": \"340357032569595\",\n      \"installments\": 3\n    },\n    \"salesChannel\": \"1\"\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"8109266555005\",\n    \"addressType\": \"residential\"\n  },\n  \"title\": \"ullamco dolor irure\",\n  \"status\": \"sint ut eu\",\n  \"nextPurchaseDate\": \"1962-05-09T19:21:46.638Z\",\n  \"catalogAttachment\": \"fugiat laborum Ut sed\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -2379,7 +2379,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"createdAt\": \"1972-06-08T08:52:16.815Z\",\n  \"customerEmail\": \"pariatur exercitation sed deserunt\",\n  \"customerId\": \"Ut magna commodo\",\n  \"cycleCount\": 14770866,\n  \"id\": \"voluptate et\",\n  \"isSkipped\": false,\n  \"items\": [\n    {\n      \"id\": \"anim sit ipsum magna\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"nostrud proident\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"est sed sunt\"\n    },\n    {\n      \"id\": \"consequat ad et Duis\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"dolor adipisicing ullamco\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"mollit et laborum\"\n    }\n  ],\n  \"lastUpdate\": \"1967-09-14T21:04:18.588Z\",\n  \"nextPurchaseDate\": \"1989-11-05T18:59:57.917Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -71003986,\n      \"periodicity\": \"nisi\"\n    },\n    \"id\": \"laborum\",\n    \"purchaseDay\": 2,\n    \"validity\": {\n      \"begin\": \"2007-04-22T18:36:04.906Z\",\n      \"end\": \"1986-08-12T06:14:50.353Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"anim cupidatat dolor\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"incididunt culpa ex eiusmod\",\n      \"paymentAccountId\": \"magna enim in\",\n      \"installments\": 61136067\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"Excepteur quis exercitation incididunt\",\n    \"addressType\": \"reprehenderit cupidatat\"\n  },\n  \"status\": \"quis d\",\n  \"title\": \"occaecat in eu sunt\",\n  \"lastPurchaseDate\": \"1976-03-12T16:07:13.003Z\"\n}",
+              "body": "{\n  \"createdAt\": \"2019-07-11T21:36:30.704Z\",\n  \"customerEmail\": \"culpa reprehenderit\",\n  \"customerId\": \"culpa consectetur in cillum\",\n  \"cycleCount\": -29841928,\n  \"id\": \"aut\",\n  \"isSkipped\": true,\n  \"items\": [\n    {\n      \"id\": \"id et dolore\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"in ad \",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"ex cillum\"\n    },\n    {\n      \"id\": \"cupidatat esse Lorem\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"commodo ea est\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"nostrud est sed pro\"\n    }\n  ],\n  \"lastUpdate\": \"1958-12-11T04:58:51.021Z\",\n  \"nextPurchaseDate\": \"1989-07-14T23:46:58.633Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -17560982,\n      \"periodicity\": \"consequat dolor laboris\"\n    },\n    \"id\": \"labore esse\",\n    \"purchaseDay\": 28,\n    \"validity\": {\n      \"begin\": \"2012-04-09T03:35:26.464Z\",\n      \"end\": \"2019-11-12T11:11:01.297Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"ut cillum aliquip do\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"exercitation reprehenderit sunt consectetur\",\n      \"paymentAccountId\": \"anim exercitation ad\",\n      \"installments\": 77955129\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"ad consequat cillum eu pariatur\",\n    \"addressType\": \"cillum veniam ad id\"\n  },\n  \"status\": \"mollit adipisicing enim\",\n  \"title\": \"eu Duis officia et sed\",\n  \"lastPurchaseDate\": \"2009-11-05T11:51:59.609Z\"\n}",
               "cookie": []
             }
           ],
@@ -2387,7 +2387,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5d5a246e-97f8-448a-9b2d-15781ac5dff9",
+                "id": "5cf5f29a-9118-49dd-99b0-1b00b12159f7",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/rns/pub/subscriptions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2401,7 +2401,7 @@
           }
         },
         {
-          "id": "f95ca779-827a-412c-920b-32fc975aa412",
+          "id": "2ebf8a38-44a4-4759-bcbc-a8c0653bf824",
           "name": "Remove items from a subscription.",
           "request": {
             "name": "Remove items from a subscription.",
@@ -2431,7 +2431,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "id"
                 },
                 {
@@ -2441,7 +2441,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "itemId"
                 },
                 {
@@ -2471,7 +2471,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "24bc811f-27a8-41b5-9507-30135a4cb147",
+              "id": "31b5764f-5e32-4fc4-9c92-d4730736995a",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -2496,7 +2496,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "id"
                     },
                     {
@@ -2506,7 +2506,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "itemId"
                     },
                     {
@@ -2576,7 +2576,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "91d7a9af-b0de-42fb-bb06-30990569972c",
+                "id": "a597b478-55ea-4eda-bc73-f9de88866f3a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/rns/pub/subscriptions/:id/items/:itemId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2589,7 +2589,7 @@
           }
         },
         {
-          "id": "ee09297e-67a4-4590-894f-b7988db80961",
+          "id": "71f95e29-5cea-45fb-aeb8-67a36625738a",
           "name": "Edit items on a subscription.",
           "request": {
             "name": "Edit items on a subscription.",
@@ -2619,7 +2619,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "id"
                 },
                 {
@@ -2629,7 +2629,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "itemId"
                 },
                 {
@@ -2665,7 +2665,7 @@
             "method": "PATCH",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"status\": \"in Ut ea nulla\",\n  \"isSkipped\": false,\n  \"quantity\": 5,\n  \"manualPrice\": 40\n}",
+              "raw": "{\n  \"status\": \"enim quis Lorem dolore\",\n  \"isSkipped\": false,\n  \"quantity\": 5,\n  \"manualPrice\": 40\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -2678,7 +2678,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "eac9ebbf-ed1d-4dc6-a4c8-dacd35da112d",
+              "id": "04a3de8c-dd9b-4bc2-bc2b-8d45037eceae",
               "name": "Subscription updated",
               "originalRequest": {
                 "url": {
@@ -2703,7 +2703,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "id"
                     },
                     {
@@ -2713,7 +2713,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "itemId"
                     },
                     {
@@ -2771,7 +2771,7 @@
                 "method": "PATCH",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"status\": \"in Ut ea nulla\",\n  \"isSkipped\": false,\n  \"quantity\": 5,\n  \"manualPrice\": 40\n}",
+                  "raw": "{\n  \"status\": \"enim quis Lorem dolore\",\n  \"isSkipped\": false,\n  \"quantity\": 5,\n  \"manualPrice\": 40\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -2787,7 +2787,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"createdAt\": \"1972-06-08T08:52:16.815Z\",\n  \"customerEmail\": \"pariatur exercitation sed deserunt\",\n  \"customerId\": \"Ut magna commodo\",\n  \"cycleCount\": 14770866,\n  \"id\": \"voluptate et\",\n  \"isSkipped\": false,\n  \"items\": [\n    {\n      \"id\": \"anim sit ipsum magna\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"nostrud proident\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"est sed sunt\"\n    },\n    {\n      \"id\": \"consequat ad et Duis\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"dolor adipisicing ullamco\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"mollit et laborum\"\n    }\n  ],\n  \"lastUpdate\": \"1967-09-14T21:04:18.588Z\",\n  \"nextPurchaseDate\": \"1989-11-05T18:59:57.917Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -71003986,\n      \"periodicity\": \"nisi\"\n    },\n    \"id\": \"laborum\",\n    \"purchaseDay\": 2,\n    \"validity\": {\n      \"begin\": \"2007-04-22T18:36:04.906Z\",\n      \"end\": \"1986-08-12T06:14:50.353Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"anim cupidatat dolor\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"incididunt culpa ex eiusmod\",\n      \"paymentAccountId\": \"magna enim in\",\n      \"installments\": 61136067\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"Excepteur quis exercitation incididunt\",\n    \"addressType\": \"reprehenderit cupidatat\"\n  },\n  \"status\": \"quis d\",\n  \"title\": \"occaecat in eu sunt\",\n  \"lastPurchaseDate\": \"1976-03-12T16:07:13.003Z\"\n}",
+              "body": "{\n  \"createdAt\": \"2019-07-11T21:36:30.704Z\",\n  \"customerEmail\": \"culpa reprehenderit\",\n  \"customerId\": \"culpa consectetur in cillum\",\n  \"cycleCount\": -29841928,\n  \"id\": \"aut\",\n  \"isSkipped\": true,\n  \"items\": [\n    {\n      \"id\": \"id et dolore\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"in ad \",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"ex cillum\"\n    },\n    {\n      \"id\": \"cupidatat esse Lorem\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"commodo ea est\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"nostrud est sed pro\"\n    }\n  ],\n  \"lastUpdate\": \"1958-12-11T04:58:51.021Z\",\n  \"nextPurchaseDate\": \"1989-07-14T23:46:58.633Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -17560982,\n      \"periodicity\": \"consequat dolor laboris\"\n    },\n    \"id\": \"labore esse\",\n    \"purchaseDay\": 28,\n    \"validity\": {\n      \"begin\": \"2012-04-09T03:35:26.464Z\",\n      \"end\": \"2019-11-12T11:11:01.297Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"ut cillum aliquip do\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"exercitation reprehenderit sunt consectetur\",\n      \"paymentAccountId\": \"anim exercitation ad\",\n      \"installments\": 77955129\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"ad consequat cillum eu pariatur\",\n    \"addressType\": \"cillum veniam ad id\"\n  },\n  \"status\": \"mollit adipisicing enim\",\n  \"title\": \"eu Duis officia et sed\",\n  \"lastPurchaseDate\": \"2009-11-05T11:51:59.609Z\"\n}",
               "cookie": []
             }
           ],
@@ -2795,7 +2795,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "18deb669-b3ed-4e1d-a2a4-1a2dc3e22314",
+                "id": "e34532ba-e97e-4efa-a493-6367df20e59c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/rns/pub/subscriptions/:id/items/:itemId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2809,7 +2809,7 @@
           }
         },
         {
-          "id": "0b6ea555-000b-4b5e-b3b0-3409dc5fb9a6",
+          "id": "5289b9f6-1082-45e9-b41a-dbff485f63fe",
           "name": "Add item to subscription",
           "request": {
             "name": "Add item to subscription",
@@ -2838,7 +2838,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "id"
                 },
                 {
@@ -2887,7 +2887,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e8865c74-7e9e-4eb9-8ddd-4df77f3d1c55",
+              "id": "028f5fcc-099d-4ec1-b975-960b16960d28",
               "name": "Subscription successfully updated",
               "originalRequest": {
                 "url": {
@@ -2911,7 +2911,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "id"
                     },
                     {
@@ -2985,7 +2985,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"createdAt\": \"1972-06-08T08:52:16.815Z\",\n  \"customerEmail\": \"pariatur exercitation sed deserunt\",\n  \"customerId\": \"Ut magna commodo\",\n  \"cycleCount\": 14770866,\n  \"id\": \"voluptate et\",\n  \"isSkipped\": false,\n  \"items\": [\n    {\n      \"id\": \"anim sit ipsum magna\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"nostrud proident\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"est sed sunt\"\n    },\n    {\n      \"id\": \"consequat ad et Duis\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"dolor adipisicing ullamco\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"mollit et laborum\"\n    }\n  ],\n  \"lastUpdate\": \"1967-09-14T21:04:18.588Z\",\n  \"nextPurchaseDate\": \"1989-11-05T18:59:57.917Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -71003986,\n      \"periodicity\": \"nisi\"\n    },\n    \"id\": \"laborum\",\n    \"purchaseDay\": 2,\n    \"validity\": {\n      \"begin\": \"2007-04-22T18:36:04.906Z\",\n      \"end\": \"1986-08-12T06:14:50.353Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"anim cupidatat dolor\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"incididunt culpa ex eiusmod\",\n      \"paymentAccountId\": \"magna enim in\",\n      \"installments\": 61136067\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"Excepteur quis exercitation incididunt\",\n    \"addressType\": \"reprehenderit cupidatat\"\n  },\n  \"status\": \"quis d\",\n  \"title\": \"occaecat in eu sunt\",\n  \"lastPurchaseDate\": \"1976-03-12T16:07:13.003Z\"\n}",
+              "body": "{\n  \"createdAt\": \"2019-07-11T21:36:30.704Z\",\n  \"customerEmail\": \"culpa reprehenderit\",\n  \"customerId\": \"culpa consectetur in cillum\",\n  \"cycleCount\": -29841928,\n  \"id\": \"aut\",\n  \"isSkipped\": true,\n  \"items\": [\n    {\n      \"id\": \"id et dolore\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"in ad \",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"ex cillum\"\n    },\n    {\n      \"id\": \"cupidatat esse Lorem\",\n      \"isSkipped\": true,\n      \"quantity\": 5,\n      \"skuId\": \"12\",\n      \"status\": \"commodo ea est\",\n      \"manualPrice\": 40,\n      \"originalOrderId\": \"nostrud est sed pro\"\n    }\n  ],\n  \"lastUpdate\": \"1958-12-11T04:58:51.021Z\",\n  \"nextPurchaseDate\": \"1989-07-14T23:46:58.633Z\",\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": -17560982,\n      \"periodicity\": \"consequat dolor laboris\"\n    },\n    \"id\": \"labore esse\",\n    \"purchaseDay\": 28,\n    \"validity\": {\n      \"begin\": \"2012-04-09T03:35:26.464Z\",\n      \"end\": \"2019-11-12T11:11:01.297Z\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"currencyCode\": \"ut cillum aliquip do\",\n    \"paymentMethod\": {\n      \"paymentSystem\": \"exercitation reprehenderit sunt consectetur\",\n      \"paymentAccountId\": \"anim exercitation ad\",\n      \"installments\": 77955129\n    }\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"ad consequat cillum eu pariatur\",\n    \"addressType\": \"cillum veniam ad id\"\n  },\n  \"status\": \"mollit adipisicing enim\",\n  \"title\": \"eu Duis officia et sed\",\n  \"lastPurchaseDate\": \"2009-11-05T11:51:59.609Z\"\n}",
               "cookie": []
             }
           ],
@@ -2993,7 +2993,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "775f457b-2d64-4980-be8c-6f63e0f90cb2",
+                "id": "042dee66-fe6c-4641-8c2d-bd954becfe2a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/rns/pub/subscriptions/:id/items - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3007,7 +3007,7 @@
           }
         },
         {
-          "id": "ff9269c0-ff75-4d73-8ae9-289d450b1247",
+          "id": "309c1a24-4b1b-4d8e-b9ad-d28efece9bcd",
           "name": "Calculate the current prices for a specific subscription",
           "request": {
             "name": "Calculate the current prices for a specific subscription",
@@ -3036,7 +3036,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "sunt occaecat",
+                  "value": "Lorem velit magna dolor",
                   "key": "id"
                 },
                 {
@@ -3072,7 +3072,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "28f54277-b33b-46b0-885e-295f9e4bb9b0",
+              "id": "e6d105b1-79aa-4dc1-a9dc-51fe65ba4c41",
               "name": "Simulation result",
               "originalRequest": {
                 "url": {
@@ -3096,7 +3096,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "sunt occaecat",
+                      "value": "Lorem velit magna dolor",
                       "key": "id"
                     },
                     {
@@ -3162,7 +3162,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"simulateResponse\": {\n    \"items\": [\n      {\n        \"id\": \"veniam aute\",\n        \"seller\": \"nostrud magna reprehenderit\",\n        \"quantity\": 5,\n        \"price\": 74479163,\n        \"sellingPrice\": 25111208,\n        \"unitMultiplier\": 9253069.860126168,\n        \"attachments\": [\n          {\n            \"name\": \"aliqua in adipisicing ut non\",\n            \"content\": {\n              \"ut_4\": \"est exercitation Ut ullamco quis\",\n              \"irure_2\": \"Duis\"\n            }\n          },\n          {\n            \"name\": \"magna\",\n            \"content\": {\n              \"deserunt4\": \"anim in laboris adipisicing officia\",\n              \"laboref\": \"ullamco voluptate in dolore\"\n            }\n          }\n        ],\n        \"name\": \"pariatur sunt amet\",\n        \"isGift\": true,\n        \"priceTags\": [\n          {\n            \"name\": \"eiusmod id ullamco mollit consectetur\",\n            \"valueAsInt\": -41094891,\n            \"rawValue\": 52741820.54666597,\n            \"isPercentual\": false,\n            \"identifier\": \"ullamco culpa\"\n          },\n          {\n            \"name\": \"ut sed\",\n            \"valueAsInt\": -69323066,\n            \"rawValue\": -52141600.0068323,\n            \"isPercentual\": false,\n            \"identifier\": \"officia sunt Exc\"\n          }\n        ]\n      },\n      {\n        \"id\": \"dolor enim dolore consequat\",\n        \"seller\": \"sed in dolor officia\",\n        \"quantity\": 5,\n        \"price\": 86670862,\n        \"sellingPrice\": 72566063,\n        \"unitMultiplier\": 65691618.57518685,\n        \"attachments\": [\n          {\n            \"name\": \"nisi in eu non\",\n            \"content\": {\n              \"ametee\": \"qui\",\n              \"dolor09b\": \"quis id voluptate\"\n            }\n          },\n          {\n            \"name\": \"exercitation enim anim dolor\",\n            \"content\": {\n              \"dolore\": \"nostrud in\",\n              \"Ut_be\": \"reprehenderit Excepteur ea incididunt et\"\n            }\n          }\n        ],\n        \"name\": \"nulla\",\n        \"isGift\": false,\n        \"priceTags\": [\n          {\n            \"name\": \"e\",\n            \"valueAsInt\": 17406380,\n            \"rawValue\": -75326688.31229344,\n            \"isPercentual\": false,\n            \"identifier\": \"ullamco consequat esse dolore\"\n          },\n          {\n            \"name\": \"culpa ullamco occ\",\n            \"valueAsInt\": -40648477,\n            \"rawValue\": 6597035.104273051,\n            \"isPercentual\": false,\n            \"identifier\": \"sint reprehe\"\n          }\n        ]\n      }\n    ],\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": 90351160,\n        \"quantity\": 5,\n        \"selectedSla\": \"labore qui anim \",\n        \"selectedDeliveryChannel\": \"ut\",\n        \"lockTtl\": \"sint cupidatat dolor consequat\",\n        \"shippingEstimate\": \"do Ut amet\",\n        \"addressId\": \"anim dolor ut proident\",\n        \"pickupId\": \"nulla enim ea\",\n        \"price\": -45748188,\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2018-05-26T14:09:20.675Z\",\n          \"endDateUtc\": \"1989-08-01T18:42:23.416Z\",\n          \"price\": -60672666\n        },\n        \"slAs\": [\n          {\n            \"id\": \"quis cupidatat commodo\",\n            \"pickupPointId\": \"sint ut mollit\",\n            \"deliveryChannel\": \"cillum consectetur incididunt ut\",\n            \"price\": -94330319,\n            \"shippingEstimate\": \"esse \",\n            \"lockTtl\": \"est\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1974-10-10T19:46:19.367Z\",\n                \"endDateUtc\": \"1979-11-03T06:37:20.163Z\",\n                \"price\": 66492225\n              },\n              {\n                \"startDateUtc\": \"2009-12-19T06:24:02.287Z\",\n                \"endDateUtc\": \"2007-01-04T06:30:58.960Z\",\n                \"price\": -63576207\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"2005-03-29T10:42:53.544Z\",\n                \"endDateUtc\": \"2018-12-04T10:09:29.688Z\",\n                \"price\": 75816175\n              },\n              {\n                \"startDateUtc\": \"1998-08-05T15:02:12.499Z\",\n                \"endDateUtc\": \"1972-09-05T17:33:06.174Z\",\n                \"price\": 91913621\n              }\n            ]\n          },\n          {\n            \"id\": \"dolor proident exercitation\",\n            \"pickupPointId\": \"laborum non commodo sint\",\n            \"deliveryChannel\": \"Lorem nisi\",\n            \"price\": -69048198,\n            \"shippingEstimate\": \"aute\",\n            \"lockTtl\": \"esse commodo\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1962-03-13T05:35:11.291Z\",\n                \"endDateUtc\": \"1980-04-06T19:28:22.996Z\",\n                \"price\": 7670147\n              },\n              {\n                \"startDateUtc\": \"1943-06-07T10:48:36.930Z\",\n                \"endDateUtc\": \"2004-10-18T03:47:12.616Z\",\n                \"price\": 90977074\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1995-10-01T03:40:23.693Z\",\n                \"endDateUtc\": \"1995-08-26T09:12:39.839Z\",\n                \"price\": 39859554\n              },\n              {\n                \"startDateUtc\": \"1996-09-30T11:02:15.721Z\",\n                \"endDateUtc\": \"1947-04-07T19:16:18.574Z\",\n                \"price\": 82383521\n              }\n            ]\n          }\n        ]\n      },\n      {\n        \"itemIndex\": -66123155,\n        \"quantity\": 5,\n        \"selectedSla\": \"incididunt nulla ut sint\",\n        \"selectedDeliveryChannel\": \"est\",\n        \"lockTtl\": \"Ut velit\",\n        \"shippingEstimate\": \"id fugiat\",\n        \"addressId\": \"sun\",\n        \"pickupId\": \"do in\",\n        \"price\": 82753122,\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"1990-09-05T19:15:19.773Z\",\n          \"endDateUtc\": \"2022-02-18T11:06:44.485Z\",\n          \"price\": -23040843\n        },\n        \"slAs\": [\n          {\n            \"id\": \"in officia\",\n            \"pickupPointId\": \"magna incididunt\",\n            \"deliveryChannel\": \"sed\",\n            \"price\": 99738154,\n            \"shippingEstimate\": \"in ut occaecat\",\n            \"lockTtl\": \"id in cupidat\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1984-05-27T21:07:47.290Z\",\n                \"endDateUtc\": \"2017-10-19T20:17:02.553Z\",\n                \"price\": 14346611\n              },\n              {\n                \"startDateUtc\": \"2008-04-13T08:11:27.303Z\",\n                \"endDateUtc\": \"2002-11-16T16:58:33.798Z\",\n                \"price\": -69727223\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1958-07-05T06:27:00.331Z\",\n                \"endDateUtc\": \"1969-11-23T06:50:38.850Z\",\n                \"price\": -20944181\n              },\n              {\n                \"startDateUtc\": \"2023-01-13T14:30:15.811Z\",\n                \"endDateUtc\": \"1956-08-18T04:54:30.233Z\",\n                \"price\": 4133148\n              }\n            ]\n          },\n          {\n            \"id\": \"pariatur in\",\n            \"pickupPointId\": \"reprehender\",\n            \"deliveryChannel\": \"sed\",\n            \"price\": -20242902,\n            \"shippingEstimate\": \"officia ut\",\n            \"lockTtl\": \"quis et anim\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1959-03-13T12:20:23.611Z\",\n                \"endDateUtc\": \"1992-02-14T03:10:45.048Z\",\n                \"price\": -82172929\n              },\n              {\n                \"startDateUtc\": \"1957-12-07T16:21:03.787Z\",\n                \"endDateUtc\": \"1944-10-17T07:16:31.193Z\",\n                \"price\": 86256322\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1958-12-18T13:42:58.211Z\",\n                \"endDateUtc\": \"2011-05-11T15:40:58.609Z\",\n                \"price\": -69853495\n              },\n              {\n                \"startDateUtc\": \"2008-06-20T23:36:15.390Z\",\n                \"endDateUtc\": \"1969-10-07T11:47:59.742Z\",\n                \"price\": 92974135\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"paymentData\": {\n      \"payments\": [\n        {\n          \"id\": \"minim ut Duis\",\n          \"paymentSystem\": \"aliquip par\",\n          \"group\": \"officia Lorem occaecat commodo proident\",\n          \"bin\": \"quis sunt ullamco\",\n          \"accountId\": \"Ut do dolor laboris\",\n          \"parentAccountId\": \"ut ut ex\",\n          \"referenceValue\": 75719327,\n          \"value\": 35478740,\n          \"installments\": -46819631,\n          \"url\": \"dolore\",\n          \"cardNumber\": \"eu fugiat\",\n          \"fields\": [\n            {\n              \"name\": \"sunt dolore ut\",\n              \"value\": \"est\"\n            },\n            {\n              \"name\": \"non nostrud mollit Excepteur\",\n              \"value\": \"deser\"\n            }\n          ]\n        },\n        {\n          \"id\": \"laboris anim deserunt proident non\",\n          \"paymentSystem\": \"ipsum et sint\",\n          \"group\": \"reprehenderit ullamco aliqua sint ea\",\n          \"bin\": \"laborum sit pariatur anim\",\n          \"accountId\": \"dolor minim i\",\n          \"parentAccountId\": \"sed\",\n          \"referenceValue\": -72336616,\n          \"value\": -29912542,\n          \"installments\": 18774823,\n          \"url\": \"tempor et\",\n          \"cardNumber\": \"ut vol\",\n          \"fields\": [\n            {\n              \"name\": \"Lorem qui\",\n              \"value\": \"qui aute in\"\n            },\n            {\n              \"name\": \"anim\",\n              \"value\": \"occaecat voluptate\"\n            }\n          ]\n        }\n      ],\n      \"transactions\": [\n        {\n          \"isActive\": true,\n          \"payments\": [\n            {\n              \"id\": \"nisi ullamco reprehenderit magna\",\n              \"paymentSystem\": \"occaecat laborum in dolor adipisicing\",\n              \"group\": \"sint aute dolor enim ad\",\n              \"bin\": \"deseru\",\n              \"accountId\": \"magn\",\n              \"parentAccountId\": \"Excepteur\",\n              \"referenceValue\": 6625239,\n              \"value\": -13522362,\n              \"installments\": 76269841,\n              \"url\": \"irure eu\",\n              \"cardNumber\": \"proiden\",\n              \"fields\": [\n                {\n                  \"name\": \"reprehenderit aliquip id ut\",\n                  \"value\": \"velit nulla commodo\"\n                },\n                {\n                  \"name\": \"occaecat pariatur consequat\",\n                  \"value\": \"sed pariatur commodo\"\n                }\n              ]\n            },\n            {\n              \"id\": \"do est veniam\",\n              \"paymentSystem\": \"fugiat minim Excepteur ullamco\",\n              \"group\": \"dolore s\",\n              \"bin\": \"in sint nisi\",\n              \"accountId\": \"minim dolor elit pariatur\",\n              \"parentAccountId\": \"minim ut \",\n              \"referenceValue\": 58413980,\n              \"value\": 62322815,\n              \"installments\": -50271980,\n              \"url\": \"dolore in in\",\n              \"cardNumber\": \"veniam laborum\",\n              \"fields\": [\n                {\n                  \"name\": \"aliqua ut laboris anim culpa\",\n                  \"value\": \"\"\n                },\n                {\n                  \"name\": \"id pariatur veniam\",\n                  \"value\": \"Excepteur\"\n                }\n              ]\n            }\n          ]\n        },\n        {\n          \"isActive\": false,\n          \"payments\": [\n            {\n              \"id\": \"et\",\n              \"paymentSystem\": \"adipisicing esse ad\",\n              \"group\": \"consectetur\",\n              \"bin\": \"eiusmod voluptate\",\n              \"accountId\": \"magna aute incididunt\",\n              \"parentAccountId\": \"irure Excepteur dolore sunt\",\n              \"referenceValue\": 75927962,\n              \"value\": 19300574,\n              \"installments\": 21268322,\n              \"url\": \"ullamco irure\",\n              \"cardNumber\": \"ipsum et\",\n              \"fields\": [\n                {\n                  \"name\": \"minim consequat deserunt in\",\n                  \"value\": \"labore\"\n                },\n                {\n                  \"name\": \"labore minim reprehenderit\",\n                  \"value\": \"adipisicing\"\n                }\n              ]\n            },\n            {\n              \"id\": \"in ullamco minim cupidatat mollit\",\n              \"paymentSystem\": \"qui cillum deserunt\",\n              \"group\": \"nostrud incididunt adipisicing cupidatat sed\",\n              \"bin\": \"Lorem quis sed pariatur\",\n              \"accountId\": \"aute mollit non eu\",\n              \"parentAccountId\": \"reprehenderit velit fugiat\",\n              \"referenceValue\": 29665336,\n              \"value\": -99189901,\n              \"installments\": 22190485,\n              \"url\": \"ex i\",\n              \"cardNumber\": \"elit sed exercitation eu\",\n              \"fields\": [\n                {\n                  \"name\": \"sint ea id\",\n                  \"value\": \"officia ad enim\"\n                },\n                {\n                  \"name\": \"do\",\n                  \"value\": \"consectetur consequat exercitation\"\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    },\n    \"country\": \"dolor\",\n    \"postalCode\": \"reprehenderit mollit fugiat incididunt eu\",\n    \"messages\": [\n      {\n        \"code\": \"sunt laboris c\",\n        \"status\": \"consequat occaecat\",\n        \"text\": \"cillum labore nulla eu qui\"\n      },\n      {\n        \"code\": \"nulla exercitation sed ut\",\n        \"status\": \"Duis\",\n        \"text\": \"occaecat culpa dolore\"\n      }\n    ],\n    \"selectableGiftsResponse\": [\n      {\n        \"id\": \"voluptate tempor\",\n        \"availableQuantity\": 11692444,\n        \"availableGifts\": [\n          {\n            \"id\": \"dolor\",\n            \"seller\": \"nulla aliquip reprehenderit qui\",\n            \"quantity\": 5,\n            \"price\": -69786342,\n            \"sellingPrice\": -17349730,\n            \"unitMultiplier\": 93764180.2793375,\n            \"attachments\": [\n              {\n                \"name\": \"sed anim amet ad pr\",\n                \"content\": {\n                  \"aliquipd0\": \"magna voluptate\"\n                }\n              },\n              {\n                \"name\": \"cillum\",\n                \"content\": {\n                  \"consequat5b3\": \"eiusmod velit\",\n                  \"Ut_75\": \"Ut pariatur\",\n                  \"velit_863\": \"commodo qui Lorem amet\",\n                  \"cillum8\": \"Ut velit et\"\n                }\n              }\n            ],\n            \"name\": \"consectetur\",\n            \"isGift\": false,\n            \"priceTags\": [\n              {\n                \"name\": \"deserunt elit aute\",\n                \"valueAsInt\": 65459257,\n                \"rawValue\": 70362244.62403277,\n                \"isPercentual\": true,\n                \"identifier\": \"in eu\"\n              },\n              {\n                \"name\": \"commodo in incididunt\",\n                \"valueAsInt\": -69550724,\n                \"rawValue\": 98914053.48354897,\n                \"isPercentual\": false,\n                \"identifier\": \"deserunt\"\n              }\n            ],\n            \"isSelected\": true\n          },\n          {\n            \"id\": \"ex id anim occaecat\",\n            \"seller\": \"nostrud anim\",\n            \"quantity\": 5,\n            \"price\": 5112877,\n            \"sellingPrice\": -66518608,\n            \"unitMultiplier\": -53726107.251957566,\n            \"attachments\": [\n              {\n                \"name\": \"laboris incididunt ut\",\n                \"content\": {\n                  \"aute_e4c\": \"pariatur ad eu\"\n                }\n              },\n              {\n                \"name\": \"et amet\",\n                \"content\": {\n                  \"incididuntd\": \"laborum laboris\",\n                  \"Ut08a\": \"velit\"\n                }\n              }\n            ],\n            \"name\": \"fugiat cupidatat\",\n            \"isGift\": false,\n            \"priceTags\": [\n              {\n                \"name\": \"cillum\",\n                \"valueAsInt\": 78159360,\n                \"rawValue\": -75778929.23429692,\n                \"isPercentual\": true,\n                \"identifier\": \"officia fugiat tempor ut\"\n              },\n              {\n                \"name\": \"enim consectetur proident ut\",\n                \"valueAsInt\": 86250556,\n                \"rawValue\": -86008841.69106737,\n                \"isPercentual\": true,\n                \"identifier\": \"nisi cillum reprehenderit incidid\"\n              }\n            ],\n            \"isSelected\": true\n          }\n        ]\n      },\n      {\n        \"id\": \"commodo in\",\n        \"availableQuantity\": 11453735,\n        \"availableGifts\": [\n          {\n            \"id\": \"et ipsum\",\n            \"seller\": \"velit\",\n            \"quantity\": 5,\n            \"price\": -72836580,\n            \"sellingPrice\": 97835119,\n            \"unitMultiplier\": 98222431.49421194,\n            \"attachments\": [\n              {\n                \"name\": \"dolor dolore\",\n                \"content\": {\n                  \"et179\": \"id sunt pariatur\"\n                }\n              },\n              {\n                \"name\": \"et\",\n                \"content\": {\n                  \"dolor_3\": \"quis sed pariatur fugiat\",\n                  \"tempore63\": \"ut ipsum et\"\n                }\n              }\n            ],\n            \"name\": \"Duis\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"sit veniam ut id\",\n                \"valueAsInt\": -63863498,\n                \"rawValue\": -24161358.779995725,\n                \"isPercentual\": false,\n                \"identifier\": \"aliqua irure quis\"\n              },\n              {\n                \"name\": \"in quis in\",\n                \"valueAsInt\": 50141351,\n                \"rawValue\": -84424028.03109168,\n                \"isPercentual\": true,\n                \"identifier\": \"consectetur officia sunt irure deserunt\"\n              }\n            ],\n            \"isSelected\": true\n          },\n          {\n            \"id\": \"esse dolore in\",\n            \"seller\": \"officia dolor\",\n            \"quantity\": 5,\n            \"price\": 79501012,\n            \"sellingPrice\": -91460304,\n            \"unitMultiplier\": -25614853.900281355,\n            \"attachments\": [\n              {\n                \"name\": \"in voluptate sunt\",\n                \"content\": {\n                  \"nulla_644\": \"voluptate irure\"\n                }\n              },\n              {\n                \"name\": \"deserunt ex consectetur\",\n                \"content\": {\n                  \"in69d\": \"pariatur laborum\",\n                  \"Duis__c\": \"nisi ut ut pariatur\"\n                }\n              }\n            ],\n            \"name\": \"in ut ex nis\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"adipisicing nulla\",\n                \"valueAsInt\": 33388372,\n                \"rawValue\": -23076088.146497577,\n                \"isPercentual\": true,\n                \"identifier\": \"quis pariatur ea voluptate\"\n              },\n              {\n                \"name\": \"enim incididunt minim proident\",\n                \"valueAsInt\": 92592463,\n                \"rawValue\": -88360603.71899888,\n                \"isPercentual\": false,\n                \"identifier\": \"mollit in pariatur\"\n              }\n            ],\n            \"isSelected\": true\n          }\n        ]\n      }\n    ],\n    \"totals\": [\n      {\n        \"id\": \"tempor occaecat\",\n        \"name\": \"pariatur sit ex\",\n        \"valueAsInt\": -86602725\n      },\n      {\n        \"id\": \"dolor labore incididunt quis amet\",\n        \"name\": \"sed laborum cillum Excepteur mollit\",\n        \"valueAsInt\": -51993136\n      }\n    ],\n    \"simulationItems\": [\n      {\n        \"id\": \"anim adipisicing cillum nulla\",\n        \"quantity\": 5,\n        \"unitPrice\": -37744166,\n        \"status\": 1,\n        \"statusName\": \"magna fugiat\"\n      },\n      {\n        \"id\": \"cillum Lorem nostru\",\n        \"quantity\": 5,\n        \"unitPrice\": 13466246,\n        \"status\": 1,\n        \"statusName\": \"voluptate non eu reprehenderit irure\"\n      }\n    ]\n  },\n  \"shippingEstimate\": {\n    \"name\": \"Duis fugiat ad\",\n    \"estimate\": \"laborum irure ut non\",\n    \"estimateDeliveryDate\": \"2020-11-27T03:06:56.381Z\",\n    \"nextPurchaseDate\": \"1956-03-03T23:26:40.773Z\",\n    \"allItemsMatched\": true\n  },\n  \"simulationItems\": [\n    {\n      \"id\": \"ad adipisicing qui consectetur\",\n      \"quantity\": 5,\n      \"unitPrice\": 57498310,\n      \"status\": 2,\n      \"statusName\": \"dolore amet quis ad\"\n    },\n    {\n      \"id\": \"adipisicing eu laborum\",\n      \"quantity\": 5,\n      \"unitPrice\": 6790119,\n      \"status\": 3,\n      \"statusName\": \"dolor\"\n    }\n  ],\n  \"totals\": [\n    {\n      \"id\": \"sunt cupidatat Ut sint\",\n      \"value\": 58659859.913844645\n    },\n    {\n      \"id\": \"reprehenderit tempor exercitati\",\n      \"value\": -84126071.01882891\n    }\n  ]\n}",
+              "body": "{\n  \"simulateResponse\": {\n    \"items\": [\n      {\n        \"id\": \"irure dolore sit ullamc\",\n        \"seller\": \"aliquip\",\n        \"quantity\": 5,\n        \"price\": -75568897,\n        \"sellingPrice\": -2163981,\n        \"unitMultiplier\": -69210304.47248869,\n        \"attachments\": [\n          {\n            \"name\": \"esse et labore Lorem\",\n            \"content\": {\n              \"in_a\": \"esse in occaecat\"\n            }\n          },\n          {\n            \"name\": \"do officia quis Duis\",\n            \"content\": {\n              \"laboruma\": \"in id consequat ut\",\n              \"fugiatb79\": \"ullamco aute incididunt\",\n              \"commodo_b51\": \"qui in\"\n            }\n          }\n        ],\n        \"name\": \"esse labore Lorem deserunt veniam\",\n        \"isGift\": true,\n        \"priceTags\": [\n          {\n            \"name\": \"quis commodo dolo\",\n            \"valueAsInt\": 25732278,\n            \"rawValue\": 82728355.25194377,\n            \"isPercentual\": false,\n            \"identifier\": \"qui al\"\n          },\n          {\n            \"name\": \"mollit ex culpa in\",\n            \"valueAsInt\": 74476355,\n            \"rawValue\": -98323760.60225844,\n            \"isPercentual\": true,\n            \"identifier\": \"qui aliquip eiusmod\"\n          }\n        ]\n      },\n      {\n        \"id\": \"nostrud pariatur sunt\",\n        \"seller\": \"ad deserunt fugiat\",\n        \"quantity\": 5,\n        \"price\": -53158784,\n        \"sellingPrice\": -22353747,\n        \"unitMultiplier\": -14659889.235315189,\n        \"attachments\": [\n          {\n            \"name\": \"in dolor cupidatat quis\",\n            \"content\": {\n              \"culpac\": \"ullamco aliqua\",\n              \"ad_5c\": \"laboris Lorem et nostrud\"\n            }\n          },\n          {\n            \"name\": \"anim ea\",\n            \"content\": {\n              \"deserunt_2\": \"consequat in\",\n              \"enim97a\": \"aliquip dolor dolore\"\n            }\n          }\n        ],\n        \"name\": \"tempor dolore minim\",\n        \"isGift\": false,\n        \"priceTags\": [\n          {\n            \"name\": \"laboris est\",\n            \"valueAsInt\": 73342132,\n            \"rawValue\": 45905591.40483114,\n            \"isPercentual\": false,\n            \"identifier\": \"do sunt Lorem ut\"\n          },\n          {\n            \"name\": \"occaecat irure\",\n            \"valueAsInt\": 24126679,\n            \"rawValue\": 89390072.0519326,\n            \"isPercentual\": true,\n            \"identifier\": \"amet ullamco sed dolor\"\n          }\n        ]\n      }\n    ],\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": -80106357,\n        \"quantity\": 5,\n        \"selectedSla\": \"velit\",\n        \"selectedDeliveryChannel\": \"ullamco tempor\",\n        \"lockTtl\": \"enim officia et voluptate\",\n        \"shippingEstimate\": \"ad quis sit deserunt tempor\",\n        \"addressId\": \"sit et amet pariatur\",\n        \"pickupId\": \"consectetur eu est Ut et\",\n        \"price\": 76653557,\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"1985-10-25T08:37:07.658Z\",\n          \"endDateUtc\": \"1966-10-10T11:22:10.290Z\",\n          \"price\": -8618659\n        },\n        \"slAs\": [\n          {\n            \"id\": \"non do ullamco est\",\n            \"pickupPointId\": \"consequat\",\n            \"deliveryChannel\": \"commodo incididunt sin\",\n            \"price\": 58409983,\n            \"shippingEstimate\": \"id Excepteur\",\n            \"lockTtl\": \"dolore quis incididunt\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1986-12-31T04:51:23.117Z\",\n                \"endDateUtc\": \"2015-12-08T20:35:57.832Z\",\n                \"price\": 32897345\n              },\n              {\n                \"startDateUtc\": \"1986-01-22T15:15:45.345Z\",\n                \"endDateUtc\": \"1989-07-04T10:57:13.822Z\",\n                \"price\": -11455907\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1984-03-14T05:03:19.903Z\",\n                \"endDateUtc\": \"1989-11-18T05:07:52.106Z\",\n                \"price\": -31895108\n              },\n              {\n                \"startDateUtc\": \"1961-02-12T10:10:24.752Z\",\n                \"endDateUtc\": \"1956-04-25T22:36:34.834Z\",\n                \"price\": -24294851\n              }\n            ]\n          },\n          {\n            \"id\": \"aliquip laborum\",\n            \"pickupPointId\": \"fugiat do\",\n            \"deliveryChannel\": \"laborum\",\n            \"price\": 18087261,\n            \"shippingEstimate\": \"anim labore\",\n            \"lockTtl\": \"cillum\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1961-05-29T16:05:56.776Z\",\n                \"endDateUtc\": \"2007-03-30T02:27:29.195Z\",\n                \"price\": -29231696\n              },\n              {\n                \"startDateUtc\": \"1998-03-04T13:43:29.343Z\",\n                \"endDateUtc\": \"1989-09-26T21:26:46.522Z\",\n                \"price\": -55374335\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1989-05-18T03:47:17.398Z\",\n                \"endDateUtc\": \"2019-11-02T02:02:08.887Z\",\n                \"price\": 51713332\n              },\n              {\n                \"startDateUtc\": \"2015-11-01T12:27:28.629Z\",\n                \"endDateUtc\": \"2000-03-03T01:49:39.236Z\",\n                \"price\": -79426820\n              }\n            ]\n          }\n        ]\n      },\n      {\n        \"itemIndex\": 13589205,\n        \"quantity\": 5,\n        \"selectedSla\": \"qui do dolore fugiat dolor\",\n        \"selectedDeliveryChannel\": \"in et esse id\",\n        \"lockTtl\": \"cillum dolore nulla qui laboris\",\n        \"shippingEstimate\": \"qui deserunt pariatur ad\",\n        \"addressId\": \"cillum proident reprehenderit in in\",\n        \"pickupId\": \"labore nulla\",\n        \"price\": -1935586,\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2015-08-26T16:55:08.260Z\",\n          \"endDateUtc\": \"2008-05-20T06:18:40.090Z\",\n          \"price\": -2485512\n        },\n        \"slAs\": [\n          {\n            \"id\": \"nulla do Excepteur magna\",\n            \"pickupPointId\": \"occaecat veniam quis consectetur magna\",\n            \"deliveryChannel\": \"velit ipsum\",\n            \"price\": -41461179,\n            \"shippingEstimate\": \"in laboris\",\n            \"lockTtl\": \"reprehenderit cupidatat Duis sed\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1995-05-15T18:56:14.024Z\",\n                \"endDateUtc\": \"1965-01-12T05:43:52.853Z\",\n                \"price\": 75099747\n              },\n              {\n                \"startDateUtc\": \"1994-05-15T19:00:39.279Z\",\n                \"endDateUtc\": \"2016-03-24T04:57:07.229Z\",\n                \"price\": -40634623\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"2000-06-20T16:51:25.337Z\",\n                \"endDateUtc\": \"1996-02-11T08:57:55.709Z\",\n                \"price\": -65104070\n              },\n              {\n                \"startDateUtc\": \"1990-06-21T08:59:27.026Z\",\n                \"endDateUtc\": \"1987-09-07T22:40:56.810Z\",\n                \"price\": 94896785\n              }\n            ]\n          },\n          {\n            \"id\": \"adipisicing sunt dolore laborum\",\n            \"pickupPointId\": \"ad sunt\",\n            \"deliveryChannel\": \"sunt enim n\",\n            \"price\": 54297935,\n            \"shippingEstimate\": \"amet aliqua anim officia\",\n            \"lockTtl\": \"do\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1947-02-09T06:54:27.051Z\",\n                \"endDateUtc\": \"1989-01-26T05:14:19.727Z\",\n                \"price\": -21069260\n              },\n              {\n                \"startDateUtc\": \"2009-09-08T18:43:38.807Z\",\n                \"endDateUtc\": \"2006-03-14T04:12:48.644Z\",\n                \"price\": -50308845\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1979-04-17T02:50:08.985Z\",\n                \"endDateUtc\": \"1983-03-24T02:47:51.944Z\",\n                \"price\": 11994839\n              },\n              {\n                \"startDateUtc\": \"1999-06-27T06:26:20.293Z\",\n                \"endDateUtc\": \"1991-05-01T14:14:25.520Z\",\n                \"price\": 58338529\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"paymentData\": {\n      \"payments\": [\n        {\n          \"id\": \"commodo irure exercitation\",\n          \"paymentSystem\": \"laborum amet voluptate\",\n          \"group\": \"consequat ut sed in\",\n          \"bin\": \"id laboris sunt do sed\",\n          \"accountId\": \"ut elit voluptate\",\n          \"parentAccountId\": \"fug\",\n          \"referenceValue\": 8974052,\n          \"value\": 19582117,\n          \"installments\": 52718415,\n          \"url\": \"cillum minim fugiat\",\n          \"cardNumber\": \"laborum laboris deserunt eu\",\n          \"fields\": [\n            {\n              \"name\": \"Duis proident\",\n              \"value\": \"esse dolore anim\"\n            },\n            {\n              \"name\": \"magna cillum\",\n              \"value\": \"ullamco proident nostrud incididunt in\"\n            }\n          ]\n        },\n        {\n          \"id\": \"enim eu consectetur in\",\n          \"paymentSystem\": \"qui\",\n          \"group\": \"id nisi ut\",\n          \"bin\": \"laborum velit nisi Lorem\",\n          \"accountId\": \"ut i\",\n          \"parentAccountId\": \"esse\",\n          \"referenceValue\": -21354887,\n          \"value\": 30994126,\n          \"installments\": 27085227,\n          \"url\": \"ex et cupidatat\",\n          \"cardNumber\": \"exercitation nostrud\",\n          \"fields\": [\n            {\n              \"name\": \"sed est dolor\",\n              \"value\": \"sint laboris elit\"\n            },\n            {\n              \"name\": \"sunt\",\n              \"value\": \"elit eiusmod\"\n            }\n          ]\n        }\n      ],\n      \"transactions\": [\n        {\n          \"isActive\": true,\n          \"payments\": [\n            {\n              \"id\": \"et Duis velit aliquip\",\n              \"paymentSystem\": \"dolore magna esse\",\n              \"group\": \"voluptate in ipsum\",\n              \"bin\": \"in nisi\",\n              \"accountId\": \"voluptate anim elit\",\n              \"parentAccountId\": \"in culpa incididunt esse\",\n              \"referenceValue\": -66985258,\n              \"value\": 11595573,\n              \"installments\": 49476612,\n              \"url\": \"ame\",\n              \"cardNumber\": \"aliquip in et irure\",\n              \"fields\": [\n                {\n                  \"name\": \"veniam ullamco\",\n                  \"value\": \"enim minim id magna\"\n                },\n                {\n                  \"name\": \"ut aute dolor\",\n                  \"value\": \"magna ea eiusmod irure\"\n                }\n              ]\n            },\n            {\n              \"id\": \"Ut deserunt\",\n              \"paymentSystem\": \"esse\",\n              \"group\": \"consequat ea anim\",\n              \"bin\": \"sunt laborum irure\",\n              \"accountId\": \"in sint ea\",\n              \"parentAccountId\": \"aute culpa in\",\n              \"referenceValue\": -21026346,\n              \"value\": -86414245,\n              \"installments\": -86765349,\n              \"url\": \"deserunt incididunt ex\",\n              \"cardNumber\": \"nulla dolor eiusmod\",\n              \"fields\": [\n                {\n                  \"name\": \"commodo proident occaecat\",\n                  \"value\": \"ad nisi eiusmod\"\n                },\n                {\n                  \"name\": \"anim officia incididunt dolor mollit\",\n                  \"value\": \"aute\"\n                }\n              ]\n            }\n          ]\n        },\n        {\n          \"isActive\": false,\n          \"payments\": [\n            {\n              \"id\": \"sed aute\",\n              \"paymentSystem\": \"anim id ea mollit\",\n              \"group\": \"laboris id ipsum deserunt\",\n              \"bin\": \"ex est aute proident\",\n              \"accountId\": \"laborum voluptate mollit commodo\",\n              \"parentAccountId\": \"dolor esse \",\n              \"referenceValue\": -530737,\n              \"value\": 21348444,\n              \"installments\": -27829015,\n              \"url\": \"in nulla officia cupidatat minim\",\n              \"cardNumber\": \"in\",\n              \"fields\": [\n                {\n                  \"name\": \"aliquip\",\n                  \"value\": \"reprehenderit eiusmod occaecat \"\n                },\n                {\n                  \"name\": \"ad\",\n                  \"value\": \"ex adipisicing qui irure\"\n                }\n              ]\n            },\n            {\n              \"id\": \"pariatur Ut tempor\",\n              \"paymentSystem\": \"aliquip eiusmod\",\n              \"group\": \"dolor minim officia\",\n              \"bin\": \"deserunt dolore commodo\",\n              \"accountId\": \"quis\",\n              \"parentAccountId\": \"est magna Duis eiusmod\",\n              \"referenceValue\": 81332788,\n              \"value\": -15760441,\n              \"installments\": 89612763,\n              \"url\": \"dolore\",\n              \"cardNumber\": \"commodo fugiat\",\n              \"fields\": [\n                {\n                  \"name\": \"non Lorem sit ea\",\n                  \"value\": \"do ea\"\n                },\n                {\n                  \"name\": \"dolor\",\n                  \"value\": \"labore cupidatat fugiat\"\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    },\n    \"country\": \"ad \",\n    \"postalCode\": \"ut laborum\",\n    \"messages\": [\n      {\n        \"code\": \"sunt veniam aute laborum irure\",\n        \"status\": \"irure dolore dolore laboris\",\n        \"text\": \"ut\"\n      },\n      {\n        \"code\": \"in est\",\n        \"status\": \"aliqua commodo sit esse\",\n        \"text\": \"nulla magna\"\n      }\n    ],\n    \"selectableGiftsResponse\": [\n      {\n        \"id\": \"eu in\",\n        \"availableQuantity\": -81908881,\n        \"availableGifts\": [\n          {\n            \"id\": \"est ipsum\",\n            \"seller\": \"Ut sunt irure\",\n            \"quantity\": 5,\n            \"price\": 46492130,\n            \"sellingPrice\": -53012186,\n            \"unitMultiplier\": 35758341.723510325,\n            \"attachments\": [\n              {\n                \"name\": \"dolore est tempor anim\",\n                \"content\": {\n                  \"reprehenderit_73\": \"ea enim qui commodo magna\",\n                  \"nonb\": \"pariatur aliquip ullamco veniam eu\"\n                }\n              },\n              {\n                \"name\": \"reprehenderit pariatur culpa do\",\n                \"content\": {\n                  \"incididunte\": \"nisi dolore nostrud quis\",\n                  \"culpa_8bd\": \"et fugiat incididunt\"\n                }\n              }\n            ],\n            \"name\": \"et\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"reprehenderit\",\n                \"valueAsInt\": -66046103,\n                \"rawValue\": -39814071.57502486,\n                \"isPercentual\": true,\n                \"identifier\": \"sunt Ut\"\n              },\n              {\n                \"name\": \"laboris Lorem quis elit Ut\",\n                \"valueAsInt\": 83734419,\n                \"rawValue\": -89719125.56795831,\n                \"isPercentual\": true,\n                \"identifier\": \"aliquip officia labore\"\n              }\n            ],\n            \"isSelected\": false\n          },\n          {\n            \"id\": \"ullamco\",\n            \"seller\": \"nostrud adipisicing\",\n            \"quantity\": 5,\n            \"price\": -18574578,\n            \"sellingPrice\": -63418425,\n            \"unitMultiplier\": -94412770.7556737,\n            \"attachments\": [\n              {\n                \"name\": \"enim sit minim dolore exercitation\",\n                \"content\": {\n                  \"mollit_225\": \"do aliqua\",\n                  \"ex2\": \"sint\"\n                }\n              },\n              {\n                \"name\": \"dolore commodo in\",\n                \"content\": {\n                  \"enim3\": \"elit ut in\",\n                  \"non_e\": \"Lorem magna cupidatat\"\n                }\n              }\n            ],\n            \"name\": \"labore\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"nisi tempor\",\n                \"valueAsInt\": 20361291,\n                \"rawValue\": 36794500.37703812,\n                \"isPercentual\": false,\n                \"identifier\": \"sint in dolore\"\n              },\n              {\n                \"name\": \"minim magna\",\n                \"valueAsInt\": 89142171,\n                \"rawValue\": 39032557.04754919,\n                \"isPercentual\": true,\n                \"identifier\": \"laboris dolore velit\"\n              }\n            ],\n            \"isSelected\": true\n          }\n        ]\n      },\n      {\n        \"id\": \"ullamco aute sed\",\n        \"availableQuantity\": -4198897,\n        \"availableGifts\": [\n          {\n            \"id\": \"dolor in sunt\",\n            \"seller\": \"consectetur \",\n            \"quantity\": 5,\n            \"price\": 11260899,\n            \"sellingPrice\": -96318027,\n            \"unitMultiplier\": -87836318.29479069,\n            \"attachments\": [\n              {\n                \"name\": \"commodo ad\",\n                \"content\": {\n                  \"dod67\": \"dolore id eiusmod\",\n                  \"ea7f\": \"consectetur est\"\n                }\n              },\n              {\n                \"name\": \"culpa ut\",\n                \"content\": {\n                  \"et_9_b\": \"dolor aliqua sed commodo\",\n                  \"reprehenderit_4\": \"cupidatat\"\n                }\n              }\n            ],\n            \"name\": \"nostrud Ut ut\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"Duis id est\",\n                \"valueAsInt\": 50293397,\n                \"rawValue\": 29237545.982025906,\n                \"isPercentual\": false,\n                \"identifier\": \"aute adipisicing Duis\"\n              },\n              {\n                \"name\": \"laborum\",\n                \"valueAsInt\": 94958153,\n                \"rawValue\": -10835242.244207725,\n                \"isPercentual\": true,\n                \"identifier\": \"dolore pariatur\"\n              }\n            ],\n            \"isSelected\": false\n          },\n          {\n            \"id\": \"consequat laborum sunt Ut cillum\",\n            \"seller\": \"Lorem ea Excepteur ex\",\n            \"quantity\": 5,\n            \"price\": 55561324,\n            \"sellingPrice\": 10662567,\n            \"unitMultiplier\": 87217237.64544103,\n            \"attachments\": [\n              {\n                \"name\": \"mollit enim sint\",\n                \"content\": {\n                  \"estb\": \"et ut\"\n                }\n              },\n              {\n                \"name\": \"eu eiusmod sunt ipsum\",\n                \"content\": {\n                  \"officia_2ee\": \"in occaecat Duis quis\"\n                }\n              }\n            ],\n            \"name\": \"pariatur eu\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"Duis\",\n                \"valueAsInt\": -39995816,\n                \"rawValue\": -52914872.458605714,\n                \"isPercentual\": true,\n                \"identifier\": \"sit velit\"\n              },\n              {\n                \"name\": \"dolore pariatur\",\n                \"valueAsInt\": -2492599,\n                \"rawValue\": 97797122.39844614,\n                \"isPercentual\": true,\n                \"identifier\": \"nisi ut sed\"\n              }\n            ],\n            \"isSelected\": true\n          }\n        ]\n      }\n    ],\n    \"totals\": [\n      {\n        \"id\": \"ipsum exercitation aliqu\",\n        \"name\": \"dolor nulla irure\",\n        \"valueAsInt\": 83530293\n      },\n      {\n        \"id\": \"dolor minim sit in\",\n        \"name\": \"nostrud exercitation consequat sint\",\n        \"valueAsInt\": 33169993\n      }\n    ],\n    \"simulationItems\": [\n      {\n        \"id\": \"deserunt tempor pariatur sed\",\n        \"quantity\": 5,\n        \"unitPrice\": 61702957,\n        \"status\": 4,\n        \"statusName\": \"amet enim\"\n      },\n      {\n        \"id\": \"consequat sit\",\n        \"quantity\": 5,\n        \"unitPrice\": -40989939,\n        \"status\": 3,\n        \"statusName\": \"ipsum qui sint\"\n      }\n    ]\n  },\n  \"shippingEstimate\": {\n    \"name\": \"nulla Excepteur voluptate\",\n    \"estimate\": \"sint voluptate\",\n    \"estimateDeliveryDate\": \"1962-02-24T19:27:52.643Z\",\n    \"nextPurchaseDate\": \"1956-08-10T23:22:16.788Z\",\n    \"allItemsMatched\": false\n  },\n  \"simulationItems\": [\n    {\n      \"id\": \"est\",\n      \"quantity\": 5,\n      \"unitPrice\": 99100501,\n      \"status\": 3,\n      \"statusName\": \"consectetur laboris eiusmod esse\"\n    },\n    {\n      \"id\": \"cupidatat consequat non officia aute\",\n      \"quantity\": 5,\n      \"unitPrice\": -47166313,\n      \"status\": 0,\n      \"statusName\": \"labor\"\n    }\n  ],\n  \"totals\": [\n    {\n      \"id\": \"culpa\",\n      \"value\": -84778280.23251748\n    },\n    {\n      \"id\": \"enim ullamco\",\n      \"value\": 13242254.343844399\n    }\n  ]\n}",
               "cookie": []
             }
           ],
@@ -3170,7 +3170,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c442047b-bcd2-4384-9dab-2b03fca38f0d",
+                "id": "da332e63-4502-48f3-9b4d-c90ffd31448a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/rns/pub/subscriptions/:id/simulate - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3184,7 +3184,7 @@
           }
         },
         {
-          "id": "f901c988-accb-42f2-93fa-d4106c45ea8f",
+          "id": "7baafaca-993e-40a3-b883-4e7199e0dff6",
           "name": "Calculate the current prices for the provided subscription template",
           "request": {
             "name": "Calculate the current prices for the provided subscription template",
@@ -3238,7 +3238,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"customerEmail\": \"incididunt\",\n  \"items\": [\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    },\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    }\n  ],\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 3,\n      \"periodicity\": \"MONTHLY\"\n    },\n    \"id\": \"store.subscription\",\n    \"purchaseDay\": \"15\",\n    \"validity\": {\n      \"begin\": \"2022-06-10T00:00:00\",\n      \"end\": \"2023-06-10T00:00:00\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"paymentMethod\": {\n      \"paymentSystem\": \"4\",\n      \"paymentAccountId\": \"340357032569595\",\n      \"installments\": 3\n    },\n    \"salesChannel\": \"1\"\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"8109266555005\",\n    \"addressType\": \"residential\"\n  },\n  \"title\": \"ut officia\",\n  \"status\": \"esse ut ad\",\n  \"nextPurchaseDate\": \"1946-02-12T18:05:44.326Z\",\n  \"catalogAttachment\": \"nostrud laborum qu\"\n}",
+              "raw": "{\n  \"customerEmail\": \"amet \",\n  \"items\": [\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    },\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    }\n  ],\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 3,\n      \"periodicity\": \"MONTHLY\"\n    },\n    \"id\": \"store.subscription\",\n    \"purchaseDay\": \"15\",\n    \"validity\": {\n      \"begin\": \"2022-06-10T00:00:00\",\n      \"end\": \"2023-06-10T00:00:00\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"paymentMethod\": {\n      \"paymentSystem\": \"4\",\n      \"paymentAccountId\": \"340357032569595\",\n      \"installments\": 3\n    },\n    \"salesChannel\": \"1\"\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"8109266555005\",\n    \"addressType\": \"residential\"\n  },\n  \"title\": \"ullamco dolor irure\",\n  \"status\": \"sint ut eu\",\n  \"nextPurchaseDate\": \"1962-05-09T19:21:46.638Z\",\n  \"catalogAttachment\": \"fugiat laborum Ut sed\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -3251,7 +3251,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "f771efb1-03f9-44a6-ab57-d57ef722de41",
+              "id": "69db5475-0883-46ba-a876-aed52d10643a",
               "name": "Simulation result",
               "originalRequest": {
                 "url": {
@@ -3322,7 +3322,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"customerEmail\": \"incididunt\",\n  \"items\": [\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    },\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    }\n  ],\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 3,\n      \"periodicity\": \"MONTHLY\"\n    },\n    \"id\": \"store.subscription\",\n    \"purchaseDay\": \"15\",\n    \"validity\": {\n      \"begin\": \"2022-06-10T00:00:00\",\n      \"end\": \"2023-06-10T00:00:00\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"paymentMethod\": {\n      \"paymentSystem\": \"4\",\n      \"paymentAccountId\": \"340357032569595\",\n      \"installments\": 3\n    },\n    \"salesChannel\": \"1\"\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"8109266555005\",\n    \"addressType\": \"residential\"\n  },\n  \"title\": \"ut officia\",\n  \"status\": \"esse ut ad\",\n  \"nextPurchaseDate\": \"1946-02-12T18:05:44.326Z\",\n  \"catalogAttachment\": \"nostrud laborum qu\"\n}",
+                  "raw": "{\n  \"customerEmail\": \"amet \",\n  \"items\": [\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    },\n    {\n      \"skuId\": \"12\",\n      \"quantity\": 5,\n      \"manualPrice\": 40\n    }\n  ],\n  \"plan\": {\n    \"frequency\": {\n      \"interval\": 3,\n      \"periodicity\": \"MONTHLY\"\n    },\n    \"id\": \"store.subscription\",\n    \"purchaseDay\": \"15\",\n    \"validity\": {\n      \"begin\": \"2022-06-10T00:00:00\",\n      \"end\": \"2023-06-10T00:00:00\"\n    }\n  },\n  \"purchaseSettings\": {\n    \"paymentMethod\": {\n      \"paymentSystem\": \"4\",\n      \"paymentAccountId\": \"340357032569595\",\n      \"installments\": 3\n    },\n    \"salesChannel\": \"1\"\n  },\n  \"shippingAddress\": {\n    \"addressId\": \"8109266555005\",\n    \"addressType\": \"residential\"\n  },\n  \"title\": \"ullamco dolor irure\",\n  \"status\": \"sint ut eu\",\n  \"nextPurchaseDate\": \"1962-05-09T19:21:46.638Z\",\n  \"catalogAttachment\": \"fugiat laborum Ut sed\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -3338,7 +3338,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"simulateResponse\": {\n    \"items\": [\n      {\n        \"id\": \"eu magna Lorem\",\n        \"seller\": \"deserunt adipisicing officia\",\n        \"quantity\": 5,\n        \"price\": 52861296,\n        \"sellingPrice\": 28648495,\n        \"unitMultiplier\": -57635000.61246814,\n        \"attachments\": [\n          {\n            \"name\": \"sit exercitation se\",\n            \"content\": {\n              \"aliqua_856\": \"et officia cupidatat\",\n              \"sit_2\": \"culpa incididunt tempor\"\n            }\n          },\n          {\n            \"name\": \"minim nulla\",\n            \"content\": {\n              \"voluptated\": \"a\"\n            }\n          }\n        ],\n        \"name\": \"minim consequat id\",\n        \"isGift\": false,\n        \"priceTags\": [\n          {\n            \"name\": \"nostrud qui commodo est minim\",\n            \"valueAsInt\": -86567115,\n            \"rawValue\": 51039258.18401739,\n            \"isPercentual\": true,\n            \"identifier\": \"\"\n          },\n          {\n            \"name\": \"eiusmod Ut eu quis\",\n            \"valueAsInt\": 48956019,\n            \"rawValue\": 82563490.65932205,\n            \"isPercentual\": true,\n            \"identifier\": \"ullamco consequat\"\n          }\n        ]\n      },\n      {\n        \"id\": \"fugiat magna\",\n        \"seller\": \"consectetur sunt laboris\",\n        \"quantity\": 5,\n        \"price\": -52355918,\n        \"sellingPrice\": -86072746,\n        \"unitMultiplier\": 34699857.47206077,\n        \"attachments\": [\n          {\n            \"name\": \"officia dolor enim\",\n            \"content\": {\n              \"nonb5\": \"nisi dolore sit adipisicing\",\n              \"cillum_4\": \"fugiat quis\",\n              \"estbd_\": \"qui deserunt\",\n              \"nostrud_b\": \"anim labore nulla ut\"\n            }\n          },\n          {\n            \"name\": \"nulla\",\n            \"content\": {\n              \"pariatur_505\": \"commodo \",\n              \"ad4\": \"sed\"\n            }\n          }\n        ],\n        \"name\": \"pariatur sint\",\n        \"isGift\": true,\n        \"priceTags\": [\n          {\n            \"name\": \"enim\",\n            \"valueAsInt\": -22203763,\n            \"rawValue\": -12290821.974969685,\n            \"isPercentual\": false,\n            \"identifier\": \"\"\n          },\n          {\n            \"name\": \"Duis sint do\",\n            \"valueAsInt\": -83777004,\n            \"rawValue\": 34840374.06363419,\n            \"isPercentual\": false,\n            \"identifier\": \"veniam in officia\"\n          }\n        ]\n      }\n    ],\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": -51602257,\n        \"quantity\": 5,\n        \"selectedSla\": \"enim tempor\",\n        \"selectedDeliveryChannel\": \"consectetur\",\n        \"lockTtl\": \"velit\",\n        \"shippingEstimate\": \"adipisicing eu irure\",\n        \"addressId\": \"consequat\",\n        \"pickupId\": \"ex sit labore dolore\",\n        \"price\": -56004433,\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2016-02-03T16:38:15.699Z\",\n          \"endDateUtc\": \"2001-02-08T07:02:18.933Z\",\n          \"price\": 83688120\n        },\n        \"slAs\": [\n          {\n            \"id\": \"ex eiusmod culpa velit aute\",\n            \"pickupPointId\": \"mollit\",\n            \"deliveryChannel\": \"elit adipisicing Duis minim\",\n            \"price\": 85016245,\n            \"shippingEstimate\": \"officia velit in Duis nulla\",\n            \"lockTtl\": \"aliqua pariatur sed\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1983-05-22T17:07:55.389Z\",\n                \"endDateUtc\": \"1953-10-20T15:07:16.273Z\",\n                \"price\": 49786059\n              },\n              {\n                \"startDateUtc\": \"1977-04-02T12:21:29.943Z\",\n                \"endDateUtc\": \"1966-02-06T10:40:05.845Z\",\n                \"price\": 37798070\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1945-08-20T19:19:40.842Z\",\n                \"endDateUtc\": \"2004-05-16T16:43:41.656Z\",\n                \"price\": -33723286\n              },\n              {\n                \"startDateUtc\": \"1970-11-14T06:40:15.494Z\",\n                \"endDateUtc\": \"1946-10-05T15:52:21.801Z\",\n                \"price\": -11464642\n              }\n            ]\n          },\n          {\n            \"id\": \"cupidatat deserunt\",\n            \"pickupPointId\": \"sed commodo nisi ex\",\n            \"deliveryChannel\": \"deserunt velit Ut\",\n            \"price\": 83019174,\n            \"shippingEstimate\": \"commodo officia\",\n            \"lockTtl\": \"fugiat irure in velit\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1965-01-22T05:12:38.267Z\",\n                \"endDateUtc\": \"1948-04-14T04:57:33.911Z\",\n                \"price\": -96467779\n              },\n              {\n                \"startDateUtc\": \"1962-04-19T15:18:54.470Z\",\n                \"endDateUtc\": \"2001-03-07T15:31:09.099Z\",\n                \"price\": 40008887\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1999-07-18T19:42:34.272Z\",\n                \"endDateUtc\": \"2004-07-03T18:54:30.049Z\",\n                \"price\": -72292191\n              },\n              {\n                \"startDateUtc\": \"1982-02-12T19:33:13.201Z\",\n                \"endDateUtc\": \"2013-05-05T21:44:36.485Z\",\n                \"price\": 21391279\n              }\n            ]\n          }\n        ]\n      },\n      {\n        \"itemIndex\": -23821322,\n        \"quantity\": 5,\n        \"selectedSla\": \"in magna\",\n        \"selectedDeliveryChannel\": \"ut ipsum\",\n        \"lockTtl\": \"amet nostrud do labore\",\n        \"shippingEstimate\": \"velit cupidatat officia proident\",\n        \"addressId\": \"et deserunt dolore tempor\",\n        \"pickupId\": \"consequat eiusmod reprehenderit pariatur\",\n        \"price\": -61915120,\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"2000-07-12T11:54:53.043Z\",\n          \"endDateUtc\": \"1956-02-29T12:53:13.209Z\",\n          \"price\": 264332\n        },\n        \"slAs\": [\n          {\n            \"id\": \"in\",\n            \"pickupPointId\": \"consequat aute\",\n            \"deliveryChannel\": \"dolore id\",\n            \"price\": -50110010,\n            \"shippingEstimate\": \"labore tempor consectetur anim\",\n            \"lockTtl\": \"consequat Ut\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1955-09-25T17:33:26.038Z\",\n                \"endDateUtc\": \"2022-02-13T13:49:34.119Z\",\n                \"price\": 3397328\n              },\n              {\n                \"startDateUtc\": \"1962-09-16T04:53:28.754Z\",\n                \"endDateUtc\": \"1948-11-02T10:18:44.742Z\",\n                \"price\": -76985780\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"2003-06-14T21:22:42.206Z\",\n                \"endDateUtc\": \"2022-09-24T15:22:03.891Z\",\n                \"price\": -79838196\n              },\n              {\n                \"startDateUtc\": \"1947-03-12T21:26:57.679Z\",\n                \"endDateUtc\": \"2006-09-25T10:17:24.470Z\",\n                \"price\": 95137678\n              }\n            ]\n          },\n          {\n            \"id\": \"adipisicing veniam\",\n            \"pickupPointId\": \"pariatur laboris do\",\n            \"deliveryChannel\": \"ut sit voluptate ut aliquip\",\n            \"price\": -82697953,\n            \"shippingEstimate\": \"dolore culpa\",\n            \"lockTtl\": \"aute in consequat\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1975-06-27T16:47:04.910Z\",\n                \"endDateUtc\": \"1979-06-10T00:45:17.598Z\",\n                \"price\": -2889835\n              },\n              {\n                \"startDateUtc\": \"2013-12-04T22:49:03.304Z\",\n                \"endDateUtc\": \"1995-06-03T01:07:14.474Z\",\n                \"price\": 82200618\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1967-07-29T17:31:18.591Z\",\n                \"endDateUtc\": \"1951-12-28T18:31:33.988Z\",\n                \"price\": 25099688\n              },\n              {\n                \"startDateUtc\": \"1961-03-17T11:33:33.378Z\",\n                \"endDateUtc\": \"1966-06-09T21:34:50.280Z\",\n                \"price\": 80193572\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"paymentData\": {\n      \"payments\": [\n        {\n          \"id\": \"laboris velit\",\n          \"paymentSystem\": \"sit culpa ut dolore\",\n          \"group\": \"et pariatur\",\n          \"bin\": \"Ut in do aliquip occaecat\",\n          \"accountId\": \"ipsum\",\n          \"parentAccountId\": \"in magna officia sit\",\n          \"referenceValue\": 63972386,\n          \"value\": -30000814,\n          \"installments\": -93042906,\n          \"url\": \"incididunt aute tempor\",\n          \"cardNumber\": \"eiusmod ipsum consectetur\",\n          \"fields\": [\n            {\n              \"name\": \"veniam consequat sed commodo\",\n              \"value\": \"nisi aute minim\"\n            },\n            {\n              \"name\": \"commodo pariatu\",\n              \"value\": \"amet Ut\"\n            }\n          ]\n        },\n        {\n          \"id\": \"qui fugiat\",\n          \"paymentSystem\": \"ex esse\",\n          \"group\": \"occaecat\",\n          \"bin\": \"pariatur in ullamco do\",\n          \"accountId\": \"quis fugiat\",\n          \"parentAccountId\": \"aute consequat incididunt\",\n          \"referenceValue\": -55436429,\n          \"value\": 42037394,\n          \"installments\": -94179560,\n          \"url\": \"aliquip do enim voluptate\",\n          \"cardNumber\": \"et veniam minim culpa\",\n          \"fields\": [\n            {\n              \"name\": \"exercitation Duis minim\",\n              \"value\": \"fugiat sint proident incididunt eu\"\n            },\n            {\n              \"name\": \"est proident\",\n              \"value\": \"do Ut laborum aliquip\"\n            }\n          ]\n        }\n      ],\n      \"transactions\": [\n        {\n          \"isActive\": true,\n          \"payments\": [\n            {\n              \"id\": \"nulla\",\n              \"paymentSystem\": \"elit mollit proident\",\n              \"group\": \"dolor eiusmod cupidatat\",\n              \"bin\": \"aliqua\",\n              \"accountId\": \"in\",\n              \"parentAccountId\": \"in dolor ullamco\",\n              \"referenceValue\": 52739456,\n              \"value\": -12455926,\n              \"installments\": -89491670,\n              \"url\": \"elit nisi Lorem\",\n              \"cardNumber\": \"anim et labore veniam velit\",\n              \"fields\": [\n                {\n                  \"name\": \"exercitation\",\n                  \"value\": \"Excepteur proident Ut cillum\"\n                },\n                {\n                  \"name\": \"aliqua pariatur do\",\n                  \"value\": \"irure\"\n                }\n              ]\n            },\n            {\n              \"id\": \"in Except\",\n              \"paymentSystem\": \"dolor labore proident\",\n              \"group\": \"voluptate adipisicing ut\",\n              \"bin\": \"velit dolore\",\n              \"accountId\": \"sit dolore\",\n              \"parentAccountId\": \"qui ipsum eu Ut laborum\",\n              \"referenceValue\": 51219166,\n              \"value\": -9856057,\n              \"installments\": 12514864,\n              \"url\": \"ex cupidatat esse exercitation nisi\",\n              \"cardNumber\": \"reprehenderit ut ipsum do\",\n              \"fields\": [\n                {\n                  \"name\": \"cupidatat\",\n                  \"value\": \"dolor Lorem aute nulla\"\n                },\n                {\n                  \"name\": \"officia ullamco laborum\",\n                  \"value\": \"veniam do magna\"\n                }\n              ]\n            }\n          ]\n        },\n        {\n          \"isActive\": true,\n          \"payments\": [\n            {\n              \"id\": \"laborum aliquip id\",\n              \"paymentSystem\": \"dolore id\",\n              \"group\": \"nisi d\",\n              \"bin\": \"voluptate sunt\",\n              \"accountId\": \"deserunt ut dolor\",\n              \"parentAccountId\": \"nulla in ex eu\",\n              \"referenceValue\": -76735660,\n              \"value\": 88189106,\n              \"installments\": -66482142,\n              \"url\": \"cupidatat magna esse reprehenderit\",\n              \"cardNumber\": \"amet\",\n              \"fields\": [\n                {\n                  \"name\": \"incididunt fugiat adipisicing Duis\",\n                  \"value\": \"adipisicing nisi in dolor\"\n                },\n                {\n                  \"name\": \"in incididunt eu ut irure\",\n                  \"value\": \"in dolor sit velit\"\n                }\n              ]\n            },\n            {\n              \"id\": \"tempor elit reprehenderit aliqua\",\n              \"paymentSystem\": \"cillum\",\n              \"group\": \"ullamco Excepteur\",\n              \"bin\": \"dolore\",\n              \"accountId\": \"velit\",\n              \"parentAccountId\": \"ipsum exercitation veniam\",\n              \"referenceValue\": -22391733,\n              \"value\": -2381331,\n              \"installments\": 71079481,\n              \"url\": \"eu in et\",\n              \"cardNumber\": \"tempor nulla\",\n              \"fields\": [\n                {\n                  \"name\": \"irure cupidatat ut dese\",\n                  \"value\": \"amet laboris anim\"\n                },\n                {\n                  \"name\": \"cillum dolore reprehenderit irure\",\n                  \"value\": \"in sint\"\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    },\n    \"country\": \"magna\",\n    \"postalCode\": \"ut\",\n    \"messages\": [\n      {\n        \"code\": \"ut sunt enim deserunt Duis\",\n        \"status\": \"cupidatat\",\n        \"text\": \"consequat adipisicing\"\n      },\n      {\n        \"code\": \"nulla aliquip laboris\",\n        \"status\": \"eiusmod aliquip mollit\",\n        \"text\": \"Duis in\"\n      }\n    ],\n    \"selectableGiftsResponse\": [\n      {\n        \"id\": \"sit eiusmo\",\n        \"availableQuantity\": -41903040,\n        \"availableGifts\": [\n          {\n            \"id\": \"eiusmod es\",\n            \"seller\": \"lab\",\n            \"quantity\": 5,\n            \"price\": 35904867,\n            \"sellingPrice\": 60700028,\n            \"unitMultiplier\": 69315890.00972447,\n            \"attachments\": [\n              {\n                \"name\": \"ad deserunt enim esse\",\n                \"content\": {\n                  \"ex_5c7\": \"ea et fugiat elit\",\n                  \"cupidatat_\": \"mollit Ut\",\n                  \"ad_57\": \"irure officia non commodo eiusmod\",\n                  \"ipsum_db_\": \"co\"\n                }\n              },\n              {\n                \"name\": \"qui ut\",\n                \"content\": {\n                  \"velitbc\": \"adipisicing cupidatat co\",\n                  \"dod38\": \"irure sunt\"\n                }\n              }\n            ],\n            \"name\": \"occaecat esse\",\n            \"isGift\": false,\n            \"priceTags\": [\n              {\n                \"name\": \"Ut consectetur quis commodo\",\n                \"valueAsInt\": 69934873,\n                \"rawValue\": -30790947.869725913,\n                \"isPercentual\": true,\n                \"identifier\": \"dolore ex exercitation voluptate\"\n              },\n              {\n                \"name\": \"irure ut\",\n                \"valueAsInt\": 9279608,\n                \"rawValue\": -86688216.54292059,\n                \"isPercentual\": false,\n                \"identifier\": \"fugiat nulla\"\n              }\n            ],\n            \"isSelected\": false\n          },\n          {\n            \"id\": \"Excepteur consequat\",\n            \"seller\": \"minim qui\",\n            \"quantity\": 5,\n            \"price\": -92779493,\n            \"sellingPrice\": -57810722,\n            \"unitMultiplier\": 61651277.86421332,\n            \"attachments\": [\n              {\n                \"name\": \"ali\",\n                \"content\": {\n                  \"eudfb\": \"anim reprehe\",\n                  \"proident_ff8\": \"Excepteur exercitation nulla reprehenderit\",\n                  \"dolor_780\": \"ea culpa occaecat sint\"\n                }\n              },\n              {\n                \"name\": \"aute non tempor dolor\",\n                \"content\": {\n                  \"anim_23\": \"Lorem aute amet in\"\n                }\n              }\n            ],\n            \"name\": \"laboris minim consequa\",\n            \"isGift\": false,\n            \"priceTags\": [\n              {\n                \"name\": \"do\",\n                \"valueAsInt\": 70763663,\n                \"rawValue\": 20931674.803425223,\n                \"isPercentual\": false,\n                \"identifier\": \"id incididu\"\n              },\n              {\n                \"name\": \"dolore dolor do sit aliqua\",\n                \"valueAsInt\": -69389776,\n                \"rawValue\": -59160643.661986925,\n                \"isPercentual\": true,\n                \"identifier\": \"consequat dolor ullamco est\"\n              }\n            ],\n            \"isSelected\": true\n          }\n        ]\n      },\n      {\n        \"id\": \"Duis\",\n        \"availableQuantity\": -2515730,\n        \"availableGifts\": [\n          {\n            \"id\": \"amet\",\n            \"seller\": \"voluptate sunt ipsum mollit\",\n            \"quantity\": 5,\n            \"price\": 54991949,\n            \"sellingPrice\": 58521575,\n            \"unitMultiplier\": -67667188.52506553,\n            \"attachments\": [\n              {\n                \"name\": \"dolor consequat aute\",\n                \"content\": {\n                  \"proident_1\": \"ullamco minim\"\n                }\n              },\n              {\n                \"name\": \"elit velit sit\",\n                \"content\": {\n                  \"inb35\": \"non\",\n                  \"dolor2\": \"quis\",\n                  \"consectetur_2be\": \"voluptate laborum in enim\",\n                  \"officia_1\": \"proident incididunt Ut ullamco\",\n                  \"dolor_33\": \"est\"\n                }\n              }\n            ],\n            \"name\": \"amet reprehenderit Duis in\",\n            \"isGift\": false,\n            \"priceTags\": [\n              {\n                \"name\": \"exercitation\",\n                \"valueAsInt\": -8694530,\n                \"rawValue\": 99581955.63888696,\n                \"isPercentual\": false,\n                \"identifier\": \"sint tempor officia est\"\n              },\n              {\n                \"name\": \"do nulla\",\n                \"valueAsInt\": -3509192,\n                \"rawValue\": -50573696.109798536,\n                \"isPercentual\": false,\n                \"identifier\": \"amet velit magna laboris\"\n              }\n            ],\n            \"isSelected\": false\n          },\n          {\n            \"id\": \"cillum voluptate\",\n            \"seller\": \"incididunt ullamco ut eiusmod\",\n            \"quantity\": 5,\n            \"price\": 10685063,\n            \"sellingPrice\": 24068680,\n            \"unitMultiplier\": 70361988.35809588,\n            \"attachments\": [\n              {\n                \"name\": \"adipisicing aliquip\",\n                \"content\": {\n                  \"incididunt_5a\": \"sint veniam ullamco nostrud nisi\",\n                  \"eiusmod_b\": \"elit exercitation proident labore nisi\"\n                }\n              },\n              {\n                \"name\": \"ut incididunt \",\n                \"content\": {\n                  \"nisic48\": \"magna Lorem irure Ut\",\n                  \"ut3\": \"nostrud occaecat sint in\",\n                  \"nisi_e4\": \"id laborum\"\n                }\n              }\n            ],\n            \"name\": \"nisi ullamco\",\n            \"isGift\": false,\n            \"priceTags\": [\n              {\n                \"name\": \"est consequat\",\n                \"valueAsInt\": 32232982,\n                \"rawValue\": -81816869.88434902,\n                \"isPercentual\": true,\n                \"identifier\": \"Lorem\"\n              },\n              {\n                \"name\": \"ullamco fugiat ipsum labore\",\n                \"valueAsInt\": 68520448,\n                \"rawValue\": -27567149.352063507,\n                \"isPercentual\": true,\n                \"identifier\": \"Lorem nostrud\"\n              }\n            ],\n            \"isSelected\": true\n          }\n        ]\n      }\n    ],\n    \"totals\": [\n      {\n        \"id\": \"quis\",\n        \"name\": \"elit laborum consequat aliqua\",\n        \"valueAsInt\": 95243598\n      },\n      {\n        \"id\": \"c\",\n        \"name\": \"reprehenderit ut \",\n        \"valueAsInt\": -15515508\n      }\n    ],\n    \"simulationItems\": [\n      {\n        \"id\": \"irure eiusmod dolore\",\n        \"quantity\": 5,\n        \"unitPrice\": -79893002,\n        \"status\": 4,\n        \"statusName\": \"ipsum aliquip reprehenderit\"\n      },\n      {\n        \"id\": \"labore fugiat aliquip aliqua\",\n        \"quantity\": 5,\n        \"unitPrice\": 43447216,\n        \"status\": 1,\n        \"statusName\": \"irure consectetur nostrud enim\"\n      }\n    ]\n  },\n  \"shippingEstimate\": {\n    \"name\": \"culpa ad\",\n    \"estimate\": \"velit est nisi ad\",\n    \"estimateDeliveryDate\": \"1984-07-28T09:53:30.242Z\",\n    \"nextPurchaseDate\": \"1987-07-02T19:57:00.817Z\",\n    \"allItemsMatched\": false\n  },\n  \"simulationItems\": [\n    {\n      \"id\": \"adipisicing eiusmod exercitation incididunt\",\n      \"quantity\": 5,\n      \"unitPrice\": 6912941,\n      \"status\": 4,\n      \"statusName\": \"consectetur\"\n    },\n    {\n      \"id\": \"amet adipisicing esse\",\n      \"quantity\": 5,\n      \"unitPrice\": -82203466,\n      \"status\": 1,\n      \"statusName\": \"et est\"\n    }\n  ],\n  \"totals\": [\n    {\n      \"id\": \"Excepteur enim aute ex\",\n      \"value\": 56230773.25789344\n    },\n    {\n      \"id\": \"enim sunt\",\n      \"value\": -68090639.52692612\n    }\n  ]\n}",
+              "body": "{\n  \"simulateResponse\": {\n    \"items\": [\n      {\n        \"id\": \"irure labore\",\n        \"seller\": \"labore\",\n        \"quantity\": 5,\n        \"price\": 38728477,\n        \"sellingPrice\": -66967841,\n        \"unitMultiplier\": -2501343.277532175,\n        \"attachments\": [\n          {\n            \"name\": \"eiusmod in nisi exercitation\",\n            \"content\": {\n              \"exd\": \"fugiat eu esse\",\n              \"in678\": \"officia do voluptate minim\",\n              \"proident94\": \"magna c\"\n            }\n          },\n          {\n            \"name\": \"voluptate irure Lorem\",\n            \"content\": {\n              \"incididunt_4\": \"al\",\n              \"dolor2\": \"do cillum consectetur qui\",\n              \"amet1\": \"exercitation irure est et\",\n              \"reprehenderit_d_\": \"non veniam ut nostrud ad\"\n            }\n          }\n        ],\n        \"name\": \"officia aliquip anim\",\n        \"isGift\": false,\n        \"priceTags\": [\n          {\n            \"name\": \"commodo quis\",\n            \"valueAsInt\": 38802610,\n            \"rawValue\": 39685520.58250436,\n            \"isPercentual\": false,\n            \"identifier\": \"consequat eiusmod ad\"\n          },\n          {\n            \"name\": \"proident amet dolor\",\n            \"valueAsInt\": -90816001,\n            \"rawValue\": 18302720.960411236,\n            \"isPercentual\": true,\n            \"identifier\": \"voluptate\"\n          }\n        ]\n      },\n      {\n        \"id\": \"elit et exercitation dolore\",\n        \"seller\": \"ea consectetur proident\",\n        \"quantity\": 5,\n        \"price\": -28630447,\n        \"sellingPrice\": 36732806,\n        \"unitMultiplier\": 52907717.22500306,\n        \"attachments\": [\n          {\n            \"name\": \"ipsum aliqua nisi et amet\",\n            \"content\": {\n              \"dolore_d\": \"Ut consequat amet irure\"\n            }\n          },\n          {\n            \"name\": \"consectetur voluptate\",\n            \"content\": {\n              \"doeac\": \"ut eiusmod commodo in\"\n            }\n          }\n        ],\n        \"name\": \"ea do enim cillum\",\n        \"isGift\": true,\n        \"priceTags\": [\n          {\n            \"name\": \"proident adipisicing aute deserunt\",\n            \"valueAsInt\": -77633171,\n            \"rawValue\": -91891971.00050116,\n            \"isPercentual\": false,\n            \"identifier\": \"eiusmod ipsum lab\"\n          },\n          {\n            \"name\": \"laborum dolor sit\",\n            \"valueAsInt\": 84013560,\n            \"rawValue\": -29718987.578704104,\n            \"isPercentual\": true,\n            \"identifier\": \"irure aliquip occaecat amet\"\n          }\n        ]\n      }\n    ],\n    \"logisticsInfo\": [\n      {\n        \"itemIndex\": -7578031,\n        \"quantity\": 5,\n        \"selectedSla\": \"nostrud reprehenderit culpa sed\",\n        \"selectedDeliveryChannel\": \"Duis Lorem nulla\",\n        \"lockTtl\": \"esse ullamco tempor\",\n        \"shippingEstimate\": \"ea amet pro\",\n        \"addressId\": \"nulla ad\",\n        \"pickupId\": \"enim\",\n        \"price\": 2340488,\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"1994-05-29T03:08:01.849Z\",\n          \"endDateUtc\": \"2021-01-23T13:31:53.229Z\",\n          \"price\": -92768297\n        },\n        \"slAs\": [\n          {\n            \"id\": \"dolore ea ullamco\",\n            \"pickupPointId\": \"mollit culpa nostrud nulla ea\",\n            \"deliveryChannel\": \"aute esse in ullamco proident\",\n            \"price\": 50479769,\n            \"shippingEstimate\": \"consectetur labore\",\n            \"lockTtl\": \"ullamco ut\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"2001-11-20T18:51:33.824Z\",\n                \"endDateUtc\": \"1998-09-24T03:52:28.539Z\",\n                \"price\": 89042286\n              },\n              {\n                \"startDateUtc\": \"2020-01-08T20:18:07.390Z\",\n                \"endDateUtc\": \"2015-05-09T19:56:50.192Z\",\n                \"price\": 28502839\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"2002-06-05T07:56:32.352Z\",\n                \"endDateUtc\": \"1985-10-15T10:24:05.856Z\",\n                \"price\": 65678079\n              },\n              {\n                \"startDateUtc\": \"1963-08-18T03:56:58.744Z\",\n                \"endDateUtc\": \"2010-02-26T17:15:57.866Z\",\n                \"price\": 16768165\n              }\n            ]\n          },\n          {\n            \"id\": \"veniam magna\",\n            \"pickupPointId\": \"nisi consequat\",\n            \"deliveryChannel\": \"ad consectetur\",\n            \"price\": 70865947,\n            \"shippingEstimate\": \"irure sunt fugiat\",\n            \"lockTtl\": \"incididunt in aliqua esse d\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"2011-11-24T02:37:49.736Z\",\n                \"endDateUtc\": \"1983-04-16T20:02:01.427Z\",\n                \"price\": -27187115\n              },\n              {\n                \"startDateUtc\": \"1963-04-23T09:08:45.376Z\",\n                \"endDateUtc\": \"1981-02-19T05:36:17.940Z\",\n                \"price\": -2795274\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"2008-08-12T14:09:25.842Z\",\n                \"endDateUtc\": \"2012-02-22T02:49:02.460Z\",\n                \"price\": 87069231\n              },\n              {\n                \"startDateUtc\": \"1978-10-03T20:44:17.879Z\",\n                \"endDateUtc\": \"1985-04-05T16:08:13.462Z\",\n                \"price\": 67836836\n              }\n            ]\n          }\n        ]\n      },\n      {\n        \"itemIndex\": -20953619,\n        \"quantity\": 5,\n        \"selectedSla\": \"adipisicing\",\n        \"selectedDeliveryChannel\": \"id reprehe\",\n        \"lockTtl\": \"ut tempor\",\n        \"shippingEstimate\": \"et aliquip nisi\",\n        \"addressId\": \"consectetur mollit\",\n        \"pickupId\": \"esse dolore consectetur\",\n        \"price\": 15524179,\n        \"deliveryWindow\": {\n          \"startDateUtc\": \"1945-11-08T05:17:21.381Z\",\n          \"endDateUtc\": \"1993-01-18T08:04:25.709Z\",\n          \"price\": 56080430\n        },\n        \"slAs\": [\n          {\n            \"id\": \"aliqua amet esse commodo\",\n            \"pickupPointId\": \"fugiat do magna commodo\",\n            \"deliveryChannel\": \"nulla exercitation\",\n            \"price\": -31862678,\n            \"shippingEstimate\": \"ut cillum Dui\",\n            \"lockTtl\": \"exercitation mollit\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1959-04-26T09:09:48.055Z\",\n                \"endDateUtc\": \"1993-12-01T02:44:17.018Z\",\n                \"price\": 35169451\n              },\n              {\n                \"startDateUtc\": \"2008-03-30T10:37:45.933Z\",\n                \"endDateUtc\": \"1999-07-11T18:06:21.116Z\",\n                \"price\": -91978723\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1990-06-13T06:19:00.751Z\",\n                \"endDateUtc\": \"2012-05-29T02:40:06.672Z\",\n                \"price\": 77604570\n              },\n              {\n                \"startDateUtc\": \"2011-04-19T17:00:41.478Z\",\n                \"endDateUtc\": \"1987-07-30T11:59:50.798Z\",\n                \"price\": 86246261\n              }\n            ]\n          },\n          {\n            \"id\": \"amet esse\",\n            \"pickupPointId\": \"cupidatat deserunt eiusmod\",\n            \"deliveryChannel\": \"esse ullamco anim\",\n            \"price\": 3995091,\n            \"shippingEstimate\": \"velit nostrud ut\",\n            \"lockTtl\": \"labore\",\n            \"deliveryWindows\": [\n              {\n                \"startDateUtc\": \"1983-08-29T11:33:59.355Z\",\n                \"endDateUtc\": \"1986-10-01T23:39:02.649Z\",\n                \"price\": -68776126\n              },\n              {\n                \"startDateUtc\": \"2008-09-02T20:44:48.450Z\",\n                \"endDateUtc\": \"2000-10-12T23:52:06.453Z\",\n                \"price\": -70801727\n              }\n            ],\n            \"availableDeliveryWindows\": [\n              {\n                \"startDateUtc\": \"1958-01-23T11:09:33.661Z\",\n                \"endDateUtc\": \"2008-01-06T12:49:57.032Z\",\n                \"price\": -65451168\n              },\n              {\n                \"startDateUtc\": \"1973-03-03T01:52:45.177Z\",\n                \"endDateUtc\": \"2010-09-02T20:28:18.233Z\",\n                \"price\": -99450975\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"paymentData\": {\n      \"payments\": [\n        {\n          \"id\": \"id cupidatat dolore ad\",\n          \"paymentSystem\": \"consequat do enim\",\n          \"group\": \"incididunt esse commodo aute\",\n          \"bin\": \"sint dolor do incididunt cupidatat\",\n          \"accountId\": \"exercitation\",\n          \"parentAccountId\": \"incididunt ut irure c\",\n          \"referenceValue\": -40184014,\n          \"value\": 51304010,\n          \"installments\": -1191694,\n          \"url\": \"magna velit aliquip Lorem\",\n          \"cardNumber\": \"incididunt est elit officia\",\n          \"fields\": [\n            {\n              \"name\": \"r\",\n              \"value\": \"minim magna exercitation irure aute\"\n            },\n            {\n              \"name\": \"exercitation qui proident fugiat\",\n              \"value\": \"quis labore ex laborum tempor\"\n            }\n          ]\n        },\n        {\n          \"id\": \"officia in\",\n          \"paymentSystem\": \"mollit exercitation labore in\",\n          \"group\": \"veniam proident Duis nostrud\",\n          \"bin\": \"esse eu\",\n          \"accountId\": \"cillum fugiat\",\n          \"parentAccountId\": \"irure dolore\",\n          \"referenceValue\": 47675519,\n          \"value\": 76784429,\n          \"installments\": 18790432,\n          \"url\": \"ea nulla Duis\",\n          \"cardNumber\": \"dolore aliqua veniam cupidatat\",\n          \"fields\": [\n            {\n              \"name\": \"nostrud cupidatat est\",\n              \"value\": \"nostrud\"\n            },\n            {\n              \"name\": \"occaecat dolore amet\",\n              \"value\": \"irure\"\n            }\n          ]\n        }\n      ],\n      \"transactions\": [\n        {\n          \"isActive\": false,\n          \"payments\": [\n            {\n              \"id\": \"sit ullamco\",\n              \"paymentSystem\": \"Duis ut\",\n              \"group\": \"pariatur dolor laboris\",\n              \"bin\": \"reprehenderit enim est aute\",\n              \"accountId\": \"ipsum irure magna ut\",\n              \"parentAccountId\": \"veniam proident nulla\",\n              \"referenceValue\": 10589152,\n              \"value\": 45202675,\n              \"installments\": 17979685,\n              \"url\": \"in voluptate adipisicing\",\n              \"cardNumber\": \"ut sit officia ull\",\n              \"fields\": [\n                {\n                  \"name\": \"culpa sit sunt\",\n                  \"value\": \"veniam adipisicing anim est\"\n                },\n                {\n                  \"name\": \"consect\",\n                  \"value\": \"dolore in eiusmod labore\"\n                }\n              ]\n            },\n            {\n              \"id\": \"tempor elit irure amet cillum\",\n              \"paymentSystem\": \"eiusmod amet ad\",\n              \"group\": \"ea aliquip proident\",\n              \"bin\": \"culpa pariatur\",\n              \"accountId\": \"Duis ei\",\n              \"parentAccountId\": \"tempor cillum deserunt\",\n              \"referenceValue\": -17494490,\n              \"value\": 89593419,\n              \"installments\": 36093950,\n              \"url\": \"aute proident do minim ea\",\n              \"cardNumber\": \"tempor Lorem officia qui\",\n              \"fields\": [\n                {\n                  \"name\": \"Ut dolore reprehenderit\",\n                  \"value\": \"occaecat esse enim laborum\"\n                },\n                {\n                  \"name\": \"exercitation cupidatat\",\n                  \"value\": \"adipisicing\"\n                }\n              ]\n            }\n          ]\n        },\n        {\n          \"isActive\": true,\n          \"payments\": [\n            {\n              \"id\": \"minim laborum ea ullamco\",\n              \"paymentSystem\": \"cillum reprehenderit incididunt laborum co\",\n              \"group\": \"consectetur\",\n              \"bin\": \"qui magna deserunt enim\",\n              \"accountId\": \"dolore dolor sint in\",\n              \"parentAccountId\": \"Duis in\",\n              \"referenceValue\": -28002608,\n              \"value\": 35224645,\n              \"installments\": 21983122,\n              \"url\": \"in esse sint\",\n              \"cardNumber\": \"fugiat consectetur sunt in\",\n              \"fields\": [\n                {\n                  \"name\": \"incididunt non reprehenderit\",\n                  \"value\": \"incididunt Ut proident\"\n                },\n                {\n                  \"name\": \"qui\",\n                  \"value\": \"occaecat\"\n                }\n              ]\n            },\n            {\n              \"id\": \"quis nisi irure\",\n              \"paymentSystem\": \"commodo dolore\",\n              \"group\": \"laboris nostrud Lorem reprehenderit aliquip\",\n              \"bin\": \"occaecat consectetur fugiat\",\n              \"accountId\": \"ullamco laboris pariatur fugiat\",\n              \"parentAccountId\": \"anim sint\",\n              \"referenceValue\": 94234008,\n              \"value\": -61790383,\n              \"installments\": 66517883,\n              \"url\": \"ut cupidatat adipisicing \",\n              \"cardNumber\": \"aute laborum\",\n              \"fields\": [\n                {\n                  \"name\": \"exercitation esse ut Lorem\",\n                  \"value\": \"pariatur culpa est velit\"\n                },\n                {\n                  \"name\": \"ut magna\",\n                  \"value\": \"adipisicing pariatur labore\"\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    },\n    \"country\": \"in\",\n    \"postalCode\": \"veniam \",\n    \"messages\": [\n      {\n        \"code\": \"quis dolore in fugiat esse\",\n        \"status\": \"id occaecat quis\",\n        \"text\": \"cillum dolor amet qui\"\n      },\n      {\n        \"code\": \"eiusmod dolor proident\",\n        \"status\": \"fugiat Ut sunt pariatur\",\n        \"text\": \"amet cillum Ut\"\n      }\n    ],\n    \"selectableGiftsResponse\": [\n      {\n        \"id\": \"qui sit\",\n        \"availableQuantity\": 395778,\n        \"availableGifts\": [\n          {\n            \"id\": \"incididunt laborum\",\n            \"seller\": \"nulla laborum\",\n            \"quantity\": 5,\n            \"price\": -38960027,\n            \"sellingPrice\": -77712910,\n            \"unitMultiplier\": 37447687.64094064,\n            \"attachments\": [\n              {\n                \"name\": \"id minim\",\n                \"content\": {\n                  \"magna734\": \"reprehenderit adipisicing\"\n                }\n              },\n              {\n                \"name\": \"veniam elit\",\n                \"content\": {\n                  \"sint78\": \"fugiat nisi reprehenderit\"\n                }\n              }\n            ],\n            \"name\": \"dolore in id Ut\",\n            \"isGift\": false,\n            \"priceTags\": [\n              {\n                \"name\": \"Ut est\",\n                \"valueAsInt\": 17892828,\n                \"rawValue\": -49776323.34155491,\n                \"isPercentual\": true,\n                \"identifier\": \"ut cillum tempor eu\"\n              },\n              {\n                \"name\": \"consequat nostrud sunt esse\",\n                \"valueAsInt\": -27273076,\n                \"rawValue\": -39718224.16481312,\n                \"isPercentual\": true,\n                \"identifier\": \"exercitation ipsum consequat\"\n              }\n            ],\n            \"isSelected\": true\n          },\n          {\n            \"id\": \"Duis in culpa\",\n            \"seller\": \"pariatur esse sunt id\",\n            \"quantity\": 5,\n            \"price\": 7015058,\n            \"sellingPrice\": 71389417,\n            \"unitMultiplier\": 61727905.54952562,\n            \"attachments\": [\n              {\n                \"name\": \"ipsum amet Excepteur\",\n                \"content\": {\n                  \"sed_04\": \"pariatur eu qui sunt\",\n                  \"aliquip_573\": \"consequat\",\n                  \"velit_2db\": \"sit aute ex aliqua inc\"\n                }\n              },\n              {\n                \"name\": \"Lorem qui laborum Duis labore\",\n                \"content\": {\n                  \"non_41c\": \"fugiat deserunt\",\n                  \"Duis_02\": \"officia esse irure velit\"\n                }\n              }\n            ],\n            \"name\": \"anim incididunt cillum sed ipsum\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"mollit laborum laboris nostrud e\",\n                \"valueAsInt\": 9488187,\n                \"rawValue\": 70034239.1180341,\n                \"isPercentual\": false,\n                \"identifier\": \"Ut Excepteur ullamco\"\n              },\n              {\n                \"name\": \"deserunt consequat dolor\",\n                \"valueAsInt\": 89924707,\n                \"rawValue\": 35206209.2986218,\n                \"isPercentual\": true,\n                \"identifier\": \"velit Duis Ut\"\n              }\n            ],\n            \"isSelected\": false\n          }\n        ]\n      },\n      {\n        \"id\": \"volupt\",\n        \"availableQuantity\": -9859183,\n        \"availableGifts\": [\n          {\n            \"id\": \"sit ut sunt adipisicing\",\n            \"seller\": \"amet labore aliquip\",\n            \"quantity\": 5,\n            \"price\": -27899897,\n            \"sellingPrice\": -17056417,\n            \"unitMultiplier\": -80027096.88528356,\n            \"attachments\": [\n              {\n                \"name\": \"ad \",\n                \"content\": {\n                  \"anim_4\": \"Lorem exercitation\"\n                }\n              },\n              {\n                \"name\": \"et ut la\",\n                \"content\": {\n                  \"irurefd\": \"ea irure\"\n                }\n              }\n            ],\n            \"name\": \"enim Ut adipisicing quis exercitation\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"veniam tempor\",\n                \"valueAsInt\": 39912333,\n                \"rawValue\": -13828727.32536389,\n                \"isPercentual\": true,\n                \"identifier\": \"tempor cillum deserunt\"\n              },\n              {\n                \"name\": \"tempor ut proident et\",\n                \"valueAsInt\": -16285279,\n                \"rawValue\": -81932836.5675819,\n                \"isPercentual\": true,\n                \"identifier\": \"ut irure ipsum nisi null\"\n              }\n            ],\n            \"isSelected\": false\n          },\n          {\n            \"id\": \"mollit\",\n            \"seller\": \"nulla officia aute id irure\",\n            \"quantity\": 5,\n            \"price\": -40321335,\n            \"sellingPrice\": 84196421,\n            \"unitMultiplier\": 58592726.94862926,\n            \"attachments\": [\n              {\n                \"name\": \"adipisicing aliquip officia nisi Ut\",\n                \"content\": {\n                  \"aute37\": \"fugiat voluptate dolor pariatur\"\n                }\n              },\n              {\n                \"name\": \"irure labore\",\n                \"content\": {\n                  \"in87\": \"eu sunt Ut\"\n                }\n              }\n            ],\n            \"name\": \"magna Ut\",\n            \"isGift\": true,\n            \"priceTags\": [\n              {\n                \"name\": \"in dolor dolore ut\",\n                \"valueAsInt\": 87391414,\n                \"rawValue\": 17515013.642034113,\n                \"isPercentual\": false,\n                \"identifier\": \"amet Ut dolor\"\n              },\n              {\n                \"name\": \"est pariatur\",\n                \"valueAsInt\": 75530934,\n                \"rawValue\": 89300679.81437841,\n                \"isPercentual\": true,\n                \"identifier\": \"d\"\n              }\n            ],\n            \"isSelected\": true\n          }\n        ]\n      }\n    ],\n    \"totals\": [\n      {\n        \"id\": \"Duis incididunt dolor minim\",\n        \"name\": \"incididunt occaecat do eiusmod\",\n        \"valueAsInt\": -45330140\n      },\n      {\n        \"id\": \"dolor consectetur incididunt\",\n        \"name\": \"esse cillum ullamco pariatur\",\n        \"valueAsInt\": 45347853\n      }\n    ],\n    \"simulationItems\": [\n      {\n        \"id\": \"aliquip ad\",\n        \"quantity\": 5,\n        \"unitPrice\": 45436469,\n        \"status\": 3,\n        \"statusName\": \"id voluptate ut\"\n      },\n      {\n        \"id\": \"in Excepteur nostrud sunt irure\",\n        \"quantity\": 5,\n        \"unitPrice\": 77565573,\n        \"status\": 0,\n        \"statusName\": \"pariatur\"\n      }\n    ]\n  },\n  \"shippingEstimate\": {\n    \"name\": \"dolor veniam\",\n    \"estimate\": \"magna est officia amet\",\n    \"estimateDeliveryDate\": \"1987-02-28T14:59:41.747Z\",\n    \"nextPurchaseDate\": \"1971-01-09T12:01:12.209Z\",\n    \"allItemsMatched\": true\n  },\n  \"simulationItems\": [\n    {\n      \"id\": \"adipisicing amet\",\n      \"quantity\": 5,\n      \"unitPrice\": 63618367,\n      \"status\": 0,\n      \"statusName\": \"voluptate aute incididunt in\"\n    },\n    {\n      \"id\": \"nisi esse id\",\n      \"quantity\": 5,\n      \"unitPrice\": -35335008,\n      \"status\": 3,\n      \"statusName\": \"voluptate\"\n    }\n  ],\n  \"totals\": [\n    {\n      \"id\": \"laborum cillum qui\",\n      \"value\": 97055854.19183165\n    },\n    {\n      \"id\": \"dolore enim ipsum amet\",\n      \"value\": 43771873.83697075\n    }\n  ]\n}",
               "cookie": []
             }
           ],
@@ -3346,7 +3346,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e30e066a-5f01-4cb5-983d-f0a21a84dcb0",
+                "id": "934579f6-a3a9-47c8-9643-4a036148453b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/rns/pub/subscriptions/simulate - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3360,7 +3360,7 @@
           }
         },
         {
-          "id": "05802ab8-8f52-47d2-b7d3-580a54b05a04",
+          "id": "33ad3375-84f5-46f0-bc8d-4bd3c732717d",
           "name": "Get conversation messages",
           "request": {
             "name": "Get conversation messages",
@@ -3425,7 +3425,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "197d0d13-dd5a-425e-ac4a-3c7f7c933740",
+              "id": "4df8a34f-3c70-4644-96c7-2014d7c32a32",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3522,7 +3522,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fab6f8fb-3ff7-4e8d-91bb-a1b03a2e3c9b",
+                "id": "874d60a6-9985-4df4-8cee-7699939f1a7d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/pub/subscriptions/:subscriptionId/conversation-message - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3541,7 +3541,7 @@
       "event": []
     },
     {
-      "id": "3c2fd67a-610f-4036-8036-dc5a7ab7b54c",
+      "id": "7ada40cc-77bf-4a4e-98e4-c1e2dec8b49a",
       "name": "Settings",
       "description": {
         "content": "",
@@ -3549,7 +3549,7 @@
       },
       "item": [
         {
-          "id": "fd028108-8506-48ce-a52c-87fd6cae53d0",
+          "id": "0c8abc47-8b43-43ab-a24d-0a69c1492baa",
           "name": "Get Subscription Settings",
           "request": {
             "name": "Get Subscription Settings",
@@ -3601,7 +3601,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7f3ef23c-1020-41dc-9a9f-f836682118bb",
+              "id": "254303b3-7c2c-4415-8922-30ff9cb72b11",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3686,7 +3686,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a4d22038-10b1-4fe4-b9f2-eafe152ac76d",
+                "id": "7723c5ad-a41f-4d58-b05d-b9d0f04d4001",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/rns/settings - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3702,7 +3702,7 @@
           }
         },
         {
-          "id": "b45d3429-2679-4a66-aaf9-88a6bf0d740e",
+          "id": "f277a1e1-d1a0-4c68-8622-33dad665771e",
           "name": "Edit Subscriptions settings",
           "request": {
             "name": "Edit Subscriptions settings",
@@ -3767,7 +3767,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "36f64169-4fc3-46ef-92d3-e9bae4cb6598",
+              "id": "771be55c-3b34-4d53-a8c3-833ca129b677",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3860,7 +3860,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fa051b81-9e23-45b9-bb25-b2a76519675c",
+                "id": "bb01803d-354b-4b7a-a771-5e47135b7a4e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/rns/settings - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3926,7 +3926,7 @@
     }
   ],
   "info": {
-    "_postman_id": "06a87d16-0af3-439f-b78d-7231c3511ec8",
+    "_postman_id": "31637a5d-3516-44c4-b931-d942d1926f1a",
     "name": "Subscriptions API (v3)",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

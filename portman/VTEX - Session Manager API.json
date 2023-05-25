@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "730a4339-ff87-4d53-bbfc-b9d1d2bcf120"
+    "postman_id": "8dd780a7-489e-4ece-8e77-35a3880a4497"
   },
   "item": [
     {
-      "id": "ac344817-420d-433c-bd20-bd2a86987734",
+      "id": "7fe8fc4a-fe02-43ab-b15f-060bcba456f3",
       "name": "Sessions",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "f5215484-0360-486e-90dc-f2c824ef5af6",
+          "id": "18719c95-c345-4133-ab54-d3262fdeaa3d",
           "name": "Create new session",
           "request": {
             "name": "Create new session",
@@ -72,7 +72,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "77f03896-8bd8-437d-8926-28351c9b3b7b",
+              "id": "ef862cd1-505e-4ff9-a767-862a448e04b2",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -131,7 +131,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "48b21c9e-a0d8-43e9-84ce-8b03409af9f9",
+                "id": "c623e462-ed6a-4af0-87cc-07c179888bac",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/sessions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -144,7 +144,7 @@
           }
         },
         {
-          "id": "70260f97-7904-43c3-b9ec-0ac5ade631d8",
+          "id": "d0fee317-7d2e-497f-a3be-bcf52d647c6e",
           "name": "Get Session",
           "request": {
             "name": "Get Session",
@@ -199,7 +199,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "969c0ecd-c0ca-4675-a5a2-6582d1c2fcdc",
+              "id": "9cc1e84d-9589-4141-bef5-9230929ba163",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -255,7 +255,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c10d1734-5cd7-4c5a-ad65-3d243d28dbe9",
+                "id": "6706c29b-148c-4c52-b44b-4671e8178abf",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/sessions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -268,7 +268,7 @@
           }
         },
         {
-          "id": "482936b5-8627-4e16-bcd5-1d024a9bf290",
+          "id": "a9113bbc-e1c1-4b9d-a3c7-cc842f7ad7d8",
           "name": "Edit session",
           "request": {
             "name": "Edit session",
@@ -328,7 +328,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ac8a6eae-b0b2-42e0-9ecc-33beb9d7b820",
+              "id": "29365b72-471a-4271-b4a8-a677afdf349e",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -387,7 +387,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4625f97c-39eb-4548-bb85-2e9e7ec3ddfe",
+                "id": "732c7f8f-923f-46ec-8b12-b54a21ed2319",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/sessions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -403,7 +403,7 @@
       "event": []
     },
     {
-      "id": "c4be5da8-a66e-4b4a-bfaa-6a5c7a019598",
+      "id": "bb0e0a52-ff45-4b87-a6c3-a50ff15f43cd",
       "name": "Segment",
       "description": {
         "content": "",
@@ -411,7 +411,7 @@
       },
       "item": [
         {
-          "id": "056354ac-8e79-425f-bf5f-7e9470f8a006",
+          "id": "8b1bbd3e-af9d-42af-b48e-99bc9051d07c",
           "name": "Get Segment",
           "request": {
             "name": "Get Segment",
@@ -456,7 +456,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ffe34e89-b700-4408-8dcd-f80f28ca0740",
+              "id": "28eda80d-de6e-4f7d-a8e6-f029d41fe3c6",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -507,7 +507,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "08d69346-806a-4dc2-a942-0e0fa3901c1e",
+                "id": "8163198e-be62-48dd-b1ee-5362751a2616",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/segments - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -550,7 +550,7 @@
     }
   ],
   "info": {
-    "_postman_id": "730a4339-ff87-4d53-bbfc-b9d1d2bcf120",
+    "_postman_id": "8dd780a7-489e-4ece-8e77-35a3880a4497",
     "name": "Session Manager API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

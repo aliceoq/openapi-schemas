@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "683abd72-f3e0-4885-91eb-baeec5a2fa66"
+    "postman_id": "ad0c1736-d602-459f-b79e-24a252ce867b"
   },
   "item": [
     {
-      "id": "2bd93f48-8f52-4027-bb1b-ef63c6abc4a1",
+      "id": "6c1fffa0-e764-488f-82b3-ec86e26df3b7",
       "name": "SKU Bindings",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "3ebbf25d-052d-4dc3-a710-bef1b65a6d62",
+          "id": "d65e5cba-1f47-4639-ade0-cc06266a72d4",
           "name": "Get SKU Bindings by SKU ID",
           "request": {
             "name": "Get SKU Bindings by SKU ID",
@@ -75,7 +75,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "92b0fe7d-6f57-450f-b1ef-ac8c4d23f321",
+              "id": "36017230-2613-4c58-a2db-30d719f6dc19",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -163,7 +163,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "[\n  {\n    \"Id\": 55423542,\n    \"SellerId\": \"sed\",\n    \"StockKeepingUnitId\": -84410083,\n    \"SellerSkuId\": \"sint incididunt in ullamco\",\n    \"IsActive\": true,\n    \"LastUpdateDate\": \"qui non proident eiusmod\",\n    \"SalesPolicy\": -42763228\n  },\n  {\n    \"Id\": 28125482,\n    \"SellerId\": \"proident fugiat dolor\",\n    \"StockKeepingUnitId\": -82202641,\n    \"SellerSkuId\": \"aute quis\",\n    \"IsActive\": true,\n    \"LastUpdateDate\": \"pariatur exercitation et\",\n    \"SalesPolicy\": 49491955\n  }\n]",
+              "body": "[\n  {\n    \"Id\": 70678298,\n    \"SellerId\": \"eu in nostrud\",\n    \"StockKeepingUnitId\": -53266815,\n    \"SellerSkuId\": \"labore pariatur Excepteur dolore\",\n    \"IsActive\": false,\n    \"LastUpdateDate\": \"ipsum occaecat velit voluptate\",\n    \"SalesPolicy\": 81909217\n  },\n  {\n    \"Id\": 61976648,\n    \"SellerId\": \"est eiusmod elit\",\n    \"StockKeepingUnitId\": 15225710,\n    \"SellerSkuId\": \"deserunt do dolor ipsum\",\n    \"IsActive\": true,\n    \"LastUpdateDate\": \"sunt sed consectetur\",\n    \"SalesPolicy\": -26039217\n  }\n]",
               "cookie": []
             }
           ],
@@ -171,7 +171,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b3cdf0c6-8870-4653-b412-620309290797",
+                "id": "7951402e-f499-4b1b-a502-3e586b3a3167",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/catalog/pvt/skusellers/:skuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -187,7 +187,7 @@
           }
         },
         {
-          "id": "e5aca89e-a58b-44ea-a30c-ecad3ba888ee",
+          "id": "04e8f9de-1988-489e-8aff-ec62bcbbf61c",
           "name": "Get SKU Bindings information",
           "request": {
             "name": "Get SKU Bindings information",
@@ -286,7 +286,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9369c60d-aec9-403a-8594-8a7f400bfcc6",
+              "id": "c4efe1f6-80ef-45a4-b5ec-fe62076c4c49",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -385,7 +385,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"IsPersisted\": true,\n  \"IsRemoved\": false,\n  \"SkuSellerId\": -65796287,\n  \"UpdateDate\": \"ea pariatur do dolore\",\n  \"RequestedUpdateDate\": \"in\",\n  \"SellerStockKeepingUnitId\": \"dolor proident et\",\n  \"SellerId\": \"reprehender\",\n  \"StockKeepingUnitId\": 31294764,\n  \"IsActive\": true\n}",
+              "body": "{\n  \"IsPersisted\": true,\n  \"IsRemoved\": false,\n  \"SkuSellerId\": 15311685,\n  \"UpdateDate\": \"in sed\",\n  \"RequestedUpdateDate\": \"veniam sit officia ea\",\n  \"SellerStockKeepingUnitId\": \"off\",\n  \"SellerId\": \"Duis non ut\",\n  \"StockKeepingUnitId\": 85454629,\n  \"IsActive\": true\n}",
               "cookie": []
             }
           ],
@@ -393,7 +393,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ed5664a8-802f-4bd2-ac9d-8381674fedef",
+                "id": "2a62da0a-648f-4f5d-8434-70fddfae9c61",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/sku-binding/pvt/skuseller/admin - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -409,7 +409,7 @@
           }
         },
         {
-          "id": "ffa744be-f42d-448c-9b59-84b219c34cc5",
+          "id": "e0031261-c8c8-4e2c-895e-efcba7bf8a77",
           "name": "Get details of a seller's SKU",
           "request": {
             "name": "Get details of a seller's SKU",
@@ -483,7 +483,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "3bb94a32-6c6b-4d96-a321-8502ddac9e80",
+              "id": "43f854b8-ccab-42e0-8969-b02ea17c2179",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -590,7 +590,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "95d8fb4d-3a63-4ade-ab24-e0c4d3cd10c5",
+                "id": "a18531ac-2abe-4f6d-b7f1-f1a3719c6a98",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/sku-binding/pvt/skuseller/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -606,7 +606,7 @@
           }
         },
         {
-          "id": "100d1e76-dbd3-46fb-9738-fe6bf391d59e",
+          "id": "ea1e5f4b-b594-43b5-9c74-a541ba024d40",
           "name": "Bind a seller's SKU to another SKU",
           "request": {
             "name": "Bind a seller's SKU to another SKU",
@@ -689,7 +689,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "797fda87-a331-4202-9303-47e1a17db2d1",
+              "id": "142e1b63-c76c-4a06-b142-2863ce4b8aab",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -800,7 +800,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d5c8867e-768c-48be-9ce0-2566d82e417a",
+                "id": "ca851628-9f20-461c-8838-19c6cfdecf8b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/sku-binding/pvt/skuseller/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -814,7 +814,7 @@
           }
         },
         {
-          "id": "b85969cc-5b3d-4414-8132-d523a514e3a5",
+          "id": "fc4195bb-bd08-43a7-87e7-37ea21d5b6f7",
           "name": "Get all SKU Bindings by Seller ID",
           "request": {
             "name": "Get all SKU Bindings by Seller ID",
@@ -879,7 +879,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7567f687-3ed9-4847-877e-d09fd49a1666",
+              "id": "b4a0b7b9-4e27-4e1e-ab01-decf3d786007",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -977,7 +977,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c03959b0-6e49-4bca-a176-f454e5ec1c82",
+                "id": "5a55330b-ebdb-4025-b44c-cc9ea0dd679c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/sku-binding/pvt/skuseller/list/bysellerId/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -993,7 +993,7 @@
           }
         },
         {
-          "id": "3683f265-1ad9-412d-a463-1fb623119027",
+          "id": "dee36ce2-78f7-4336-ac00-fa6225480478",
           "name": "Get paged SKU Bindings by Seller ID",
           "request": {
             "name": "Get paged SKU Bindings by Seller ID",
@@ -1077,7 +1077,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "569b9388-8d62-4be4-9de8-3d689f75d350",
+              "id": "0f26b60d-2cfc-4a97-a953-aebc1fbae770",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1184,7 +1184,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f464bcae-6aa3-4e3a-bc3d-f00f246aa9e0",
+                "id": "36767046-5a21-4b86-a3b9-8089903ec85c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/sku-binding/pvt/skuseller/paged/sellerid/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1200,7 +1200,7 @@
           }
         },
         {
-          "id": "9bd01cc4-bd1b-477c-a30a-98d0f8ecb628",
+          "id": "33a9781e-f6ac-421d-9fee-e75cd5f14c61",
           "name": "Change Notification with SKU ID",
           "request": {
             "name": "Change Notification with SKU ID",
@@ -1258,7 +1258,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d2f20208-e46d-47ef-9fde-0acc4696fc13",
+              "id": "5aabdee4-2712-4b33-beb7-9a65a9d840f8",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1350,7 +1350,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "eabf0aa1-422c-4abe-9319-74dbf98d3c88",
+              "id": "2ee09a6d-3e17-4fe6-940d-2c7b430eb791",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -1442,7 +1442,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "256c78cd-29b6-4cec-81ba-8b6222d3aa7d",
+              "id": "838ebcc9-5e02-4367-91cd-ed41cb040a27",
               "name": "Forbidden",
               "originalRequest": {
                 "url": {
@@ -1534,7 +1534,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "a3c80448-8d28-411e-8fba-49c264344c5b",
+              "id": "7942e679-dfb4-409d-9ab6-c373ddbaba59",
               "name": "Not found",
               "originalRequest": {
                 "url": {
@@ -1626,7 +1626,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "febe2693-0374-42a3-9d41-811cc086d82c",
+              "id": "2bdeb56a-3835-4b6d-87f9-49efc6d68934",
               "name": "Too many requests",
               "originalRequest": {
                 "url": {
@@ -1719,7 +1719,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "951c4b84-5f25-4c43-b0da-7fd0c8b1bc36",
+                "id": "981667df-0f36-4bcd-9fa2-93c88579f93d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/changenotification/:skuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1732,7 +1732,7 @@
           }
         },
         {
-          "id": "118701f4-cfec-4d4a-a50d-d6113cb8e4b1",
+          "id": "1ec3209e-3433-4a33-9377-6cf567767d64",
           "name": "Change Notification with Seller ID and Seller SKU ID",
           "request": {
             "name": "Change Notification with Seller ID and Seller SKU ID",
@@ -1801,7 +1801,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "cd10c068-a950-4b3a-b215-508017e80a8f",
+              "id": "e9550af1-adc9-4ad1-96d3-cf0ce7af2554",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1904,7 +1904,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ac142d50-5935-4667-90d7-38967b226243",
+              "id": "cd26ba26-1c75-42a4-a8ae-03460980c77a",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -2007,7 +2007,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ff9ca01c-a9ff-4868-90b3-7041db6f88ee",
+              "id": "727f04b0-b8fe-45d7-aa00-7a74751cdde7",
               "name": "Forbidden",
               "originalRequest": {
                 "url": {
@@ -2110,7 +2110,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "4866633b-ba06-4350-a180-fb8fea664928",
+              "id": "c005a48b-80d4-4263-b0a8-03e7b4cb195d",
               "name": "Not found",
               "originalRequest": {
                 "url": {
@@ -2213,7 +2213,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e1cef519-89a3-48b3-be91-f96611d86d5c",
+              "id": "d141e2d3-c539-4447-b721-75b611aa2a8f",
               "name": "Too many requests",
               "originalRequest": {
                 "url": {
@@ -2317,7 +2317,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e9f15494-57be-4e9e-be85-2e7fb2e8c31e",
+                "id": "558f15e0-cf4f-4e50-852a-c3a6630cb85c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/changenotification/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2330,7 +2330,7 @@
           }
         },
         {
-          "id": "9e83e611-750b-494c-9226-b897bf91c9af",
+          "id": "d04ae4ed-b99f-4b87-8482-0eaa41d38874",
           "name": "Insert SKU Binding",
           "request": {
             "name": "Insert SKU Binding",
@@ -2392,7 +2392,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "117975ba-9812-49db-81ef-0cfd13d2a139",
+              "id": "9bdd938a-02c7-45e1-9acd-50b5d6932021",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2481,7 +2481,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "39fd2296-deb4-4c66-8e0e-858ef49e3157",
+              "id": "b7047311-1cd5-4ffc-a5ea-9ab433222c49",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -2570,7 +2570,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "996d61ff-d65b-4bbb-9689-fd2c7a7da69c",
+              "id": "82d8518f-c37b-48cc-beb5-695e581480cd",
               "name": "Conflict",
               "originalRequest": {
                 "url": {
@@ -2660,7 +2660,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d1d13bad-b8ab-44be-aba7-45ee31df26e9",
+                "id": "bafbbae1-861e-4d05-83fe-846e4b1da5ec",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/insertion - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2673,7 +2673,7 @@
           }
         },
         {
-          "id": "21f0de76-3cdc-429a-80fa-f624df271ac8",
+          "id": "e3bb019a-e4f0-4500-ab24-1d24012c25eb",
           "name": "Activate SKU Binding",
           "request": {
             "name": "Activate SKU Binding",
@@ -2742,7 +2742,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d2f1efa9-2eb8-40f3-bef7-f1b4a81a8a9a",
+              "id": "ebb21a8b-23b5-48ca-8a65-d6a7188943b3",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2846,7 +2846,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5a0bb754-2bb6-46a5-b611-0a02e2b7d408",
+                "id": "19cd2d33-7442-4a69-90b0-441afe66655b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/activate/:sellerId/:skuSellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2859,7 +2859,7 @@
           }
         },
         {
-          "id": "65c1f41a-fee9-4f04-8c9f-dd7873eb1a7c",
+          "id": "5896928b-8bce-48bb-afc6-b523e3fe298b",
           "name": "Deactivate SKU Binding",
           "request": {
             "name": "Deactivate SKU Binding",
@@ -2928,7 +2928,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "187fed96-5510-476c-9eeb-c8f2d70f0979",
+              "id": "1abb3074-69f2-484e-a16e-f0cb6be4ef32",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3032,7 +3032,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9d7d6ea2-4f69-4a46-96de-2de4f31adf58",
+                "id": "c8205fe1-890d-4b59-87a1-09caef76b2ac",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/inactivate/:sellerId/:skuSellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3045,7 +3045,7 @@
           }
         },
         {
-          "id": "7066cbda-dbe9-4a7e-b144-40c9a86dd97f",
+          "id": "bffa9155-07a1-40bb-a0a3-b926d6b7eda0",
           "name": "Remove a seller's SKU Binding",
           "request": {
             "name": "Remove a seller's SKU Binding",
@@ -3114,7 +3114,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "6f88651f-3fd4-4b1a-a0ef-956abeb8f981",
+              "id": "5357c4a7-36ff-4791-b570-9bad1f6d2309",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3218,7 +3218,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "046b5d2b-81ae-492e-87f3-378df4665843",
+                "id": "551b6913-1b5a-48d3-b3c5-95058dbabc22",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/sku-binding/pvt/skuseller/remove/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3281,7 +3281,7 @@
     }
   ],
   "info": {
-    "_postman_id": "683abd72-f3e0-4885-91eb-baeec5a2fa66",
+    "_postman_id": "ad0c1736-d602-459f-b79e-24a252ce867b",
     "name": "SKU Bindings API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

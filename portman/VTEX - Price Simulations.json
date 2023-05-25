@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "24b1ce11-57d9-4b72-9bd2-6d507ee7255b"
+    "postman_id": "2ada217a-d348-48fe-9048-fb8c5de07b00"
   },
   "item": [
     {
-      "id": "1811e044-d8d9-44cf-92cd-020aafcfe88c",
+      "id": "ffa3b7c2-c582-44f3-8d6a-44651ce52ddc",
       "name": "Session Management",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "44f4f2dd-3231-4c1a-b86c-e7a86bb27c86",
+          "id": "bab73230-d50d-4a6b-bb06-ac2c0b2f068c",
           "name": "Update Order Configuration",
           "request": {
             "name": "Update Order Configuration",
@@ -76,7 +76,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "6d6d49f0-cbe7-4a3d-a623-2b0ae02e40b6",
+              "id": "efe207cb-e8e7-450c-8c9b-06fbb4ca3b58",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -160,7 +160,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "6222c913-96b4-4bff-be1c-5f7e8bfd226f",
+                "id": "230a6785-87ac-418f-9777-7f0eb1d782f3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/sessions/ - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -179,7 +179,7 @@
       "event": []
     },
     {
-      "id": "4532b5a2-8804-496a-989f-2266125eb0a5",
+      "id": "675f1bdc-8a8b-40a6-a27b-3a0d30e4bdde",
       "name": "Custom Prices",
       "description": {
         "content": "",
@@ -187,7 +187,7 @@
       },
       "item": [
         {
-          "id": "aa5bf54c-a18f-40e7-8e20-36fe7409c686",
+          "id": "b51179c3-0aaa-4876-a3df-44a0478d8495",
           "name": "Get custom prices schema",
           "request": {
             "name": "Get custom prices schema",
@@ -240,7 +240,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8b6c04cf-04c3-4512-be94-a55719ef10dc",
+              "id": "62f989e2-cf6c-4ac9-bda9-82873575d4e0",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -318,7 +318,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ac3233c1-88ba-4a5a-81cb-5f29c194049c",
+                "id": "70e3d897-c478-4418-b7f7-ab8b0ea1a534",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/_v/custom-prices/session/schema - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -334,7 +334,7 @@
           }
         },
         {
-          "id": "3eda5267-93a8-494b-9b3a-5493e4f59b53",
+          "id": "fc56751a-118c-4118-adaa-58f2eaec3463",
           "name": "Create or Update custom prices schema",
           "request": {
             "name": "Create or Update custom prices schema",
@@ -400,7 +400,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "892dc8fe-59c5-41ec-9756-5224f76f37c7",
+              "id": "3f64c9dd-d47c-4129-94e0-6e7a29832caf",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -486,7 +486,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ab592b21-ade8-436d-b471-b56e6c533115",
+                "id": "7fbf76de-6e7a-431a-a3c9-7a7c2deede6e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/_v/custom-prices/session/schema - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -505,7 +505,7 @@
       "event": []
     },
     {
-      "id": "549473f8-b09e-400b-a131-88a5928cae41",
+      "id": "ed4c384f-f146-4861-b11d-473ee9c2836e",
       "name": "Price Association",
       "description": {
         "content": "",
@@ -513,7 +513,7 @@
       },
       "item": [
         {
-          "id": "a4689a2c-a300-474e-9c57-00133c649470",
+          "id": "ae3e01dc-284a-4b66-9f79-841eeceb83df",
           "name": "Get price association by ID",
           "request": {
             "name": "Get price association by ID",
@@ -576,7 +576,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "fd9abadc-1dde-4f6b-947f-51567ec89c1e",
+              "id": "789ffd31-d15f-452e-a210-2b654776aa3e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -664,7 +664,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9b28fc26-6d78-4030-9446-c812f5d7c269",
+                "id": "d82cca9b-e57d-4a1e-872b-2f73e862a06a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/_v/custom-prices/rules/:priceAssociationId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -680,7 +680,7 @@
           }
         },
         {
-          "id": "491ceb26-f600-4a3c-b5e6-93fc4770d0f4",
+          "id": "b2d79c6a-7bfb-42fd-9540-f25bd8827abe",
           "name": "Update price association by ID",
           "request": {
             "name": "Update price association by ID",
@@ -756,7 +756,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "12d5f41d-4479-43fb-bfa8-0bc7acc727a6",
+              "id": "b5c0935c-a60f-4998-87fd-3c713d87bdc2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -852,7 +852,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "17b35c8e-dd98-43fa-87a8-3e48fdc7f2d1",
+                "id": "67294ddd-4265-4653-b4f7-036df20e105e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/_v/custom-prices/rules/:priceAssociationId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -868,7 +868,7 @@
           }
         },
         {
-          "id": "9cf6789d-68d6-4a93-af92-0a131a7225b2",
+          "id": "9afc8df1-c2a5-4d73-922e-9e9d8a0acaad",
           "name": "Disassociate price association by ID",
           "request": {
             "name": "Disassociate price association by ID",
@@ -931,7 +931,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "020df07c-7c39-44ff-85bf-3a7b17ba414a",
+              "id": "ef0562cf-ad9f-4d81-803e-62f1bcb9ab9b",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1019,7 +1019,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c5970336-ec66-4b0e-b9b8-2d864109e7b3",
+                "id": "0bed5a52-5494-4df2-bd45-3087c155bc58",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/_v/custom-prices/rules/:priceAssociationId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1035,7 +1035,7 @@
           }
         },
         {
-          "id": "504d9c4b-6493-4833-9210-9b77f0f5d9b0",
+          "id": "c36f1033-1519-4c18-b18b-7b26ebbfb0f2",
           "name": "Create price association",
           "request": {
             "name": "Create price association",
@@ -1100,7 +1100,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "51f860a5-4aef-4e9d-ab67-9e9f867f61e2",
+              "id": "cc414f73-a2ec-4691-ab51-e3ce5872fd45",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1185,7 +1185,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "cc6f4a81-b2d3-4d8e-a77b-603b9d2884c5",
+                "id": "275a198a-c6fc-4b86-8e05-0eddff739135",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/_v/custom-prices/rules - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1231,7 +1231,7 @@
     }
   ],
   "info": {
-    "_postman_id": "24b1ce11-57d9-4b72-9bd2-6d507ee7255b",
+    "_postman_id": "2ada217a-d348-48fe-9048-fb8c5de07b00",
     "name": "Price Simulations API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
