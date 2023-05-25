@@ -7,6 +7,15 @@ on:
     types: [closed]
 
 jobs:
+  print-base-ref:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print base_ref
+        run: |
+          echo "Base Ref: ${{ github.base_ref }}"
+          echo "Head Ref: ${{ github.head_ref }}"
+          echo "Ref: ${{ github.ref }}"
+
   convert-to-postman:
     runs-on: ubuntu-latest
 
