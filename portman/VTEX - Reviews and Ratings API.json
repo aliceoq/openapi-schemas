@@ -1,0 +1,1375 @@
+{
+  "_": {
+    "postman_id": "97e8c9a5-63cb-4968-96bf-03ce75c30d84"
+  },
+  "item": [
+    {
+      "id": "4a0f0665-9df8-45fb-b31e-638f14ad31c5",
+      "name": "Rating",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "5b2df2c9-7f67-4077-b606-207e84b01f83",
+          "name": "Get Product Rating",
+          "request": {
+            "name": "Get Product Rating",
+            "description": {
+              "content": "Retrieves the rating of a specific product.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "rating",
+                ":productId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Product ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "1",
+                  "key": "productId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "a1c2faa7-8965-4c41-a133-1d856f17c48b",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "rating",
+                    ":productId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Product ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "productId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"average\": 3.86,\n  \"totalCount\": 7\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "aa4fb43a-79d0-4cee-bde4-80fa4817694c",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/rating/:productId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/rating/:productId - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/rating/:productId - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"description\":\"\",\"type\":\"object\",\"properties\":{\"average\":{\"description\":\"Avarage rating of the product.\",\"type\":\"number\",\"example\":3.86},\"totalCount\":{\"description\":\"Total amount of ranting of the product.\",\"type\":\"number\",\"example\":7}},\"example\":{\"average\":3.86,\"totalCount\":7}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/rating/:productId - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "0e9d9752-262a-4b9b-b68d-df103a54554d",
+      "name": "Review",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "f0c36e88-aa16-4918-9f32-a9b439c9121c",
+          "name": "Get Review by Review ID",
+          "request": {
+            "name": "Get Review by Review ID",
+            "description": {
+              "content": "Retrieves information of a product review by its ID.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "review",
+                ":reviewId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Review ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "1",
+                  "key": "reviewId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "e3eb314d-b817-4769-85f7-464555e8b99c",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "review",
+                    ":reviewId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Review ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "reviewId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"productId\": \"1\",\n  \"rating\": 5,\n  \"title\": \"Great product\",\n  \"text\": \"Great product.\",\n  \"reviewerName\": \"Arturo\",\n  \"shopperId\": \"user@email.com\",\n  \"reviewDateTime\": \"04/19/2022 18:55:58\",\n  \"searchDate\": \"2022-04-19T18:55:58Z\",\n  \"verifiedPurchaser\": false,\n  \"sku\": \"2\",\n  \"approved\": false,\n  \"location\": null,\n  \"locale\": \"en-US\",\n  \"pastReviews\": null\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "4b58c182-3154-4d16-9efb-21b14d8cd733",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/review/:reviewId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/review/:reviewId - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/review/:reviewId - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"description\":\"\",\"type\":\"object\",\"properties\":{\"id\":{\"description\":\"Review ID.\",\"type\":\"string\"},\"productId\":{\"description\":\"Product ID.\",\"type\":\"string\"},\"rating\":{\"description\":\"Customer rating.\",\"type\":\"number\"},\"title\":{\"description\":\"Review's title.\",\"type\":\"string\"},\"text\":{\"description\":\"Review's text.\",\"type\":\"string\"},\"reviewerName\":{\"description\":\"Reviewer name.\",\"type\":\"string\"},\"shopperId\":{\"description\":\"Shopper email.\",\"type\":\"string\"},\"reviewDateTime\":{\"description\":\"Review's date and time.\",\"type\":\"string\"},\"searchDate\":{\"description\":\"Review's search date.\",\"type\":\"string\"},\"verifiedPurchaser\":{\"description\":\"If the reviewer is a verified purchaser (`true`) or not (`false`).\",\"type\":\"boolean\"},\"sku\":{\"description\":\"SKU ID.\",\"type\":[\"string\",\"null\"]},\"approved\":{\"description\":\"If the review was approved (`true`) or not (`false`).\",\"type\":\"boolean\"},\"location\":{\"description\":\"Review's origin location.\",\"type\":[\"string\",\"null\"]},\"locale\":{\"description\":\"Review's locale.\",\"type\":[\"string\",\"null\"]},\"pastReviews\":{\"description\":\"Past reviews of the same product.\",\"type\":[\"string\",\"null\"]}},\"example\":{\"id\":\"5323fdaa-c012-11ec-835d-0ebee58edbb3\",\"productId\":\"1\",\"rating\":5,\"title\":\"Great product\",\"text\":\"Great product.\",\"reviewerName\":\"Arturo\",\"shopperId\":\"user@email.com\",\"reviewDateTime\":\"04/19/2022 18:55:58\",\"searchDate\":\"2022-04-19T18:55:58Z\",\"verifiedPurchaser\":false,\"sku\":\"2\",\"approved\":false,\"location\":null,\"locale\":\"en-US\",\"pastReviews\":null}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/review/:reviewId - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "68a37edd-ca5c-4552-baf9-4f5dbf56930c",
+          "name": "Delete Review",
+          "request": {
+            "name": "Delete Review",
+            "description": {
+              "content": "Deletes an existing review.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "review",
+                ":reviewId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Review ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "1",
+                  "key": "reviewId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "DELETE"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "0aa26b6b-6df1-46a9-b399-97aae2728dce",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "review",
+                    ":reviewId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Review ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "1",
+                      "key": "reviewId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "DELETE",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "true",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "7ed9ed90-a9b8-4b3d-82ba-70cfa4cd8971",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[DELETE]::/review/:reviewId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[DELETE]::/review/:reviewId - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[DELETE]::/review/:reviewId - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"description\":\"If the review was deleted (`true`) or not (`false`).\",\"type\":\"boolean\",\"example\":true}\n\n// Validate if response matches JSON schema \npm.test(\"[DELETE]::/review/:reviewId - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "c47dafdd-3717-4f64-bab2-6c855e9ca630",
+          "name": "Update a Review",
+          "request": {
+            "name": "Update a Review",
+            "description": {
+              "content": "Updates the information of a review.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "review",
+                ":reviewId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Review ID.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "5323fdaa-c012-11ec-835d-0ebee58edbb3",
+                  "key": "reviewId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "PATCH",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"productId\": \"1\",\n  \"rating\": 5,\n  \"title\": \"Great product\",\n  \"text\": \"Great product.\",\n  \"reviewerName\": \"Arturo\",\n  \"shopperId\": \"user@email.com\",\n  \"verifiedPurchaser\": false,\n  \"locale\": \"en-US\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "2f90dcc0-a902-4a7d-a9a1-67475c6b530e",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "review",
+                    ":reviewId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Review ID.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "5323fdaa-c012-11ec-835d-0ebee58edbb3",
+                      "key": "reviewId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PATCH",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"productId\": \"1\",\n  \"rating\": 5,\n  \"title\": \"Great product\",\n  \"text\": \"Great product.\",\n  \"reviewerName\": \"Arturo\",\n  \"shopperId\": \"user@email.com\",\n  \"verifiedPurchaser\": false,\n  \"locale\": \"en-US\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"productId\": \"1\",\n  \"rating\": 5,\n  \"title\": \"Great product\",\n  \"text\": \"Great product.\",\n  \"reviewerName\": \"Arturo\",\n  \"shopperId\": \"user@email.com\",\n  \"reviewDateTime\": \"04/19/2022 18:55:58\",\n  \"searchDate\": \"2022-04-19T18:55:58Z\",\n  \"verifiedPurchaser\": false,\n  \"sku\": \"2\",\n  \"approved\": false,\n  \"location\": null,\n  \"locale\": \"en-US\",\n  \"pastReviews\": null\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "aa95df68-1421-41b7-9a48-100fa90259dc",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PATCH]::/review/:reviewId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[PATCH]::/review/:reviewId - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[PATCH]::/review/:reviewId - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"description\":\"\",\"type\":\"object\",\"properties\":{\"id\":{\"description\":\"Review ID.\",\"type\":\"string\"},\"productId\":{\"description\":\"Product ID.\",\"type\":\"string\"},\"rating\":{\"description\":\"Customer rating.\",\"type\":\"number\"},\"title\":{\"description\":\"Review's title.\",\"type\":\"string\"},\"text\":{\"description\":\"Review's text.\",\"type\":\"string\"},\"reviewerName\":{\"description\":\"Reviewer name.\",\"type\":\"string\"},\"shopperId\":{\"description\":\"Shopper email.\",\"type\":\"string\"},\"reviewDateTime\":{\"description\":\"Review's date and time.\",\"type\":\"string\"},\"searchDate\":{\"description\":\"Review's search date.\",\"type\":\"string\"},\"verifiedPurchaser\":{\"description\":\"If the reviewer is a verified purchaser (`true`) or not (`false`).\",\"type\":\"boolean\"},\"sku\":{\"description\":\"SKU ID.\",\"type\":[\"string\",\"null\"]},\"approved\":{\"description\":\"If the review was approved (`true`) or not (`false`).\",\"type\":\"boolean\"},\"location\":{\"description\":\"Review's origin location.\",\"type\":[\"string\",\"null\"]},\"locale\":{\"description\":\"Review's locale.\",\"type\":[\"string\",\"null\"]},\"pastReviews\":{\"description\":\"Past reviews of the same product.\",\"type\":[\"string\",\"null\"]}},\"example\":{\"id\":\"5323fdaa-c012-11ec-835d-0ebee58edbb3\",\"productId\":\"1\",\"rating\":5,\"title\":\"Great product\",\"text\":\"Great product.\",\"reviewerName\":\"Arturo\",\"shopperId\":\"user@email.com\",\"reviewDateTime\":\"04/19/2022 18:55:58\",\"searchDate\":\"2022-04-19T18:55:58Z\",\"verifiedPurchaser\":false,\"sku\":\"2\",\"approved\":false,\"location\":null,\"locale\":\"en-US\",\"pastReviews\":null}}\n\n// Validate if response matches JSON schema \npm.test(\"[PATCH]::/review/:reviewId - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "3c14ee05-1b46-4474-9870-13ef6ec01010",
+          "name": "Get a list of Reviews",
+          "request": {
+            "name": "Get a list of Reviews",
+            "description": {
+              "content": "Retrieves a list of reviews.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "reviews"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Returns Reviews that contain the search term in `productId`, `sku`, `shopperId`, or `reviewerName`.",
+                    "type": "text/plain"
+                  },
+                  "key": "search_term",
+                  "value": "search_term"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Zero base starting record number, `0` is the default value.",
+                    "type": "text/plain"
+                  },
+                  "key": "from",
+                  "value": "0"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Zero base ending record number, `3` is the default value.",
+                    "type": "text/plain"
+                  },
+                  "key": "to",
+                  "value": "3"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Case-sensitive fieldName to order records (optionally add `:asc` or `:desc`).",
+                    "type": "text/plain"
+                  },
+                  "key": "order_by",
+                  "value": ":asc"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Status of the review, approved (`true`) or not (`false`).",
+                    "type": "text/plain"
+                  },
+                  "key": "status",
+                  "value": "true"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Filter the reviews by product ID.",
+                    "type": "text/plain"
+                  },
+                  "key": "product_id",
+                  "value": "1"
+                }
+              ],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "2352e662-d0ec-4276-8a4e-5128031e1410",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "reviews"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "search_term",
+                      "value": "search_term"
+                    },
+                    {
+                      "key": "from",
+                      "value": "0"
+                    },
+                    {
+                      "key": "to",
+                      "value": "3"
+                    },
+                    {
+                      "key": "order_by",
+                      "value": ":asc"
+                    },
+                    {
+                      "key": "status",
+                      "value": "true"
+                    },
+                    {
+                      "key": "product_id",
+                      "value": "1"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"data\": [\n    {\n      \"id\": \"deserunt ea\",\n      \"productId\": \"non ut aliquip laboris\",\n      \"rating\": 90281694.69446778,\n      \"title\": \"eiusmod velit in minim\",\n      \"text\": \"fugiat Ut\",\n      \"reviewerName\": \"officia sint pariatur\",\n      \"shopperId\": \"ex occaecat ullamco commodo cupidatat\",\n      \"reviewDateTime\": \"dolor proident\",\n      \"searchDate\": \"aliquip Lorem magna cupidatat\",\n      \"verifiedPurchaser\": false,\n      \"sku\": \"rep\",\n      \"approved\": true,\n      \"location\": \"consequat i\",\n      \"locale\": \"amet laboris minim\",\n      \"pastReviews\": \"et cupidatat sed\"\n    },\n    {\n      \"id\": \"ipsu\",\n      \"productId\": \"proident sit dolore l\",\n      \"rating\": 33341075.041179195,\n      \"title\": \"in dolor tempor quis deserunt\",\n      \"text\": \"tempor labor\",\n      \"reviewerName\": \"commodo occaecat\",\n      \"shopperId\": \"magna sit dolor ad\",\n      \"reviewDateTime\": \"qui nisi cupidatat\",\n      \"searchDate\": \"eiusmod consectetur et\",\n      \"verifiedPurchaser\": true,\n      \"sku\": \"enim dolor proident\",\n      \"approved\": false,\n      \"location\": \"dolor Excep\",\n      \"locale\": \"veniam pariatur consectetur nisi mollit\",\n      \"pastReviews\": \"id ut in\"\n    }\n  ],\n  \"range\": {\n    \"total\": 93093489.8365953,\n    \"from\": -74260230.59874019,\n    \"to\": -78310589.76543549\n  }\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "46659737-25b1-4a1c-be8d-8953f239bcd5",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/reviews - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/reviews - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/reviews - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"description\":\"\",\"type\":\"object\",\"properties\":{\"data\":{\"description\":\"Array of reviews.\",\"type\":\"array\",\"items\":{\"description\":\"Review's information.\",\"type\":\"object\",\"properties\":{\"id\":{\"description\":\"Review ID.\",\"type\":\"string\"},\"productId\":{\"description\":\"Product ID.\",\"type\":\"string\"},\"rating\":{\"description\":\"Customer rating.\",\"type\":\"number\"},\"title\":{\"description\":\"Review's title.\",\"type\":\"string\"},\"text\":{\"description\":\"Review's text.\",\"type\":\"string\"},\"reviewerName\":{\"description\":\"Reviewer name.\",\"type\":\"string\"},\"shopperId\":{\"description\":\"Shopper email.\",\"type\":\"string\"},\"reviewDateTime\":{\"description\":\"Review's date and time.\",\"type\":\"string\"},\"searchDate\":{\"description\":\"Review's search date.\",\"type\":\"string\"},\"verifiedPurchaser\":{\"description\":\"If the reviewer is a verified purchaser (`true`) or not (`false`).\",\"type\":\"boolean\"},\"sku\":{\"description\":\"SKU ID.\",\"type\":[\"string\",\"null\"]},\"approved\":{\"description\":\"If the review was approved (`true`) or not (`false`).\",\"type\":\"boolean\"},\"location\":{\"description\":\"Review's origin location.\",\"type\":[\"string\",\"null\"]},\"locale\":{\"description\":\"Review's locale.\",\"type\":[\"string\",\"null\"]},\"pastReviews\":{\"description\":\"Past reviews of the same product.\",\"type\":[\"string\",\"null\"]}}}},\"range\":{\"description\":\"Range of the review's list.\",\"type\":\"object\",\"properties\":{\"total\":{\"description\":\"Total number of reviews on the list.\",\"type\":\"number\"},\"from\":{\"description\":\"Zero base starting record number.\",\"type\":\"number\"},\"to\":{\"description\":\"Zero base ending record number.\",\"type\":\"number\"}}}},\"example\":{\"data\":[{\"id\":\"1\",\"productId\":\"880035\",\"rating\":3,\"title\":\"anon\",\"text\":\"anon\",\"reviewerName\":\"anon\",\"shopperId\":\"anon@email.com\",\"reviewDateTime\":\"06/02/2021 20:58:43\",\"searchDate\":\"2021-06-02T20:58:43Z\",\"verifiedPurchaser\":false,\"sku\":null,\"approved\":true,\"location\":\"\",\"locale\":null,\"pastReviews\":null},{\"id\":\"2\",\"productId\":\"880035\",\"rating\":5,\"title\":\"logged in\",\"text\":\"it's cool\",\"reviewerName\":\"Brian\",\"shopperId\":\"brian@email.com.br\",\"reviewDateTime\":\"06/02/2021 21:00:00\",\"searchDate\":\"2021-06-02T21:00:00Z\",\"verifiedPurchaser\":false,\"sku\":null,\"approved\":true,\"location\":\"\",\"locale\":null,\"pastReviews\":null},{\"id\":\"c66d8bc0-787c-11ec-82ac-028dd4526e77\",\"productId\":\"880035\",\"rating\":3,\"title\":\"Korean\",\"text\":\"ko-KR\",\"reviewerName\":\"ko-KR\",\"shopperId\":\"user@email.com\",\"reviewDateTime\":\"01/18/2022 16:36:33\",\"searchDate\":\"2022-01-18T16:36:33Z\",\"verifiedPurchaser\":false,\"sku\":null,\"approved\":true,\"location\":null,\"locale\":\"ko-KR\",\"pastReviews\":null}],\"range\":{\"total\":26,\"from\":0,\"to\":3}}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/reviews - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "29cc4008-d537-4628-8e48-6e81da3635ff",
+          "name": "Create Multiple Reviews",
+          "request": {
+            "name": "Create Multiple Reviews",
+            "description": {
+              "content": "Creates multiple reviews.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "reviews"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"productId\": \"1\",\n    \"rating\": 4,\n    \"title\": \"test multiple reviews\",\n    \"text\": \"test multiple reviews\",\n    \"reviewerName\": \"Arturo\",\n    \"approved\": false,\n    \"verifiedPurchaser\": false\n  },\n  {\n    \"productId\": \"2\",\n    \"rating\": 4,\n    \"title\": \"test review 2 multiple reviews\",\n    \"text\": \"test review 2 multiple reviews\",\n    \"reviewerName\": \"Arturo\",\n    \"approved\": false,\n    \"verifiedPurchaser\": false\n  }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "a3eceb2c-eecb-432a-8489-4414e233bfef",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "reviews"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "[\n  {\n    \"productId\": \"1\",\n    \"rating\": 4,\n    \"title\": \"test multiple reviews\",\n    \"text\": \"test multiple reviews\",\n    \"reviewerName\": \"Arturo\",\n    \"approved\": false,\n    \"verifiedPurchaser\": false\n  },\n  {\n    \"productId\": \"2\",\n    \"rating\": 4,\n    \"title\": \"test review 2 multiple reviews\",\n    \"text\": \"test review 2 multiple reviews\",\n    \"reviewerName\": \"Arturo\",\n    \"approved\": false,\n    \"verifiedPurchaser\": false\n  }\n]",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  \"8e1a5e11-c0c9-11ec-835d-0a591b8a3ec1\",\n  \"9257c203-c0c9-11ec-835d-0e02dd207951\"\n]",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "fdfd2fd8-7efc-4922-b522-d72f5ad39d00",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/reviews - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/reviews - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[POST]::/reviews - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"description\":\"List of review IDs.\",\"type\":\"array\",\"items\":{\"description\":\"Review ID.\",\"type\":\"string\"}}\n\n// Validate if response matches JSON schema \npm.test(\"[POST]::/reviews - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "eb841302-f644-4a53-95dd-2d9c22d7dc39",
+          "name": "Delete Multiple Reviews",
+          "request": {
+            "name": "Delete Multiple Reviews",
+            "description": {
+              "content": "Deletes multiple reviews at once.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "reviews"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "DELETE",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"babefcf4-e0f7-11ec-835d-16c4e59c4351\",\n  \"qweqweee-e0f7-11ec-835d-16c4e59c4351\",\n  \"asdffggg-e0f7-11ec-835d-16c4e59c4351\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "11c4176d-69e8-459b-b9ea-2f02e027369f",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "reviews"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "DELETE",
+                "body": {
+                  "mode": "raw",
+                  "raw": "[\n  \"babefcf4-e0f7-11ec-835d-16c4e59c4351\",\n  \"qweqweee-e0f7-11ec-835d-16c4e59c4351\",\n  \"asdffggg-e0f7-11ec-835d-16c4e59c4351\"\n]",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "true",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "b68276fa-033e-424f-a527-64c64084d850",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[DELETE]::/reviews - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[DELETE]::/reviews - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[DELETE]::/reviews - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"description\":\"If the review was deleted (`true`) or not (`false`).\",\"type\":\"boolean\",\"example\":true}\n\n// Validate if response matches JSON schema \npm.test(\"[DELETE]::/reviews - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "0ed12ceb-ec31-438d-91fb-876abd724013",
+          "name": "Create a Review",
+          "request": {
+            "name": "Create a Review",
+            "description": {
+              "content": "Creates a single review",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "review"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"productId\": \"65444\",\n  \"rating\": 5,\n  \"title\": \"Good Product\",\n  \"text\": \"It is the best product that I have seen\",\n  \"reviewerName\": \"Arturo\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "20db4be6-dab7-4067-8911-11a8be3a4512",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "review"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"productId\": \"65444\",\n  \"rating\": 5,\n  \"title\": \"Good Product\",\n  \"text\": \"It is the best product that I have seen\",\n  \"reviewerName\": \"Arturo\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"productId\": \"65444\",\n  \"rating\": 5,\n  \"title\": \"Good Product\",\n  \"text\": \"It is the best product that I have seen\",\n  \"reviewerName\": \"Arturo\",\n  \"shopperId\": \"user@email.com\",\n  \"reviewDateTime\": \"04/19/2022 18:55:58\",\n  \"searchDate\": \"2022-04-19T18:55:58Z\",\n  \"verifiedPurchaser\": false,\n  \"sku\": \"2\",\n  \"approved\": false,\n  \"location\": null,\n  \"locale\": \"en-US\",\n  \"pastReviews\": null\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "c746f971-6d2a-4aa2-9efa-b4610335374d",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/review - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/review - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[POST]::/review - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"description\":\"\",\"type\":\"object\",\"properties\":{\"id\":{\"description\":\"Review ID.\",\"type\":\"string\"},\"productId\":{\"description\":\"Product ID.\",\"type\":\"string\"},\"rating\":{\"description\":\"Customer rating.\",\"type\":\"number\"},\"title\":{\"description\":\"Review's title.\",\"type\":\"string\"},\"text\":{\"description\":\"Review's text.\",\"type\":\"string\"},\"reviewerName\":{\"description\":\"Reviewer name.\",\"type\":\"string\"},\"shopperId\":{\"description\":\"Shopper email.\",\"type\":\"string\"},\"reviewDateTime\":{\"description\":\"Review's date and time.\",\"type\":\"string\"},\"searchDate\":{\"description\":\"Review's search date.\",\"type\":\"string\"},\"verifiedPurchaser\":{\"description\":\"If the reviewer is a verified purchaser (`true`) or not (`false`).\",\"type\":\"boolean\"},\"sku\":{\"description\":\"SKU ID.\",\"type\":[\"string\",\"null\"]},\"approved\":{\"description\":\"If the review was approved (`true`) or not (`false`).\",\"type\":\"boolean\"},\"location\":{\"description\":\"Review's origin location.\",\"type\":[\"string\",\"null\"]},\"locale\":{\"description\":\"Review's locale.\",\"type\":[\"string\",\"null\"]},\"pastReviews\":{\"description\":\"Past reviews of the same product.\",\"type\":[\"string\",\"null\"]}},\"example\":{\"id\":\"5323fdaa-c012-11ec-835d-0ebee58edbb3\",\"productId\":\"65444\",\"rating\":5,\"title\":\"Good Product\",\"text\":\"It is the best product that I have seen\",\"reviewerName\":\"Arturo\",\"shopperId\":\"user@email.com\",\"reviewDateTime\":\"04/19/2022 18:55:58\",\"searchDate\":\"2022-04-19T18:55:58Z\",\"verifiedPurchaser\":false,\"sku\":\"2\",\"approved\":false,\"location\":null,\"locale\":\"en-US\",\"pastReviews\":null}}\n\n// Validate if response matches JSON schema \npm.test(\"[POST]::/review - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "type": "any",
+        "value": "X-VTEX-API-AppKey",
+        "key": "key"
+      },
+      {
+        "type": "any",
+        "value": "{{apiKey}}",
+        "key": "value"
+      },
+      {
+        "type": "any",
+        "value": "header",
+        "key": "in"
+      }
+    ]
+  },
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "Name of the VTEX account. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{accountName}",
+      "key": "accountName"
+    },
+    {
+      "type": "string",
+      "value": "https://{{accountName}}.myvtex.com/reviews-and-ratings/api",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "97e8c9a5-63cb-4968-96bf-03ce75c30d84",
+    "name": "Reviews and Ratings API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "\r\nReviews & Ratings is a [VTEX IO native solution](https://developers.vtex.com/vtex-developer-docs/docs/vtex-reviews-and-ratings) that allows shoppers to submit reviews and ratings for products, as well as see them while navigating the store.\r\n\r\n## Rating\r\n\r\n- [Get Product Rating](https://developers.vtex.com/vtex-rest-api/reference/getproductrating)\r\n\r\n## Review\r\n\r\n- [Get Review by Review ID](https://developers.vtex.com/vtex-rest-api/reference/getreviewbyreviewid)\r\n- [Delete Review](https://developers.vtex.com/vtex-rest-api/reference/deletereview)\r\n- [Update a Review](https://developers.vtex.com/vtex-rest-api/reference/editreview)\r\n- [Get a list of Reviews](https://developers.vtex.com/vtex-rest-api/reference/getalistofreviews)\r\n- [Create Multiple Reviews](https://developers.vtex.com/vtex-rest-api/reference/savemultiplereviews)\r\n- [Delete Multiple Reviews](https://developers.vtex.com/vtex-rest-api/reference/deletemultiplereviews)\r\n- [Create a Review](https://developers.vtex.com/vtex-rest-api/reference/savereview)",
+      "type": "text/plain"
+    }
+  }
+}
