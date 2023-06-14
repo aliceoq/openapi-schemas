@@ -1,0 +1,2018 @@
+{
+  "_": {
+    "postman_id": "bd72fe4a-9143-4a4a-a163-5228276fdc16"
+  },
+  "item": [
+    {
+      "id": "65656d34-735f-4614-96a8-d4fa733850a8",
+      "name": "Coupons",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "ee1d974b-a7fe-446c-a5a1-2cf8117a99c7",
+          "name": "Get coupons",
+          "request": {
+            "name": "Get coupons",
+            "description": {
+              "content": "Retrieves the list of all active coupons.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "d09610af-0030-4e50-9560-9218995fb998",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"items\": [\n    {\n      \"grouping\": {\n        \"key\": \"rewardsprogram\",\n        \"amount\": 1000\n      },\n      \"configuration\": {\n        \"lastModifiedUtc\": \"2022-04-20T20:07:03.5066878Z\",\n        \"utmSource\": \"fb\",\n        \"utmCampaign\": \"rewards\",\n        \"isArchived\": false,\n        \"maxItemsPerClient\": 0,\n        \"expirationIntervalPerUse\": \"00:00:00\",\n        \"maxUsage\": 3,\n        \"groupingKey\": \"rewardsprogram\"\n      }\n    }\n  ],\n  \"pagination\": {\n    \"page\": 0,\n    \"pageSize\": 10,\n    \"total\": 10\n  }\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "3dd1b2d9-e322-4712-91c4-1a784b0055fe",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/coupon - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/coupon - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/coupon - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"title\":\"\",\"description\":\"List of coupons.\",\"type\":\"object\",\"properties\":{\"items\":{\"title\":\"items\",\"description\":\"Array of objects.\",\"type\":\"array\",\"items\":{\"title\":\"\",\"description\":\"Object containing each coupon batch and its configuration information.\",\"type\":\"object\",\"properties\":{\"grouping\":{\"title\":\"grouping\",\"description\":\"Coupon batch.\",\"type\":\"object\",\"properties\":{\"key\":{\"title\":\"key\",\"description\":\"Coupon grouping key, which is the prefix for the coupon batch's generated codes.\",\"type\":\"string\",\"example\":\"rewardsprogram\"},\"amount\":{\"title\":\"amount\",\"description\":\"Amount of codes in the coupon batch.\",\"type\":\"number\",\"example\":1000}}},\"configuration\":{\"title\":\"configuration\",\"description\":\"Object containing the coupon's properties.\",\"type\":\"object\",\"properties\":{\"lastModifiedUtc\":{\"title\":\"lastModifiedUtc\",\"description\":\"Date when the coupon was modified for the last time, in the UTC format.\",\"type\":\"string\",\"example\":\"2022-04-20T20:07:03.5066878Z\"},\"utmSource\":{\"title\":\"utmSource\",\"description\":\"UTM source related to the coupon, which indicates the source of the traffic, that is, from which site, advertiser, or publication the user came from.\",\"type\":\"string\",\"example\":\"fb\"},\"utmCampaign\":{\"title\":\"utmCampaign\",\"description\":\"UTM campaign related to the coupon, which indicates the campaign that defines a particular marketing context.\",\"type\":\"string\",\"example\":\"blackfriday\"},\"couponCode\":{\"title\":\"couponCode\",\"description\":\"Single coupon code.\",\"type\":\"string\",\"example\":\"welcome10\"},\"isArchived\":{\"title\":\"isArchived\",\"description\":\"Determines whether the coupon is archived (`true`) or not (`false`).\",\"type\":\"boolean\",\"example\":false},\"maxItemsPerClient\":{\"title\":\"maxItemsPerClient\",\"description\":\"This option is non-editable and visible only for existing coupons configured with this limitation in previous versions of Coupons. When enabled, it determines the maximum amount of products to which the coupon can be applied. The defined quantity is valid for one or more purchases by the same customer.\",\"type\":\"number\",\"example\":0},\"expirationIntervalPerUse\":{\"title\":\"expirationIntervalPerUse\",\"description\":\"This option is non-editable and visible only for existing coupons configured with this limitation in previous versions of the Coupons module. When enabled, it determines how many days after purchase the coupon will be available for use again.\",\"type\":\"string\",\"example\":\"14.00:00:00\"},\"maxUsage\":{\"title\":\"maxUsage\",\"description\":\"The maximum number of times the coupon can be used, if the coupon has limited usage.\",\"type\":\"number\",\"example\":3},\"groupingKey\":{\"title\":\"groupingKey\",\"description\":\"Coupon grouping key, which is the prefix for the coupon batch's generated codes.\",\"type\":\"string\",\"example\":\"rewardsprogram\"}}}}}},\"pagination\":{\"title\":\"pagination\",\"description\":\"Pagination of the list of coupons.\",\"type\":\"object\",\"properties\":{\"page\":{\"title\":\"page\",\"description\":\"Page number.\",\"type\":\"number\",\"example\":0},\"pageSize\":{\"title\":\"pageSize\",\"description\":\"Number of items per page.\",\"type\":\"number\",\"example\":10},\"total\":{\"title\":\"total\",\"description\":\"Total of pages.\",\"type\":\"number\",\"example\":10}},\"example\":{\"age\":0,\"pageSize\":10,\"total\":10}}}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/coupon - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "0ee33330-df5c-45da-b2df-3c7006aea059",
+          "name": "Get archived coupons",
+          "request": {
+            "name": "Get archived coupons",
+            "description": {
+              "content": "Retrieves the list of all archived coupons.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "group",
+                "archived"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "7209d0e4-0aa3-42f5-ada1-03e64c8da74a",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    "archived"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"items\": [\n    {\n      \"grouping\": {\n        \"key\": \"rewardsprogram\",\n        \"amount\": 1000\n      },\n      \"configuration\": {\n        \"lastModifiedUtc\": \"2022-04-20T20:07:03.5066878Z\",\n        \"utmSource\": \"fb\",\n        \"utmCampaign\": \"rewards\",\n        \"isArchived\": true,\n        \"maxItemsPerClient\": 0,\n        \"expirationIntervalPerUse\": \"00:00:00\",\n        \"maxUsage\": 3,\n        \"groupingKey\": \"rewardsprogram\"\n      }\n    }\n  ],\n  \"pagination\": {\n    \"page\": 0,\n    \"pageSize\": 10,\n    \"total\": 10\n  }\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "00fac824-2a92-4c7b-ad59-708932a3a2fe",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/coupon/group/archived - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/coupon/group/archived - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/coupon/group/archived - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"title\":\"\",\"description\":\"List of coupons.\",\"type\":\"object\",\"properties\":{\"items\":{\"title\":\"items\",\"description\":\"Array of objects.\",\"type\":\"array\",\"items\":{\"title\":\"\",\"description\":\"Object containing each coupon batch and its configuration information.\",\"type\":\"object\",\"properties\":{\"grouping\":{\"title\":\"grouping\",\"description\":\"Coupon batch.\",\"type\":\"object\",\"properties\":{\"key\":{\"title\":\"key\",\"description\":\"Coupon grouping key, which is the prefix for the coupon batch's generated codes.\",\"type\":\"string\",\"example\":\"rewardsprogram\"},\"amount\":{\"title\":\"amount\",\"description\":\"Amount of codes in the coupon batch.\",\"type\":\"number\",\"example\":1000}}},\"configuration\":{\"title\":\"configuration\",\"description\":\"Object containing the coupon's properties.\",\"type\":\"object\",\"properties\":{\"lastModifiedUtc\":{\"title\":\"lastModifiedUtc\",\"description\":\"Date when the coupon was modified for the last time, in the UTC format.\",\"type\":\"string\",\"example\":\"2022-04-20T20:07:03.5066878Z\"},\"utmSource\":{\"title\":\"utmSource\",\"description\":\"UTM source related to the coupon, which indicates the source of the traffic, that is, from which site, advertiser, or publication the user came from.\",\"type\":\"string\",\"example\":\"fb\"},\"utmCampaign\":{\"title\":\"utmCampaign\",\"description\":\"UTM campaign related to the coupon, which indicates the campaign that defines a particular marketing context.\",\"type\":\"string\",\"example\":\"blackfriday\"},\"couponCode\":{\"title\":\"couponCode\",\"description\":\"Single coupon code.\",\"type\":\"string\",\"example\":\"welcome10\"},\"isArchived\":{\"title\":\"isArchived\",\"description\":\"Determines whether the coupon is archived (`true`) or not (`false`).\",\"type\":\"boolean\",\"example\":false},\"maxItemsPerClient\":{\"title\":\"maxItemsPerClient\",\"description\":\"This option is non-editable and visible only for existing coupons configured with this limitation in previous versions of Coupons. When enabled, it determines the maximum amount of products to which the coupon can be applied. The defined quantity is valid for one or more purchases by the same customer.\",\"type\":\"number\",\"example\":0},\"expirationIntervalPerUse\":{\"title\":\"expirationIntervalPerUse\",\"description\":\"This option is non-editable and visible only for existing coupons configured with this limitation in previous versions of the Coupons module. When enabled, it determines how many days after purchase the coupon will be available for use again.\",\"type\":\"string\",\"example\":\"14.00:00:00\"},\"maxUsage\":{\"title\":\"maxUsage\",\"description\":\"The maximum number of times the coupon can be used, if the coupon has limited usage.\",\"type\":\"number\",\"example\":3},\"groupingKey\":{\"title\":\"groupingKey\",\"description\":\"Coupon grouping key, which is the prefix for the coupon batch's generated codes.\",\"type\":\"string\",\"example\":\"rewardsprogram\"}}}}}},\"pagination\":{\"title\":\"pagination\",\"description\":\"Pagination of the list of coupons.\",\"type\":\"object\",\"properties\":{\"page\":{\"title\":\"page\",\"description\":\"Page number.\",\"type\":\"number\",\"example\":0},\"pageSize\":{\"title\":\"pageSize\",\"description\":\"Number of items per page.\",\"type\":\"number\",\"example\":10},\"total\":{\"title\":\"total\",\"description\":\"Total of pages.\",\"type\":\"number\",\"example\":10}},\"example\":{\"age\":0,\"pageSize\":10,\"total\":10}}}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/coupon/group/archived - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "980aefef-27b5-44b5-8af7-b2335303934e",
+          "name": "Get coupon batch information",
+          "request": {
+            "name": "Get coupon batch information",
+            "description": {
+              "content": "Retrieves information from a specific coupon batch based on its `groupingKey`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "group",
+                ":groupingKey"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "promo",
+                  "key": "groupingKey"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "c7565928-a7f3-4789-8a81-f4edaffd66e2",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    ":groupingKey"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "promo",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"configuration\": {\n    \"lastModifiedUtc\": \"2022-02-15T19:18:28.6409703Z\",\n    \"utmSource\": \"fb\",\n    \"utmCampaign\": \"rewards\",\n    \"isArchived\": false,\n    \"maxItemsPerClient\": 13,\n    \"expirationIntervalPerUse\": \"00:00:00\",\n    \"maxUsage\": 11,\n    \"groupingKey\": \"12130984756\"\n  },\n  \"grouping\": {\n    \"key\": \"12130984756\",\n    \"amount\": 5\n  }\n}",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "18ca62db-4547-41a5-abb7-b4c4acaeb5d8",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/coupon/group/:groupingKey - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/coupon/group/:groupingKey - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/coupon/group/:groupingKey - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"title\":\"\",\"description\":\"Coupon batch information.\",\"type\":\"object\",\"properties\":{\"configuration\":{\"title\":\"configuration\",\"description\":\"Object containing the coupon's properties.\",\"type\":\"object\",\"properties\":{\"lastModifiedUtc\":{\"title\":\"lastModifiedUtc\",\"description\":\"Date when the coupon was modified for the last time, in the UTC format.\",\"type\":\"string\",\"example\":\"2022-04-20T20:07:03.5066878Z\"},\"utmSource\":{\"title\":\"utmSource\",\"description\":\"UTM source related to the coupon, which indicates the source of the traffic, that is, from which site, advertiser, or publication the user came from.\",\"type\":\"string\",\"example\":\"fb\"},\"utmCampaign\":{\"title\":\"utmCampaign\",\"description\":\"UTM campaign related to the coupon, which indicates the campaign that defines a particular marketing context.\",\"type\":\"string\",\"example\":\"blackfriday\"},\"isArchived\":{\"title\":\"isArchived\",\"description\":\"Determines whether the coupon is archived (`true`) or not (`false`).\",\"type\":\"boolean\",\"example\":false},\"maxItemsPerClient\":{\"title\":\"maxItemsPerClient\",\"description\":\"This option is non-editable and visible only for existing coupons configured with this limitation in previous versions of Coupons. When enabled, it determines the maximum amount of products to which the coupon can be applied. The defined quantity is valid for one or more purchases by the same customer.\",\"type\":\"number\",\"example\":0},\"expirationIntervalPerUse\":{\"title\":\"expirationIntervalPerUse\",\"description\":\"This option is non-editable and visible only for existing coupons configured with this limitation in previous versions of the Coupons module. When enabled, it determines how many days after purchase the coupon will be available for use again.\",\"type\":\"string\",\"example\":\"14.00:00:00\"},\"maxUsage\":{\"title\":\"maxUsage\",\"description\":\"The maximum number of times the coupon can be used, if the coupon has limited usage.\",\"type\":\"number\",\"example\":3},\"groupingKey\":{\"title\":\"groupingKey\",\"description\":\"Coupon grouping key, which is the prefix for the coupon batch's generated codes.\",\"type\":\"string\",\"example\":\"rewardsprogram\"}}},\"grouping\":{\"title\":\"grouping\",\"description\":\"Coupon batch.\",\"type\":\"object\",\"properties\":{\"key\":{\"title\":\"key\",\"description\":\"Coupon grouping key, which is the prefix for the coupon batch's generated codes.\",\"type\":\"string\",\"example\":\"rewardsprogram\"},\"amount\":{\"title\":\"amount\",\"description\":\"Amount of codes in the coupon batch.\",\"type\":\"number\",\"example\":1000}}}}}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/coupon/group/:groupingKey - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "53d21113-7cae-46d4-98ca-72ad47d9e813",
+          "name": "Edit coupon batch configuration",
+          "request": {
+            "name": "Edit coupon batch configuration",
+            "description": {
+              "content": "Changes information from a specific coupon batch configuration based on its `groupingKey`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "group",
+                ":groupingKey"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "promo",
+                  "key": "groupingKey"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"utmSource\": \"source\",\n  \"isArchived\": false,\n  \"maxItemsPerClient\": 0,\n  \"expirationIntervalPerUse\": \"00:00:00\",\n  \"maxUsage\": 4\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "0523e556-91e4-4b5b-b527-52745cc59e53",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    ":groupingKey"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "promo",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"utmSource\": \"source\",\n  \"isArchived\": false,\n  \"maxItemsPerClient\": 0,\n  \"expirationIntervalPerUse\": \"00:00:00\",\n  \"maxUsage\": 4\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  \"12130984756-bbbsqz5lxivwvx7\",\n  \"12130984756-31xj4idmfbmh9am\",\n  \"12130984756-pxpdsou99n3bmsn\",\n  \"12130984756-juzl9asvq8z4sjn\",\n  \"12130984756-gyo7a2v0s9v7s07\"\n]",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "e4049b98-1bd0-4838-a016-78eb928216f7",
+              "name": "Bad Request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    ":groupingKey"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "promo",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"utmSource\": \"source\",\n  \"isArchived\": false,\n  \"maxItemsPerClient\": 0,\n  \"expirationIntervalPerUse\": \"00:00:00\",\n  \"maxUsage\": 4\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "It is not possible to edit an archived coupon group.",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "fa996726-cfe5-41a9-b084-d4dd80bc0b10",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/coupon/group/:groupingKey - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[PUT]::/coupon/group/:groupingKey - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[PUT]::/coupon/group/:groupingKey - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"title\":\"\",\"description\":\"Array of strings with coupon batch codes.\",\"items\":{\"type\":\"string\",\"title\":\"\",\"description\":\"Coupon code\"},\"example\":[\"12130984756-bbbsqz5lxivwvx7\",\"12130984756-31xj4idmfbmh9am\",\"12130984756-pxpdsou99n3bmsn\",\"12130984756-juzl9asvq8z4sjn\",\"12130984756-gyo7a2v0s9v7s07\"]}\n\n// Validate if response matches JSON schema \npm.test(\"[PUT]::/coupon/group/:groupingKey - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "dc0673eb-0792-4092-9fa2-30f1055c0d86",
+          "name": "Get coupon batch codes",
+          "request": {
+            "name": "Get coupon batch codes",
+            "description": {
+              "content": "Retrieves a specific coupon batch's list of codes.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "group",
+                ":groupingKey",
+                "codes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "promo",
+                  "key": "groupingKey"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "f1d3b06d-8f8b-4f34-a463-ce3a0ef42da4",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    ":groupingKey",
+                    "codes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "promo",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  \"12130984756-bbbsqz5lxivwvx7\",\n  \"12130984756-31xj4idmfbmh9am\",\n  \"12130984756-pxpdsou99n3bmsn\",\n  \"12130984756-juzl9asvq8z4sjn\",\n  \"12130984756-gyo7a2v0s9v7s07\"\n]",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "7580d945-5ec4-4078-8668-fbe7b6ff040f",
+              "name": "Not Found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    ":groupingKey",
+                    "codes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "promo",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "Coupon Group Not Found",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "44a96be7-7c55-4fd2-9461-a3a852d8de96",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/coupon/group/:groupingKey/codes - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/coupon/group/:groupingKey/codes - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/coupon/group/:groupingKey/codes - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"title\":\"\",\"description\":\"Array of strings with coupon batch codes.\",\"items\":{\"type\":\"string\",\"title\":\"\",\"description\":\"Coupon code\"},\"example\":[\"12130984756-bbbsqz5lxivwvx7\",\"12130984756-31xj4idmfbmh9am\",\"12130984756-pxpdsou99n3bmsn\",\"12130984756-juzl9asvq8z4sjn\",\"12130984756-gyo7a2v0s9v7s07\"]}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/coupon/group/:groupingKey/codes - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "cae59308-40cb-4692-b7ee-f9ec6896b393",
+          "name": "Archive a coupon batch",
+          "request": {
+            "name": "Archive a coupon batch",
+            "description": {
+              "content": "Archives a coupon batch and its respective codes.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "group",
+                ":groupingKey",
+                "archive"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "promo",
+                  "key": "groupingKey"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "PUT"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "3d31535a-fcfd-41e1-b978-9d34f088fd3f",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    ":groupingKey",
+                    "archive"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "promo",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "900139ac-ba3b-4798-88a6-8e837f229ad5",
+              "name": "Not Found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    ":groupingKey",
+                    "archive"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "promo",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "PUT",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "Coupon Group Not Found",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "28f84441-83e0-4015-b940-134abe58d732",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/coupon/group/:groupingKey/archive - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "c68f3f0a-66eb-46bf-8251-d1a183fd486f",
+          "name": "Create coupon batches",
+          "request": {
+            "name": "Create coupon batches",
+            "description": {
+              "content": "Creates one or more coupon batches.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "group"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"couponConfiguration\": {\n      \"utmSource\": \"fb\",\n      \"utmCampaign\": \"blackfriday\",\n      \"couponCode\": \"bf22\",\n      \"expirationIntervalPerUse\": \"00:00:00\",\n      \"maxItemsPerClient\": 5,\n      \"maxUsage\": 5\n    },\n    \"quantity\": \"5\"\n  },\n  {\n    \"couponConfiguration\": {\n      \"utmSource\": \"fb\",\n      \"utmCampaign\": \"blackfriday\",\n      \"couponCode\": \"bf22\",\n      \"expirationIntervalPerUse\": \"00:00:00\",\n      \"maxItemsPerClient\": 5,\n      \"maxUsage\": 5\n    },\n    \"quantity\": \"5\"\n  }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "a643af1c-ffa6-4a9d-a82d-9241328270de",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "[\n  {\n    \"couponConfiguration\": {\n      \"utmSource\": \"fb\",\n      \"utmCampaign\": \"blackfriday\",\n      \"couponCode\": \"bf22\",\n      \"expirationIntervalPerUse\": \"00:00:00\",\n      \"maxItemsPerClient\": 5,\n      \"maxUsage\": 5\n    },\n    \"quantity\": \"5\"\n  },\n  {\n    \"couponConfiguration\": {\n      \"utmSource\": \"fb\",\n      \"utmCampaign\": \"blackfriday\",\n      \"couponCode\": \"bf22\",\n      \"expirationIntervalPerUse\": \"00:00:00\",\n      \"maxItemsPerClient\": 5,\n      \"maxUsage\": 5\n    },\n    \"quantity\": \"5\"\n  }\n]",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  \"bf22-Y0RGX5VRCQU5HRQ\",\n  \"bf22-XZC6SP9WYR1OINC\",\n  \"bf22-DOLD2FF2NNHUGZU\",\n  \"bf22-1E5WFBGOS2MAY9T\",\n  \"bf22-CXK6H29W9K1PI2B\"\n]",
+              "cookie": []
+            },
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "e57d7898-dedc-4483-b494-cf526e167179",
+              "name": "Bad Request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "[\n  {\n    \"couponConfiguration\": {\n      \"utmSource\": \"fb\",\n      \"utmCampaign\": \"blackfriday\",\n      \"couponCode\": \"bf22\",\n      \"expirationIntervalPerUse\": \"00:00:00\",\n      \"maxItemsPerClient\": 5,\n      \"maxUsage\": 5\n    },\n    \"quantity\": \"5\"\n  },\n  {\n    \"couponConfiguration\": {\n      \"utmSource\": \"fb\",\n      \"utmCampaign\": \"blackfriday\",\n      \"couponCode\": \"bf22\",\n      \"expirationIntervalPerUse\": \"00:00:00\",\n      \"maxItemsPerClient\": 5,\n      \"maxUsage\": 5\n    },\n    \"quantity\": \"5\"\n  }\n]",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "A list of multiple coupon configurations is required",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "ff4bfec8-8bc7-4d74-bd86-683600b5c390",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/coupon/group - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[POST]::/coupon/group - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[POST]::/coupon/group - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"array\",\"items\":{\"type\":\"string\",\"title\":\"\",\"description\":\"Coupon code\"},\"example\":[\"bf22-Y0RGX5VRCQU5HRQ\",\"bf22-XZC6SP9WYR1OINC\",\"bf22-DOLD2FF2NNHUGZU\",\"bf22-1E5WFBGOS2MAY9T\",\"bf22-CXK6H29W9K1PI2B\"]}\n\n// Validate if response matches JSON schema \npm.test(\"[POST]::/coupon/group - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "875c524a-2943-4232-a342-1ca13bdcf385",
+          "name": "Unarchive a coupon batch",
+          "request": {
+            "name": "Unarchive a coupon batch",
+            "description": {
+              "content": "Unarchives a coupon batch and its respective codes.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "group",
+                ":groupingKey",
+                "unarchive"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "promo",
+                  "key": "groupingKey"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "PUT"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "ae5a5242-d647-48be-a4e4-cd06d129ef7e",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "group",
+                    ":groupingKey",
+                    "unarchive"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "promo",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "6e18e148-d203-4e18-90bc-6af8cd8957e9",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/coupon/group/:groupingKey/unarchive - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "dd2b3219-9d3f-4f24-accb-e030ad1abd28",
+          "name": "Get usage count for a single coupon",
+          "request": {
+            "name": "Get usage count for a single coupon",
+            "description": {
+              "content": "Returns the number of times a specific single coupon was used, based on its `couponCode`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "usage-count",
+                ":couponCode"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Single coupon code.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "blackfriday10",
+                  "key": "couponCode"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "39c03fbb-99fb-452b-9e3f-66f4ae7d745d",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "usage-count",
+                    ":couponCode"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Single coupon code.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "blackfriday10",
+                      "key": "couponCode"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "1",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "5edf5d4b-284f-4ba1-b34e-7eb2c043ab75",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/coupon/usage-count/:couponCode - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/coupon/usage-count/:couponCode - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/coupon/usage-count/:couponCode - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"number\",\"title\":\"\",\"description\":\"Number of times the single coupon was used to place orders.\",\"example\":1}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/coupon/usage-count/:couponCode - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "fc01b8f5-7bcd-438e-9889-ea2c5f69bfc7",
+          "name": "Get usage count for a coupon batch",
+          "request": {
+            "name": "Get usage count for a coupon batch",
+            "description": {
+              "content": "Returns the number of times a coupon batch was used, based on its `groupingKey`.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "coupon",
+                "usage-count",
+                "group",
+                ":groupingKey"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "rewardsprogram",
+                  "key": "groupingKey"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "json"
+              },
+              "id": "ed690471-676d-4408-857d-e529c09095c1",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "coupon",
+                    "usage-count",
+                    "group",
+                    ":groupingKey"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) Coupon grouping key, which is the prefix for the coupon batch's generated codes.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "rewardsprogram",
+                      "key": "groupingKey"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Describes the type of the content being sent.",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation _Accept_ Header. Indicates the types of responses the client can understand.",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "1",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "0c91efea-77fc-4c58-ad91-813b0537d8e7",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/coupon/usage-count/group/:groupingKey - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
+                  "// Validate if response header has matching content-type\npm.test(\"[GET]::/coupon/usage-count/group/:groupingKey - Content-Type is application/json\", function () {\n   pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\n});\n",
+                  "// Validate if response has JSON Body \npm.test(\"[GET]::/coupon/usage-count/group/:groupingKey - Response has JSON Body\", function () {\n    pm.response.to.have.jsonBody();\n});\n",
+                  "// Response Validation\nconst schema = {\"type\":\"number\",\"title\":\"\",\"description\":\"Number of times the coupon batch was used to place orders.\",\"example\":1}\n\n// Validate if response matches JSON schema \npm.test(\"[GET]::/coupon/usage-count/group/:groupingKey - Schema is valid\", function() {\n    pm.response.to.have.jsonSchema(schema,{unknownFormats: [\"int32\", \"int64\", \"float\", \"double\"]});\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "Name of the VTEX account. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "apiexamples",
+      "key": "accountName"
+    },
+    {
+      "description": {
+        "content": "Environment to use. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "vtexcommercestable",
+      "key": "environment"
+    },
+    {
+      "type": "string",
+      "value": "https://{{accountName}}.{{environment}}.com.br/api/rnb/v2/pvt",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "bd72fe4a-9143-4a4a-a163-5228276fdc16",
+    "name": "Promotions & Taxes API v2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "\r\n> Check the new [Promotions onboarding guide](https://developers.vtex.com/vtex-rest-api/docs/promotions-overview). We created this guide to improve the onboarding experience for developers at VTEX. It assembles all documentation on our Developer Portal about Promotions and is organized by focusing on the developer's journey.\r\n\r\n The Promotions & Taxes API allows you to manage and retrieve all coupons from your VTEX store.",
+      "type": "text/plain"
+    }
+  }
+}

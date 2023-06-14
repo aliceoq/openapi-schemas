@@ -1,0 +1,581 @@
+{
+    "item": [
+        {
+            "id": "3ebbfb31-28ce-49c2-9de6-b2f689834965",
+            "name": "pets",
+            "description": {
+                "content": "",
+                "type": "text/plain"
+            },
+            "item": [
+                {
+                    "id": "290aabec-fd11-4153-a159-08e7756a1967",
+                    "name": "List all pets",
+                    "request": {
+                        "name": "List all pets",
+                        "description": {},
+                        "url": {
+                            "path": [
+                                "pets"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [
+                                {
+                                    "disabled": false,
+                                    "key": "limit",
+                                    "value": "64412152",
+                                    "description": "How many items to return at one time (max 100)"
+                                }
+                            ],
+                            "variable": [
+                                {
+                                    "description": "Your VTEX account name",
+                                    "type": "any",
+                                    "value": "{{accountName}}",
+                                    "key": "accountName"
+                                },
+                                {
+                                    "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                    "type": "any",
+                                    "value": "{{environment}}",
+                                    "key": "environment"
+                                }
+                            ]
+                        },
+                        "header": [
+                            {
+                                "key": "Accept",
+                                "value": "application/json"
+                            }
+                        ],
+                        "method": "GET",
+                        "auth": null
+                    },
+                    "response": [
+                        {
+                            "id": "a34574be-30dc-4ab9-aa29-839001eb52ef",
+                            "name": "An paged array of pets",
+                            "originalRequest": {
+                                "url": {
+                                    "path": [
+                                        "pets"
+                                    ],
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "query": [
+                                        {
+                                            "key": "limit",
+                                            "value": "64412152"
+                                        }
+                                    ],
+                                    "variable": [
+                                        {
+                                            "description": "Your VTEX account name",
+                                            "type": "any",
+                                            "value": "{{accountName}}",
+                                            "key": "accountName"
+                                        },
+                                        {
+                                            "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                            "type": "any",
+                                            "value": "{{environment}}",
+                                            "key": "environment"
+                                        }
+                                    ]
+                                },
+                                "header": [
+                                    {
+                                        "description": {
+                                            "content": "Added as a part of security scheme: apikey",
+                                            "type": "text/plain"
+                                        },
+                                        "key": "X-VTEX-API-AppKey",
+                                        "value": "<API Key>"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "method": "GET",
+                                "body": {}
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "header": [
+                                {
+                                    "disabled": false,
+                                    "description": "A link to the next page of responses",
+                                    "key": "x-next",
+                                    "value": "dolore"
+                                },
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "body": "[\n  {\n    \"id\": 85701179,\n    \"name\": \"qui dolore exercitation sunt consequat\",\n    \"tag\": \"aliqua id non mollit\"\n  },\n  {\n    \"id\": 14390674,\n    \"name\": \"dolore ut\",\n    \"tag\": \"Duis\"\n  }\n]",
+                            "cookie": [],
+                            "_postman_previewlanguage": "json"
+                        },
+                        {
+                            "id": "3246c73b-3894-4575-9773-3fe32379caec",
+                            "name": "unexpected error",
+                            "originalRequest": {
+                                "url": {
+                                    "path": [
+                                        "pets"
+                                    ],
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "query": [
+                                        {
+                                            "key": "limit",
+                                            "value": "64412152"
+                                        }
+                                    ],
+                                    "variable": [
+                                        {
+                                            "description": "Your VTEX account name",
+                                            "type": "any",
+                                            "value": "{{accountName}}",
+                                            "key": "accountName"
+                                        },
+                                        {
+                                            "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                            "type": "any",
+                                            "value": "{{environment}}",
+                                            "key": "environment"
+                                        }
+                                    ]
+                                },
+                                "header": [
+                                    {
+                                        "description": {
+                                            "content": "Added as a part of security scheme: apikey",
+                                            "type": "text/plain"
+                                        },
+                                        "key": "X-VTEX-API-AppKey",
+                                        "value": "<API Key>"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "method": "GET",
+                                "body": {}
+                            },
+                            "status": "Internal Server Error",
+                            "code": 500,
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "body": "{\n  \"code\": 46873994,\n  \"message\": \"officia dolor irure proident\"\n}",
+                            "cookie": [],
+                            "_postman_previewlanguage": "json"
+                        }
+                    ],
+                    "event": [],
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    }
+                },
+                {
+                    "id": "efffd2cf-980a-4654-bdbe-c1592e49598f",
+                    "name": "Create a pet",
+                    "request": {
+                        "name": "Create a pet",
+                        "description": {},
+                        "url": {
+                            "path": [
+                                "pets"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": [
+                                {
+                                    "description": "Your VTEX account name",
+                                    "type": "any",
+                                    "value": "{{accountName}}",
+                                    "key": "accountName"
+                                },
+                                {
+                                    "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                    "type": "any",
+                                    "value": "{{environment}}",
+                                    "key": "environment"
+                                }
+                            ]
+                        },
+                        "header": [
+                            {
+                                "key": "Accept",
+                                "value": "application/json"
+                            }
+                        ],
+                        "method": "POST",
+                        "auth": null
+                    },
+                    "response": [
+                        {
+                            "id": "3d2b542c-d856-498b-a5c1-0091214a46e3",
+                            "name": "Null response",
+                            "originalRequest": {
+                                "url": {
+                                    "path": [
+                                        "pets"
+                                    ],
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "query": [],
+                                    "variable": [
+                                        {
+                                            "description": "Your VTEX account name",
+                                            "type": "any",
+                                            "value": "{{accountName}}",
+                                            "key": "accountName"
+                                        },
+                                        {
+                                            "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                            "type": "any",
+                                            "value": "{{environment}}",
+                                            "key": "environment"
+                                        }
+                                    ]
+                                },
+                                "header": [
+                                    {
+                                        "description": {
+                                            "content": "Added as a part of security scheme: apikey",
+                                            "type": "text/plain"
+                                        },
+                                        "key": "X-VTEX-API-AppKey",
+                                        "value": "<API Key>"
+                                    }
+                                ],
+                                "method": "POST",
+                                "body": {}
+                            },
+                            "status": "Created",
+                            "code": 201,
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "body": "",
+                            "cookie": [],
+                            "_postman_previewlanguage": "text"
+                        },
+                        {
+                            "id": "248aa35c-4117-4e5e-b494-811c8d244581",
+                            "name": "unexpected error",
+                            "originalRequest": {
+                                "url": {
+                                    "path": [
+                                        "pets"
+                                    ],
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "query": [],
+                                    "variable": [
+                                        {
+                                            "description": "Your VTEX account name",
+                                            "type": "any",
+                                            "value": "{{accountName}}",
+                                            "key": "accountName"
+                                        },
+                                        {
+                                            "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                            "type": "any",
+                                            "value": "{{environment}}",
+                                            "key": "environment"
+                                        }
+                                    ]
+                                },
+                                "header": [
+                                    {
+                                        "description": {
+                                            "content": "Added as a part of security scheme: apikey",
+                                            "type": "text/plain"
+                                        },
+                                        "key": "X-VTEX-API-AppKey",
+                                        "value": "<API Key>"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "method": "POST",
+                                "body": {}
+                            },
+                            "status": "Internal Server Error",
+                            "code": 500,
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "body": "{\n  \"code\": 46873994,\n  \"message\": \"officia dolor irure proident\"\n}",
+                            "cookie": [],
+                            "_postman_previewlanguage": "json"
+                        }
+                    ],
+                    "event": [],
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    }
+                },
+                {
+                    "id": "ee437d12-d18b-4c32-b7bd-2a49dfebabce",
+                    "name": "Info for a specific pet",
+                    "request": {
+                        "name": "Info for a specific pet",
+                        "description": {},
+                        "url": {
+                            "path": [
+                                "pets",
+                                ":petId"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": [
+                                {
+                                    "disabled": false,
+                                    "type": "any",
+                                    "value": "dolore",
+                                    "key": "petId",
+                                    "description": "(Required) The id of the pet to retrieve"
+                                },
+                                {
+                                    "description": "Your VTEX account name",
+                                    "type": "any",
+                                    "value": "{{accountName}}",
+                                    "key": "accountName"
+                                },
+                                {
+                                    "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                    "type": "any",
+                                    "value": "{{environment}}",
+                                    "key": "environment"
+                                }
+                            ]
+                        },
+                        "header": [
+                            {
+                                "key": "Accept",
+                                "value": "application/json"
+                            }
+                        ],
+                        "method": "GET",
+                        "auth": null
+                    },
+                    "response": [
+                        {
+                            "id": "5b165001-70fa-43ed-9dc2-9c5ed67db86c",
+                            "name": "Expected response to a valid request",
+                            "originalRequest": {
+                                "url": {
+                                    "path": [
+                                        "pets",
+                                        ":petId"
+                                    ],
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "query": [],
+                                    "variable": [
+                                        {
+                                            "disabled": false,
+                                            "type": "any",
+                                            "value": "dolore",
+                                            "key": "petId",
+                                            "description": "(Required) The id of the pet to retrieve"
+                                        },
+                                        {
+                                            "description": "Your VTEX account name",
+                                            "type": "any",
+                                            "value": "{{accountName}}",
+                                            "key": "accountName"
+                                        },
+                                        {
+                                            "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                            "type": "any",
+                                            "value": "{{environment}}",
+                                            "key": "environment"
+                                        }
+                                    ]
+                                },
+                                "header": [
+                                    {
+                                        "description": {
+                                            "content": "Added as a part of security scheme: apikey",
+                                            "type": "text/plain"
+                                        },
+                                        "key": "X-VTEX-API-AppKey",
+                                        "value": "<API Key>"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "method": "GET",
+                                "body": {}
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "body": "[\n  {\n    \"id\": 17863553,\n    \"name\": \"ut minim qui deserunt\",\n    \"tag\": \"ea c\"\n  },\n  {\n    \"id\": 60400174,\n    \"name\": \"ut velit labor\",\n    \"tag\": \"pariatur\"\n  }\n]",
+                            "cookie": [],
+                            "_postman_previewlanguage": "json"
+                        },
+                        {
+                            "id": "260a80a4-5c93-40d0-80b1-c9d52eb742eb",
+                            "name": "unexpected error",
+                            "originalRequest": {
+                                "url": {
+                                    "path": [
+                                        "pets",
+                                        ":petId"
+                                    ],
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "query": [],
+                                    "variable": [
+                                        {
+                                            "disabled": false,
+                                            "type": "any",
+                                            "value": "dolore",
+                                            "key": "petId",
+                                            "description": "(Required) The id of the pet to retrieve"
+                                        },
+                                        {
+                                            "description": "Your VTEX account name",
+                                            "type": "any",
+                                            "value": "{{accountName}}",
+                                            "key": "accountName"
+                                        },
+                                        {
+                                            "description": " (This can only be one of vtexcommercestable,myvtex)",
+                                            "type": "any",
+                                            "value": "{{environment}}",
+                                            "key": "environment"
+                                        }
+                                    ]
+                                },
+                                "header": [
+                                    {
+                                        "description": {
+                                            "content": "Added as a part of security scheme: apikey",
+                                            "type": "text/plain"
+                                        },
+                                        "key": "X-VTEX-API-AppKey",
+                                        "value": "<API Key>"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "method": "GET",
+                                "body": {}
+                            },
+                            "status": "Internal Server Error",
+                            "code": 500,
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "body": "{\n  \"code\": 46873994,\n  \"message\": \"officia dolor irure proident\"\n}",
+                            "cookie": [],
+                            "_postman_previewlanguage": "json"
+                        }
+                    ],
+                    "event": [],
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    }
+                }
+            ],
+            "event": []
+        }
+    ],
+    "event": [],
+    "variable": [
+        {
+            "description": {
+                "content": "Your VTEX account name",
+                "type": "text/plain"
+            },
+            "type": "any",
+            "value": "{accountName}",
+            "key": "accountName"
+        },
+        {
+            "description": {
+                "content": " (This can only be one of vtexcommercestable,myvtex)",
+                "type": "text/plain"
+            },
+            "type": "any",
+            "value": "{environment}",
+            "key": "environment"
+        },
+        {
+            "type": "string",
+            "value": "https://{{accountName}}.{{environment}}.com.br",
+            "key": "baseUrl"
+        }
+    ],
+    "auth": {
+        "type": "apikey",
+        "apikey": [
+            {
+                "key": "key",
+                "value": "X-VTEX-API-AppKey"
+            },
+            {
+                "key": "value",
+                "value": "{{apiKey}}"
+            },
+            {
+                "key": "in",
+                "value": "header"
+            }
+        ]
+    },
+    "info": {
+        "_postman_id": "212a3e01-5ccb-47c7-a2db-060261b54e38",
+        "name": "Pets Api",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": {
+            "content": "",
+            "type": "text/plain"
+        }
+    }
+}
