@@ -32,6 +32,8 @@
                 "schema": {
                   "oneOf": [
                     {
+                      "title": "Type 1",
+                      "description": "description for the whole schema",
                       "type": "object",
                       "properties": {
                         "name": {
@@ -43,6 +45,8 @@
                       }
                     },
                     {
+                      "title": "Type 2",
+                      "description": "another description for the whole schema",
                       "type": "object",
                       "properties": {
                         "street": {
@@ -56,6 +60,8 @@
                     {
                       "allOf": [
                         {
+                          "title": "All of type",
+                          "description": "All of description",
                           "type": "object",
                           "properties": {
                             "name": {
@@ -82,6 +88,8 @@
                     {
                       "anyOf": [
                         {
+                          "title": "Any of 1",
+                          "description": "any of description",
                           "type": "object",
                           "properties": {
                             "name": {
