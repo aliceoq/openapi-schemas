@@ -63,6 +63,16 @@
                             "type": "string",
                             "example": "189371"
                         }
+                    },
+                    {
+                        "name": "cookie-test",
+                        "in": "cookie",
+                        "description": "param to test cookies",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "example": "189371"
+                        }
                     }
                 ],
                 "responses": {
@@ -4424,7 +4434,8 @@
             "appToken": []
         },
         {
-            "VtexIdclientAutCookie": []
+            "VtexIdclientAutCookie": [],
+            "appKey": []
         }
     ],
     "components": {
