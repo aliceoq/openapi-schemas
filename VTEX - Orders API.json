@@ -5740,6 +5740,9 @@
         {
             "appKey": ["{{appKey}}"],
             "appToken": ["{{appToken}}"]
+        },
+        {
+            "VtexIdclientAutCookie": []
         }
     ],
     "components": {
@@ -5753,6 +5756,12 @@
                 "type": "apiKey",
                 "in": "header",
                 "name": "X-VTEX-API-AppToken"
+            },
+            "VtexIdclientAutCookie": {
+                "type": "apiKey",
+                "in": "cookie",
+                "name": "VtexIdclientAutCookie",
+                "description": "[User token](https://developers.vtex.com/docs/guides/authentication-overview#user-token), valid for 24 hours."
             }
         },
         "schemas": {
