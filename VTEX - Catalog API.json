@@ -1478,8 +1478,10 @@
                                         "LomadeeCampaignCode": "",
                                         "Score": 1
                                     },
-                                    "type": "object",
-                                    "properties": {
+                                    "oneOf": [
+                                        {
+                                            "type": "object",
+                                            "properties": {
                                         "Id": {
                                             "type": "integer",
                                             "description": "Product’s unique numerical identifier."
@@ -1567,7 +1569,9 @@
                                             "type": "integer",
                                             "description": "Value used to set the priority on the search result page."
                                         }
-                                    }
+                                            }
+                                        }
+                                    ]   
                                 }
                             }
                         }
